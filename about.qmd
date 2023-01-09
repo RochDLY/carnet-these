@@ -1,0 +1,136 @@
+---
+title: "Roch D."
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+## Formations
+
+### Doctorat en co-tutelle | 2021- | Université de Montréal, Université Paris Nanterre
+- Disciplines : Sciences de l'information et de la communication (UPN), Humanités numériques (UdeM).
+- Sous la direction de : Marta Severo (DICEN-IdF), Marcello Vitali-Rosati (CRCEN) et Emmanuel Château-Dutier (CRCEN).
+- Sujet : L'intime dans le processus d'écriture savante.
+
+### Master ArT, Technologies, Creation | 2019-2021 | EUR ArTeC
+- Spécialité : Technologies et médiations humaines.
+- Projet : _L'Invention de Morel_ au prisme de l'éthique des données personnelles.
+- Compétences : Gestion de projet et méthodologie de recherche-création.
+
+### Licence professionnelle design web mobile | 2018-2019 | Université Paris 8
+- Spécialité : Développement Web.
+- Projet : Sonar (création d'une application d'annotation de contenu).
+- Compétences : Bases en développement web (JS, HTML, CSS, PHP, SQL, Python).
+
+### BTSA Viticulture & œnologie en apprentissage | 2016-2018 | CFAA Pierre Reverdy
+- Projet : Réalisation d'un pétillant naturel.
+- Compétences : Maîtrise de la chaine de production du vin, de la plantation de la vigne à la mise en bouteille du vin.
+
+### Ecole de maistrance | 2012 | Centre d’Instruction Naval de Brest
+- Spécialité : Electronicien d’armes.
+
+### Baccalauréat scientifique | 2011 | Lycée Paul Sabatier
+- Spécialité : Sciences de la vie et de la terre.
+
+## Publications
+
+### Mémoire
+- Delannay, R. (2021, juillet). *L'Invention de Morel au prisme de l'éthique des données personnelles* [Mémoire, Université Paris 8].
+
+### Articles
+- Delannay, R. (2021, juin). Urgence du Partage. Télérama. Consulté le 13 octobre 2021 sur le [site de Télérama](https://www.telerama.fr/debats-reportages/les-24-et-25-juin-les-etudiants-face-aux-sciences-et-a-lenvironnement-pour-notre-generation-lurgence-6905383.php).
+
+### Publications scientifiques
+- Vitali-Rosati, M *et al* (2022). Scholarly writing and editing with the text editor Stylo. Dans _Digital Humanities 2022 : Conference Abstracts_, Tokyo, En ligne.
+
+### Publications à paraître
+- Delannay, R. (à paraître en 2022). Intime (vs. Personnel). Dans Y. Citton (dirs.), _Les Angles morts du numérique ubiquitaire : actes du colloques_ (2020), Les Presses du réel, Dijon.
+- Sinatra, M. *et al.*, (à paraître en 2022). Notes sur le projet Digital Leigh Hunt, sous la direction de R. Alessi et M. Vitalo-Rosati, Dans _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
+
+## Conférences
+
+### 2022
+- **The Stylo workflow : writing and editing with the text editor Stylo**  
+Poster présenté par Marcello Vitali-Rosati, Margot Mellet, Antoine Fauchié, Eugémie Matthey-Jonais, Giulia Ferretti, Roch Delannay lors du colloque Canadian Society for Digital Humanities, en ligne.
+- **L'intime dans le processus d'écriture savante**  
+Colloque sous la direction de Michael Sinatra : ACFAS, Montréal.
+- **Experimentation of Digital Open peer review for social sciences journals in the Revue 2.0 project**  
+*Lightning talk* présenté par Marcello Vitali-Rosati, Margot Mellet, Antoine Fauchié, Eugénie Matthey-Jonais, Giulia Ferretti, Roch Delannay lors du colloque Canadian Society for Digital Humanities, en ligne.
+- **L'intime dans le processus d'écriture savante : observations des manifestations intimes dans l'éditeur de texte Stylo**  
+Poster présenté lors du colloque Humanistica, Montréal.
+
+### 2020
+- **Intime (vs. personnel)**  
+Colloque sous la direction d'Yves Citton : _Les Angles morts du numérique ubiquitaire_, Cerisy.
+
+## Ateliers
+### 2022
+- **Scholarly writing and editing with the text editor Stylo**
+Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
+- **Présentation de Stylo**  
+Atelier réalisé au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
+- **Rédaction et éditions savantes avec l'éditeur de texte Stylo**  
+Atelier réalisé lors du colloque Humanistica à l'Université de Mintréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay. 
+
+### 2021
+- **Urgence du Partage**  
+Table ronde organisé par Télérama, le Théâtre de la Ville, l'AP-HP Pitié Salpêtrière et la Scène de recherche de l’ENS Paris-Saclay, Paris.
+
+## Expériences professionnelles
+
+### Postes liés à la recherche
+
+#### Chargé de cours | Université de Montréal | 2022
+- Cours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l'automne.
+
+#### Auxiliaire de recherche | Université de Montréal | 2022
+- Rédaction d'un rapport sur les forges de publication.
+
+#### Assistant d'édition | EUR ArTeC | 2021
+- Participation à la mise en œuvre d'un programme éditorial en assurant la réalisation de publications imprimées et électroniques et leur mise à disposition du public (revue Hybrid, Grande et Petite Collection ArTeC auprès des Presses du Réel).
+- Participation à la politique de numérisation et d'ouverture des collections.
+- Gestion de la chaîne éditoriale.
+- Pilotage des prestataires.
+
+#### Vacataire | EUR ArTeC | 2020 - 2021
+- Renfort de l’équipe administrative, communication, édition.
+
+#### Stagiaire - Assistant de recherche | ENSADLab | 2019 – 2020 (7 mois)
+- Rédaction de documentations.
+- Maintenance du MisBKit (matériel électronique).
+- Mise à jour du contenu du site web du MisBKit (WordPress).
+
+#### Stagiaire - Développeur web | ISTE éditions | 2019 (3 mois)
+- Développement d'une application web de gestion de prospects (JavaScript, PHP, SQL, Framework : W2UI, Zend).
+
+### Autres expériences professionnelles
+
+#### Co-fondateur | SAS Optimisation Pro | 2018 – 2019
+- Entreprise de services en e-commerce B to B.
+
+#### Apprenti - Vigneron | Domaine les Hautes terres | 2017 - 2018
+- Apprentissage des procédés de vinification dans un domaine labellisé en vin nature.
+- Apprentissage gestion d'un vignoble.
+
+#### Apprenti - Caviste | SCAV de Névian | 2016 - 2017
+- Apprentissage des procédés de vinification en cave coopérative.
+- Apprentissage gestion d'une structure coopérative.
+
+#### Commis de cuisine | Ristorante Sansavino | 2015 - 2016
+- Découverte des métiers de bouche aux côtés du chef Philippe Pompili en tant que commis de cuisine.
+
+#### Officier marinier | Marine Nationale | 2012 - 2015
+- Management d'une équipe.
+- Participation à la navigation d'un bâtiment militaire.
+- Maintenance préventive et corrective d'une installation mobilisant des compétences en électroniques, informatique de commande et optronique.
