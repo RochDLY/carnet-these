@@ -13,7 +13,6 @@
 <lastBuildDate>Fri, 06 Jan 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
   <link>https://RochDLY.github.io/carnet-these/posts/post-with-code/index.html</link>
   <description><![CDATA[ 
 
@@ -45,17 +44,22 @@
   <media:content url="https://RochDLY.github.io/carnet-these/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <title>Premier post</title>
   <link>https://RochDLY.github.io/carnet-these/posts/journal/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://RochDLY.github.io/carnet-these/posts/journal/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>Ceci est le premier post d’un nouveau carnet, l’ancien (avec Hugo) ne me convenait pas vraiment.<br>
+L’envie de tester Quarto comme un carnet de recherche m’attire depuis plusieurs semaines, en effet cet outil centralise toutes les fonctionnalités dont j’ai besoin pour l’instant :</p>
+<ul>
+<li>la possibilité de convertir facilement mes documents (bon j’avoue que ça c’était réalisable avec Hugo puisque mes sources étaient en .md)</li>
+<li>l’intégration d’un moteur de recherche (ça c’est cool !)</li>
+<li>le tri par tag (présent aussi sous Hugo)</li>
+<li>le flux RSS (aussi présent sous Hugo).</li>
+</ul>
+<p>Je reviens vite sur ce post dans les prochaines semaines après quelques essais !</p>
 
 
 
@@ -63,122 +67,6 @@
   <category>news</category>
   <guid>https://RochDLY.github.io/carnet-these/posts/journal/index.html</guid>
   <pubDate>Tue, 03 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://RochDLY.github.io/carnet-these/posts/journal/thumbnail.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Maquette Site Navigations Anthologiques</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/journal/maquette-site-colloque.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="projet-réaliser-un-site-web-du-colloque" class="level2">
-<h2 class="anchored" data-anchor-id="projet-réaliser-un-site-web-du-colloque">Projet : réaliser un site web du colloque</h2>
-<ul>
-<li>Durée : 2 journées de colloque et une journée de hackathon</li>
-</ul>
-<section id="besoins" class="level3">
-<h3 class="anchored" data-anchor-id="besoins">Besoins :</h3>
-<ul>
-<li>Page index (description du colloque)</li>
-<li>Un menu :
-<ul>
-<li>Page Archives du colloque (les actes avec une version web et une version imprimée)</li>
-<li>Page Calendrier dynamique (event:onclick sur les titres des événements = pop-up informations complémentaires, résumé et bio présentation par exemple)</li>
-<li>Page hackathon :
-<ul>
-<li>description</li>
-<li>jeux de données</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="edit---2022-09-28" class="level3">
-<h3 class="anchored" data-anchor-id="edit---2022-09-28">[EDIT] - 2022-09-28</h3>
-<p>Le site est en ligne à l’adresse suivante : https://navigations.ecrituresnumeriques.ca/</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/journal/maquette-site-colloque.html</guid>
-  <pubDate>Wed, 10 Aug 2022 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Ébauche plan état de l’art</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/journal/idee-plan-etat-de-lart.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>J’adore le métro. À Montréal, un peu moins bondé que celui de Paris, j’y perds facilement tout état d’alerte vis-à-vis des éléments qui m’entourent et laisse mes pensées à la dérive. Les stations défilent, la voix de la machine annoncera mon arrêt et me rappellera à cet état de concentration : où suis-je, où est-ce que je dois aller, le passage pour se faufiler dans la foule et sortir à l’air libre de la ville … Cette dérive se caractérise par de multiples canaux de pensée : ce sont tous les sujets qui me préoccupent auxquels je pense en parallèle. Les informations défilent et des liens se forment entre elles. Je n’y retiens rien sauf le moment où elles arrivent à s’emboiter et laisse apparaitre une idée peut-etre plus lumineuse que les autres. Ce matin, il y avait : - les dates les plus pertinentes pour mes billets d’avion (retour en France) , - la charge de cours et son contenu que j’aurais à l’automne dont les dates doivent coincider avec l’avion , - la charge de cours en France et son contenu , - la bienveillance des machines et la recension en cours d’écriture (elle n’est pas encore sur ce carnet, j’y travaille sur papier pour l’instant) , - les séminaires que je vais suivre à l’automne (épistémologie des DH et <em>text mining</em> ) , et leur intégration dans ma recherche , - l’état de l’art qu’il faudrait que je commence pour être dans les délais annoncés, je n’aime pas être en retard (cette obsession pour le temps est à creuser) , - l’examen de synthèse (mi-doctoral) de l’été 2023, il doit aussi coincider avec les billets d’avion et l’état de l’art , mais je suis relativement à l’aise avec l’idée de le passer : j’ai même plutôt hâte d’y être, ce sera un chouette moment.</p>
-<p>Entre temps, une partie s’emboite avec une autre, mon idée générale de l’état de l’art me semblait jusqu’alors bancale, il ressemblait plus à un vague catalogue de concepts qu’à une théorie : les pièces ne s’assemblaient pas correctement dans ma tête. Dans cet état de dérive au milieu du brouillard, j’ai trouvé un fil d’Ariane cohérent et commencé à le suivre :</p>
-<p>Objectif de cette partie : Circonscrire l’intimité du chercheur.e</p>
-<ol type="1">
-<li>Comment définir l’intime et la figure de chercheur.e
-<ol type="1">
-<li>Définition de l’intime
-<ul>
-<li>écarter la notion de propriété</li>
-</ul></li>
-<li>Définition de la figure de chercheur.e
-<ul>
-<li>construction sociale</li>
-<li>anthropologie institutionnelle</li>
-<li>injonction à la production (écriture)</li>
-</ul></li>
-</ol>
-<ul>
-<li>Note : est-ce que j’implante à cet endroit les cas d’étude sur deux ou trois chercheur.e.s ?</li>
-</ul></li>
-<li>L’intervention du medium numérique dans la production scientifique
-<ol type="1">
-<li>Changement paradigme de l’écriture</li>
-<li>Courant francophone des <em>media studies</em></li>
-<li>Courant anglophone des <em>media studies</em></li>
-</ol></li>
-<li>Éditorialisation de la figure du chercheur.e
-<ol type="1">
-<li>Rappel définition éditorialisation</li>
-<li>La bienveillance des machines</li>
-<li>Définition de l’intime du chercheur.e</li>
-</ol></li>
-</ol>
-<p>Note pour plus tard : à défaut d’être très précis, cette première ébauche de plan permettra de cibler les lectures pour la thèse !</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/journal/idee-plan-etat-de-lart.html</guid>
-  <pubDate>Mon, 08 Aug 2022 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Ebauche Cours</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/journal/ebauche-cours.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="déroulé-de-chaque-séance" class="level3">
-<h3 class="anchored" data-anchor-id="déroulé-de-chaque-séance">Déroulé de chaque séance</h3>
-<p>Première heure : - 30min d’atelier sur la lecture hebdo, rotation toutes les 3 min. - 30 min de mise en commun =&gt; émergence d’une pensée collective</p>
-<p>Deuxième heure: - CM thématique/concept/méthode</p>
-<p>Troisième heure: - Travail méthodo -&gt; rédaction (construire une PB, une bibliographie, un plan, etc.) - Utilisation de quelques technologies</p>
-<p>Biblio réduite : 1. Digital_Humanities 2. Busa 3. Mounier 4. Mounier 5. McLuhan 6. Kittler 7. Hayles 8. Citton 9. Crozat 10. Vitali-Rosati 11. Saemmer 12. Merzeau 13. Merzeau 14. Galinon-Mélénec 15. Severo et Romele 16. Merzeau 17. Vitali-Rosati</p>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/journal/ebauche-cours.html</guid>
-  <pubDate>Mon, 25 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bienveillance Des Machines</title>
@@ -719,34 +607,6 @@ En 1987 les spécifications cadres des langages de balisages ne sont pas encore 
   <category>lecture</category>
   <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-premiere-fiche.html</guid>
   <pubDate>Mon, 04 Jul 2022 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Mon Premier Post</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/journal/mon-premier-post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="ceci-est-un-titre-de-niveau-2.1" class="level2">
-<h2 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-2.1">Ceci est un titre de niveau 2.1</h2>
-<p>Ceci est mon premier post yipikai.</p>
-</section>
-<section id="ceci-est-un-titre-de-niveau-2.2" class="level2">
-<h2 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-2.2">Ceci est un titre de niveau 2.2</h2>
-<p>Voici un billet de blog “test” que j’ai lancé lors de l’initialisation du site statique pour vérifier que tout fonctionne correctement.</p>
-<section id="ceci-est-un-titre-de-niveau-3" class="level3">
-<h3 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-3">Ceci est un titre de niveau 3</h3>
-<p>Ce billet existe à une fin complètement utilitariste. Toutefois je le conserve comme trace des débuts avec le générateur de site statique Hugo.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/journal/mon-premier-post.html</guid>
-  <pubDate>Sun, 03 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

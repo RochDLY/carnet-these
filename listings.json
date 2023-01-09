@@ -4,15 +4,11 @@
     "items": [
       "/posts/post-with-code/index.html",
       "/posts/journal/index.html",
-      "/posts/journal/maquette-site-colloque.html",
-      "/posts/journal/idee-plan-etat-de-lart.html",
-      "/posts/journal/ebauche-cours.html",
       "/posts/lectures/bienveillance-des-machines-part1.html",
       "/posts/lectures/ma-troisieme-fiche.html",
       "/posts/lectures/ma-quatrieme-fiche.html",
       "/posts/lectures/ma-deuxieme-fiche.html",
-      "/posts/lectures/ma-premiere-fiche.html",
-      "/posts/journal/mon-premier-post.html"
+      "/posts/lectures/ma-premiere-fiche.html"
     ]
   }
 ]
