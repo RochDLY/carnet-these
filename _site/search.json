@@ -1,87 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Carnet de recherche",
-    "section": "",
-    "text": "Je suis Roch et ceci est mon carnet.\nCelui-ci se trouve à mi-chemin entre une écriture de recherche et une autre plus personnelle, intime. Les billets relatent des réflexions qui me traversent, des mots qui me viennent à l’esprit au moment de me mettre derrière le clavier, ou encore de mes travaux de recherche. Finalement, ce carnet n’appartient à aucune des deux catégories mentionnées mais plutôt à celle du journal de bord et de mes errances.\nCe carnet au format web se nomme “à la baille”, c’est là que j’y jette toutes mes pensées, et c’est à travers elles que de temps à autre je circule. Certaines sont des détritus, des déchets sur lesquels je ne reviendrai jamais, alors que d’autres sont plus intéressantes et plus percutantes. J’ouvre ce carnet à la lecture dans un espace “public”, le Web, pour donner à voir la formation et la construction d’une pensée et d’un chercheur. Pour montrer cette évolution, je n’éditerai pas les billets postés, sauf exception où la mention [Edit - Date] sera ajoutée à la fin du billet ainsi que le contenu additionnel, à la suite du billet initial.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nCategories\n\n\n\n\n\n\nPost With Code\n\n\nJan 7, 2023\n\n\nnews,code,analysis\n\n\n\n\nWelcome To My Blog\n\n\nJan 4, 2023\n\n\nnews\n\n\n\n\nMaquette Site Navigations Anthologiques\n\n\nAug 11, 2022\n\n\nnews\n\n\n\n\nÉbauche plan état de l’art\n\n\nAug 9, 2022\n\n\nnews\n\n\n\n\nEbauche Cours\n\n\nJul 26, 2022\n\n\nnews\n\n\n\n\nBienveillance Des Machines\n\n\nJul 24, 2022\n\n\nlecture\n\n\n\n\nFiche : Markup Systems and the Future of Scholarly Text Processins\n\n\nJul 12, 2022\n\n\nlecture\n\n\n\n\nFiche : From data mining to knowledge discovery in databases\n\n\nJul 12, 2022\n\n\nlecture\n\n\n\n\nFiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?\n\n\nJul 11, 2022\n\n\nlecture\n\n\n\n\nFiche : Éditorialisation collaborative d’un événement\n\n\nJul 5, 2022\n\n\nlecture\n\n\n\n\nMon Premier Post\n\n\nJul 4, 2022\n\n\nnews\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Roch D.",
     "section": "",
     "text": "Disciplines : Sciences de l’information et de la communication (UPN), Humanités numériques (UdeM).\nSous la direction de : Marta Severo (DICEN-IdF), Marcello Vitali-Rosati (CRCEN) et Emmanuel Château-Dutier (CRCEN).\nSujet : L’intime dans le processus d’écriture savante.\n\n\n\n\n\nSpécialité : Technologies et médiations humaines.\nProjet : L’Invention de Morel au prisme de l’éthique des données personnelles.\nCompétences : Gestion de projet et méthodologie de recherche-création.\n\n\n\n\n\nSpécialité : Développement Web.\nProjet : Sonar (création d’une application d’annotation de contenu).\nCompétences : Bases en développement web (JS, HTML, CSS, PHP, SQL, Python).\n\n\n\n\n\nProjet : Réalisation d’un pétillant naturel.\nCompétences : Maîtrise de la chaine de production du vin, de la plantation de la vigne à la mise en bouteille du vin.\n\n\n\n\n\nSpécialité : Electronicien d’armes.\n\n\n\n\n\nSpécialité : Sciences de la vie et de la terre."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#titre-1",
-    "href": "posts/post-with-code/index.html#titre-1",
-    "title": "Post With Code",
-    "section": "Titre 1",
-    "text": "Titre 1\n\nTitre 2\n\n\nTitre 3"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#titre-4",
-    "href": "posts/post-with-code/index.html#titre-4",
-    "title": "Post With Code",
-    "section": "Titre 4",
-    "text": "Titre 4"
-  },
-  {
-    "objectID": "posts/journal/mon-premier-post.html",
-    "href": "posts/journal/mon-premier-post.html",
-    "title": "Mon Premier Post",
-    "section": "",
-    "text": "Ceci est mon premier post yipikai."
-  },
-  {
-    "objectID": "posts/journal/mon-premier-post.html#ceci-est-un-titre-de-niveau-2.2",
-    "href": "posts/journal/mon-premier-post.html#ceci-est-un-titre-de-niveau-2.2",
-    "title": "Mon Premier Post",
-    "section": "Ceci est un titre de niveau 2.2",
-    "text": "Ceci est un titre de niveau 2.2\nVoici un billet de blog “test” que j’ai lancé lors de l’initialisation du site statique pour vérifier que tout fonctionne correctement.\n\nCeci est un titre de niveau 3\nCe billet existe à une fin complètement utilitariste. Toutefois je le conserve comme trace des débuts avec le générateur de site statique Hugo."
-  },
-  {
-    "objectID": "posts/journal/idee-plan-etat-de-lart.html",
-    "href": "posts/journal/idee-plan-etat-de-lart.html",
-    "title": "Ébauche plan état de l’art",
-    "section": "",
-    "text": "J’adore le métro. À Montréal, un peu moins bondé que celui de Paris, j’y perds facilement tout état d’alerte vis-à-vis des éléments qui m’entourent et laisse mes pensées à la dérive. Les stations défilent, la voix de la machine annoncera mon arrêt et me rappellera à cet état de concentration : où suis-je, où est-ce que je dois aller, le passage pour se faufiler dans la foule et sortir à l’air libre de la ville … Cette dérive se caractérise par de multiples canaux de pensée : ce sont tous les sujets qui me préoccupent auxquels je pense en parallèle. Les informations défilent et des liens se forment entre elles. Je n’y retiens rien sauf le moment où elles arrivent à s’emboiter et laisse apparaitre une idée peut-etre plus lumineuse que les autres. Ce matin, il y avait : - les dates les plus pertinentes pour mes billets d’avion (retour en France) , - la charge de cours et son contenu que j’aurais à l’automne dont les dates doivent coincider avec l’avion , - la charge de cours en France et son contenu , - la bienveillance des machines et la recension en cours d’écriture (elle n’est pas encore sur ce carnet, j’y travaille sur papier pour l’instant) , - les séminaires que je vais suivre à l’automne (épistémologie des DH et text mining ) , et leur intégration dans ma recherche , - l’état de l’art qu’il faudrait que je commence pour être dans les délais annoncés, je n’aime pas être en retard (cette obsession pour le temps est à creuser) , - l’examen de synthèse (mi-doctoral) de l’été 2023, il doit aussi coincider avec les billets d’avion et l’état de l’art , mais je suis relativement à l’aise avec l’idée de le passer : j’ai même plutôt hâte d’y être, ce sera un chouette moment.\nEntre temps, une partie s’emboite avec une autre, mon idée générale de l’état de l’art me semblait jusqu’alors bancale, il ressemblait plus à un vague catalogue de concepts qu’à une théorie : les pièces ne s’assemblaient pas correctement dans ma tête. Dans cet état de dérive au milieu du brouillard, j’ai trouvé un fil d’Ariane cohérent et commencé à le suivre :\nObjectif de cette partie : Circonscrire l’intimité du chercheur.e\n\nComment définir l’intime et la figure de chercheur.e\n\nDéfinition de l’intime\n\nécarter la notion de propriété\n\nDéfinition de la figure de chercheur.e\n\nconstruction sociale\nanthropologie institutionnelle\ninjonction à la production (écriture)\n\n\n\nNote : est-ce que j’implante à cet endroit les cas d’étude sur deux ou trois chercheur.e.s ?\n\nL’intervention du medium numérique dans la production scientifique\n\nChangement paradigme de l’écriture\nCourant francophone des media studies\nCourant anglophone des media studies\n\nÉditorialisation de la figure du chercheur.e\n\nRappel définition éditorialisation\nLa bienveillance des machines\nDéfinition de l’intime du chercheur.e\n\n\nNote pour plus tard : à défaut d’être très précis, cette première ébauche de plan permettra de cibler les lectures pour la thèse !"
-  },
-  {
-    "objectID": "posts/journal/index.html",
-    "href": "posts/journal/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/journal/maquette-site-colloque.html",
-    "href": "posts/journal/maquette-site-colloque.html",
-    "title": "Maquette Site Navigations Anthologiques",
-    "section": "",
-    "text": "Durée : 2 journées de colloque et une journée de hackathon\n\n\n\n\nPage index (description du colloque)\nUn menu :\n\nPage Archives du colloque (les actes avec une version web et une version imprimée)\nPage Calendrier dynamique (event:onclick sur les titres des événements = pop-up informations complémentaires, résumé et bio présentation par exemple)\nPage hackathon :\n\ndescription\njeux de données\n\n\n\n\n\n\nLe site est en ligne à l’adresse suivante : https://navigations.ecrituresnumeriques.ca/"
-  },
-  {
-    "objectID": "posts/journal/ebauche-cours.html",
-    "href": "posts/journal/ebauche-cours.html",
-    "title": "Ebauche Cours",
-    "section": "",
-    "text": "Déroulé de chaque séance\nPremière heure : - 30min d’atelier sur la lecture hebdo, rotation toutes les 3 min. - 30 min de mise en commun => émergence d’une pensée collective\nDeuxième heure: - CM thématique/concept/méthode\nTroisième heure: - Travail méthodo -> rédaction (construire une PB, une bibliographie, un plan, etc.) - Utilisation de quelques technologies\nBiblio réduite : 1. Digital_Humanities 2. Busa 3. Mounier 4. Mounier 5. McLuhan 6. Kittler 7. Hayles 8. Citton 9. Crozat 10. Vitali-Rosati 11. Saemmer 12. Merzeau 13. Merzeau 14. Galinon-Mélénec 15. Severo et Romele 16. Merzeau 17. Vitali-Rosati"
   },
   {
     "objectID": "about.html#publications",
@@ -110,6 +33,34 @@
     "title": "Roch D.",
     "section": "Expériences professionnelles",
     "text": "Expériences professionnelles\n\nPostes liés à la recherche\n\nChargé de cours | Université de Montréal | 2022\n\nCours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l’automne.\n\n\n\nAuxiliaire de recherche | Université de Montréal | 2022\n\nRédaction d’un rapport sur les forges de publication.\n\n\n\nAssistant d’édition | EUR ArTeC | 2021\n\nParticipation à la mise en œuvre d’un programme éditorial en assurant la réalisation de publications imprimées et électroniques et leur mise à disposition du public (revue Hybrid, Grande et Petite Collection ArTeC auprès des Presses du Réel).\nParticipation à la politique de numérisation et d’ouverture des collections.\nGestion de la chaîne éditoriale.\nPilotage des prestataires.\n\n\n\nVacataire | EUR ArTeC | 2020 - 2021\n\nRenfort de l’équipe administrative, communication, édition.\n\n\n\nStagiaire - Assistant de recherche | ENSADLab | 2019 – 2020 (7 mois)\n\nRédaction de documentations.\nMaintenance du MisBKit (matériel électronique).\nMise à jour du contenu du site web du MisBKit (WordPress).\n\n\n\nStagiaire - Développeur web | ISTE éditions | 2019 (3 mois)\n\nDéveloppement d’une application web de gestion de prospects (JavaScript, PHP, SQL, Framework : W2UI, Zend).\n\n\n\n\nAutres expériences professionnelles\n\nCo-fondateur | SAS Optimisation Pro | 2018 – 2019\n\nEntreprise de services en e-commerce B to B.\n\n\n\nApprenti - Vigneron | Domaine les Hautes terres | 2017 - 2018\n\nApprentissage des procédés de vinification dans un domaine labellisé en vin nature.\nApprentissage gestion d’un vignoble.\n\n\n\nApprenti - Caviste | SCAV de Névian | 2016 - 2017\n\nApprentissage des procédés de vinification en cave coopérative.\nApprentissage gestion d’une structure coopérative.\n\n\n\nCommis de cuisine | Ristorante Sansavino | 2015 - 2016\n\nDécouverte des métiers de bouche aux côtés du chef Philippe Pompili en tant que commis de cuisine.\n\n\n\nOfficier marinier | Marine Nationale | 2012 - 2015\n\nManagement d’une équipe.\nParticipation à la navigation d’un bâtiment militaire.\nMaintenance préventive et corrective d’une installation mobilisant des compétences en électroniques, informatique de commande et optronique."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carnet de recherche",
+    "section": "",
+    "text": "Je suis Roch et ceci est mon carnet.\nCelui-ci se trouve à mi-chemin entre une écriture de recherche et une autre plus personnelle, intime. Les billets relatent des réflexions qui me traversent, des mots qui me viennent à l’esprit au moment de me mettre derrière le clavier, ou encore de mes travaux de recherche. Finalement, ce carnet n’appartient à aucune des deux catégories mentionnées mais plutôt à celle du journal de bord et de mes errances.\nCe carnet au format web se nomme “à la baille”, c’est là que j’y jette toutes mes pensées, et c’est à travers elles que de temps à autre je circule. Certaines sont des détritus, des déchets sur lesquels je ne reviendrai jamais, alors que d’autres sont plus intéressantes et plus percutantes. J’ouvre ce carnet à la lecture dans un espace “public”, le Web, pour donner à voir la formation et la construction d’une pensée et d’un chercheur. Pour montrer cette évolution, je n’éditerai pas les billets postés, sauf exception où la mention [Edit - Date] sera ajoutée à la fin du billet ainsi que le contenu additionnel, à la suite du billet initial.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nCategories\n\n\n\n\n\n\nPost With Code\n\n\nJan 7, 2023\n\n\nnews,code,analysis\n\n\n\n\nPremier post\n\n\nJan 4, 2023\n\n\nnews\n\n\n\n\nBienveillance Des Machines\n\n\nJul 24, 2022\n\n\nlecture\n\n\n\n\nFiche : Markup Systems and the Future of Scholarly Text Processins\n\n\nJul 12, 2022\n\n\nlecture\n\n\n\n\nFiche : From data mining to knowledge discovery in databases\n\n\nJul 12, 2022\n\n\nlecture\n\n\n\n\nFiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?\n\n\nJul 11, 2022\n\n\nlecture\n\n\n\n\nFiche : Éditorialisation collaborative d’un événement\n\n\nJul 5, 2022\n\n\nlecture\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#titre-1",
+    "href": "posts/post-with-code/index.html#titre-1",
+    "title": "Post With Code",
+    "section": "Titre 1",
+    "text": "Titre 1\n\nTitre 2\n\n\nTitre 3"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#titre-4",
+    "href": "posts/post-with-code/index.html#titre-4",
+    "title": "Post With Code",
+    "section": "Titre 4",
+    "text": "Titre 4"
   },
   {
     "objectID": "posts/lectures/ma-troisieme-fiche.html",
@@ -250,5 +201,12 @@
     "title": "Fiche : Éditorialisation collaborative d’un événement",
     "section": "Mise en perspective",
     "text": "Mise en perspective\nEn 2012 / 2013 l’éditorialisation en est encore qu’à ses balbutiements. Cet article en propose une double vision : il y a tout d’abord un ensemble de dynamiques collectives qui structurent l’espace numérique, et là on se rapproche de la définition donnée par Vitali-Rosati (2016) quelques années plus tard ; ensuite, l’angle de vue de l’éditorialisation est réduit pour être centré autour de la notion de documentarisation de Zacklad (2013) et de l’organisation des connaissances. Ces deux visions sont a priori compatibles, la seconde étant une précision de la première. Toutefois, nous avons vu pendant l’École d’été (2022) que l’éditorialisation se divise aujourd’hui en différents courants à partir de la première définition. Vitali-Rosati se positionne différemment en incorporant la matérialité du numérique - et tous les contextes informationnels qui s’y rattachent - comme composante majeure de l’éditorialisation. S’opère alors un brusque changement dans la conception de l’éditorialisation qui, toutefois, ne remet pas en cause la dimension politique proposée par Merzeau. Il serait intéressant d’approfondir plus cette divergence entre les différents courants de ce concept pour repenser - à travers une boucle de réflexivité plus large - un événement tel que celui proposée dans cette publication."
+  },
+  {
+    "objectID": "posts/journal/index.html",
+    "href": "posts/journal/index.html",
+    "title": "Premier post",
+    "section": "",
+    "text": "Ceci est le premier post d’un nouveau carnet, l’ancien (avec Hugo) ne me convenait pas vraiment.\nL’envie de tester Quarto comme un carnet de recherche m’attire depuis plusieurs semaines, en effet cet outil centralise toutes les fonctionnalités dont j’ai besoin pour l’instant :\n\nla possibilité de convertir facilement mes documents (bon j’avoue que ça c’était réalisable avec Hugo puisque mes sources étaient en .md)\nl’intégration d’un moteur de recherche (ça c’est cool !)\nle tri par tag (présent aussi sous Hugo)\nle flux RSS (aussi présent sous Hugo).\n\nJe reviens vite sur ce post dans les prochaines semaines après quelques essais !"
   }
 ]

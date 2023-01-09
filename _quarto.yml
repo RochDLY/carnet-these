@@ -20,6 +20,7 @@ website:
     hypothesis:
       theme: clean
       openSidebar: false
+  site-url: "https://cailloux.en-cours-de.construction"
 format:
   html:
     theme:
