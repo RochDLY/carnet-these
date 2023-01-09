@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>À la baille</title>
+<link>https://RochDLY.github.io/carnet-these/index.html</link>
+<atom:link href="https://RochDLY.github.io/carnet-these/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Fri, 06 Jan 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://RochDLY.github.io/carnet-these/posts/post-with-code/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a post with executable code.</p>
+<section id="titre-1" class="level2">
+<h2 class="anchored" data-anchor-id="titre-1">Titre 1</h2>
+<section id="titre-2" class="level3">
+<h3 class="anchored" data-anchor-id="titre-2">Titre 2</h3>
+</section>
+<section id="titre-3" class="level3">
+<h3 class="anchored" data-anchor-id="titre-3">Titre 3</h3>
+</section>
+</section>
+<section id="titre-4" class="level2">
+<h2 class="anchored" data-anchor-id="titre-4">Titre 4</h2>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/post-with-code/index.html</guid>
+  <pubDate>Fri, 06 Jan 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://RochDLY.github.io/carnet-these/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://RochDLY.github.io/carnet-these/posts/journal/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://RochDLY.github.io/carnet-these/posts/journal/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/journal/index.html</guid>
+  <pubDate>Tue, 03 Jan 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://RochDLY.github.io/carnet-these/posts/journal/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Maquette Site Navigations Anthologiques</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/journal/maquette-site-colloque.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="projet-réaliser-un-site-web-du-colloque" class="level2">
+<h2 class="anchored" data-anchor-id="projet-réaliser-un-site-web-du-colloque">Projet : réaliser un site web du colloque</h2>
+<ul>
+<li>Durée : 2 journées de colloque et une journée de hackathon</li>
+</ul>
+<section id="besoins" class="level3">
+<h3 class="anchored" data-anchor-id="besoins">Besoins :</h3>
+<ul>
+<li>Page index (description du colloque)</li>
+<li>Un menu :
+<ul>
+<li>Page Archives du colloque (les actes avec une version web et une version imprimée)</li>
+<li>Page Calendrier dynamique (event:onclick sur les titres des événements = pop-up informations complémentaires, résumé et bio présentation par exemple)</li>
+<li>Page hackathon :
+<ul>
+<li>description</li>
+<li>jeux de données</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="edit---2022-09-28" class="level3">
+<h3 class="anchored" data-anchor-id="edit---2022-09-28">[EDIT] - 2022-09-28</h3>
+<p>Le site est en ligne à l’adresse suivante : https://navigations.ecrituresnumeriques.ca/</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/journal/maquette-site-colloque.html</guid>
+  <pubDate>Wed, 10 Aug 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ébauche plan état de l’art</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/journal/idee-plan-etat-de-lart.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>J’adore le métro. À Montréal, un peu moins bondé que celui de Paris, j’y perds facilement tout état d’alerte vis-à-vis des éléments qui m’entourent et laisse mes pensées à la dérive. Les stations défilent, la voix de la machine annoncera mon arrêt et me rappellera à cet état de concentration : où suis-je, où est-ce que je dois aller, le passage pour se faufiler dans la foule et sortir à l’air libre de la ville … Cette dérive se caractérise par de multiples canaux de pensée : ce sont tous les sujets qui me préoccupent auxquels je pense en parallèle. Les informations défilent et des liens se forment entre elles. Je n’y retiens rien sauf le moment où elles arrivent à s’emboiter et laisse apparaitre une idée peut-etre plus lumineuse que les autres. Ce matin, il y avait : - les dates les plus pertinentes pour mes billets d’avion (retour en France) , - la charge de cours et son contenu que j’aurais à l’automne dont les dates doivent coincider avec l’avion , - la charge de cours en France et son contenu , - la bienveillance des machines et la recension en cours d’écriture (elle n’est pas encore sur ce carnet, j’y travaille sur papier pour l’instant) , - les séminaires que je vais suivre à l’automne (épistémologie des DH et <em>text mining</em> ) , et leur intégration dans ma recherche , - l’état de l’art qu’il faudrait que je commence pour être dans les délais annoncés, je n’aime pas être en retard (cette obsession pour le temps est à creuser) , - l’examen de synthèse (mi-doctoral) de l’été 2023, il doit aussi coincider avec les billets d’avion et l’état de l’art , mais je suis relativement à l’aise avec l’idée de le passer : j’ai même plutôt hâte d’y être, ce sera un chouette moment.</p>
+<p>Entre temps, une partie s’emboite avec une autre, mon idée générale de l’état de l’art me semblait jusqu’alors bancale, il ressemblait plus à un vague catalogue de concepts qu’à une théorie : les pièces ne s’assemblaient pas correctement dans ma tête. Dans cet état de dérive au milieu du brouillard, j’ai trouvé un fil d’Ariane cohérent et commencé à le suivre :</p>
+<p>Objectif de cette partie : Circonscrire l’intimité du chercheur.e</p>
+<ol type="1">
+<li>Comment définir l’intime et la figure de chercheur.e
+<ol type="1">
+<li>Définition de l’intime
+<ul>
+<li>écarter la notion de propriété</li>
+</ul></li>
+<li>Définition de la figure de chercheur.e
+<ul>
+<li>construction sociale</li>
+<li>anthropologie institutionnelle</li>
+<li>injonction à la production (écriture)</li>
+</ul></li>
+</ol>
+<ul>
+<li>Note : est-ce que j’implante à cet endroit les cas d’étude sur deux ou trois chercheur.e.s ?</li>
+</ul></li>
+<li>L’intervention du medium numérique dans la production scientifique
+<ol type="1">
+<li>Changement paradigme de l’écriture</li>
+<li>Courant francophone des <em>media studies</em></li>
+<li>Courant anglophone des <em>media studies</em></li>
+</ol></li>
+<li>Éditorialisation de la figure du chercheur.e
+<ol type="1">
+<li>Rappel définition éditorialisation</li>
+<li>La bienveillance des machines</li>
+<li>Définition de l’intime du chercheur.e</li>
+</ol></li>
+</ol>
+<p>Note pour plus tard : à défaut d’être très précis, cette première ébauche de plan permettra de cibler les lectures pour la thèse !</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/journal/idee-plan-etat-de-lart.html</guid>
+  <pubDate>Mon, 08 Aug 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ebauche Cours</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/journal/ebauche-cours.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="déroulé-de-chaque-séance" class="level3">
+<h3 class="anchored" data-anchor-id="déroulé-de-chaque-séance">Déroulé de chaque séance</h3>
+<p>Première heure : - 30min d’atelier sur la lecture hebdo, rotation toutes les 3 min. - 30 min de mise en commun =&gt; émergence d’une pensée collective</p>
+<p>Deuxième heure: - CM thématique/concept/méthode</p>
+<p>Troisième heure: - Travail méthodo -&gt; rédaction (construire une PB, une bibliographie, un plan, etc.) - Utilisation de quelques technologies</p>
+<p>Biblio réduite : 1. Digital_Humanities 2. Busa 3. Mounier 4. Mounier 5. McLuhan 6. Kittler 7. Hayles 8. Citton 9. Crozat 10. Vitali-Rosati 11. Saemmer 12. Merzeau 13. Merzeau 14. Galinon-Mélénec 15. Severo et Romele 16. Merzeau 17. Vitali-Rosati</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/journal/ebauche-cours.html</guid>
+  <pubDate>Mon, 25 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bienveillance Des Machines</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/lectures/bienveillance-des-machines-part1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">2022-07-24 - Introduction</h2>
+<p><strong>Thèse : Les technologies contemporaines induisent différentes transformations de nos subjectivités.</strong></p>
+<p>Auteur : Pierre Cassou-Noguès</p>
+<p><strong>P.9</strong></p>
+<ul>
+<li>syndrome technologique :
+<ul>
+<li>concerne nos pensées, nos , notre émotions, notre expérience</li>
+<li>mais aussi la façon dont nous pouvons nous rapporter à elles et le statut que nous pouvons donner à notre esprit, notre “psychologie”.</li>
+<li>transformation de notre forme de vie (cf.&nbsp;Wittgenstein au chapitre 1).</li>
+</ul></li>
+</ul>
+<p><strong>P.13</strong></p>
+<p>Après description des différentes parties/chapitres de l’ouvrage, PCN fait un point méthodologique sur la philo (appuie sur des fictions plutôt que des données empiriques).</p>
+</section>
+<section id="chapitre-1" class="level2">
+<h2 class="anchored" data-anchor-id="chapitre-1">2022-07-24 - Chapitre 1</h2>
+<ul>
+<li>Commence par la description de son Oncle.
+<ul>
+<li>introduction du syndrome du thermomètre : fait de se référer aux machines (outils, prothèses externes) pour affiner un ressenti/ expérience personnelle et effacer tous doutes ou angoisses liées à l’indécision.</li>
+</ul></li>
+</ul>
+<p><strong>P.22</strong></p>
+<p>Le syndrome du thermomètre consiste à une machine la tâche de décrypter ce qui devrait relever d’une expérience intérieure, ou en première personne, […]</p>
+<p><strong>P.23</strong></p>
+<p>Je voudrais montrer que ce déplacement de nos états d’âme qui se tranfèrent sur des machines n’est pas, ou pas seulement, une question technique: il relève plutôt d’une sorte de convention implicite, une décision collective ou, plus exactement, l’émergence d’une forme de vie, au sens de Wittgenstein.</p>
+<ul>
+<li><p>forme de vie : désigne les types d’activités humaines structurées par des règles différentes = E humain-machine (Merzeaux??)</p></li>
+<li><p>Vient ensuite le mythe du décodeur de cerveau :</p>
+<ul>
+<li>déconstruction du mythe (en gros c’est du <em>bullshit</em>)</li>
+</ul></li>
+</ul>
+<p><strong>P.25</strong></p>
+<p>La véritable inquiétude que nous aurions devant un lecteur de cerveau serait que la machine découvre en nous des pensées, des pensées honteuses, que nous ne savions pas: qu’elle montre que je veux assassiner ce collègue que je prétends, que je crois affectionner, et je n’en doutais pas.</p>
+<p><strong>P.26</strong></p>
+<p>pour les neurosciences, la thèse de PCN est “que le syndrome qui leur est associé, la transformation subjective qu’elles impliquent, N,est pas une question technique mais dépend d’un contexte beaucoup plus large, où des croyances implicites, une idéologie s’associent ;a la technique: nous changeons de forme de vie, et c’est ce qui rend possible le phénomène neurosciences”.</p>
+<p><strong>P.29</strong></p>
+<p>Wiitgenstein montre que l’idée qu’un sujet connaisse sa pensée ne va pas de soi […] On pourrait supposer que le sujet ignire ses propres pensées qu’un autre connaitrait mieux que lui-même (la machine ?).</p>
+<ul>
+<li>indétermination de notre forme de vie</li>
+</ul>
+<p><strong>P.31-32</strong></p>
+<p>expérience dolorimètre pour illustrer le propos (appareil qui mesure la douleur). - curiosité vis-à-vis de la machine de toussaint : si elle fonctionne nous n’en voudrions pas et pourtant, vu qu’elle ne fonctionne pas, nous sommes prêt à l’essayer (et à accorder du crédit) - Au-delà de la question technique, il y a la question sociale de l’acceptation de la technique (et de la confiance accordée à l’argument scientifique) - place du mensonge (p.35) - n’est pas le reflet de la pensée/ de l’expérience intime (p.34)</p>
+</section>
+<section id="edit---2022-07-26" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-07-26">[EDIT] - 2022-07-26</h2>
+<p><strong>P.35</strong></p>
+<p>Rapport à la vérité et au pouvoir à travers ces technologies. - recherche de la “vérité” grâce aux captations - relation de pouvoir : domination (question éthique).</p>
+<p><strong>P.36</strong></p>
+<ul>
+<li>La question de la folie est abordée
+<ul>
+<li>une introspection par le biais de la machine + une croyance forte dans ces données, confortée dans l’idée que la science appuie un tel résultat.</li>
+<li>Question de “l’interprétation du discours” à un 1er niveau. Comment distinguer (pour le psychographe) ce qui relève du sujet de ce qui est emprunté à un tiers ?</li>
+<li>Les strates de la pensée ne sont pas représentées.</li>
+</ul></li>
+</ul>
+<p><strong>P.38</strong></p>
+<p>La machine se trompera toujours tant que mnous croyons que le sujet détient la vérité de sa pensée (incrustabilité de la pensée). - inversement, si nous pensons que la machine fonctionne, alors le sujet ne détient plus la vérité, c’est la machine (ou l’entité qui détient la machine ? relation de pouvoir ? Quel degré de confiance et d’autorité ?)</p>
+<p>Nivellement de la pensée par la machine = esprit plat.</p>
+<ul>
+<li>Est-ce que ceci relève de la folie (Maurois) ?</li>
+<li>L’auteur met en avant la thèse de la modification de la forme de vie.
+<ul>
+<li>voir éditorialisation sur la construction du sujet et du sens.</li>
+</ul></li>
+</ul>
+</section>
+<section id="edit---2022-07-28---chapitre-2" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-07-28---chapitre-2">[EDIT] - 2022-07-28 - Chapitre 2</h2>
+<ul>
+<li>Neuromancie avant le chapitre 2</li>
+</ul>
+<p><strong>P.42</strong></p>
+<p>PCN fait un prallèle entre neurosciences et chiromancie (cerveau et main). Soulève la question de la croyance : une vérité fondamentale est ancrée dans notre corps, “imprimée”, et seuls des experts (prophète ??) sont en mesure de les déchiffrer.</p>
+<p>Note : Toute la thèse du livre repose sur la question de la croyance ?</p>
+<p><strong>P.47</strong></p>
+<p>Illustration avec la campagne présidentielle de 2017 et l’algorithme Crowdpad (syndrome du thermomètre) : “D’une part, le syndrome du thermomètre me place dans une position, disons d’abord, d’assujettissement vis-à-vis de la machine, ou de celui qui la programme ou la possède : la machine m’indique pour qui je veux voter.”</p>
+<p><strong>P.48</strong></p>
+<p>“D’autre part, cette capacité, prêtée à la machine, de me montrer ma propre expérience, ou mes intentions, ou mes pensées, ne relève pas d’un fait empirique mais d’une somme de croyances ou de conventions. Comme j’ai essayé de le montrer dans le chapitre précédent, le syndrome du thermomètre est une transformation de nos usages qui suppose certes une certaine technologie mais n’en est pas le résultat. C’est le résultat d’un bouleversement idéologique qui n’est pas déterminé par la technique.”</p>
+<ul>
+<li>Appareillage des neurosciences trop lourd pour avoir un réel impact sur notre forme de vie,
+<ul>
+<li>C’est le téléphone portable et l’analyse de nos données qui nous amènent vers une ‘pleine conscience’.</li>
+</ul></li>
+<li>Ce chapitre sera dédié à la diffusion du syndrome du thermomètre grâce à l’analyse de données et à l’IA.</li>
+</ul>
+<p><strong>P.49</strong></p>
+<ul>
+<li><p>La fine fleur de la psychologie expérimentale OCEAN n’est autre que le SONCAS enseigné en commerce depuis des lustres … 6 paramètres sont apparemment suffisant pour décrire un individu (archétypes).</p></li>
+<li><p>Après la chiromancie et les neurosciences c’est au tour de l’horoscope et de MoodApp (fiction d’application) -&gt; Gestion et prévision de l’humeur par une app.</p></li>
+</ul>
+<p><strong>P.54</strong></p>
+<ul>
+<li>PCN développe un argumentaire pour démontrer en quoi le téléphone portable agit comme le thermomètre de son Oncle.</li>
+<li>Rappel : le syndrome du thermomètre détermine nos contenus de pensée.</li>
+<li>MoodApp analyse l’humeur alors qu’il s’agit d’une expérience à la première personne, un ressenti subjectif.</li>
+<li>Machine = instrument d’introspection</li>
+<li>Ce que Foucault nomme biopolitique : l’état amasse des données sur les citoyens pour asseoir son pouvoir</li>
+<li>Forme de surveillance (voir Zuboff ?)</li>
+<li>L’assujetissement qui donne à l’individu sa place dans une société et en fait un ‘sujet’ peut toucher les corps comme les esprits. L’état peut nous dire ce qu’il faut penser mais ile ne nous dit pas ce que nous pensons.</li>
+</ul>
+<p><strong>P.55</strong></p>
+<p>Suite. - Etat cherche à savoir ce que nous pensons au moyen de sondages par exemple. En revanche, le syndrome du thermomètre poussé à son terme donne à la machine, ou à celui qui la contrôle, le pouvoir de ne dicter ce que je considèrerai comme ma propre pensée. - Dépassement du panoptique de Bentham et Foucault. La société numérique n’est pas construite sur l’image d’un oeil surplombant qui voit tout et n’aurait aucun angle mort. - Hypothèse : Il ne s’agit plus de voir. La capacité du numérique réside dans l’isolement de paramètres pertinents dans les données. Et il n’y a plus besoin de surveillant. - Le terme assujetissement est trompeur : sommes-nous encore des sujets ?</p>
+<p><strong>P.56</strong></p>
+<p>Société de bienveillance en lieu et place de la société de contrôle et surveillance. (sous une autre forme)</p>
+<p><strong>P.57</strong></p>
+<ul>
+<li>Objection possible au syndrome du thermomètre : la psychanalyse, le dispositif de cure n’est-il pas une extériorité, une sorte de machine si l’on veut, qui nous révèle des contenus de pensée à mous-mêmes inconscients ?</li>
+<li>Démonstration à venir de PCN que l’inconscient que découvre la psychanalyse n’est pas au même niveau que les contenus de pensée que montrent les neurosciences et l’analyse de données.</li>
+<li>“Ces machines nous font l’esprit plat, elles rendent impossible la psychanalyse.”</li>
+</ul>
+<p><strong>P.59</strong></p>
+<p>Machine qui rêve de Chatonsky. - Pour PCN ceci est un test permettant de mesurer le degré d’atteinte du syndrome du thermomètre.</p>
+<p><strong>P.63</strong></p>
+<p>L’intelligence artificielle. Pour un cyber-panthéisme</p>
+<p><strong>P.65-66</strong></p>
+<p>résumé de la thèse et des deux premiers chapitres.</p>
+</section>
+<section id="chapitre-3" class="level2">
+<h2 class="anchored" data-anchor-id="chapitre-3">Chapitre 3</h2>
+<p><strong>P.68</strong></p>
+<ul>
+<li>Désynchronisation individuelle et sociale.</li>
+</ul>
+<p><strong>P.69</strong></p>
+<p>Mécanisation du temps</p>
+<p><strong>P.70</strong></p>
+<p>Régulation du temps humain sur la machine</p>
+<p><strong>P.71</strong></p>
+<p>Nous cessons finalement de pouvoir former un <em>Nous</em> qui suppose une pluralité de sujets singuliers, des <em>Je</em>, pour nous fondre dans un être anonyme, un <em>On</em>.</p>
+<p><strong>P.72</strong></p>
+<p>La temporalité du sujet se calque sur un mouvement extérieur… : celui du numérique, infatigable, perpétuel. - le négatif de l’homme economécanique = l’homme paresseux (rompre la cadence) (valable pour la tv)</p>
+<ul>
+<li>fin de ce paradigme avec internet = désynchronisation.</li>
+</ul>
+<p><strong>P.73</strong></p>
+<p>Eclatement des consciences avec Internet (économie de l’attention). La paresse n’est plus une parade. - Eclatement alors que nous sommes catégorisés selon 6 paramètres ? (OCEAN/SONCAS)</p>
+<p><strong>P.74</strong></p>
+<p>Cette démultiplication de notre temporalité représente un bouleversement fondamental de notre forme de vie. - Avec le numérique -&gt; éclatement de soi.</p>
+<ul>
+<li>Comment en ce cas, sous quelle forme, avec quelles imqges déterminer ce soi ?</li>
+</ul>
+<p><strong>P.75</strong></p>
+<p>Piste de Bachelard pour décrire la désynchronisation. (dialectique de la durée)</p>
+<p><strong>P.76</strong></p>
+<p>Usine de Post : représentation de l’esprit -&gt; métaphore du web.</p>
+</section>
+<section id="edit---2022-07-29" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-07-29">[EDIT] - 2022-07-29</h2>
+<p><strong>P.77</strong></p>
+<ul>
+<li>Plusieurs strates dans le fonctionnement des usines : usine internet / usine physique (production hardware …) (stack ?)</li>
+<li>Rétablissement du Moi à travers les réseaux sociaux pour le figer dans cet éclatement de la conscience sur internet.
+<ul>
+<li>Mais le sujet numérique ne se développe pas dans un flux linéaire mais dans une multiplicité.
+<ul>
+<li>tentatives / stratégies de resynchronisation pour pallier son propre éclatement. Les interfaces personnalisées répondent à ce même besoin.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>P.79</strong> Problème de l’imitation -&gt; indentification vers un idéal du ‘Moi’ pour forger une vision commune. - explique le fait que nous visionnons tous les mêmes contenus.</p>
+<p><strong>P.84</strong></p>
+<p>Prédominance des clichés (notion introduite par Wiener)</p>
+<p><strong>P.85</strong></p>
+<ul>
+<li><p>Clichés = message qui ne contient plus ou peu d’informations : perd des informations à cause du bruit, des parasites (au sens de la théorie de l’information, Wiener est un contemporain de Shannon).</p></li>
+<li><p>économie du cliché (meme) est analogue de celle de l’esprit.</p>
+<ul>
+<li>condensation des sens en un endroit (le mot ?)</li>
+<li>exprime une pensée complexe ou socialement inacceptable</li>
+</ul></li>
+</ul>
+<p><strong>P.87</strong></p>
+<p><strong>Obessions</strong></p>
+<ul>
+<li>Le médium numérique nous donne accès à une bibliothèque de contenus indéfinie en ce qu’elle dépasse nos capacités de lecture.</li>
+<li>clichés = message ayant la capacité de circuler sans se défaire dans le bruit.</li>
+</ul>
+<p><strong>P.89</strong></p>
+<p>Les clichées contiennent les obessions du réseau.</p>
+<p><strong>P.90</strong></p>
+<p>C’est seulement que le syndrome du thermomètre, ce déplacement de l’intériorité et son applatissement, nous interdisent d’analyser le sens des clichées qui circulent à travers nous.</p>
+<p><strong>P.95</strong></p>
+<p>Citation de Slavoj Zizek :</p>
+<p>“La perspective d’une virtualisation radicale confère à l’ordinateur une position strictement équivalente à celle du Dieu de l’occasionnalisme de Malebranche […]. L’ordinateur coordonne la relation entre mon esprit et (ce que je perçois comme) le mouvement de mes membres dans la réalité virtuelle.”</p>
+<p><strong>P.98</strong></p>
+<p>Ce que le guichet automatique active n’est pas l’individu mais le ‘dividuel’.</p>
+</section>
+<section id="chapitre-4" class="level2">
+<h2 class="anchored" data-anchor-id="chapitre-4">Chapitre 4</h2>
+<p><strong>P.100</strong></p>
+<ul>
+<li>Un des clichés : “If it’s free, you’re the product”.</li>
+<li>Il faut plutôt considérer ces contenus gratuits, ces vidéos que nous visionnons sur Youtube, comme une partie du processus qui nous permet de nous constituer nous-mêmes en marchandise.</li>
+</ul>
+<p><strong>P.101-102</strong></p>
+<ul>
+<li><p>Le temps de cerveau disponible.</p></li>
+<li><p>“Le téléspectateur participe à la production d’un objet qui a une valeur. Disons donc qu’il travaille.”</p></li>
+<li><p>“Le but du chapitre 4 est de comprendre la production de valeur dans la présence du téléspectateur devant l’écran, puis celle de l’internaute […] un véritable travail, mais d’un type nouveau, ce qui permettra ensuite de réintégrer cette production dans la théorie marxienne de la valeur.”</p></li>
+<li><p>Selon Jean-Philippe Toussaint, la télévision semble induire une sorte ‘d’anesthésie’ de l’esprit, qui laisse le sujet éveillé tout en lui faisant l’esprit vide, passif et sans possibilité de réaction.</p></li>
+<li><p>Le travail immatériel.</p></li>
+</ul>
+<p><strong>P.106</strong></p>
+<ul>
+<li>Le travail du téléspectateur se rapproche plutôt du travail du rêve tel que le définit Freud.</li>
+<li>Le travail du téléspectateur est un travail zombie : le téléspectateur travaille à se faire zombie, et la chaine de télévision vend le produit obtenu. Double travail :
+<ul>
+<li>celui des techniciens (travail immatériel)</li>
+<li>celui des téléspectateurs (travail zombie)</li>
+</ul></li>
+</ul>
+<p><strong>P.108</strong></p>
+<p>Critique de Casili et du <em>digital labor</em>.</p>
+<p><strong>P.109</strong></p>
+<p>Citation de Gunther Anders - télévision - le paradoxe est que, au lieu d’être rémunéré pour son travail, le téléspectateur doit lui-même payer pour pouvoir ainsi travailler.</p>
+<p><strong>P.110</strong></p>
+<ul>
+<li>le produit est une masse (problématique de Smythe)</li>
+</ul>
+<p><strong>P.111</strong></p>
+<p>Première différence entre TV et numérique : - dans le numérique il n’y a pas d’instance centrale (comme TF1). Il est difficile de rattacher une production (exemple des <em>fake news</em>) à un de ces instances. Deuxième : - les clichés donnent un rôle prépondérant à l’image par rapport au texte, et semblent pour l’immense majorité d’entre eux entièrement dépourvus de sens idéologiques […].</p>
+</section>
+<section id="edit---2022-08-01" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-08-01">[EDIT] - 2022-08-01</h2>
+<p><strong>P.112</strong></p>
+<ul>
+<li><p>[…] L’idéologie est devenue un véritable inconscient. La société numérique n’est donc pas post-idéologique : elle est pleinement idéologique.</p></li>
+<li><p>Marquer une distance vis-à-vis de l’économie de l’attention (Citton = écologie de l’attention).</p></li>
+</ul>
+<p><strong>P.113</strong></p>
+<p>La notion d’attention introduit une ambiguité : la télévision ne demande pas notre attention mais au contraire de faire tomber nos défenses = temps de cerveau disponible.</p>
+<p><strong>P.114</strong></p>
+<p>L’économie de l’attention : l’attention (son coût) ne tient pas de sa rareté mais de sa <strong>production</strong> (coût).</p>
+<p><strong>P.115</strong></p>
+<p>La marchandise que vend TF1 à Coca-Cola n’est pas l’attention du téléspectateur au sens propre mais un état artificiel que la chaîne produit et dont il est toujours possible de tirer avantage.</p>
+<p><strong>P.116</strong></p>
+<ul>
+<li>Inversion du fétichisme des marchandises avec les plateformes numériques : nous avons tendance à ne voir que l’usage social et pas l’aspect marchand.</li>
+<li>Cependant, une différence entre TV et numérique est que celui-ci implique plusieurs formes de travail.</li>
+</ul>
+<p><strong>P. 117</strong></p>
+<p>Le travail zombie accroit la désirabilité d’un objet.</p>
+<p><strong>P.119</strong></p>
+<ul>
+<li>Désir lié à la direction du regard. Si je regarde dans une direction, les autres également, de la même manière je suis le regard des autres.</li>
+<li>Ajout d’une propriété désirable à un objet : c’est ça le travail zombie (à travers du temps disponible).</li>
+</ul>
+<p><strong>P.122</strong></p>
+<p>Du moment que la valeur ajoutée par le travailleur zombie reste supérieure à la rémunération qui lui est offerte, l’exploitation et le capitalisme peuvent parfaitement survivre à la fin du travail industriel.</p>
+</section>
+<section id="chapitre-5" class="level2">
+<h2 class="anchored" data-anchor-id="chapitre-5">Chapitre 5</h2>
+<p><strong>P.127</strong></p>
+<ul>
+<li><p>Deux premiers chapitres sur le syndrome du thermomètre et l’esprit plat</p></li>
+<li><p>Deux chapitres suivant consacrés au medium numérique en tant qu’il occupe notre loisir.</p></li>
+<li><p>Le présent chapitre donne un visage à cette machine, qui dirige notre désir, dans le travail zombie, ou qui détermine notre expérience, dans le syndrome du thermomètre.</p></li>
+</ul>
+<p><strong>P.128</strong></p>
+<ul>
+<li>Le robot domestiqué ne restera peut-être qu’une fiction. Cependant il en révèle beaucoup sur notre rapport aux machines.</li>
+<li>Un robot humanoïde et bienveillant.
+<ul>
+<li>N’est pas humain : juste une silhouette s’en rapprochant.</li>
+</ul></li>
+<li>Le robot compagnon doit d’abord rendre l’humain heureux, le reste est secondaire (faire le ménage, baby-sitter …)</li>
+<li>C-3PO est le robot qui correspondrait à ce rôle.</li>
+</ul>
+<p><strong>P.130</strong></p>
+<p>Développement de plusieurs exemples : robots sexuels != robots compagnons</p>
+<p><strong>P.131</strong></p>
+<ul>
+<li><p>Exemple : le robot sexuel n’est pas connecté à internet alors que le robot compagnon l’est. Le premier à une mémoire limité et un discours figé alors que le second peut évoluer constamment.</p></li>
+<li><p>Pepper et Nao constituent les meilleurs exemples de robots compagnons pour PCN. Leur caractéristique principale est la bienveillance.</p></li>
+</ul>
+<p><strong>P.133</strong></p>
+<p>Le robot apporte une présence et ne répond à aucun besoin précis.</p>
+<p><strong>P.134</strong></p>
+<p>Le robot comme interface semble remédier à la désynchronisation dûe à Internet. Il rassemble. - [Important] Le robot bienveillant, qui ne sert à rien, permet de renverser l’image inquiétante des robots qui parsèment nos imaginaires culturels.</p>
+<p><strong>P.135</strong></p>
+<p>La vallée de l’étrange (article de Mori, 1970) : Plus le robot parait humain plus nous éprouvons d’affinité avec lui, sauf quand le robot ressemble presque à un humain mais pas entièrement, notre affinité pour lui chute brusquement. - Sensation étrange, inquiétante, chair de poule, répulsion.</p>
+<p>Notre affinité pour le robot remonterait ensuite pour atteindre un second sommet quand le robot ne peut plus se distinguer d’un humain.</p>
+<p><strong>P.136</strong></p>
+<p>Explications différences entre les robots des usines et les robots compagnons. - usine = ni visage, ni jambe (non anthropomorphe) et réalise une tâche précise.</p>
+<p>Pourtant nous pouvons avoir de l’affection pour certaines vieilles machines. D’après PCN, l’hypothèse de Mori ne s’applique pas aux robots industriel, sexuel ou d’amour. Parce qu’ils sont construit pour un usage précis.</p>
+<p><strong>P.137</strong></p>
+<p>À la fin de son article Mori renvoie la vallée de l’étrange à notre répulsion pour les cadavres. “Notre perception de la mort peut ainsi être représentée par un mouvement […] vers le fond de la vallée de l’étrange.”</p>
+<p><strong>P.139</strong></p>
+<p>Dénonce les robots sexuels et les conséquences qui en découlent. - On laisse de côté cet aspect pour ne traiter que celui de la firme qui a interdit les usages sexuels des robots compagnons et celui, moral, d’avoir une relation sexuelle avec un robot comme lui.</p>
+<p><strong>P.140</strong></p>
+<ul>
+<li>D’après PCN il n’y a, a priori, aucune raison valable de cette interdiction : c’est l’apparition d’une nouvelle convention morale.<br>
+</li>
+<li>Nous décidons que cette bienveillance que doit induire le robot ne va pas avec la sexualité.</li>
+<li>Est-ce que cette convention ne modifie pas sont statut ontologique (robot) ?
+<ul>
+<li>S’il est interdit d’avoir une relation sexuelle, n’est-il pas autre chose qu’un bout de plastique ?</li>
+<li>ambivalence pour caractériser un être dont, à la fois, nous savons qu’il n’a pas d’intériorité et dont pourtant notre relation à lui fait plus qu’une chose, ou un objet matériel.</li>
+</ul></li>
+</ul>
+<p><strong>P.143</strong> - L’individualité du robot. - question de la captation des données. - insertion de la notion de “dividu” (dividualité du robot) : individu dans un système dont il n’est que le rouage (Deleuze).</p>
+<p>La surveillance, à laquelle la machine nous soumet, est seulement un aspect de sa bienveillance. Le robot nous bienveille : il veille sur nous et nous surveille, pour notre bien.</p>
+<p><strong>P.145</strong></p>
+<p>Fable du corbeau (Poe) - exemple du robot employé à l’opposé du corbeau de Poe pour produire du bien-être.</p>
+<p><strong>P.146</strong></p>
+<p>Est-ce que les machines doivent être considérée comme un règne à part entière ? - Ici, PCN nous pose la question de l’intégration et de l’acceptation des machines dans notre réalité, chose que propose également MVR avec l’éditorialisation. C’est-à-dire que ce ne sont plus seulement des produits (modification ontologique) mais qutre chose qui nous bienveille. - Étrangeté revient : l’hypothèse de Mori se trouve validée avec les robots compagnons. Le design des robots compagnons sont maximalement non-étranges : ils sont conçus par opposition à cette notion. “Sauf que l’étrange revient dans notre cohabitation avec le robot” (par ce positionnement ontologique ambivalent). - il faut faire ressortir cette étrangeté parce qu’il ne fait aucun doute que le robot bienveillant est un instrument de surveillance.</p>
+</section>
+<section id="chapitre-6" class="level2">
+<h2 class="anchored" data-anchor-id="chapitre-6">Chapitre 6</h2>
+<p><strong>P.155</strong></p>
+<p>La sensibilité synhaptique (modification de notre sensibilité). - Dépassement du panopticon de Bentam et Foucault vers un synhapticon gardé par une machine (nouveau mode de surveillance).</p>
+<ul>
+<li>Ouverture d’autres imaginaires sur l’invisibilité.</li>
+<li>La surveillance, et les façons d’y échapper, ne s’imaginent plus en termes de visibilité.</li>
+</ul>
+<p>Il y est question des différents sens et de leur “fonctionnement” afin de mettre en évidence la caractéristique particulière du numérique : la non-réciprocité.</p>
+<ul>
+<li>Je peux voir sans être vu mais je ne peux pas toucher sans être touché.</li>
+</ul>
+<p><strong>P.156</strong></p>
+<p>Les mouvements de l’information selon Wiener.</p>
+<p><strong>P.160</strong></p>
+<p>Introduction d’une distance spatio-temporelle dans le toucher (ça me rappelle l’invention de Morel). - Changement du rapport à l’autre qui semble partir d’un rapport à soi-même. Ou plus exactement, je mets l’autre à la place de moi-même dans un rapport à moi-même.</p>
+<p><strong>P.162</strong></p>
+<p>Il y a un morcellement du sujet et de son corps, que découpent les objets technologiques, et qui ne peut donc plus se réunir que de l’autre côté de la technologie : par les connexions qui existent entre les machines.</p>
+<p><strong>P.164</strong></p>
+<p>Question de l’invisibilité (voir sans être vu) - détache le sujet des êtres humains qui dès lors n’est plus assujetti aux conventions morales (ce n’est plus un sujet !). - en contradiction avec le roman <em>Invisible Man</em> de Ralph Ellison (1953) qui évoque l’invisibilité sociale. - La revendication politique revendique avant tout un devenir <strong>visible</strong>.</p>
+<p><strong>P.168</strong></p>
+<p>L’invisibilité ne donne plus la capacité d’échapper à la surveillance du pouvoir.</p>
+</section>
+<section id="edit---2022-08-07" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-08-07">[EDIT] - 2022-08-07</h2>
+<ul>
+<li>La nouvelle image de l’homme-invisible est celle de celui qui ne laisse pas de trace : le hacker.</li>
+<li>le vocabulaire de la trace est haptique, il relève du toucher : c’est en touchant qu’on laisse des traces (cf Ingold).</li>
+<li>Il ne s’agit plus d’échapper au regard mais d’effacer ses traces.</li>
+<li>En transformant les propriétés de nos sens, les technologies contemporaines ont restructuré notre imaginaire et fait basculer du côté du toucher le modèle selon lequel il faut penser la surveillance sociale et les figures de celui qui y échappe.</li>
+</ul>
+<p><strong>P.169</strong></p>
+<p>L’écran représente l’exact contraire de l’intuition de la tradition philosophique. La question des sens dépend des échelles global/local (comme propriété des sens) : définition de Deleuze et Guattari. - Transformation de la vision pour lui donner la localité du toucher (dans le numérique). - glissement de l’optique dans l’haptique. - conséquence de la multiplicité des flux : != de la télévision.</p>
+<p><strong>P.170</strong></p>
+<p>La thèse de l’auteur est que les technologies contemporaines ouvrent un sens nouveau : - constitué d’impressions locales. - il les reconnecte en relation à un même instant. - le sens synhaptique travaille à distance. - il possède la non-réciprocité de la vision - en opposition au panoptique de Foucault.</p>
+<p><strong>P.171</strong></p>
+<p>Ce corps percevant n’est plus limité par une peau, une enveloppe touchante-touchée, mais par une membrane touchante qui le laisse intangible.</p>
+<p><strong>P.172</strong></p>
+<p>Cette membrane technologique n’appartient pas au sujet sauf conditions d’utilisation. - lieu d’une nouvelle forme de surveillance.</p>
+<p><strong>P.174</strong></p>
+<p>Sortie du panoptique : exemple du QR Code pendant la pandémie de COVID_19 = surveillance discontinue.</p>
+<p><strong>P.175</strong></p>
+<p>Le contrôle ne passe plus par une visibilité totale. Il passe par une multitude de données, qui restent discontinues et qu’il faut seulement recouper. La surveillance n’est donc plus panoptique : elle est synhaptique.</p>
+<ul>
+<li>Le gardien qui surveille le synhapticon n’est plus un humain mais une machine.</li>
+</ul>
+<p><strong>P.176</strong></p>
+<p>Cette possible absence du surveillant humain pose le problème de la subjectivité même de celui qui est surveillé.</p>
+</section>
+<section id="edit---2022-08-07---conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-08-07---conclusion">[EDIT] - 2022-08-07 - Conclusion</h2>
+<p><strong>P.181</strong></p>
+<ul>
+<li>C’est dans des fictions que j’ai cherché nos syndromes technologiques.</li>
+<li>Avec le syndrome du thermomètre nos pensées ne sont plus dans notre tête mais sur l’écran d’une machine.</li>
+<li>L’inconscient ne tient plus d’une ambiguïté de nos contenus de pensée : il se donne comme un autre contenu de pensée que nous ne savions pas entretenir. La machine nous montrerait un rêve que nous avons manqué comme on manque une émission de TV : nous étions absents à nous-mêmes.</li>
+</ul>
+<p><strong>P.182</strong></p>
+<ul>
+<li>Nouveau modèle de surveillance</li>
+<li>Nouvelle relation aux machines (bienveillance = surveillance)</li>
+<li>Nos syndromes technologiques nous inscrivent dans la bienveillance des machines.</li>
+</ul>
+<p><strong>P.183</strong></p>
+<p>Sujets et dividus</p>
+<p><strong>P.185</strong></p>
+<ul>
+<li>Fragmentation et morcellement du sujet.</li>
+<li>disparition du sujet au profit du dividu</li>
+</ul>
+<p><strong>P.187</strong></p>
+<p>On termine sur la citation de McLuhan (Pour comprendre les média)</p>
+</section>
+<section id="edit---2022-08-13---plan-recension" class="level2">
+<h2 class="anchored" data-anchor-id="edit---2022-08-13---plan-recension">[EDIT] - 2022-08-13 - Plan recension</h2>
+<ol type="1">
+<li>Bio de l’auteur</li>
+<li>Thèse et résumé de l’ouvrage</li>
+<li>Résumé de chaque chapitre</li>
+<li>Partie critique : repartir d’une fiction (liée à l’imtimité ?)</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>lecture</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/bienveillance-des-machines-part1.html</guid>
+  <pubDate>Sat, 23 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fiche : Markup Systems and the Future of Scholarly Text Processins</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-troisieme-fiche.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="résumé" class="level2">
+<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
+<p>Les auteurs, J.H. Coombs, A. H. Renear et S. J. DeRose, propose dans cet article de 1987 une apologie des langages de balisage pour l’écriture savante en contexte numérique. Dès cette époque, le conflit entre traitement de texte <em>versus</em> éditeur de texte met en avant les principaux reproches fait aux outils de traitement de texte : l’absence d’une sémantisation des écritures, la non-intéropérabilité des formats propriétaires et la non-pérennité des documents.</p>
+<section id="citation" class="level3">
+<h3 class="anchored" data-anchor-id="citation">Citation</h3>
+<blockquote class="blockquote">
+<p>In the end, it should be clear that descriptive markup is not just the best approach of the competing markup systems; it is the best imaginable approach.</p>
+</blockquote>
+</section>
+<section id="résumé-des-parties-et-mise-en-perspective" class="level3">
+<h3 class="anchored" data-anchor-id="résumé-des-parties-et-mise-en-perspective">Résumé des parties et mise en perspective</h3>
+En 1987 les spécifications cadres des langages de balisages ne sont pas encore établies, excepté celle du SGML (<em>Standard Generalized Markup Language</em>) qui voit le jour en 1986 soit peu de temps avant la parution de l’article étudié. Pourtant, alors que ce ne sont que les prémisses des technologies de balisages du texte, l’article soulève des enjeux qui, 35 ans plus tard, sont toujours d’actualité. Les questions liées à l’interopérabilité des textes savants (au sein de leur chaine éditoriale et des processus de diffusion), à la sémantisation explicite des contenus, qu’il s’agisse d’une lecture destiné à des robots ou des êtres humain, et la pérennité des documents, surtout lorsqu’ils sont encodés dans des formats propriétaires, sont toujours aussi urgentes à traiter. Écrire en contexte numérique ne s’apparente pas du tout à l’écriture sur papier, il ne s’agit pas de reproduire les fonctionnalitées offertes par le papier sur un ordinateur mais de conquérir ce nouvel environnement en exploitant l’ensemble des fonctionnalités de celui-ci et donc d’ajouter une valeur à l’écriture numérique qui, dès lors, se distingue de l’écriture papier. Or, ce que nous dit cet article, c’est que l’écriture via un outil de traitement de texte n’apporte rien de nouveau en dehors du changement de support et du rendement amélioré, la capacité à “faire plus vite”. Ce postulat amène les auteurs à penser ce que pourrait être une écriture augmentée par l’environnement numérique ; il jette leur dévolue sur les technologies de balisage du texte. Celles-ci offrent plusieurs avantages, à commencer par une hiérarchisation explicite des informations. Par exemple, les niveaux de titre ne sont plus indiqués par une mise en page personnelle mais par une balise (
+<h1>
+<p>en HTML) décrivant un titre de niveau 1. Il n’y a plus besoin d’opération mentale de comparaison des mises en page pour que le lecteur comprenne à quel niveau d’information il a affaire. C’est la différence mise en avant dans les types de marqueurs proposés, entre des balises de présentation (invisible comme le saut de ligne) et les balises descriptives (marqueurs dans le texte). Aussi le type de langage de balisage conseillé est le descriptif : il répond également aux enjeux d’interoperabilité (une portabilité étendue) et de pérennité. En effet, ce dernier relève du texte brut. Quel que soit le format ou le logiciel utilisé pour le lire, le texte brut sera traitable plus facilement qu’un texte comportant une couche de mise en page. De plus, la maintenance requise pour ce type de document est très faible, réduisant par la même occasion les coûts pécuniers et humains liés à cette dernière. En nous projetant au début du 21e siècle, des langages de balisages légers voient le jour pour répondre justement aux enjeux d’écriture en environnement numérique. Toutefois ils ne répondent pas complètement aux enjeux de l’écriture savante, alors des initiatives comme l’éditeur de texte Stylo tentent d’y répondre. Stylo, un éditeur développé à la Chaire de recherche du Canada sur les écritures numériques, agrège des technologies telles que Markdown, BibTeX et YAML pour permettre à l’auteur d’avoir tous les outils nécessaires intégrés dans une seule interface. Trois décennies après la parution de ce papier, certains laboratoires, comme l’exemple qui vient d’être mentionné, ont pris en compte les recommandations faites et les ont même dépassés. Il ne s’agit plus seulement d’écrire selon les modalitées numériques mais également de spécifier et réaliser les besoins des chercheurs, plus fins et précis que le balisage du texte, dans des environnements ouverts à l’ensemble de la communauté scientifique (et au-delà).</p>
+
+
+</h1></section>
+</section>
+
+ ]]></description>
+  <category>lecture</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-troisieme-fiche.html</guid>
+  <pubDate>Mon, 11 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fiche : From data mining to knowledge discovery in databases</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-quatrieme-fiche.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="résumé" class="level2">
+<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
+<p>À travers cet article de 1996, les auteurs souhaitent présenter une vue d’ensemble de ce champ d’application qu’est la découverte des connaissances dans les bases de données (<em>knowledge discovery in databases</em> aka KDD) au moyen d’outils appartenant au domaine de l’informatique et de l’intelligence artificielle (<em>machine learning</em>, <em>data mining</em>, statistiques, etc.).</p>
+<section id="citation" class="level3">
+<h3 class="anchored" data-anchor-id="citation">Citation</h3>
+<blockquote class="blockquote">
+<p>Data mining is a step in the KDD process that consists of applying data analysis and discovery algorithms that produce a particular enumeration of patterns (or models) over the data.</p>
+</blockquote>
+</section>
+<section id="résumé-des-parties" class="level3">
+<h3 class="anchored" data-anchor-id="résumé-des-parties">Résumé des parties</h3>
+<p>La première partie de l’article revient sur les fondamentaux d’une telle technologie : quels sont les besoins ? comment mettre en place le processus de transformation des données en connaissances ? Le constat est le suivant : les technologies numériques produisent des millions de données et l’être humain n’a pas la capacité de le traiter “à la main”. L’emploi de technologies dédiées à cette application devient nécessaire. Ces applications ont du succès dans plusieurs domaines comme le commerce au sens large ou encore ce qui relève de la santé. Ensuite, les auteurs distinguent le KDD du 8machine learning8 en appuyant sur la dimension interdisciplinaire du KDD, et sur la prise en compte de l’ensemble du processus, de la découverte des données jusqu’au stockage de celles-ci et leur accessibilité.</p>
+<p>Dans une seconde partie les auteurs détaillent les étapes qui composent le processus du KDD : - Sélection des données - Préprocessing - Transformation des données - Exploitation des données (<em>data mining</em>) - Interprétation et évaluation</p>
+<p>Le point important de ce processus est qu’il est <strong>itératif</strong> : un modèle n’émerge pas tout seul ou lors du premier essai. Avant d’interpréter les données pour faire émerger des connaissances, il est nécessaire de répéter les premières étapes pour affiner le modèle au jeu de données. Une fois le modèle validé, il devient possible de réaliser les deux dernières étapes d’exploitation et d’interprétation.</p>
+<p>Dans la partie suivante, les auteurs détaillent les méthodes de <em>data-mining</em>, il en existe plusieurs types, toutefois, il n’y a pas de critère pré-établi d’usage d’une méthode particulière à appliquer à un jeu de données particulier.</p>
+<p>Les auteurs ouvrent en conclusion sur le potentiels du KDD dans divers champs, notamment l’analyse du langage naturel ou le développements d’agents intelligents ou la représentation des connaissances.</p>
+</section>
+<section id="mise-en-perspective" class="level3">
+<h3 class="anchored" data-anchor-id="mise-en-perspective">Mise en perspective</h3>
+<p>Cet aperçu du KDD offert par Fayyad, Piatetsky-Shapiro et Smyth en 1996 pose les bases méthodologiques de ce qui est aujourd’hui largement répandu dans beaucoup de disciplines, celles nommées dans l’article mais aussi les sciences de l’information et de la communication, les sciences humaines et sociales, les lettres, etc. Le point névralgique de cet article est à l’endroit de l’organisation des connaissances énoncé en conclusion. Les auteurs ont écrit : « Knowledge representation includes <em>ontologies</em>, new concepts for representing, storing, and accessing knowledge ». À ce jour, nous pouvons interpréter ce rapport aux ontologies de deux manières. Premièrement, chaque discipline développe une vision du monde se traduisant par des méthodes heuristiques et par une organisation des connaissances qui lui est propre. Il est donc nécessaire que le modèle développé dans le cadre du KDD soit conforme aux attentes épistémologiques énoncées par les acteurs de chaque champ disciplinaire. Pour être bref (le format des résumés est un peu court!), ce rapport aux algorithmes rappelle la théorie de l’éditorialisation telle qu’énoncée par Marcello Vitali-Rosati (à approfondir). Deuxièmement, certaines références bibliographiques sont liées au <em>World Wide Web</em> et, dans ce cas, le mot “ontologie” fait directement écho aux technologies du web sémantique qui pourtant n’ont été officiellement présentées qu’en 2001 ! Il y aurait donc une inspiration commune de l’organisation des connaissances sur de larges corpus de données, qu’il s’agisse de KDD ou du web. Cette modélisation des connaissances grâce aux ontologies est l’argument grâce auquel le KDD dépasse ce que nous entendons aujourd’hui par intelligence artificielle. Le modèle commun de l’IA repose sur le moissonnage et l’analyse de données en très grande quantité ; or, avec la vision du W3C un autre modèle de l’IA apparaît : celui des relations entre concepts (qui fonctionne par inférence). Le KDD montre que ces deux approches ne sont pas antagonistes mais qu’au contraire elles sont complémentaires. Nous pourrions faire des recherches appronfondies à ce sujet.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>lecture</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-quatrieme-fiche.html</guid>
+  <pubDate>Mon, 11 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-deuxieme-fiche.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="résumé" class="level2">
+<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
+<p>Servanne Monjour nous propose dans cet article une recension de l’ouvrage de Matteo Treleani Qu’est-ce que le patrimoine numérique ? Une sémiologie de la circulation des archives publié en 2017. Dans cet article, l’auteure a fait le choix de centrer son approche sur les conséquences d’une nouvelle conception du passé qui serait engendrée par la gestion des documents numériques et « [les] mutations épistémologiques de la fabrique des archives » qui y sont associées.</p>
+<blockquote class="blockquote">
+<p>Or « [e]nvisager le tout-archive comme une mémoire sans perte est le véritable problème », autant parce que cette pensée pèche par excès de confiance en la mémoire supposée exhaustive du web (la nouvelle mythologie du big data par exemple), que parce que la mémoire n’a, par définition, aucun intérêt sans l’activité herméneutique qui permet d’en extraire un sens.</p>
+</blockquote>
+</section>
+<section id="résumé-des-parties-et-mise-en-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="résumé-des-parties-et-mise-en-perspective">Résumé des parties et mise en perspective</h2>
+<p>Dans un premier temps, Monjour recontextualise les problématiques soulevées dans l’ouvrage de Treleani, à savoir : « dans quelle mesure le sens d’un document original est-il transformé au cours du processus de numérisation et de médiation numérique ? Comment penser, pour les générations futures, la constitution de notre patrimoine contemporain, quand le numérique semble offrir la possibilité de conserver de gigantesques masses de données ? ». Un second temps est accordé à l’archéologie des médias et à la nature des documents numériques, notamment l’obsolescence qui en découle, mis en vis-à-vis de la nécessité de penser la conservation des documents au fil de leur apparition. Le patrimoine numérique est décrit selon des formes de relation entre les technologies numériques et les « domaines susceptibles d’être patrimonialisés », chacun ayant des implications différentes : - le numérique pour le patrimoine ; - le patrimoine sur support numérique ; - l’archivage du patrimoine numérique. Le patrimoine numérique, en fonction de la nature de la relation, exige des considérations adaptées aux documents qui dépasse la simple numérisation et le stockage.</p>
+<p>Dans une autre partie, c’est à travers la notion d’éditorialisation que Monjour souligne la « perte de contrôle des institutions [qui] s’opère au profit de “logiques propres à une médiation numérique [qui] façonnent la manière de publier et de valoriser des archives” », dégageant ainsi l’archive de son domaine “fermé” dans lequel règnent les archivistes. Dans la citation ci-dessus, l’auteure rapproche la notion de mémoire de celle de l’archive et souligne la présence obligatoire de ce que Derrida nomme le droit herméneutique pour traiter les archives. C’est-à-dire que, au-delà de la très actuelle question de l’oubli, une archive est étymologiquement liée à un lieu (<em>Archeion</em>) et à une figure d’autorité (Archonte) qui exerce un pouvoir herméneutique sur les archives dont il est le gardien. Est-ce que dans le cas du numérique nous pouvons parler d’une perte de contrôle des institutions sur les archives ?</p>
+<p>Une autre hypothèse consisterait à envisager que dans l’espace numérique nous aurions affaire à un éclatement du lieu de stockage des archives pour une décentralisation vers les plateformes (et les <em>datacenters</em> sous-jacents) qui travaillent avec des documents numériques. Cependant, les lieux ne sont pas les seuls à différer, les archontes, figures d’autorité, ne sont plus les mêmes non plus, chacun exerçant sont droit herméneutique selon sa vision du monde. Or l’une des propriétés du numérique est de pouvoir dupliquer un objet, un document, de manière illimitée tant que l’espace de stockage (matériel) le permet. Dès lors un même objet peut se voir archivé dans de multiples lieux, accordant ainsi la pos- sibilité à la figure d’autorité de l’interpréter. Au-delà du paradigme économique, l’archivage numérique ne serait plus associé à une perte de pouvoir mais à une démultiplication de celui-ci par accroisssement des lieux et des figures d’autorité qui apparaissent sur la scène de l’infosphère. La première problématique émergente, comme le souligne Monjour dans sa conclusion, relève du degré de confiance (du pouvoir accordé) envers les autorités qui détiennent les archives : dans quelle mesure pouvons-nous/devons-nous confier le soin de nos archives à telle ou telle institution ? Cette question en sous-entends une autre qui est celle de l’analyse critique des productions d’archives et des prismes qui les constituent, l’idée étant d’utiliser les outils numériques à disposition non pas pour tout déconstruire mais pour enrichir, développer et compléter des archives par une multitude de perspectives.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>lecture</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-deuxieme-fiche.html</guid>
+  <pubDate>Sun, 10 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fiche : Éditorialisation collaborative d’un événement</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-premiere-fiche.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="résumé" class="level2">
+<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
+<p>Dans cet article datant de 2013, Louise Merzeau interroge le déploiement d’un dispositif d’applications mobiles lors de l’édition de 2012 d’un événement, les Entretiens du nouveau monde industriel, à travers le prisme de plusieurs concepts notamment celui de l’éditorialisation.</p>
+<blockquote class="blockquote">
+<p>Cette dimension archivale met en évidence le rapport entre économie contributive et redocumentarisation. Orientée alternativement sur le process et sur le content, l’éditorialisation collective a pour première finalité la production de métadonnées qui favoriseront le réemploi des contenus archivés.</p>
+</blockquote>
+</section>
+<section id="résumé-des-parties" class="level2">
+<h2 class="anchored" data-anchor-id="résumé-des-parties">Résumé des parties</h2>
+<p>Dans une première partie, l’auteure présente les huit applications composant le dispositif de la manifestation. Chacune des applications à une utilité différente : quatre sont dédiées à la production et la collecte de données et quatre autres à la gestion en live de l’événement. Les applications permettent de couvrir l’ensemble des types de ressource qui peuvent être générés comme des vidéos, des images ou encore du texte. Les seconde et troisième parties sont dédiées au positionnement du dispositif comme « environnement-support » de l’événement. C’est-à-dire que dans ce contexte le dispositif y devient une composante fondamentale à partir de laquelle les participants peuvent structurer et « redocumentariser » les informations qui circulent. Une telle architecture transforme le paradigme traditionnel où les participants ne sont plus uniquement des récepteurs mais deviennent des acteurs qui participent - ici le terme participant prend tout son sens - à une démarche heuristique d’élaboration d’un flux de connaissance au milieu d’un « univers discursif, relationnel et conceptuel ». La quatrième partie traite de la question de l’économie de l’attention car un tel dispositif comporte le risque d’un curseur positionné sur la dispersion de l’attention des participants dans ce flot d’informations continu. Pour contrecarrer cet effet, l’auteure note que le dispositif est pensé pour générer « des boucles de réflexivité » entre les applications de gestion du live et celle d’agrégation des contenus qui permettent de retourner une image du dispositif (donc une vision plus étendue de l’événement) pour lequel ils sont les acteurs. Dans la dernìere partie, Merzeau revient sur la question de l’éditorialisation énoncée au début de l’article. Il s’agit ici de concevoir l’éditorialisation comme une augmentation du pouvoir d’agir des utilisateurs par l’apprentissage de com- pétences en littératie numérique. L’auteure conclue sur une hypothèse, celle d’une éditorialisation proposant une autre vision de l’espace numérique que celle proposée par l’idéologie dominante en aménageant des « espaces communs de la mémoire et de la connaissance » plutôt qu’un espace numérique d’indexation des individus et des pages.</p>
+</section>
+<section id="mise-en-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="mise-en-perspective">Mise en perspective</h2>
+<p>En 2012 / 2013 l’éditorialisation en est encore qu’à ses balbutiements. Cet article en propose une double vision : il y a tout d’abord un ensemble de dynamiques collectives qui structurent l’espace numérique, et là on se rapproche de la définition donnée par Vitali-Rosati (2016) quelques années plus tard ; ensuite, l’angle de vue de l’éditorialisation est réduit pour être centré autour de la notion de documentarisation de Zacklad (2013) et de l’organisation des connaissances. Ces deux visions sont a priori compatibles, la seconde étant une précision de la première. Toutefois, nous avons vu pendant l’École d’été (2022) que l’éditorialisation se divise aujourd’hui en différents courants à partir de la première définition. Vitali-Rosati se positionne différemment en incorporant la matérialité du numérique - et tous les contextes informationnels qui s’y rattachent - comme composante majeure de l’éditorialisation. S’opère alors un brusque changement dans la conception de l’éditorialisation qui, toutefois, ne remet pas en cause la dimension politique proposée par Merzeau. Il serait intéressant d’approfondir plus cette divergence entre les différents courants de ce concept pour repenser - à travers une boucle de réflexivité plus large - un événement tel que celui proposée dans cette publication.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>lecture</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-premiere-fiche.html</guid>
+  <pubDate>Mon, 04 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Mon Premier Post</title>
+  <link>https://RochDLY.github.io/carnet-these/posts/journal/mon-premier-post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="ceci-est-un-titre-de-niveau-2.1" class="level2">
+<h2 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-2.1">Ceci est un titre de niveau 2.1</h2>
+<p>Ceci est mon premier post yipikai.</p>
+</section>
+<section id="ceci-est-un-titre-de-niveau-2.2" class="level2">
+<h2 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-2.2">Ceci est un titre de niveau 2.2</h2>
+<p>Voici un billet de blog “test” que j’ai lancé lors de l’initialisation du site statique pour vérifier que tout fonctionne correctement.</p>
+<section id="ceci-est-un-titre-de-niveau-3" class="level3">
+<h3 class="anchored" data-anchor-id="ceci-est-un-titre-de-niveau-3">Ceci est un titre de niveau 3</h3>
+<p>Ce billet existe à une fin complètement utilitariste. Toutefois je le conserve comme trace des débuts avec le générateur de site statique Hugo.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://RochDLY.github.io/carnet-these/posts/journal/mon-premier-post.html</guid>
+  <pubDate>Sun, 03 Jul 2022 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
