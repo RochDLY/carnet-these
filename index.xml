@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>À la baille</title>
-<link>https://RochDLY.github.io/carnet-these/index.html</link>
-<atom:link href="https://RochDLY.github.io/carnet-these/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://cailloux.en-cours-de.construction/index.html</link>
+<atom:link href="https://cailloux.en-cours-de.construction/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Fri, 06 Jan 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/post-with-code/index.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/post-with-code/index.html</link>
   <description><![CDATA[ 
 
 
@@ -39,13 +39,13 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/post-with-code/index.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/post-with-code/index.html</guid>
   <pubDate>Fri, 06 Jan 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://RochDLY.github.io/carnet-these/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://cailloux.en-cours-de.construction/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Premier post</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/journal/index.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/journal/index.html</link>
   <description><![CDATA[ 
 
 
@@ -65,12 +65,12 @@ L’envie de tester Quarto comme un carnet de recherche m’attire depuis plusie
 
  ]]></description>
   <category>news</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/journal/index.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/journal/index.html</guid>
   <pubDate>Tue, 03 Jan 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bienveillance Des Machines</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/lectures/bienveillance-des-machines-part1.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/lectures/bienveillance-des-machines-part1.html</link>
   <description><![CDATA[ 
 
 
@@ -475,12 +475,12 @@ L’envie de tester Quarto comme un carnet de recherche m’attire depuis plusie
 
  ]]></description>
   <category>lecture</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/bienveillance-des-machines-part1.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/lectures/bienveillance-des-machines-part1.html</guid>
   <pubDate>Sat, 23 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Fiche : Markup Systems and the Future of Scholarly Text Processins</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-troisieme-fiche.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/lectures/ma-troisieme-fiche.html</link>
   <description><![CDATA[ 
 
 
@@ -507,12 +507,12 @@ En 1987 les spécifications cadres des langages de balisages ne sont pas encore 
 
  ]]></description>
   <category>lecture</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-troisieme-fiche.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/lectures/ma-troisieme-fiche.html</guid>
   <pubDate>Mon, 11 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Fiche : From data mining to knowledge discovery in databases</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-quatrieme-fiche.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/lectures/ma-quatrieme-fiche.html</link>
   <description><![CDATA[ 
 
 
@@ -545,12 +545,12 @@ En 1987 les spécifications cadres des langages de balisages ne sont pas encore 
 
  ]]></description>
   <category>lecture</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-quatrieme-fiche.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/lectures/ma-quatrieme-fiche.html</guid>
   <pubDate>Mon, 11 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Fiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-deuxieme-fiche.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/lectures/ma-deuxieme-fiche.html</link>
   <description><![CDATA[ 
 
 
@@ -574,12 +574,12 @@ En 1987 les spécifications cadres des langages de balisages ne sont pas encore 
 
  ]]></description>
   <category>lecture</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-deuxieme-fiche.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/lectures/ma-deuxieme-fiche.html</guid>
   <pubDate>Sun, 10 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Fiche : Éditorialisation collaborative d’un événement</title>
-  <link>https://RochDLY.github.io/carnet-these/posts/lectures/ma-premiere-fiche.html</link>
+  <link>https://cailloux.en-cours-de.construction/posts/lectures/ma-premiere-fiche.html</link>
   <description><![CDATA[ 
 
 
@@ -605,7 +605,7 @@ En 1987 les spécifications cadres des langages de balisages ne sont pas encore 
 
  ]]></description>
   <category>lecture</category>
-  <guid>https://RochDLY.github.io/carnet-these/posts/lectures/ma-premiere-fiche.html</guid>
+  <guid>https://cailloux.en-cours-de.construction/posts/lectures/ma-premiere-fiche.html</guid>
   <pubDate>Mon, 04 Jul 2022 22:00:00 GMT</pubDate>
 </item>
 </channel>
