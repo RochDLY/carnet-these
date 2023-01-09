@@ -1,12 +1,16 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "Premier post"
 date: "2023-01-04"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Ceci est le premier post d'un nouveau carnet, l'ancien (avec Hugo) ne me convenait pas vraiment.  
+L'envie de tester Quarto comme un carnet de recherche m'attire depuis plusieurs semaines, en effet cet outil centralise toutes les fonctionnalités dont j'ai besoin pour l'instant : 
 
-![](thumbnail.jpg)
+- la possibilité de convertir facilement mes documents (bon j'avoue que ça c'était réalisable avec Hugo puisque mes sources étaient en .md)
+- l'intégration d'un moteur de recherche (ça c'est cool !)
+- le tri par tag (présent aussi sous Hugo)
+- le flux RSS (aussi présent sous Hugo).
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Je reviens vite sur ce post dans les prochaines semaines après quelques essais !
+
