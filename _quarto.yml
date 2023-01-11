@@ -13,9 +13,9 @@ website:
     left: "© 2023 WTFPL, Roch Delannay. Ce site a été réalisé avec [Quarto](https://quarto.org/)"
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/RochDLY/carnet-these
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/Roch_DLY
   comments:
     hypothesis:
       theme: clean
@@ -24,7 +24,7 @@ website:
 format:
   html:
     theme:
-      light: litera
+      light: solar
       dark: vapor
     css: styles.css
     toc: true

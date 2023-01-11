@@ -60,6 +60,10 @@ Colloque sous la direction de Michael Sinatra : ACFAS, Montréal.
 - **L'intime dans le processus d'écriture savante : observations des manifestations intimes dans l'éditeur de texte Stylo**  
 Poster présenté lors du colloque Humanistica, Montréal.
 
+### 2021
+- **Urgence du Partage**  
+Table ronde organisé par Télérama, le Théâtre de la Ville, l'AP-HP Pitié Salpêtrière et la Scène de recherche de l’ENS Paris-Saclay, Paris.
+
 ### 2020
 - **Intime (vs. personnel)**  
 Colloque sous la direction d'Yves Citton : _Les Angles morts du numérique ubiquitaire_, Cerisy.
@@ -71,23 +75,30 @@ Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022
 - **Présentation de Stylo**  
 Atelier réalisé au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
 - **Rédaction et éditions savantes avec l'éditeur de texte Stylo**  
-Atelier réalisé lors du colloque Humanistica à l'Université de Mintréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay. 
-
-### 2021
-- **Urgence du Partage**  
-Table ronde organisé par Télérama, le Théâtre de la Ville, l'AP-HP Pitié Salpêtrière et la Scène de recherche de l’ENS Paris-Saclay, Paris.
+Atelier réalisé lors du colloque Humanistica à l'Université de Mintréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.
 
 ## Expériences professionnelles
 
-### Postes liés à la recherche
+### Enseignements
+
+#### Chargé de cours | Université de Paris Nanterre | 2023
+- Cours de licence en sciences de l'information et de la communication - [Identités numériques](https://identites-numeriques.en-cours-de.construction/), dispensé à l'hiver.
+
+#### Débugue tes humanités | Université de Montréal | 2022 - 2023
+- Coordination de la formation [Débugue tes humanités](https://debugue.ecrituresnumeriques.ca/), en partenariat avec la Chaire de recherche du Canada sur les écritures numériques, la Bibliothèque de lettres et sciences humaines de l’Université de Montréal, ainsi que l’Ouvroir d’histoire de l’art et de muséologie numérique.
 
 #### Chargé de cours | Université de Montréal | 2022
 - Cours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l'automne.
 
+### Postes liés à la recherche
+
+#### Ingénieur d'étude | Laboratoire DICEN-IdF | 2023
+- Réalisation des livrables finaux du projet ANR Collabora.
+
 #### Auxiliaire de recherche | Université de Montréal | 2022
 - Rédaction d'un rapport sur les forges de publication.
 
-#### Assistant d'édition | EUR ArTeC | 2021
+#### Chargé d'édition | EUR ArTeC | 2021
 - Participation à la mise en œuvre d'un programme éditorial en assurant la réalisation de publications imprimées et électroniques et leur mise à disposition du public (revue Hybrid, Grande et Petite Collection ArTeC auprès des Presses du Réel).
 - Participation à la politique de numérisation et d'ouverture des collections.
 - Gestion de la chaîne éditoriale.
