@@ -46,7 +46,7 @@ nous transforme à notre insu, *Sens public*.
 
 ### Ouvrages collaboratifs
 - Delannay, R. (2023). Intime (vs. Personnel). Dans Y. Citton (dirs.), _Les Angles morts du numérique ubiquitaire : actes du colloques_ (2020), Les Presses du réel, Dijon.
-- Sinatra, M. *et al.*, (à paraître en 2023). Notes sur le projet Digital Leigh Hunt, sous la direction de R. Alessi et M. Vitalo-Rosati, Dans _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
+- Delannay, R. *et al.*, (2023). Notes sur le projet Digital Leigh Hunt, sous la direction de R. Alessi et M. Vitalo-Rosati, Dans _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
 
 ## Conférences
 
@@ -75,13 +75,13 @@ Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022
 - **Présentation de Stylo**  
 Atelier réalisé au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
 - **Rédaction et éditions savantes avec l'éditeur de texte Stylo**  
-Atelier réalisé lors du colloque Humanistica à l'Université de Mintréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.
+Atelier réalisé lors du colloque Humanistica à l'Université de Montréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.
 
 ## Expériences professionnelles
 
 ### Enseignements
 
-#### Chargé de cours | Université de Paris Nanterre | 2023
+#### Chargé de cours | Université Paris Nanterre | 2023
 - Cours de licence en sciences de l'information et de la communication - [Identités numériques](https://identites-numeriques.en-cours-de.construction/), dispensé à l'hiver.
 
 #### Débugue tes humanités | Université de Montréal | 2022 - 2023
