@@ -1,0 +1,15 @@
+---
+title: "Glossaire"
+listing:
+  contents: glossaire
+  sort: "title"
+  type: table
+  fields: [title]
+  table-hover: true
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: full
+title-block-banner: false
+---
