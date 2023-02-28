@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>À la baille</title>
+<link>https://cailloux.en-cours-de.construction/glossaire.html</link>
+<atom:link href="https://cailloux.en-cours-de.construction/glossaire.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Mon, 27 Feb 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Architexte</title>
+  <link>https://cailloux.en-cours-de.construction/glossaire/architexte.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><strong>Jeanneret et Souchier, <em>Le Numérique comme écriture</em>, 2019 (voir le <a href="https://www-cairn-info.faraway.parisnanterre.fr/le-numerique-comme-ecriture--9782200618582-page-301.htm">Glossaire</a>)</strong></p>
+<p>Gérard Genette avait défini l’architexte comme « l’ensemble des catégories générales, ou transcendantes – types de discours, modes d’énonciation, genres littéraires, etc. – dont relève chaque texte singulier ». Cherchant à ouvrir la voie à une « théorie générale des formes littéraires », il précisait alors que « l’objet de la poétique n’est pas le texte, mais l’architexte » (G. Genette, 1979).</p>
+<p>Spécifiquement appliquée aux médias informatisés, la notion d’architexte que nous convoquons n’est pas extérieure au texte mais lui est constitutive et opératoire. Nous partons du constat qu’« on ne peut produire un texte à l’écran sans outils d’écriture situés en amont » (Y. Jeanneret, E. Souchier, 1999). Suivant une étymologie grecque (archè, origine et commandement), nous proposons le terme architexte pour désigner « les outils qui permettent l’existence de l’écrit à l’écran et qui, non contents de représenter la structure du texte, en commandent l’exécution et la réalisation ».</p>
+<p>Initialement défini comme une « écriture d’écriture » puis comme un « dispositif d’écriture écrit », l’architexte s’avère être un point de passage obligé pour toute activité numérique. Il n’y a effectivement pas d’écriture à l’écran sans un architexte qui la rend possible, l’accompagne et la formate. Pour la première fois de son histoire, l’homme a donc recours à des « dispositifs d’écriture écrits » spécifiques pour pouvoir pratiquer une activité d’écriture (E. Souchier, 1998, 2013). Or, précisément en ce qu’ils sont « eux-mêmes écrits », les architextes « sont des textes lisibles et interprétables. Porteurs et prescripteurs d’une écriture à venir, ils anticipent de ce fait une figure de l’auteur » (É. Candel, G. Gomez Mejia, 2013) et relèvent donc de « l’énonciation éditoriale » (E. Souchier, 1998).</p>
+<p>Les logiciels de traitement de texte ou les formulaires d’actualisation des pages Web, par exemple, sont des architextes qui balisent et régissent le montage des écritures à l’écran. Les architextes posent la question de la relation établie entre la technique et les langages symboliques dans la production des textes numériques. Mais ils sont également situés au cœur de la question cruciale des rapports de pouvoir tissés entre tous les partenaires de l’énonciation éditoriale (V. Jeanne-Perrier, 2006). Les architextes régulent effectivement la « polyphonie énonciative », de toutes les « voix » qui s’expriment sur les médias informatisés.</p>
+<ul>
+<li>Genette G., Introduction à l’architexte, Paris, Seuil, 1979.</li>
+<li>Souchier E., Lire et écrire : éditer ; des manuscrits aux écrans. Autour de l’œuvre de Raymond Queneau, Habilitation à diriger des recherches, Université Paris 7 Denis Diderot, 1998.</li>
+<li>Jeanneret Y., souchier e., « Pour une poétique de l’écrit d’écran », Xoana, n° 6, 1999.</li>
+<li>Souchier E., jeanneret y., le marec J. (sous la dir. de), Lire, écrire, récrire. Objets, signes et pratiques des médias informatisés, Paris, Bibliothèque Publique d’Information-Centre Pompidou, 2003.</li>
+<li>Jeanne-Perrier V., « Des outils d’écriture aux pouvoirs exorbitants ? », Réseaux, n° 137, 2006.</li>
+<li>Souchier E., « Le livre au risque de l’écrit d’écran et des écrits de réseaux », in A. Zali (dir.), La grande aventure du livre. De la tablette d’argile à la tablette numérique, Bibliothèque nationale de France-Hatier, 2013.</li>
+<li>Candel É., Gomez-Mejia G., « Écrire l’auteur. La pratique éditoriale comme construction socioculturelle de la littérarité des textes sur le Web », in S. Ducas et O. Deseilligny (dir.), L’auteur en réseau, les réseaux de l’auteur, Presses Universitaires de Paris Nanterre, 2013.</li>
+<li>Gomez-Mejia G., Les fabriques de soi ? Identité et industrie sur le Web, Paris, MkF éditions, 2016.</li>
+</ul>
+
+
+
+ ]]></description>
+  <guid>https://cailloux.en-cours-de.construction/glossaire/architexte.html</guid>
+  <pubDate>Mon, 27 Feb 2023 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Editorialisation</title>
+  <link>https://cailloux.en-cours-de.construction/glossaire/editorialisation.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Définition 1 :</p>
+<blockquote class="blockquote">
+<p>Selon la définition restreinte, l’éditorialisation désigne l’ensemble des appareils techniques (le réseau, les serveurs, les plateformes, les CMS, les algorithmes des moteurs de recherche), des structures (l’hypertexte, le multimédia, les métadonnées) et des pratiques (l’annotation, les commentaires, les recommandations via les réseaux sociaux) permettant de produire et d’organiser un contenu sur le web9. En d’autres termes, l’éditorialisation est une instance de mise en forme et de structuration d’un contenu dans un environnement numérique. On pourrait dire, en ce sens, que l’éditorialisation est ce que devient l’édition sous l’influence des technologies numériques.</p>
+</blockquote>
+<ul>
+<li>Vitali-Rosati, <a href="http://sens-public.org/articles/1184/">“Qu’est-ce que l’éditorialisation”</a>, 2016.</li>
+</ul>
+<p>Définition 2 :</p>
+<blockquote class="blockquote">
+<p>La deuxième définition est une extension de la première, en se basant sur l’idée que l’espace numérique implique une superposition et finalement, une fusion entre discours et réalité. J’expliquerai tout à l’heure cette idée plus en détail, mais pour le moment, limitons-nous à son principe général : dans un monde numérique connecté, exister signifie être éditorialisé. En effet, dans l’espace numérique, un objet doit être connecté et mis en relation avec les autres objets pour exister.</p>
+</blockquote>
+<ul>
+<li>Vitali-Rosati, <a href="http://sens-public.org/articles/1184/">“Qu’est-ce que l’éditorialisation”</a>, 2016.</li>
+</ul>
+<p>Définition 3 :</p>
+<blockquote class="blockquote">
+<p>L’éditorialisation désigne l’ensemble des dynamiques qui produisent et structurent l’espace numérique. Ces dynamiques sont les interactions des actions individuelles et collectives avec un environnement numérique particulier.</p>
+</blockquote>
+<ul>
+<li>Vitali-Rosati, <a href="http://sens-public.org/articles/1184/">“Qu’est-ce que l’éditorialisation”</a>, 2016.</li>
+</ul>
+<p>Définition 4 :</p>
+<blockquote class="blockquote">
+<p>L’éditorialisation est l’ensemble des dynamiques qui constituent l’espace numérique et qui permettent à partir de cette constitution l’émergence du sens. Ces dynamiques sont le résultat de forces et d’actions différentes qui déterminent après-coup l’apparition et l’identification d’objets particuliers (personnes, communautés, algorithmes, plateformes…).</p>
+</blockquote>
+<ul>
+<li>Vitali-Rosati, <a href="http://sens-public.org/articles/1598/">“Pour une pensée préhumaine”</a>, 2021.</li>
+</ul>
+
+
+
+ ]]></description>
+  <guid>https://cailloux.en-cours-de.construction/glossaire/editorialisation.html</guid>
+  <pubDate>Mon, 27 Feb 2023 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Identité Numérique</title>
+  <link>https://cailloux.en-cours-de.construction/glossaire/identiteNum.html</link>
+  <description><![CDATA[ 
+
+
+
+<blockquote class="blockquote">
+<p>L’identité numérique est constituée de la somme des traces numériques se rapportant à un individu ou à une collectivité&nbsp;: des traces «&nbsp;profilaires&nbsp;» correspondant à ce que je dis de moi (qui suis-je&nbsp;?)&nbsp;; des traces «&nbsp;navigationnelles&nbsp;» qui renseignent sur les sites que je fréquente et sur lesquels je commente ou j’achète (comment je me comporte)&nbsp;; enfin des traces inscriptibles et déclaratives – ce que je publie sur mon blog par exemple – qui reflètent directement mes idées et mes opinions (ce que je pense).<br>
+De manière plus circonstanciée, l’identité numérique peut être définie comme la collection des traces (écrits, contenus audios ou vidéos, messages sur des forums, identifiants de connexion, etc.) que nous laissons derrière nous, consciemment ou inconsciemment, au fil de nos navigations sur le réseau et le reflet de cet ensemble de traces, tel qu’il apparaît «&nbsp;remixé&nbsp;» par les moteurs de recherche.</p>
+</blockquote>
+<ul>
+<li>Olivier Ertzscheid, <a href="https://books.openedition.org/oep/405"><em>Qu’est-ce que l’identité numérique ?</em></a>, 2013.</li>
+</ul>
+<blockquote class="blockquote">
+<p>L’identité numérique est un processus collectif&nbsp;: les participants montrent d’eux des signes que les autres approuvent plutôt que des signes qui ne retiennent pas leur attention. Leur identité est produite par le réseau social d’amis qu’ils ont choisi, par leur utilisation de telle ou telle plateforme, par le fait qu’ils s’exposent aux commentaires et aux likes de personnes qui, elles-mêmes, exposent et privilégient tel ou tel trait de leur propre identité. Bref, leur identité numérique n’appartient pas totalement aux individus. Elle est la conséquence de l’espace social dans lequel ils interagissent.</p>
+</blockquote>
+<ul>
+<li>Dominique Cardon, <a href="https://www.cairn.info/culture-numerique--9782724623659-page-176.htm">“Identité en ligne”</a>, 2019.</li>
+</ul>
+
+
+
+ ]]></description>
+  <guid>https://cailloux.en-cours-de.construction/glossaire/identiteNum.html</guid>
+  <pubDate>Mon, 27 Feb 2023 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

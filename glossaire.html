@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-07-11">
 
-<title>À la baille - Fiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?</title>
+<title>À la baille - Glossaire</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +62,35 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script type="application/json" class="js-hypothesis-config">
 {
   "theme": "clean",
@@ -69,9 +99,10 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
-</head>
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="À la baille" href="glossaire.xml"></head>
 
 <body class="nav-fixed">
 
@@ -80,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">À la baille</span>
     </a>
   </div>
@@ -90,15 +121,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../glossaire.html">
+    <a class="nav-link active" href="./glossaire.html" aria-current="page">
  <span class="menu-text">Glossaire</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="./about.html">
  <span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -112,67 +143,72 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Fiche : La réinvention du passé : Une lecture de Qu’est-ce que le patrimoine numérique ?</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">lecture</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 11, 2022</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#résumé" id="toc-résumé" class="nav-link active" data-scroll-target="#résumé">Résumé</a></li>
-  <li><a href="#résumé-des-parties-et-mise-en-perspective" id="toc-résumé-des-parties-et-mise-en-perspective" class="nav-link" data-scroll-target="#résumé-des-parties-et-mise-en-perspective">Résumé des parties et mise en perspective</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Glossaire</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
 
 
 
 
-<section id="résumé" class="level2">
-<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
-<p>Servanne Monjour nous propose dans cet article une recension de l’ouvrage de Matteo Treleani Qu’est-ce que le patrimoine numérique ? Une sémiologie de la circulation des archives publié en 2017. Dans cet article, l’auteure a fait le choix de centrer son approche sur les conséquences d’une nouvelle conception du passé qui serait engendrée par la gestion des documents numériques et « [les] mutations épistémologiques de la fabrique des archives » qui y sont associées.</p>
-<blockquote class="blockquote">
-<p>Or « [e]nvisager le tout-archive comme une mémoire sans perte est le véritable problème », autant parce que cette pensée pèche par excès de confiance en la mémoire supposée exhaustive du web (la nouvelle mythologie du big data par exemple), que parce que la mémoire n’a, par définition, aucun intérêt sans l’activité herméneutique qui permet d’en extraire un sens.</p>
-</blockquote>
-</section>
-<section id="résumé-des-parties-et-mise-en-perspective" class="level2">
-<h2 class="anchored" data-anchor-id="résumé-des-parties-et-mise-en-perspective">Résumé des parties et mise en perspective</h2>
-<p>Dans un premier temps, Monjour recontextualise les problématiques soulevées dans l’ouvrage de Treleani, à savoir : « dans quelle mesure le sens d’un document original est-il transformé au cours du processus de numérisation et de médiation numérique ? Comment penser, pour les générations futures, la constitution de notre patrimoine contemporain, quand le numérique semble offrir la possibilité de conserver de gigantesques masses de données ? ». Un second temps est accordé à l’archéologie des médias et à la nature des documents numériques, notamment l’obsolescence qui en découle, mis en vis-à-vis de la nécessité de penser la conservation des documents au fil de leur apparition. Le patrimoine numérique est décrit selon des formes de relation entre les technologies numériques et les « domaines susceptibles d’être patrimonialisés », chacun ayant des implications différentes : - le numérique pour le patrimoine ; - le patrimoine sur support numérique ; - l’archivage du patrimoine numérique. Le patrimoine numérique, en fonction de la nature de la relation, exige des considérations adaptées aux documents qui dépasse la simple numérisation et le stockage.</p>
-<p>Dans une autre partie, c’est à travers la notion d’éditorialisation que Monjour souligne la « perte de contrôle des institutions [qui] s’opère au profit de “logiques propres à une médiation numérique [qui] façonnent la manière de publier et de valoriser des archives” », dégageant ainsi l’archive de son domaine “fermé” dans lequel règnent les archivistes. Dans la citation ci-dessus, l’auteure rapproche la notion de mémoire de celle de l’archive et souligne la présence obligatoire de ce que Derrida nomme le droit herméneutique pour traiter les archives. C’est-à-dire que, au-delà de la très actuelle question de l’oubli, une archive est étymologiquement liée à un lieu (<em>Archeion</em>) et à une figure d’autorité (Archonte) qui exerce un pouvoir herméneutique sur les archives dont il est le gardien. Est-ce que dans le cas du numérique nous pouvons parler d’une perte de contrôle des institutions sur les archives ?</p>
-<p>Une autre hypothèse consisterait à envisager que dans l’espace numérique nous aurions affaire à un éclatement du lieu de stockage des archives pour une décentralisation vers les plateformes (et les <em>datacenters</em> sous-jacents) qui travaillent avec des documents numériques. Cependant, les lieux ne sont pas les seuls à différer, les archontes, figures d’autorité, ne sont plus les mêmes non plus, chacun exerçant sont droit herméneutique selon sa vision du monde. Or l’une des propriétés du numérique est de pouvoir dupliquer un objet, un document, de manière illimitée tant que l’espace de stockage (matériel) le permet. Dès lors un même objet peut se voir archivé dans de multiples lieux, accordant ainsi la pos- sibilité à la figure d’autorité de l’interpréter. Au-delà du paradigme économique, l’archivage numérique ne serait plus associé à une perte de pouvoir mais à une démultiplication de celui-ci par accroisssement des lieux et des figures d’autorité qui apparaissent sur la scène de l’infosphère. La première problématique émergente, comme le souligne Monjour dans sa conclusion, relève du degré de confiance (du pouvoir accordé) envers les autorités qui détiennent les archives : dans quelle mesure pouvons-nous/devons-nous confier le soin de nos archives à telle ou telle institution ? Cette question en sous-entends une autre qui est celle de l’analyse critique des productions d’archives et des prismes qui les constituent, l’idée étant d’utiliser les outils numériques à disposition non pas pour tout déconstruire mais pour enrichir, développer et compléter des archives par une multitude de perspectives.</p>
 
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 
-</section>
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+<th>
+Title
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1677591735835" data-listing-reading-time-sort="2.885" data-listing-title-sort="Architexte" data-listing-filename-sort="architexte.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+<a href="./glossaire/architexte.html" class="title">Architexte</a>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1677591823882" data-listing-reading-time-sort="1.355" data-listing-title-sort="Editorialisation" data-listing-filename-sort="editorialisation.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+<a href="./glossaire/editorialisation.html" class="title">Editorialisation</a>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1677592193163" data-listing-reading-time-sort="1.275" data-listing-title-sort="Identité Numérique" data-listing-filename-sort="identiteNum.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+<a href="./glossaire/identiteNum.html" class="title">Identité Numérique</a>
+</td>
+</tr>
+</tbody>
 
-</main> <!-- /main -->
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
