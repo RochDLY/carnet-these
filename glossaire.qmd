@@ -6,7 +6,7 @@ listing:
   type: table
   fields: [title]
   table-hover: true
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
   feed: true
