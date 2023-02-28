@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -73,7 +73,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
@@ -120,6 +121,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./glossaire.html">
+ <span class="menu-text">Glossaire</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">
  <span class="menu-text">À propos</span></a>
@@ -173,15 +178,33 @@ Ce carnet au format web se nomme “à la baille”, c’est là que j’y jette
 
 
 <div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+</div>
 
 <table class="quarto-listing-table table table-hover">
 <thead>
 <tr>
 <th>
-Title
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-Date
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 <th>
 Categories
@@ -201,10 +224,10 @@ Jan 7, 2023
 news,code,analysis
 </td>
 </tr>
-<tr data-index="1" data-categories="news" data-listing-date-sort="1672786800000" data-listing-file-modified-sort="1673303161817" data-listing-reading-time-sort="0.515" data-listing-title-sort="Premier post" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-categories="news" data-listing-date-sort="1672786800000" data-listing-file-modified-sort="1673303161817" data-listing-reading-time-sort="0.515" data-listing-title-sort="Premier post" data-listing-filename-sort="premierPost.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-title">
-<a href="./posts/journal/index.html" class="title">Premier post</a>
+<a href="./posts/journal/premierPost.html" class="title">Premier post</a>
 </td>
 <td class="listing-date">
 Jan 4, 2023
@@ -213,10 +236,10 @@ Jan 4, 2023
 news
 </td>
 </tr>
-<tr data-index="2" data-categories="lecture" data-listing-date-sort="1658613600000" data-listing-file-modified-sort="1673301401702" data-listing-reading-time-sort="18.92" data-listing-title-sort="Bienveillance Des Machines" data-listing-filename-sort="bienveillance-des-machines-part1.md" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="2" data-categories="lecture" data-listing-date-sort="1658613600000" data-listing-file-modified-sort="1677589837843" data-listing-reading-time-sort="18.92" data-listing-title-sort="Bienveillance des Machines" data-listing-filename-sort="bienveillance-des-machines-part1.md" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-title">
-<a href="./posts/lectures/bienveillance-des-machines-part1.html" class="title">Bienveillance Des Machines</a>
+<a href="./posts/lectures/bienveillance-des-machines-part1.html" class="title">Bienveillance des Machines</a>
 </td>
 <td class="listing-date">
 Jul 24, 2022
@@ -279,6 +302,9 @@ lecture
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

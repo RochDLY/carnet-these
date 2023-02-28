@@ -1,9 +1,17 @@
 [
   {
+    "listing": "/glossaire.html",
+    "items": [
+      "/glossaire/architexte.html",
+      "/glossaire/editorialisation.html",
+      "/glossaire/identiteNum.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/journal/index.html",
+      "/posts/journal/premierPost.html",
       "/posts/lectures/bienveillance-des-machines-part1.html",
       "/posts/lectures/ma-troisieme-fiche.html",
       "/posts/lectures/ma-quatrieme-fiche.html",

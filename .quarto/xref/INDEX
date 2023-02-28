@@ -40,5 +40,29 @@
   },
   "posts/lectures/ma-premiere-fiche.qmd": {
     "ma-premiere-fiche.html": "f4692f8a"
+  },
+  "glossaire.qmd": {
+    "glossaire.html": "47cebc0c"
+  },
+  "posts/glossaire/editorialisation.qmd": {
+    "editorialisation.html": "537f2712"
+  },
+  "posts/glossaire/identiteNum.qmd": {
+    "identiteNum.html": "8ec2f051"
+  },
+  "posts/glossaire/architexte.qmd": {
+    "architexte.html": "f4a9a7b9"
+  },
+  "glossaire/editorialisation.qmd": {
+    "editorialisation.html": "66cca108"
+  },
+  "glossaire/identiteNum.qmd": {
+    "identiteNum.html": "edb09ca8"
+  },
+  "glossaire/architexte.qmd": {
+    "architexte.html": "12fd8964"
+  },
+  "posts/journal/premierPost.qmd": {
+    "premierPost.html": "81b2cbc3"
   }
 }
