@@ -28,6 +28,7 @@ format:
       light: flatly
       dark: solar
     css: styles.css
+    mainfont: Jetbrains Mono
     toc: true
 
 
