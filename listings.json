@@ -10,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/journal/sujetThese.html",
       "/posts/post-with-code/index.html",
       "/posts/journal/premierPost.html",
       "/posts/lectures/bienveillance-des-machines-part1.html",
