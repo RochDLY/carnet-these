@@ -42,7 +42,7 @@ toc: false
 ### Articles scientifiques 
 
 - Delannay, R. (2022), Lecture de La Bienveillance des machines. Comment le numérique nous transforme à notre insu, *Sens public*.
-- Vitali-Rosati, M *et al* (2022). Scholarly writing and editing with the text editor Stylo. Dans _Digital Humanities 2022 : Conference Abstracts_, Tokyo, En ligne.
+- Delannay, R. *et al* (2022). Scholarly writing and editing with the text editor Stylo. Dans _Digital Humanities 2022 : Conference Abstracts_, Tokyo, En ligne.
 
 ### Autres Articles 
 
