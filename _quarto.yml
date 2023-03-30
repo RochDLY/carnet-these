@@ -11,7 +11,7 @@ website:
       - icon: rss
         href: index.xml
   page-footer:
-    left: "© 2023 WTFPL, Roch Delannay. Ce site a été réalisé avec [Quarto](https://quarto.org/)"
+    left: "© 2023 CC BY-NC-SA, Roch Delannay. Ce site a été réalisé avec [Quarto](https://quarto.org/)"
     right:
       - icon: github
         href: https://github.com/RochDLY/carnet-these
@@ -24,12 +24,36 @@ website:
   site-url: "https://cailloux.en-cours-de.construction"
 format:
   html:
+    title-block-banner: false
     theme:
       light: flatly
       dark: solar
+    citation:
+      language: fr
+      type: post-weblog
+    citations-hover: true
+    footnotes-hover: true
+    nocite: |
+      @*
+    csl: bibliographie/csl/apa.csl
     css: styles.css
     mainfont: Jetbrains Mono
     toc: true
+
+# Informations sur l'auteur
+author:
+    name: Roch Delannay
+    orcid: 0000-0002-3519-4365
+    email: roch.delannay@gmail.com
+    affiliations:
+      - id: upn
+        name: Université Paris Nanterre
+        city: Paris
+        state: France
+      - id: udem
+        name: Université de Montréal
+        city: Montréal
+        state: Québec
 
 
 

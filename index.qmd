@@ -12,7 +12,8 @@ listing:
   feed: true
   page-size: 5
 page-layout: full
-title-block-banner: false
+#title-block-banner: false
+citation: false
 ---
 
 Je suis Roch et ceci est mon carnet.  
@@ -22,4 +23,3 @@ Finalement, ce carnet n'appartient à aucune des deux catégories mentionnées m
 Ce carnet au format web se nomme "à la baille", c'est là que j'y jette toutes mes pensées, et c'est à travers elles que de temps à autre je circule.
 Certaines sont des détritus, des déchets sur lesquels je ne reviendrai jamais, alors que d'autres sont plus intéressantes et plus percutantes.
 J'ouvre ce carnet à la lecture dans un espace "public", le Web, pour donner à voir la formation et la construction d'une pensée et d'un chercheur.
-Pour montrer cette évolution, je n'éditerai pas les billets postés, sauf exception où la mention [Edit - Date] sera ajoutée à la fin du billet ainsi que le contenu additionnel, à la suite du billet initial.
