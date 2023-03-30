@@ -6,3 +6,9 @@
     font-style: normal;
 
 }
+
+.page-columns .content {
+    grid-column: screen-start-inset/body-content-end;
+      grid-column-start: screen-start-inset;
+      grid-column-end: body-content-end;
+}
