@@ -2,6 +2,7 @@
 title: "À propos"
 date: "2023-01-10"
 toc: false
+citation: false
 ---
 
 ## Formations
@@ -29,7 +30,7 @@ toc: false
 - Projet : Réalisation d'un pétillant naturel.
 - Compétences : Maîtrise de la chaine de production du vin, de la plantation de la vigne à la mise en bouteille du vin.
 
-**École de maistrance | 2012 | Centre d’Instruction Naval de Brest**  
+**École de Maistrance | 2012 | Centre d’Instruction Naval de Brest**  
 
 - Spécialité : Electronicien d’armes.
 
@@ -39,27 +40,31 @@ toc: false
 
 ## Publications
 
+### Actes de colloque
+
+- Delannay, R. *et al* (2022). « Scholarly writing and editing with the text editor Stylo ». Dans _Digital Humanities 2022 : Conference Abstracts_, Tokyo, En ligne.
+- Delannay, R. (2023). « Intime (vs. Personnel) ». Dans Y. Citton (dirs.), _Les Angles morts du numérique ubiquitaire : actes du colloques_ (2020), Les Presses du réel, Dijon.  
+
+
 ### Articles scientifiques 
 
 - Delannay, R. (2022), Lecture de La Bienveillance des machines. Comment le numérique nous transforme à notre insu, *Sens public*.
-- Delannay, R. *et al* (2022). Scholarly writing and editing with the text editor Stylo. Dans _Digital Humanities 2022 : Conference Abstracts_, Tokyo, En ligne.
 
 ### Autres Articles 
 
 - Delannay, R. (2021, juin). Urgence du Partage. Télérama. Consulté le 13 octobre 2021 sur le [site de Télérama](https://www.telerama.fr/debats-reportages/les-24-et-25-juin-les-etudiants-face-aux-sciences-et-a-lenvironnement-pour-notre-generation-lurgence-6905383.php).
 
+### Mémoire 
+
+- Delannay, R. (2021). *L'Invention de Morel au prisme de l'éthique des données personnelles* [Mémoire, Université Paris 8].
+
 ### Ouvrages collaboratifs
 
-- Delannay, R. (2023). Intime (vs. Personnel). Dans Y. Citton (dirs.), _Les Angles morts du numérique ubiquitaire : actes du colloques_ (2020), Les Presses du réel, Dijon.  
-- Delannay, R. *et al.*, (2023). Notes sur le projet Digital Leigh Hunt, sous la direction de Alessi, R. et Vitalo-Rosati, M. Dans _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
+- Delannay, R. *et al.*, (2023). « Notes sur le projet Digital Leigh Hunt ». Dans R. Alessi et M. Vitali-Rosati (dirs.), _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
 
 ### Rapports de recherche 
 
 - Delannay, R. et Fauchié, A. (à paraître). *Rapport de recherche sur les forges de publication*, sous la direction de Château-Dutier, E. et Sinatra, M.
-
-### Mémoire 
-
-- Delannay, R. (2021). *L'Invention de Morel au prisme de l'éthique des données personnelles* [Mémoire, Université Paris 8].
 
 ## Conférences
 
