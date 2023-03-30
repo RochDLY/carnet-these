@@ -1,7 +1,8 @@
 ---
 title: "Premier post"
 date: "2023-01-04"
-categories: [news]
+categories: [journal]
+title-block-banner: false
 ---
 
 Ceci est le premier post d'un nouveau carnet, l'ancien (avec Hugo) ne me convenait pas vraiment.  

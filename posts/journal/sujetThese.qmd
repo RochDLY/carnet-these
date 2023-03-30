@@ -1,8 +1,10 @@
 ---
 title: "La manifestation de l'intimité du chercheur à travers les écritures numériques savantes"
 subtitle: "Cas des publications scientifiques"
-date: "2023-03-14"
-categories: [news, these]
+date: 03/14/2023
+categories: [these, journal]
+bibliography: ../../bibliographie/sujet-fev-23.bib
+title-block-banner: false
 ---
 
 Ce document est une ébauche de mon sujet de thèse, c'est encore une version de travail. 
@@ -99,3 +101,8 @@ Mémoire de l'intime et transmission :
         - formats
         - techniques
     - Diffusion et communication (puis, quelles sont les réactions ?)
+
+## Références
+
+::: {#refs}
+:::
