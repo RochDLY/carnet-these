@@ -3,6 +3,7 @@ title: "Bienveillance des Machines"
 date: "2022-07-24"
 draft: false
 categories: [lecture]
+title-block-banner: false
 ---
 
 ## 2022-07-24 - Introduction

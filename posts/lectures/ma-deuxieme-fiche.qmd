@@ -3,6 +3,7 @@ title: "Fiche : La réinvention du passé : Une lecture de Qu’est-ce que le pa
 date: "2022-07-11"
 draft: false
 categories: [lecture]
+title-block-banner: false
 ---
 
 ## Résumé
