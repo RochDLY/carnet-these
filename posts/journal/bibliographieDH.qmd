@@ -1,0 +1,14 @@
+---
+title: "Petite liste de références en Humanités numériques"
+date: "2023-03-30"
+categories: [these, journal]
+bibliography: ../../bibliographie/liste-dh.bib
+title-block-banner: false
+---
+
+Dans le cadre de mon examen de synthèse (examen doctoral à l'Université de Montréal), il me faut fournir une bibliographie d'une trentaine de références associées à ce champ de recherche. Ci-dessous une première sélection (il me reste un peu de tri à faire et à nettoyer les références).
+
+## Références
+
+::: {#refs}
+:::
