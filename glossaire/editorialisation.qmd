@@ -1,11 +1,12 @@
 ---
 title: "Editorialisation"
 date: "2023-02-28"
+citation: false
 ---
 
 Définition 1 : 
 
-> Selon la définition restreinte, l’éditorialisation désigne l’ensemble des appareils techniques (le réseau, les serveurs, les plateformes, les CMS, les algorithmes des moteurs de recherche), des structures (l’hypertexte, le multimédia, les métadonnées) et des pratiques (l’annotation, les commentaires, les recommandations via les réseaux sociaux) permettant de produire et d’organiser un contenu sur le web9. En d’autres termes, l’éditorialisation est une instance de mise en forme et de structuration d’un contenu dans un environnement numérique. On pourrait dire, en ce sens, que l’éditorialisation est ce que devient l’édition sous l’influence des technologies numériques. 
+> Selon la définition restreinte, l’éditorialisation désigne l’ensemble des appareils techniques (le réseau, les serveurs, les plateformes, les CMS, les algorithmes des moteurs de recherche), des structures (l’hypertexte, le multimédia, les métadonnées) et des pratiques (l’annotation, les commentaires, les recommandations via les réseaux sociaux) permettant de produire et d’organiser un contenu sur le web. En d’autres termes, l’éditorialisation est une instance de mise en forme et de structuration d’un contenu dans un environnement numérique. On pourrait dire, en ce sens, que l’éditorialisation est ce que devient l’édition sous l’influence des technologies numériques. 
 
 - Vitali-Rosati, ["Qu'est-ce que l'éditorialisation"](http://sens-public.org/articles/1184/), 2016.
 

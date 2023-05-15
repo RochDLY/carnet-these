@@ -70,5 +70,29 @@
   },
   "posts/journal/bibliographieDH.qmd": {
     "bibliographieDH.html": "e3771a69"
+  },
+  "glossaire/document.qmd": {
+    "document.html": "ee6825ea"
+  },
+  "glossaire/enonciation-editoriale.qmd": {
+    "enonciation-editoriale.html": "44ff1720"
+  },
+  "glossaire/cadres-semiotiques-ecrits-d-ecran.qmd": {
+    "cadres-semiotiques-ecrits-d-ecran.html": "53fdc792"
+  },
+  "posts/journal/tombeau.qmd": {
+    "tombeau.html": "c9395a64"
+  },
+  "glossaire/version.qmd": {
+    "version.html": "86d1b39f"
+  },
+  "posts/journal/editorialisation-est-un-tombeau.qmd": {
+    "editorialisation-est-un-tombeau.html": "15632c99"
+  },
+  "posts/journal/architexte-est-un-tombeau.qmd": {
+    "architexte-est-un-tombeau.html": "155b9298"
+  },
+  "posts/journal/le-traitement-de-texte-est-une-souffrance.qmd": {
+    "le-traitement-de-texte-est-une-souffrance.html": "e4aa62ff"
   }
 }

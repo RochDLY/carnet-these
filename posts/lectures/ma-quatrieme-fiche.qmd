@@ -3,7 +3,6 @@ title: "Fiche : From data mining to knowledge discovery in databases"
 date: "2022-07-12"
 draft: false
 categories: [lecture]
-title-block-banner: false
 ---
 
 ## Résumé

@@ -3,7 +3,6 @@ title: "Fiche : Markup Systems and the Future of Scholarly Text Processins"
 date: "2022-07-12"
 draft: false
 categories: [lecture]
-title-block-banner: false
 ---
 
 ## Résumé

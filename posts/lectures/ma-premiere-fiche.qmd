@@ -3,7 +3,6 @@ title: "Fiche : Éditorialisation collaborative d’un événement"
 date: "2022-07-05"
 draft: false
 categories: [lecture]
-title-block-banner: false
 ---
 ## Résumé
 
