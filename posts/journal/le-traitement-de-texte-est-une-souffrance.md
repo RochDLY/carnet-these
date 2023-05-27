@@ -92,6 +92,8 @@ Un système est par définition une mise en réseau entre différents éléments
 Architexte...
 Dans l'optique du système d'information entre différents interlocuteurs, les documents sont bien trop souvent réduit à l'état de simple document texte circulant d'un point A vers un point B, jusqu'à en oublier la participation du logiciel dans la pratique d'écriture.
 
+recupérer ce que j'ai ecrit pour l'examen de synthese
+
 ## Traiter le texte
 
 Certains logiciels comme Word ou Libreoffice se présentent comme des outils de traitement de texte, que soignent-ils ?
