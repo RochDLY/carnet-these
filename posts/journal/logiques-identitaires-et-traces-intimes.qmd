@@ -5,7 +5,6 @@ categories: [these, journal]
 bibliography: ../../bibliographie/biblio-question.bib
 ---
 
-
 ## Introduction
 
 Ce texte est rédigé dans le cadre d'un examen doctoral dénommé « examen de synthèse » à l'Université de Montréal.
@@ -75,7 +74,7 @@ Dès 2005, l'usage des réseaux sociaux est déjà banalisé et massifié.
 
 On le voit bien, l'enjeu de la surveillance est central dans la question de l'identité numérique.
 Néanmoins, avec les évolutions récentes d'Internet et du Web, la question de la surveillance ne se pose pas de la même manière qu'avant son apparition. 
-Dans un article intitulé « Le contrôle social à l'heure des technologies de mobilité et de connectivité : du fichage ciblé des individus au traçage continu des agissements », Dominique Carré et Robert Panico expliquent cette transition.
+Dans un article intitulé « Le contrôle social à l'heure des technologies de mobilité et de connectivité : du fichage ciblé des individus au traçage continu des agissements », Dominique Carré et Robert Panico [-@carreControleSocialHeure2011] expliquent cette transition.
 Avant l'apparition d'Internet, la question du contrôle des individus se posait surtout à propos du fichage faits par les États.  
 Avec l'apparition d'Internet, la menace pour les libertés individuelles et collectives ne se pose plus uniquement du côté du fichage mais aussi du côté des traces numériques qui sont produites par l'utilisation personnalisée d'Internet quand nous achetons en ligne un billet de train, quand nous nous inscrivons sur un réseau social ou, tout simplement, quand nous faisons une recherche sur Google.
 La personnalisation de notre navigation en ligne est nécessaire à notre utilisation du Web pour nous protéger de la fraude mais elle est aussi très intrusive. 
@@ -104,7 +103,7 @@ est ce que ces productions documentaires disent de nous une fois captées et mis
 Ces traces que l'on appelle aussi données personnelles disent beaucoup de nous.
 Déclarée de cette manière, l'identité numérique est une production des écritures numériques au même titre que l'intime tel qu'énoncé dans mon hypothèse.
 
-Lorsque Cardon introduit le fait que « [l']identité numérique n'appartient pas aux individus », il ouvre la perspectives que l'individu n'en est pas propriétaire du tout.
+Lorsque Cardon introduit le fait que « [l']identité numérique n'appartient pas aux individus », il ouvre la perspective que l'individu n'en est pas propriétaire du tout.
 Si l'identité numérique n'est qu'une production du traçage de l'individu, les traces produites, et donc un partie de l'identité produite appartient aux plateformes sur lesquelles il interagit.
 C'est-à-dire que ce n'est pas tant les autres acteurs qui participent à produire l'identité numérique de par leurs réactions, mais la forme des réactions possibles que la plateforme permet qui détermine la forme de l'identité numérique.
 C'est parce que Facebook a intégré le système des mentions « j'aime » que les autres personnes que moi peuvent signifier s'ils apprécient ou non un contenu que je publie.
@@ -233,7 +232,7 @@ Et donc elle facilitent la reconstitution d'un profil par les traces produites.
 En somme, la nature très personnelle d'un profil Facebook, d'une chaîne YouTube ou d'une *timeline* sont construites, paradoxalement, sur des numéros génériques au fondement impersonnel.
 
 Pour conclure cette première partie, nous avons vu que la logique identitaire en contexte numérique est une logique de traçage des individus dont le produit est une identité numérique composée de la numérisation de l'individu en identifiant autour duquel s'agglomèrent les traces générées sur le Web.
-Maintenant, nous aborder le deuxième point qui concerne les processus de fabrication des traces.
+Maintenant, nous allons aborder le deuxième point qui concerne les processus de fabrication des traces.
 
 ## La co-construction des traces
 
@@ -260,8 +259,6 @@ Donc, lorsque l'on écrit sur le Web, la page de code est modifiée et ce qui ap
 Il y a donc du code (celui du serveur) qui génère du code (celui de la page).
 Donc le code du serveur ne change pas (la méthode pour fabriquer la page est la même, seules les données qui sont remplies dans le modèle changent), mais le code de la page elle-même change.
 
-Par exemple, si je vais sur la page "profil", le serveur de Facebook va aller chercher d'un côté le modèle de la page profil et de l'autre la liste des contenus (ma photo de profil, mon nom/prénom, les photos que j'ai mises, *etc.*) pour remplir le modèle de la page avec les bonnes informations.
-Il faut imaginer un stock d'informations données à Facebook et que le logiciel va afficher en fonction des pages.
 Ainsi, il faut faire la différence entre l'objet éditorial, la forme pré-construite du profil et le texte que les utilisateurs sont invités à produire pour remplir cette forme qui resterait, sinon, une coquille vide.
 Nous avons donc bien un double niveau dans l'organisation du texte à l'écran : un gabarit, une forme (au niveau éditorial) et du contenu (au niveau de l'utilisateur).
 Les résultats des requêtes sont insérés dans des gabarits pré-formatés, pour être affichés à l'écran.
@@ -278,7 +275,7 @@ Ce terme permet de souligner la différence entre :
 Emmanuël Souchier et Yves Jeanneret partent du constat que, pour écrire un texte à l'écran, nous avons besoin d'un logiciel spécifique dédié à cette activité.
 Pour simplifier, prenons le cas du traitement de texte, bien que cela soit applicable à toute forme d'écriture numérique en général.
 
-Sans ce logiciel de (traitement de texte), je ne peux rien faire : on n'écrit pas directement en langage machine, mais on écrit dans des logiciels qui sont prévus pour qu'on puisse y écrire, et qui sont ensuite chargés d'inscrire dans la matière numérique ce que l'utilisateur souhaite y inscrire.
+Sans ce logiciel (de traitement de texte), je ne peux rien faire : on n'écrit pas directement en langage machine, mais on écrit dans des logiciels qui sont prévus pour qu'on puisse y écrire, et qui sont ensuite chargés d'inscrire dans la matière numérique ce que l'utilisateur souhaite y inscrire.
 Mais, si cet outil me permet d'écrire sur un écran, il m'impose également ses normes, ses modalités de fonctionnement et les représentations de l'activité d'écriture qu'il véhicule. 
 
 Par exemple, si j'ouvre un document au format `.docx` avec le logiciel Microsoft Word, celui-ci me propose des modèles de documents prédéfinis, pré-formatés.
@@ -299,7 +296,7 @@ Donc, les choix éditoriaux des concepteurs, quelles que soient leurs intentions
 Ainsi, les architextes doivent être considérés comme des partenaires éditoriaux, rentrant de plein pied dans nos pratiques d'écritures quotidiennes.  
 
 Sur les réseaux sociaux, comme pour les autres outils d'écriture, les éditeurs d'architextes sont ceux qui fournissent les gabarits pour écrire sur l'écran.
-Donc, notre expression dépend aussi de l'architexte : il y a donc une co-construction de l'écriture, phènomène défini par Souchier et Jeanneret en tant qu'énonciation éditoriale [@souchier_image_1998;@souchier_numerique_2019].
+Donc, notre expression dépend aussi de l'architexte : il y a donc une co-construction de l'écriture, phénomène défini par Souchier et Jeanneret en tant qu'énonciation éditoriale [@souchier_image_1998;@souchier_numerique_2019].
 Au niveau des réseaux sociaux, son écriture (et donc son identité numérique) sont toujours mises en scènes par des acteurs industriels.
 Nous assistons donc à un formatage de l'écriture sur le Web.
 
@@ -371,7 +368,7 @@ Cette forme organise la mise en scène des traces sur le Web.
 Plus fondamentalement, ce qui est important, c'est que les éditeurs de logiciels proposent des architextes pour mettre en scène nos traces mais surtout, ils décident des modèles qui les définissent : ils décident donc des choses qui, entre autres, définissent l'identité numérique et l'intime sur le Web.
 Ils construisent une définition de ce qui doit définir les individus, de ce qui peut les représenter.
 
-Cette forme du tableau donne l'impression d'une totalité, d'un système cohérent d'une représentation complète de l'objet qu'elle décrit.
+Cette forme du tableau donne l'impression d'une totalité, d'un système cohérent, d'une représentation complète de l'objet qu'elle décrit.
 Il y a une dimension anthropologique importante parce que cela construit l'idée qu'une personne est définie par un certain nombre de traits et que l'on peut comprendre l'entièreté d'une personne en faisant la somme des traits qui la définissent.
 
 Il y a un double mouvement : quand on remplit un tableau, on se soumet à une exigence d'ordre et, en regard, en tant que lecteur des tableaux des autres, on a une vision synoptique qui permet de savoir à qui on a affaire en un coup d'oeil (on s'habitue aux formes médiatiques de représentations d'autrui sur les réseaux sociaux).
@@ -381,7 +378,7 @@ Tous ces tableaux nous donnent l'impression de voir et de comprendre la totalit�
 Les architextes ne proposent pas seulement des modèles de formulaire que l'utilisateur doit remplir, ils participent à l'écriture des informations selon des modèles d'écritures propres à chaque architexte : c'est-à-dire ils encodent les écritures des individus dans des formats spécifiques.
 La mise en scène des traces ne montre que les traces choisies par l'architexte tout en rendant ce dernier invisible.
 Lorsque dans un logiciel de traitement de texte je saisis un titre de niveau 1, je ne vois que l'adaptation du style graphique sur mon écran.
-Admettons que je sois un utilisateur plus averti : je peux à la limite changer de mode d'écriture et opter pour le mode brouillon afin de pouvoir affiché les styles appliqués comme traitement à mon texte.
+Admettons que je sois un utilisateur plus averti : je peux à la limite changer de mode d'écriture et opter pour le mode brouillon afin de pouvoir afficher les styles appliqués comme traitement à mon texte.
 Cet affichage ne me montre pas la trace inscrite par l'architexte dans le texte.
 Alors, si les architextes co-construisent les traces avec les utilisateurs, où sont ces écritures ? et qu'y trouverons-nous ?
 
@@ -464,7 +461,7 @@ La documentation d'une entité numérique peut-être trouvée à deux endroits d
 Dans la continuité de la proposition de Knuth, un autre langage s'inscrit dans le paradigme *literate programming*.
 Il s'agit du langage de balisage `XML` (*Extensible Markup Language*) et plus particulièrement de la spécification `TEI` (*Text Encoding Initiative*) et de son langage `ODD` (*One Document Does it all*) pour produire les schémas `XML`.
 La particularité d'`ODD` est de produire en même temps un schéma `XML`, donc des règles d'emploi de `XML` très précises, et la documentation qui correspond à ces règles spécifiques. 
-Cette technologie est également utilisée en recherche, nous aurons l'occasion de l'approfondir à d'autres occasions. 
+Cette technologie est également utilisée en recherche, nous aurons l'occasion de l'approfondir dans un prochain texte. 
 D'autres documentations seront toutes aussi intéressantes à regarder, celles des formats `.docx`, `.md`, `.html`, mais aussi celles des logiciels qui en permettent la manipulation.
 
 La deuxième proposition d'observation de l'architexte concerne directement les traces qu'il laisse dans les écritures.
@@ -483,7 +480,7 @@ Chaque livre dispose de son répertoire dédié sur l'instance gitlab hébergé 
 Le fonctionnement du pressoir repose sur les formats `Markdown` et `YAML` pris comme entrées pour les transformer en document `.html`.
 Le `Markdown` est employé pour le texte et le `YAML` pour les métadonnées du livre, des chapitres et des documents additionnels qui augmentent le texte.
 Une série de scripts en Python permettent d'organiser tous les contenus, de calculer les tables des matières des livres et les index.
-Sans entrer dans les détails techniques du fonctionnement du programme, nous allons briévement examiner les transformations d'un texte du dernier livre collectif (encore en cours d'édition) dont l'intitulé provisoire est [*Contribution numérique : cultures et savoirs*](https://gitlab.huma-num.fr/ateliers-sp/contributionnum), publication sous la direction de Marta Severo.
+Sans entrer dans les détails techniques du fonctionnement du programme, nous allons brièvement examiner les transformations d'un texte du dernier livre collectif (encore en cours d'édition) dont l'intitulé provisoire est [*Contribution numérique : cultures et savoirs*](https://gitlab.huma-num.fr/ateliers-sp/contributionnum), publication sous la direction de Marta Severo.
 
 Les textes envoyés par les auteurs sont initialement soit au format `.docx` soit au format `.odt` (*OpenDocument text* le pendant *open source* du format `.docx`).
 Afin de pouvoir intégrer ces textes dans la structure du livre, un travail préliminaire était nécessaire : il nous fallait opérer une première conversion puisque le pressoir ne traite pas les formats `docx` et `odt` mais uniquement du `.md`.
@@ -541,7 +538,7 @@ Les informations qu'il contient n'ont *a priori* qu'une pauvre valeur sémantiqu
 ![Visuel de l'écriture par l'architexte dans le résumé.](./images/ecriture-docx.png)
 
 La transformation du document `.docx` en `.md` a été réalisée avec la version 3.1.1 de Pandoc, et la commande suivante : `$ pandoc -s chapitre.docx -t markdown -o chapitre.md`.
-Nous quittons complétement l'espace du traitement de texte et nous dirigeons vers celui du texte brut.
+Nous quittons complètement l'espace du traitement de texte et nous dirigeons vers celui du texte brut.
 La technologie Microsoft embarque depuis son passage de `.doc` à `.docx` la technologie `XML`.
 C'est grâce à son utilisation en sous-couche de l'interface visuelle que Pandoc peut effectuer la conversion d'un format à un autre.
 Il applique une feuille de transformation pour convertir les marqueurs `XML` en marqueurs équivalents en `Markdown`.
