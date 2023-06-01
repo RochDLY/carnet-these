@@ -10,7 +10,149 @@
 <atom:link href="https://cailloux.en-cours-de.construction/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Fri, 26 May 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 31 May 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Réalisation de prototypes des nouvelles fonctionnalités pour le Pressoir</title>
+  <link>https://cailloux.en-cours-de.construction/posts/post-with-code/prototype-fonctionnalites-pressoir.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="visualisations-de-données-dynamiques" class="level2">
+<h2 class="anchored" data-anchor-id="visualisations-de-données-dynamiques">Visualisations de données dynamiques</h2>
+<p>La première fonctionnalité proposée consiste à intégrer des visualisations de données dynamiques dans un livre au format Web.</p>
+<p>Nous essayons de faire fonctionner la visualisation de données avec le <em>framework</em> <a href="https://frappe.io/charts/docs">frappe.io</a>.</p>
+<p>L’objectif est de réussir à intégrer des graphes dynamiques dans la version web augmentée des ouvrages de la collection Les Ateliers de [sens public].</p>
+<p>La structure des livres webs présentés ici se détache de plus en plus de son rapport homothétique avec son homonyme papier.</p>
+<p>Alors que d’autres technologies persistent dans cette homothétie (exemple les ePUBs), l’espace Web permet au contraire de s’en affranchir, notamment en effacant la notion de page « papier » de son environnement.</p>
+<p>Nicolas Sauret, dans ses <a href="https://nicolassauret.net/">recherches</a>, souligne l’ouverture possible des espaces de discussion et de réflexion scientifique grâce aux numériques, si tant est que les chaînes éditoriales déployées soient en accord avec cette politique (Ce que font les Ateliers [SP]).</p>
+<p>Seulement, les livres aux formats numériques n’exploitent pas encore le plein potentiel des technologies numériques ou celles du Web. L’une des particularités de l’écriture numérique est son dynamisme : les écritures numériques peuvent être en constante réécriture sans jamais trouver de forme fixe.</p>
+<p>Cependant, les livres numériques sont figés une fois publiés. La conception actuelle du livre, avec l’attribution d’un ISBN ou d’un ISSN lors de la publication, ne permet plus de remodeler l’écriture, à moins de recommencer le processus d’édition d’un nouvel ouvrage pour répondre au premier.</p>
+<p>Du coup nous perdons partiellement l’intérêt de la discussion scientifique si ce qui est écrit est figé dans le marbre, ou autres stèles.</p>
+<p>Nous optons pour une proposition de réécriture du livre comme issue possible d’une discussion ou d’une évolution de la pensée concernant un texte savant.</p>
+<p>Afin d’illustrer la nécessité d’ouvrir cet espace de réécriture nous prenons l’exemple de données dynamiques insérées dans un texte : les données à l’instant T sont peut-être en adéquation avec le texte, mais peut-être ne le seront-elles plus X temps plus tard. Nous pourrions dès lors envisager une première édition (une version 1) publiée à l’instant T, puis imaginer une réécriture de cette version à l’instant T+X (version 2). Les deux versions resteraient accessibles et comparables.</p>
+<p>La possibilité de réécrire un ouvrage dégage le texte de sa structure livresque pour l’amener vers une structure orientée logicielle.</p>
+</section>
+<section id="imprimer-chez-soi" class="level2">
+<h2 class="anchored" data-anchor-id="imprimer-chez-soi">Imprimer chez soi</h2>
+<p>La deuxième fonctionnalité doit offrir la possibilité à l’utilisateur de sélectionner une série de chapitres d’un même ouvrage et de les exporter au format <code>.pdf</code>. Plusieurs comportements de cette fonctionnalité sont envisageables. Nous avons opté pour un comportement minimaliste (le but n’étant pas reproduire les formats qui existent déjà avec une nouvelle technologie, ni de refondre le Pressoir).</p>
+<p>La solution retenue consiste à produire avec le Pressoir, au moment de la construction du livre, une page supplémentaire <code>.html</code> contenant tout le livre. Chaque chapitre sera embarqué dans une section (ou division) spécifique avec une identifiant unique. Un formulaire sera disponible sur la page. Il permettra de sélectionner (via des <em>checkboxes</em>) les chapitres que l’utilisateur souhaite imprimer. Appuyer sur le bouton de sélection en bas du formulaire déclenche un événement qui supprime les chapitres qui ne doivent pas être exportés de la page <code>.html</code>. L’intégration de PagedJS permettra ensuite de convertir le <code>.html</code> en <code>.pdf</code>.</p>
+<p>Voici le code pour générer le formulaire dynamiquement et pour supprimer les chapitres de la page <code>.html</code> :</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><span class="dt" style="color: #AD0000;">&lt;!DOCTYPE </span>html<span class="dt" style="color: #AD0000;">&gt;</span></span>
+<span id="cb1-2"><span class="kw" style="color: #003B4F;">&lt;html&gt;</span></span>
+<span id="cb1-3">    <span class="kw" style="color: #003B4F;">&lt;head&gt;</span></span>
+<span id="cb1-4">        <span class="kw" style="color: #003B4F;">&lt;meta</span> <span class="er" style="color: #AD0000;">charset</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"UTF-8"</span><span class="kw" style="color: #003B4F;">&gt;</span></span>
+<span id="cb1-5">    <span class="kw" style="color: #003B4F;">&lt;/head&gt;</span></span>
+<span id="cb1-6">    <span class="kw" style="color: #003B4F;">&lt;body&gt;</span></span>
+<span id="cb1-7">        <span class="kw" style="color: #003B4F;">&lt;section</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"book"</span><span class="kw" style="color: #003B4F;">&gt;</span></span>
+<span id="cb1-8">            <span class="kw" style="color: #003B4F;">&lt;div</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"chapitre"</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"texte0"</span><span class="kw" style="color: #003B4F;">&gt;</span>Chapitre 1<span class="kw" style="color: #003B4F;">&lt;/div&gt;</span></span>
+<span id="cb1-9">            <span class="kw" style="color: #003B4F;">&lt;div</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"chapitre"</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"texte1"</span><span class="kw" style="color: #003B4F;">&gt;</span>Chapitre 2<span class="kw" style="color: #003B4F;">&lt;/div&gt;</span></span>
+<span id="cb1-10">            <span class="kw" style="color: #003B4F;">&lt;div</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"chapitre"</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"texte2"</span><span class="kw" style="color: #003B4F;">&gt;</span>Chapitre 3<span class="kw" style="color: #003B4F;">&lt;/div&gt;</span></span>
+<span id="cb1-11">            <span class="kw" style="color: #003B4F;">&lt;div</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"chapitre"</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"texte3"</span><span class="kw" style="color: #003B4F;">&gt;</span>Chapitre 4<span class="kw" style="color: #003B4F;">&lt;/div&gt;</span></span>
+<span id="cb1-12">        <span class="kw" style="color: #003B4F;">&lt;/section&gt;</span></span>
+<span id="cb1-13">        <span class="kw" style="color: #003B4F;">&lt;form&gt;</span></span>
+<span id="cb1-14">            <span class="kw" style="color: #003B4F;">&lt;div</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"generateForm"</span><span class="kw" style="color: #003B4F;">&gt;&lt;/div&gt;</span></span>
+<span id="cb1-15">            <span class="kw" style="color: #003B4F;">&lt;button</span> <span class="er" style="color: #AD0000;">onclick</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"reducto(event)"</span><span class="kw" style="color: #003B4F;">&gt;</span>Sélectionner<span class="kw" style="color: #003B4F;">&lt;/button&gt;</span> </span>
+<span id="cb1-16">        <span class="kw" style="color: #003B4F;">&lt;/form&gt;</span></span>
+<span id="cb1-17">        <span class="kw" style="color: #003B4F;">&lt;script&gt;</span></span>
+<span id="cb1-18">            <span class="co" style="color: #5E5E5E;">/* On récupère tous les chapitres dans la page html */</span></span>
+<span id="cb1-19">            <span class="kw" style="color: #003B4F;">var</span> items <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementsByClassName</span>(<span class="st" style="color: #20794D;">'chapitre'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-20">            <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(items)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-21"></span>
+<span id="cb1-22"></span>
+<span id="cb1-23">            <span class="co" style="color: #5E5E5E;">/* Création du formulaire dynamique en fonction des chapitres */</span></span>
+<span id="cb1-24">            <span class="cf" style="color: #003B4F;">for</span> (<span class="kw" style="color: #003B4F;">let</span> i <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">0</span><span class="op" style="color: #5E5E5E;">;</span> i <span class="op" style="color: #5E5E5E;">&lt;</span> items<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">length</span><span class="op" style="color: #5E5E5E;">;</span> i<span class="op" style="color: #5E5E5E;">++</span>) {</span>
+<span id="cb1-25">            <span class="kw" style="color: #003B4F;">var</span> div <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'div'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-26">            <span class="kw" style="color: #003B4F;">var</span> input <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'input'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-27">            <span class="kw" style="color: #003B4F;">var</span> label <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'label'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-28">            div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"id"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"div"</span><span class="op" style="color: #5E5E5E;">+</span>i)</span>
+<span id="cb1-29">            input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"type"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"checkbox"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-30">            input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"id"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"chapitre"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-31">            input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"name"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"formulaire"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-32">            label<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"for"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"chapitre"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-33">            label<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">innerHTML</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"Chapitre"</span><span class="op" style="color: #5E5E5E;">+</span><span class="st" style="color: #20794D;">" "</span><span class="op" style="color: #5E5E5E;">+</span>(i<span class="op" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-34"></span>
+<span id="cb1-35">            <span class="kw" style="color: #003B4F;">var</span> formContainer <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"generateForm"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-36">            formContainer<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(div)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-37">            div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(input)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-38">            div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(label)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-39">            }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-40"></span>
+<span id="cb1-41">            <span class="co" style="color: #5E5E5E;">/* La fonction sous le bouton du formulaire. Vérification de l'état des checkboxes et suppression des chapitres qui ne sont pas cochés */</span></span>
+<span id="cb1-42">            <span class="kw" style="color: #003B4F;">function</span> <span class="fu" style="color: #4758AB;">reducto</span>(<span class="bu" style="color: null;">event</span>) {</span>
+<span id="cb1-43">                <span class="kw" style="color: #003B4F;">let</span> checkboxes <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">querySelectorAll</span>(<span class="st" style="color: #20794D;">'input[name="formulaire"]'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-44">                        <span class="kw" style="color: #003B4F;">let</span> output <span class="op" style="color: #5E5E5E;">=</span> []<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-45">                        checkboxes<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">forEach</span>((checkbox) <span class="kw" style="color: #003B4F;">=&gt;</span> {</span>
+<span id="cb1-46">                            <span class="kw" style="color: #003B4F;">var</span> cc <span class="op" style="color: #5E5E5E;">=</span> checkbox<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">checked</span><span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-47">                            output<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">push</span>(cc)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-48">                        })<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-49">                        <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(output)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-50"></span>
+<span id="cb1-51">                        <span class="cf" style="color: #003B4F;">for</span> (<span class="kw" style="color: #003B4F;">let</span> i <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">0</span><span class="op" style="color: #5E5E5E;">;</span> i <span class="op" style="color: #5E5E5E;">&lt;</span> output<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">length</span><span class="op" style="color: #5E5E5E;">;</span> i<span class="op" style="color: #5E5E5E;">++</span>) {</span>
+<span id="cb1-52">                            <span class="cf" style="color: #003B4F;">if</span> (output[i] <span class="op" style="color: #5E5E5E;">==</span> <span class="kw" style="color: #003B4F;">false</span>) {</span>
+<span id="cb1-53">                                <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"texte"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">remove</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-54">                                <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(<span class="st" style="color: #20794D;">"le texte"</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" "</span> <span class="op" style="color: #5E5E5E;">+</span> i <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" a bien été effacé."</span>)</span>
+<span id="cb1-55">                            }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-56">                        }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-57">                        <span class="co" style="color: #5E5E5E;">/* on utilise la méthode preventDefault() pour éviter que le navigateur rafraichisse la page */</span></span>
+<span id="cb1-58">                        <span class="bu" style="color: null;">event</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">preventDefault</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-59">            }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-60">        <span class="kw" style="color: #003B4F;">&lt;/script&gt;</span></span>
+<span id="cb1-61">    <span class="kw" style="color: #003B4F;">&lt;/body&gt;</span></span>
+<span id="cb1-62"><span class="kw" style="color: #003B4F;">&lt;/html&gt;</span></span></code></pre></div>
+</section>
+<section id="journal-de-bord" class="level2">
+<h2 class="anchored" data-anchor-id="journal-de-bord">Journal de bord</h2>
+<p><strong>11 mai 2023</strong></p>
+<ul>
+<li>Intégration de frappe.io en dur dans un fichier markdown. (ca fonctionne)</li>
+<li>Modification du pressoir (custom.css) pour que l’affichage soit proportionnel à la largeur du texte.</li>
+</ul>
+<p>La question du choix technologique se pose : sur quelle valeur mettre le curseur ? perennité ? compatibilité ? économie de place et de calcul ?</p>
+<p>Le choix de frappe.io en JS est fait dans l’optique d’afficher des graphiques légers dans le livre Web.</p>
+<p>Pour d’autres développements en Python par exemple (plus stable), voir la <a href="http://adr.ecrituresnumeriques.ca">cartographie des correspondances d’Alfred Desrochers</a>, projet porté par Stéphanie Bernier.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cailloux.en-cours-de.construction/posts/post-with-code/http:/adr.ecrituresnumeriques.ca" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Cartographie des correspondances d’Alfred Desrochers</figcaption><p></p>
+</figure>
+</div>
+<p><strong>12 mai 2023</strong></p>
+<ul>
+<li>Modification du template <code>chapters.html</code> pour intégrer frappe.io dans les sources.</li>
+<li>Déplacement du script JS dans un fichier <code>dataviz.js</code>.</li>
+<li>Pour faire apparaître les graphes dans le chapitre, il faut y faire appel avec un identifiant : modification de la syntaxe HTML vers la syntaxe Markdown pour appeler les graphes.</li>
+</ul>
+<p><strong>16 mai 2023</strong></p>
+<ul>
+<li><p>Échange avec N. Sauret sur les différentes possibilités d’intégration des dataviz dans le Pressoir : il faut rester le plus flexible possible pour permettre de faire du sur-mesure à chaque besoin. On ne développe pas un module spécifique pour le Pressoir mais on laisse la possibilité de customiser un bout de code ou deux. Attention à peut-être embarquer certaines technologies (dépendances) si on veut limiter un peu lefacteur d’obsolescence du code.</p></li>
+<li><p>Discussion sur l’export au format “zine”, impression chez soi. Cet échange a aussi été fait avec D. Larlet, on valide la proposition minimaliste.</p></li>
+</ul>
+<p><strong>31 mai 2023</strong></p>
+<ul>
+<li>Développement du script de la fonctionnalité d’export chez soi. Le JS est temporairement sur un <a href="https://github.com/RochDLY/tmp_proto_pressoir">répertoire github</a> personnel. Le code sera intégrée au Pressoir quand le modèle de la page <code>.html</code> contenant tout le livre sera fait.</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{delannay2023,
+  author = {Roch Delannay},
+  title = {Réalisation de prototypes des nouvelles fonctionnalités pour
+    le Pressoir},
+  date = {2023-06-01},
+  url = {https://cailloux.en-cours-de.construction/prototype-fonctionnalites-pressoir.html},
+  langid = {fr}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-delannay2023" class="csl-entry quarto-appendix-citeas">
+Roch Delannay. (2023, June 1). <em>Réalisation de prototypes des
+nouvelles fonctionnalités pour le Pressoir</em>. <a href="https://cailloux.en-cours-de.construction/prototype-fonctionnalites-pressoir.html">https://cailloux.en-cours-de.construction/prototype-fonctionnalites-pressoir.html</a>
+</div></div></section></div> ]]></description>
+  <category>code</category>
+  <guid>https://cailloux.en-cours-de.construction/posts/post-with-code/prototype-fonctionnalites-pressoir.html</guid>
+  <pubDate>Wed, 31 May 2023 22:00:00 GMT</pubDate>
+  <media:content url="http://adr.ecrituresnumeriques.ca" medium="image"/>
+</item>
 <item>
   <title>Entre logiques identitaires et traces intimes en contexte numérique</title>
   <link>https://cailloux.en-cours-de.construction/posts/journal/logiques-identitaires-et-traces-intimes.html</link>
