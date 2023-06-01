@@ -58,7 +58,7 @@ citation: false
 
 - Delannay, R. (2021). *L'Invention de Morel au prisme de l'éthique des données personnelles* [Mémoire, Université Paris 8].
 
-### Ouvrages collaboratifs
+### Ouvrages collectifs
 
 - Delannay, R. *et al.*, (2023). « Notes sur le projet Digital Leigh Hunt ». Dans R. Alessi et M. Vitali-Rosati (dirs.), _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
 
@@ -138,7 +138,7 @@ citation: false
 
 **Ingénieur d'étude | Labex Les passés dans le présent | 2023**
 
-- Projet de recherche Webmémoires en partenariat avec l'Institut National de l'Audiovisuel et la Bibliothèque NAtionale de France.
+- Projet de recherche Webmémoires porté par Marta Severo et Sarah Gensburger en partenariat avec l’Institut National de l’Audiovisuel et la Bibliothèque Nationale de France.
 
 **Ingénieur d'étude | Laboratoire DICEN-IdF | 2023**
 

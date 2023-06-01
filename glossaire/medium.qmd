@@ -1,0 +1,15 @@
+---
+title: "Medium"
+date: "2023-06-01"
+citation: false
+---
+
+Dieter, Mersch (2018). *Théorie des médias : une introduction*. Presses du réel.
+
+
+> Il y a des médias parce qu'il y a de l'altérité. Le terme « altérité » renvoie à ce qui est « autre », à un autre dont l'accès nous est refusé. Il faut alors un tiers afin d'effectuer la « médiation ». (7)
+
+> Cette négativité, qui renvoie à une opacité structurelle, met en évidence le caractère foncièrement insondable de la médialité du medium. Elle prend également une forme paradoxale : peu importe à la rigueur quelle sera la signification qu'on attribuera à ce terme -- tout « médium » possède la particularité *de disparaître dans son apparition et d'apparaître dans sa disparition*. (264)
+
+> Nous pouvons en tirer un principe pour une « théorie négative des médias » : aucun médium ne peut communiquer sa propre médialité, parce que la forme de la communication ne saurait être elle-même communiquée -- dans la communication efficace, le médium disparaît. La structure du médial bloque sa propre « médialisation » : *celle-ci se montre*. Tout l'effort d'une théorie négative des médias consistera donc dans une approche oblique, dans un accès indirect à la *manifestation* du médium à partir de ses effets, afin de témoigner de la médialité qui s'y exprime. (265)
+

@@ -8,12 +8,14 @@
       "/glossaire/enonciation-editoriale.html",
       "/glossaire/identiteNum.html",
       "/glossaire/cadres-semiotiques-ecrits-d-ecran.html",
+      "/glossaire/medium.html",
       "/glossaire/version.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/post-with-code/prototype-fonctionnalites-pressoir.html",
       "/posts/journal/logiques-identitaires-et-traces-intimes.html",
       "/posts/journal/bibliographieDH.html",
       "/posts/journal/sujetThese.html",

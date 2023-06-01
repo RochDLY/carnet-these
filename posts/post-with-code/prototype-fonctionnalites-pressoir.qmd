@@ -1,0 +1,148 @@
+---
+title: "Réalisation de prototypes des nouvelles fonctionnalités pour le Pressoir"
+date: "2023-06-01"
+draft: false
+categories: [code]
+---
+
+## Visualisations de données dynamiques
+
+La première fonctionnalité proposée consiste à intégrer des visualisations de données dynamiques dans un livre au format Web.
+
+Nous essayons de faire fonctionner la visualisation de données avec le *framework* [frappe.io](https://frappe.io/charts/docs).
+
+L'objectif est de réussir à intégrer des graphes dynamiques dans la version web augmentée des ouvrages de la collection Les Ateliers de [sens public].
+
+La structure des livres webs présentés ici se détache de plus en plus de son rapport homothétique avec son homonyme papier.
+
+Alors que d'autres technologies persistent dans cette homothétie (exemple les ePUBs), l'espace Web permet au contraire de s'en affranchir, notamment en effacant la notion de page « papier » de son environnement.
+
+Nicolas Sauret, dans ses [recherches](https://nicolassauret.net/), souligne l'ouverture possible des espaces de discussion et de réflexion scientifique grâce aux numériques, si tant est que les chaînes éditoriales déployées soient en accord avec cette politique (Ce que font les Ateliers [SP]).
+
+Seulement, les livres aux formats numériques n'exploitent pas encore le plein potentiel des technologies numériques ou celles du Web. 
+L'une des particularités de l'écriture numérique est son dynamisme : les écritures numériques peuvent être en constante réécriture sans jamais trouver de forme fixe.
+
+Cependant, les livres numériques sont figés une fois publiés. La conception actuelle du livre, avec l'attribution d'un ISBN ou d'un ISSN lors de la publication, ne permet plus de remodeler l'écriture, à moins de recommencer le processus d'édition d'un nouvel ouvrage pour répondre au premier.
+
+Du coup nous perdons partiellement l'intérêt de la discussion scientifique si ce qui est écrit est figé dans le marbre, ou autres stèles.
+
+Nous optons pour une proposition de réécriture du livre comme issue possible d'une discussion ou d'une évolution de la pensée concernant un texte savant.
+
+Afin d'illustrer la nécessité d'ouvrir cet espace de réécriture nous prenons l'exemple de données dynamiques insérées dans un texte : les données à l'instant T sont peut-être en adéquation avec le texte, mais peut-être ne le seront-elles plus X temps plus tard.
+Nous pourrions dès lors envisager une première édition (une version 1) publiée à l'instant T, puis imaginer une réécriture de cette version à l'instant T+X (version 2). 
+Les deux versions resteraient accessibles et comparables.
+
+La possibilité de réécrire un ouvrage dégage le texte de sa structure livresque pour l'amener vers une structure orientée logicielle.
+
+## Imprimer chez soi
+
+La deuxième fonctionnalité doit offrir la possibilité à l'utilisateur de sélectionner une série de chapitres d'un même ouvrage et de les exporter au format `.pdf`.
+Plusieurs comportements de cette fonctionnalité sont envisageables.
+Nous avons opté pour un comportement minimaliste (le but n'étant pas reproduire les formats qui existent déjà avec une nouvelle technologie, ni de refondre le Pressoir).
+
+La solution retenue consiste à produire avec le Pressoir, au moment de la construction du livre, une page supplémentaire `.html` contenant tout le livre.
+Chaque chapitre sera embarqué dans une section (ou division) spécifique avec une identifiant unique. 
+Un formulaire sera disponible sur la page.
+Il permettra de sélectionner (via des *checkboxes*) les chapitres que l'utilisateur souhaite imprimer.
+Appuyer sur le bouton de sélection en bas du formulaire déclenche un événement qui supprime les chapitres qui ne doivent pas être exportés de la page `.html`.
+L'intégration de PagedJS permettra ensuite de convertir le `.html` en `.pdf`.
+
+Voici le code pour générer le formulaire dynamiquement et pour supprimer les chapitres de la page `.html` :
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <section id="book">
+            <div class="chapitre" id="texte0">Chapitre 1</div>
+            <div class="chapitre" id="texte1">Chapitre 2</div>
+            <div class="chapitre" id="texte2">Chapitre 3</div>
+            <div class="chapitre" id="texte3">Chapitre 4</div>
+        </section>
+        <form>
+            <div id="generateForm"></div>
+            <button onclick="reducto(event)">Sélectionner</button> 
+        </form>
+        <script>
+            /* On récupère tous les chapitres dans la page html */
+            var items = document.getElementsByClassName('chapitre');
+            console.log(items);
+
+
+            /* Création du formulaire dynamique en fonction des chapitres */
+            for (let i = 0; i < items.length; i++) {
+            var div = document.createElement('div');
+            var input = document.createElement('input');
+            var label = document.createElement('label');
+            div.setAttribute("id", "div"+i)
+            input.setAttribute("type", "checkbox");
+            input.setAttribute("id", "chapitre"+i);
+            input.setAttribute("name", "formulaire");
+            label.setAttribute("for", "chapitre"+i);
+            label.innerHTML = "Chapitre"+" "+(i+1);
+
+            var formContainer = document.getElementById("generateForm");
+            formContainer.appendChild(div);
+            div.appendChild(input);
+            div.appendChild(label);
+            };
+
+            /* La fonction sous le bouton du formulaire. Vérification de l'état des checkboxes et suppression des chapitres qui ne sont pas cochés */
+            function reducto(event) {
+                let checkboxes = document.querySelectorAll('input[name="formulaire"]');
+                        let output = [];
+                        checkboxes.forEach((checkbox) => {
+                            var cc = checkbox.checked;
+                            output.push(cc);
+                        });
+                        console.log(output);
+
+                        for (let i = 0; i < output.length; i++) {
+                            if (output[i] == false) {
+                                document.getElementById("texte"+i).remove();
+                                console.log("le texte" + " " + i + " a bien été effacé.")
+                            };
+                        };
+                        /* on utilise la méthode preventDefault() pour éviter que le navigateur rafraichisse la page */
+                        event.preventDefault();
+            };
+        </script>
+    </body>
+</html>
+
+```
+
+## Journal de bord
+
+**11 mai 2023**
+
+- Intégration de frappe.io en dur dans un fichier markdown. (ca fonctionne)
+- Modification du pressoir (custom.css) pour que l'affichage soit proportionnel à la largeur du texte.
+
+La question du choix technologique se pose : sur quelle valeur mettre le curseur ? perennité ? compatibilité ? économie de place et de calcul ?
+
+Le choix de frappe.io en JS est fait dans l'optique d'afficher des graphiques légers dans le livre Web.
+
+Pour d'autres développements en Python par exemple (plus stable), voir la [cartographie des correspondances d'Alfred Desrochers](http://adr.ecrituresnumeriques.ca), projet porté par Stéphanie Bernier.
+
+![Cartographie des correspondances d'Alfred Desrochers](http://adr.ecrituresnumeriques.ca)
+
+
+**12 mai 2023**
+
+- Modification du template `chapters.html` pour intégrer frappe.io dans les sources.
+- Déplacement du script JS dans un fichier `dataviz.js`.
+- Pour faire apparaître les graphes dans le chapitre, il faut y faire appel avec un identifiant : modification de la syntaxe HTML vers la syntaxe Markdown pour appeler les graphes.
+
+**16 mai 2023**
+
+- Échange avec N. Sauret sur les différentes possibilités d'intégration des dataviz dans le Pressoir : il faut rester le plus flexible possible pour permettre de faire du sur-mesure à chaque besoin. On ne développe pas un module spécifique pour le Pressoir mais on laisse la possibilité de customiser un bout de code ou deux. Attention à peut-être embarquer certaines technologies (dépendances) si on veut limiter un peu lefacteur d'obsolescence du code.
+
+- Discussion sur l'export au format "zine", impression chez soi. Cet échange a aussi été fait avec D. Larlet, on valide la proposition minimaliste.
+
+**31 mai 2023**
+
+- Développement du script de la fonctionnalité d'export chez soi. Le JS est temporairement sur un [répertoire github](https://github.com/RochDLY/tmp_proto_pressoir) personnel. Le code sera intégrée au Pressoir quand le modèle de la page `.html` contenant tout le livre sera fait.

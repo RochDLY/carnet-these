@@ -100,5 +100,11 @@
   },
   "posts/journal/logiques-identitaires-et-traces-intimes.qmd": {
     "logiques-identitaires-et-traces-intimes.html": "ea271b68"
+  },
+  "glossaire/medium.qmd": {
+    "medium.html": "d7c434d9"
+  },
+  "posts/post-with-code/prototype-fonctionnalites-pressoir.qmd": {
+    "prototype-fonctionnalites-pressoir.html": "cf66f9d1"
   }
 }
