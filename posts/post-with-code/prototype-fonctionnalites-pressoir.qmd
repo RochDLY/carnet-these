@@ -2,7 +2,7 @@
 title: "Réalisation de prototypes des nouvelles fonctionnalités pour le Pressoir"
 date: "2023-06-01"
 draft: false
-categories: [code]
+categories: [code, journal]
 ---
 
 ## Visualisations de données dynamiques

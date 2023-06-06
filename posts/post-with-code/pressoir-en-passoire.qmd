@@ -2,7 +2,7 @@
 title: "De la Presse à la Passoire"
 date: "2023-06-06"
 draft: false
-categories: [code]
+categories: [code, journal]
 ---
 
 Cette aventure dans le Pressoir est une bonne expérience. 
@@ -17,7 +17,7 @@ Si je crée une base de donnée ou que je rends le Pressoir accessible en ligne,
 Après plusieurs échanges avec toute l'équipe du Pressoir, la meilleure option reste de faire au plus minimaliste. Après tout, si ce nouveau format offre exactement les même objets que les autres avec juste une mise en page différente ... ça ne sert pas à grand chose.
 Donc voilà la décision (qui m'arrange bien) : on rend possible un export avec seulement une page de garde (non optionnelle), les chapitres (titre, auteur, texte, pas d'image) et le colophon. Il n'y aura pas de toc, pas d'index, pas de note de bas de page ni de bibliographie. Du texte au kilomètre et c'est tout.
 
-L'objectif est de produire un document `.html` qui contient tout le livre. De cette manière, il est possible de sélectionner les chapitres que l'on souhaite exporter et supprimer les autres de la page `.html` (seulement du DOM). Ensuite il ne reste plus qu'à transformer le html récupéré en `.pdf`. Cette dernière étape peut être opérée par Pandoc (API mise à disposition par la CRCEN), par pagedJS ou encore LATeXJS, et certainement d'autres.
+L'objectif est de produire un document `.html` qui contient tout le livre. De cette manière, il est possible de sélectionner les chapitres que l'on souhaite exporter et supprimer les autres de la page `.html` (seulement du DOM). Ensuite il ne reste plus qu'à transformer le html récupéré en `.pdf`. Cette dernière étape peut être opérée par Pandoc (API mise à disposition par la CRCEN), par pagedJS, et certainement d'autres.
 
 
 Cette décision prise, plusieurs options de réalisation s'offrent à moi, dont deux principales :
@@ -249,6 +249,6 @@ En plus j'ai ajouté le chtibidi qui dégage le formulaire en haut de la page (d
 
 Du coup, comme j'y connais rien sur le rafraichissement intempestif de la page Web, je me suis dit que je pouvais reconstruire toute une page web avec juste ma sélection et basta ! Tout le résultat de la sélection entre les balises du `<body>` (après avoir retiré le formulaire héhé) est dans une variable, prêt à être satellisé ailleurs. Le couac c'est que je ne sais encore comment faire ça.
 
-Entre temps je vais quand même aller explorer d'autres solutions que pagedJS, peut-être un tour du côté de la pandoc API ou de LaTeX.JS !
+Entre temps je vais quand même aller explorer d'autres solutions que pagedJS, peut-être un tour du côté de la pandoc API !
 
 Résultat : la production d'une page `.html` fonctionne ainsi que la sélection des textes qu'un lecteur voudrait imprimer chez lui : reste plus qu'à presser très fort le texte.
