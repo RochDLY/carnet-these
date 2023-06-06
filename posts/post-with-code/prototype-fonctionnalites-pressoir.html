@@ -347,7 +347,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p><strong>31 mai 2023</strong></p>
 <ul>
-<li>Développement du script de la fonctionnalité d’export chez soi. Le JS est temporairement sur un <a href="https://github.com/RochDLY/tmp_proto_pressoir">répertoire github</a> personnel. Le code sera intégrée au Pressoir quand le modèle de la page <code>.html</code> contenant tout le livre sera fait.</li>
+<li>Développement du script de la fonctionnalité d’export chez soi (juste le comportement de la nouvelle fonction). Le JS est temporairement sur un <a href="https://github.com/RochDLY/tmp_proto_pressoir">répertoire github</a> personnel. Le code sera intégrée au Pressoir quand le modèle de la page <code>.html</code> contenant tout le livre sera fait.</li>
+</ul>
+<p><strong>5 juin 2023</strong></p>
+<ul>
+<li>Développement des fonctions pour générer la page html qui accueillera tout le contenu du livre et la fonction de sélection des chapitres (et suppression des chapitres non sélectionnés).</li>
+</ul>
+<p><strong>6 juin 2023</strong></p>
+<ul>
+<li>Adaptation de la fonctionnalité développée le 31 mai 2023 au contenu du livre. Le script fonctionne bien mais seulement en html brut. Dès que je tente d’intégrer pagedJS pour convertir en pdf la page Web, un problème de rafraichissement de la page survient (et supprime la sélection des textes). Il faudra régler ce problème. Il faudra aussi supprimer les images du contenu du livre. Une piste serait de le faire au niveau du pressoir pour éviter de surcharger calculs du côté du client. (beautiful soup ?).</li>
 </ul>
 
 

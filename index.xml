@@ -10,7 +10,228 @@
 <atom:link href="https://cailloux.en-cours-de.construction/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Wed, 31 May 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Jun 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>De la Presse à la Passoire</title>
+  <link>https://cailloux.en-cours-de.construction/posts/post-with-code/pressoir-en-passoire.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Cette aventure dans le Pressoir est une bonne expérience. Je découvre à chaque exploration de nouvelles arcanes de la transformation des fichiers sources (<code>.md</code> <code>.yaml</code> .<code>bib</code>) en d’autres documents (<code>.html</code> <code>.tex</code> <code>.pdf</code>, etc.). Parfois, j’essaye aussi de mettre des sources sous presse et de modifier le comportement de l’application pour obtenir de nouveaux résultats… mais ce n’est pas encore très performant. Au lieu de travailler avec une presse qui produit de beaux documents, je suis plutôt en train de la transformer en passoire de laquelle s’échappe tout ce que j’y projette, ce qui n’est pas faute de bien l’imaginer.</p>
+<p>Les dernières modifications concernaient la nouvelle fonctionnalité pour exporter à la carte une sélection de chapitres (que fait l’utilisateur) à imprimer chez soi. Le premier obstacle des livres fait avec le Pressoir est qu’une fois qu’ils sont en ligne il n’est plus possible d’accéder aux sources pour les retransformer à la volée. Si je crée une base de donnée ou que je rends le Pressoir accessible en ligne, toute la logique et politique du pressoir changerait.</p>
+<p>Après plusieurs échanges avec toute l’équipe du Pressoir, la meilleure option reste de faire au plus minimaliste. Après tout, si ce nouveau format offre exactement les même objets que les autres avec juste une mise en page différente … ça ne sert pas à grand chose. Donc voilà la décision (qui m’arrange bien) : on rend possible un export avec seulement une page de garde (non optionnelle), les chapitres (titre, auteur, texte, pas d’image) et le colophon. Il n’y aura pas de toc, pas d’index, pas de note de bas de page ni de bibliographie. Du texte au kilomètre et c’est tout.</p>
+<p>L’objectif est de produire un document <code>.html</code> qui contient tout le livre. De cette manière, il est possible de sélectionner les chapitres que l’on souhaite exporter et supprimer les autres de la page <code>.html</code> (seulement du DOM). Ensuite il ne reste plus qu’à transformer le html récupéré en <code>.pdf</code>. Cette dernière étape peut être opérée par Pandoc (API mise à disposition par la CRCEN), par pagedJS ou encore LATeXJS, et certainement d’autres.</p>
+<p>Cette décision prise, plusieurs options de réalisation s’offrent à moi, dont deux principales :</p>
+<ul>
+<li><p>Un script en Python en dehors du Pressoir (il peut être exécuté au moment du <code>make build</code>) et je produis mon <code>.html</code>. Ce n’est pas la solution la plus satisfaisante puisque finalement ce n’est pas une fonction du Pressoir mais plutôt un objet satellite. Le Pressoir parse déjà toutes les sources, ce serait dommage de ne pas en profiter et de refaire toutes ces étapes.</p></li>
+<li><p>Adapter un peu le Pressoir pour obtenir les résultats souhaités.</p></li>
+</ul>
+<p>J’ai opté pour la deuxième possibilité.</p>
+<p>Cette nouvelle aventure commence dans les <code>builders</code> python du Pressoir. Il y a plusieurs scripts, certains permettent de gérer les sources, d’autres les documents en javascript ou les feuilles de styles. Il y a aussi la gestion des notes ou encore des paramètres de configuration du livre produit. Celui qui nous intéresse est celui qui génère les différents chapitres du livre. C’est là que les sources sont traitées.</p>
+<p>À cet endroit je bidouille un peu pour produire une nouvelle fonction à partir de ce qui a déjà été développé. Je retire quand même certains bidules qui me seront a priori inutiles. (Oui on se demande pourquoi j’ai gardé l’espace pour les références vu qu’il n’y en aura pas, je les commenterai plus tard.)</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;">def</span> generate_full_content(</span>
+<span id="cb1-2">    book,</span>
+<span id="cb1-3">    current_chapter,</span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;">#    header_content,</span></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;">#    footer_content,</span></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;">#    local_css_file,</span></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;">#    local_js_file,</span></span>
+<span id="cb1-8">):</span>
+<span id="cb1-9">    textes_path <span class="op" style="color: #5E5E5E;">=</span> HERE.parent <span class="op" style="color: #5E5E5E;">/</span> book <span class="op" style="color: #5E5E5E;">/</span> <span class="st" style="color: #20794D;">"textes"</span></span>
+<span id="cb1-10">    chapter_id <span class="op" style="color: #5E5E5E;">=</span> current_chapter.<span class="bu" style="color: null;">id</span></span>
+<span id="cb1-11">    yaml_content <span class="op" style="color: #5E5E5E;">=</span> (textes_path <span class="op" style="color: #5E5E5E;">/</span> chapter_id <span class="op" style="color: #5E5E5E;">/</span> <span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>chapter_id<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.yaml"</span>).read_text()</span>
+<span id="cb1-12">    md_content <span class="op" style="color: #5E5E5E;">=</span> (textes_path <span class="op" style="color: #5E5E5E;">/</span> chapter_id <span class="op" style="color: #5E5E5E;">/</span> <span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>chapter_id<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.md"</span>).read_text()</span>
+<span id="cb1-13">    bib_file <span class="op" style="color: #5E5E5E;">=</span> textes_path <span class="op" style="color: #5E5E5E;">/</span> chapter_id <span class="op" style="color: #5E5E5E;">/</span> <span class="ss" style="color: #20794D;">f"</span><span class="sc" style="color: #5E5E5E;">{</span>chapter_id<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">.bib"</span></span>
+<span id="cb1-14"></span>
+<span id="cb1-15">    yaml_content <span class="op" style="color: #5E5E5E;">=</span> yaml_content.replace(<span class="st" style="color: #20794D;">"nocite: ''"</span>, <span class="st" style="color: #20794D;">"nocite: '[@*]'"</span>)</span>
+<span id="cb1-16">    md_content <span class="op" style="color: #5E5E5E;">=</span> md_content.replace(</span>
+<span id="cb1-17">        <span class="st" style="color: #20794D;">"## Références"</span>,</span>
+<span id="cb1-18">        <span class="st" style="color: #20794D;">"""</span></span>
+<span id="cb1-19"><span class="st" style="color: #20794D;">&lt;section&gt;</span></span>
+<span id="cb1-20"><span class="st" style="color: #20794D;">&lt;details class="references" open&gt;</span></span>
+<span id="cb1-21"><span class="st" style="color: #20794D;">&lt;summary id="references"&gt;Références&lt;/summary&gt;</span></span>
+<span id="cb1-22"></span>
+<span id="cb1-23"><span class="st" style="color: #20794D;">:::{#refs}</span></span>
+<span id="cb1-24"><span class="st" style="color: #20794D;">:::</span></span>
+<span id="cb1-25"></span>
+<span id="cb1-26"><span class="st" style="color: #20794D;">&lt;/details&gt;</span></span>
+<span id="cb1-27"><span class="st" style="color: #20794D;">&lt;/section&gt;"""</span>,</span>
+<span id="cb1-28">    )</span>
+<span id="cb1-29"></span>
+<span id="cb1-30">    template_path <span class="op" style="color: #5E5E5E;">=</span> get_template_path(book, <span class="st" style="color: #20794D;">"fullText.html"</span>)</span>
+<span id="cb1-31">    extra_args <span class="op" style="color: #5E5E5E;">=</span> [</span>
+<span id="cb1-32">        <span class="st" style="color: #20794D;">"--ascii"</span>,</span>
+<span id="cb1-33">        <span class="st" style="color: #20794D;">"--citeproc"</span>,</span>
+<span id="cb1-34">        <span class="ss" style="color: #20794D;">f"--bibliography=</span><span class="sc" style="color: #5E5E5E;">{</span>bib_file<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">"</span>,</span>
+<span id="cb1-35">        <span class="ss" style="color: #20794D;">f"--template=</span><span class="sc" style="color: #5E5E5E;">{</span>template_path<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">"</span>,</span>
+<span id="cb1-36">        <span class="ss" style="color: #20794D;">f"--variable=title:</span><span class="sc" style="color: #5E5E5E;">{</span>current_chapter<span class="sc" style="color: #5E5E5E;">.</span>title<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">"</span>,</span>
+<span id="cb1-37">        <span class="ss" style="color: #20794D;">f"--variable=display_infochapitre:</span><span class="sc" style="color: #5E5E5E;">{</span>current_chapter<span class="sc" style="color: #5E5E5E;">.</span>display_infochapitre<span class="sc" style="color: #5E5E5E;">}</span><span class="ss" style="color: #20794D;">"</span>,</span>
+<span id="cb1-38">    ]</span>
+<span id="cb1-39">    <span class="co" style="color: #5E5E5E;"># Pandoc requires included files to be where the command is launched.</span></span>
+<span id="cb1-40"><span class="co" style="color: #5E5E5E;">#    local_header_file = HERE / f"{chapter_id}_header.html"</span></span>
+<span id="cb1-41"><span class="co" style="color: #5E5E5E;">#    local_header_file.write_text(header_content)</span></span>
+<span id="cb1-42"><span class="co" style="color: #5E5E5E;">#    local_footer_file = HERE / f"{chapter_id}_footer.html"</span></span>
+<span id="cb1-43"><span class="co" style="color: #5E5E5E;">#    local_footer_file.write_text(footer_content)</span></span>
+<span id="cb1-44"><span class="co" style="color: #5E5E5E;">#    extra_args += [</span></span>
+<span id="cb1-45"><span class="co" style="color: #5E5E5E;">#        f"--include-in-header={local_css_file}",</span></span>
+<span id="cb1-46"><span class="co" style="color: #5E5E5E;">#        f"--include-before-body={local_header_file}",</span></span>
+<span id="cb1-47"><span class="co" style="color: #5E5E5E;">#        f"--include-after-body={local_footer_file}",</span></span>
+<span id="cb1-48"><span class="co" style="color: #5E5E5E;">#        f"--include-after-body={local_js_file}",</span></span>
+<span id="cb1-49"><span class="co" style="color: #5E5E5E;">#    ]</span></span>
+<span id="cb1-50">    full_content <span class="op" style="color: #5E5E5E;">=</span> pypandoc.convert_text(</span>
+<span id="cb1-51">        yaml_content <span class="op" style="color: #5E5E5E;">+</span> md_content,</span>
+<span id="cb1-52">        <span class="st" style="color: #20794D;">"html"</span>,</span>
+<span id="cb1-53">        <span class="bu" style="color: null;">format</span><span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"md"</span>,</span>
+<span id="cb1-54">        extra_args<span class="op" style="color: #5E5E5E;">=</span>extra_args,</span>
+<span id="cb1-55">    )</span>
+<span id="cb1-56"><span class="co" style="color: #5E5E5E;">#    local_header_file.unlink()</span></span>
+<span id="cb1-57"><span class="co" style="color: #5E5E5E;">#    local_footer_file.unlink()</span></span>
+<span id="cb1-58">    <span class="cf" style="color: #003B4F;">return</span> full_content</span></code></pre></div>
+<p>Deux trois ajouts supplémentaires à d’autres endroits du script et hop je me balance tout le livre dans une jolie variable globale sous forme de liste. Chaque chapitre est un élément de la liste. Ci-dessous le petit template <code>.html</code> pour produire toute la liste ! Comme le script boucle sur toutes les sources en entrée, j’ai décidé de profité de cette fonction pour produire un morceau du <code>.html</code> dont j’ai besoin à chaque passage de boucle dans les textes.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><span class="kw" style="color: #003B4F;">&lt;article</span> <span class="er" style="color: #AD0000;">id</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"$id$"</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"chapitre"</span><span class="kw" style="color: #003B4F;">&gt;</span></span>
+<span id="cb2-2"><span class="kw" style="color: #003B4F;">&lt;div&gt;</span></span>
+<span id="cb2-3">$if(title_f)$</span>
+<span id="cb2-4"><span class="kw" style="color: #003B4F;">&lt;h1</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"title"</span><span class="kw" style="color: #003B4F;">&gt;</span>$title_f$<span class="kw" style="color: #003B4F;">&lt;/h1&gt;</span></span>
+<span id="cb2-5">$endif$</span>
+<span id="cb2-6">$if(subtitle)$</span>
+<span id="cb2-7"><span class="kw" style="color: #003B4F;">&lt;p</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"subtitle"</span><span class="kw" style="color: #003B4F;">&gt;</span>$subtitle$<span class="kw" style="color: #003B4F;">&lt;/p&gt;</span></span>
+<span id="cb2-8">$endif$</span>
+<span id="cb2-9">$for(authors)$</span>
+<span id="cb2-10">$if(authors.display)$</span>
+<span id="cb2-11">$else$</span>
+<span id="cb2-12"><span class="kw" style="color: #003B4F;">&lt;p</span> <span class="er" style="color: #AD0000;">class</span><span class="ot" style="color: #003B4F;">=</span><span class="st" style="color: #20794D;">"author"</span><span class="kw" style="color: #003B4F;">&gt;</span>$authors.forname$ $authors.surname$<span class="kw" style="color: #003B4F;">&lt;/p&gt;</span></span>
+<span id="cb2-13">$endif$</span>
+<span id="cb2-14">$endfor$</span>
+<span id="cb2-15"><span class="kw" style="color: #003B4F;">&lt;/div&gt;</span></span>
+<span id="cb2-16"><span class="kw" style="color: #003B4F;">&lt;section&gt;</span></span>
+<span id="cb2-17"></span>
+<span id="cb2-18">  $body$</span>
+<span id="cb2-19"></span>
+<span id="cb2-20"><span class="kw" style="color: #003B4F;">&lt;/section&gt;</span></span>
+<span id="cb2-21"><span class="kw" style="color: #003B4F;">&lt;/article&gt;</span></span></code></pre></div>
+<p>Avec un autre petit script python, ce coup-ci de mon cru (on voit la différence tout de suite…c’est la passoire qui s’en vient !), je récupére toute ma liste à laquelle j’adjoins brutalement le reste de mes balises <code>.html</code>. On écrase toute la liste à plat dans LE document <code>.html</code> et la magie du Web opère : le HTML s’affiche.</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;">import</span> re</span>
+<span id="cb3-2"></span>
+<span id="cb3-3"><span class="im" style="color: #00769E;">from</span> .chapters <span class="im" style="color: #00769E;">import</span> single_html</span>
+<span id="cb3-4"></span>
+<span id="cb3-5">html_header <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"""</span></span>
+<span id="cb3-6"><span class="st" style="color: #20794D;">&lt;!DOCTYPE html&gt;</span></span>
+<span id="cb3-7"><span class="st" style="color: #20794D;">&lt;html xmlns="http://www.w3.org/1999/xhtml"</span></span>
+<span id="cb3-8"><span class="st" style="color: #20794D;">      xmlns:dc="http://purl.org/dc/terms/"</span></span>
+<span id="cb3-9"><span class="st" style="color: #20794D;">      xmlns:foaf="http://xmlns.com/foaf/0.1/"&gt;</span></span>
+<span id="cb3-10"><span class="st" style="color: #20794D;">&lt;head&gt;</span></span>
+<span id="cb3-11"><span class="st" style="color: #20794D;">&lt;meta charset="UTF-8"&gt;</span></span>
+<span id="cb3-12"><span class="st" style="color: #20794D;">&lt;script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"&gt;&lt;/script&gt;</span></span>
+<span id="cb3-13"><span class="st" style="color: #20794D;">&lt;link rel="stylesheet" src="html-print.css" /&gt;</span></span>
+<span id="cb3-14"><span class="st" style="color: #20794D;">&lt;/head&gt;</span></span>
+<span id="cb3-15"><span class="st" style="color: #20794D;">&lt;body id="bodyid"&gt;</span></span>
+<span id="cb3-16"><span class="st" style="color: #20794D;">      &lt;form id="formulaire1"&gt;</span></span>
+<span id="cb3-17"><span class="st" style="color: #20794D;">            &lt;div id="generateForm"&gt;&lt;/div&gt;</span></span>
+<span id="cb3-18"><span class="st" style="color: #20794D;">            &lt;button onclick="reducto(event)"&gt;Sélectionner&lt;/button&gt; </span></span>
+<span id="cb3-19"><span class="st" style="color: #20794D;">            &lt;button onclick="previsualiser(event)"&gt;Prévisualisation&lt;/button&gt; </span></span>
+<span id="cb3-20"><span class="st" style="color: #20794D;">      &lt;/form&gt;</span></span>
+<span id="cb3-21"><span class="st" style="color: #20794D;">"""</span></span>
+<span id="cb3-22"></span>
+<span id="cb3-23">html_end <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"""</span></span>
+<span id="cb3-24"><span class="st" style="color: #20794D;">&lt;script src="static/js/zine.js"&gt;&lt;/script&gt;</span></span>
+<span id="cb3-25"><span class="st" style="color: #20794D;">&lt;/body&gt;</span></span>
+<span id="cb3-26"><span class="st" style="color: #20794D;">&lt;/html&gt;</span></span>
+<span id="cb3-27"><span class="st" style="color: #20794D;">"""</span></span>
+<span id="cb3-28"></span>
+<span id="cb3-29"><span class="kw" style="color: #003B4F;">def</span> generate_book_single_html(text <span class="op" style="color: #5E5E5E;">=</span> single_html):</span>
+<span id="cb3-30">    <span class="bu" style="color: null;">print</span>(<span class="bu" style="color: null;">type</span>(text))</span>
+<span id="cb3-31">    <span class="co" style="color: #5E5E5E;"># Il faut parser le html et supprimer les images</span></span>
+<span id="cb3-32">    <span class="co" style="color: #5E5E5E;"># remove_images(text)</span></span>
+<span id="cb3-33">    full_text <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">' '</span>.join(text)</span>
+<span id="cb3-34">    <span class="bu" style="color: null;">print</span>(<span class="bu" style="color: null;">type</span>(full_text))</span>
+<span id="cb3-35">    f <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">open</span>(<span class="st" style="color: #20794D;">"dist/contributionnum/single_html_book.html"</span>, <span class="st" style="color: #20794D;">"w"</span>)</span>
+<span id="cb3-36">    f.write(html_header)</span>
+<span id="cb3-37">    f.close()</span>
+<span id="cb3-38">    f <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">open</span>(<span class="st" style="color: #20794D;">"dist/contributionnum/single_html_book.html"</span>, <span class="st" style="color: #20794D;">"a"</span>)</span>
+<span id="cb3-39">    f.write(full_text)</span>
+<span id="cb3-40">    f.close()</span>
+<span id="cb3-41">    f <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">open</span>(<span class="st" style="color: #20794D;">"dist/contributionnum/single_html_book.html"</span>, <span class="st" style="color: #20794D;">"a"</span>)</span>
+<span id="cb3-42">    f.write(html_end)</span>
+<span id="cb3-43">    f.close()</span></code></pre></div>
+<p>Sauf que c’est brut. Très BRUT. Pas une ligne de CSS dans le bousin, et là pour le rajouter c’est pas simple. Le Pressoir il a un ptit <code>builder</code> nommé <code>bundlers.py</code> qui te concatène tous les fichiers <code>.css</code> que tu lui donnes AVANT de le faire tourner en un seul document. Ensuite c’est le <code>builder</code> <code>chapters.py</code> qui t’insère le bidule dans le truc. Et là ça coince. Si je pousse une petite feuille de style avec les autres et que je l’appelle nonchalemment sur ma page, c’est bien, mais ça bousille TOUT le livre. La solution viendra plus tard.</p>
+<p>Maintenant j’ai envie d’adapter ma fonctionnalité de sélection des chapitres à ma page <code>.html</code>. Et là je suis du côté du client, ce qui veut dire javascript ! Heureusement pour moi, les fichiers <code>.js</code> passent eux aussi dans le <code>bundlerzer</code> mais sont aussi conservés dans une dossier <code>static</code>.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><span class="co" style="color: #5E5E5E;">/* On récupère tous les chapitres dans la page html */</span></span>
+<span id="cb4-2"><span class="kw" style="color: #003B4F;">var</span> items <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementsByClassName</span>(<span class="st" style="color: #20794D;">'chapitre'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-3"><span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(items)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-4"></span>
+<span id="cb4-5"></span>
+<span id="cb4-6"><span class="co" style="color: #5E5E5E;">/* Création du formulaire dynamique en fonction des chapitres */</span></span>
+<span id="cb4-7"><span class="cf" style="color: #003B4F;">for</span> (<span class="kw" style="color: #003B4F;">let</span> i <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">0</span><span class="op" style="color: #5E5E5E;">;</span> i <span class="op" style="color: #5E5E5E;">&lt;</span> items<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">length</span><span class="op" style="color: #5E5E5E;">;</span> i<span class="op" style="color: #5E5E5E;">++</span>) {</span>
+<span id="cb4-8">  <span class="kw" style="color: #003B4F;">var</span> div <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'div'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-9">  <span class="kw" style="color: #003B4F;">var</span> input <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'input'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-10">  <span class="kw" style="color: #003B4F;">var</span> label <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">createElement</span>(<span class="st" style="color: #20794D;">'label'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-11">  div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"id"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"div"</span><span class="op" style="color: #5E5E5E;">+</span>i)</span>
+<span id="cb4-12">  input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"type"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"checkbox"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-13">  input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"id"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"checkbox"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-14">  input<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"name"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"formulaire"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-15">  label<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">setAttribute</span>(<span class="st" style="color: #20794D;">"for"</span><span class="op" style="color: #5E5E5E;">,</span> <span class="st" style="color: #20794D;">"checkbox"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-16">  label<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">innerHTML</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">"Chapitre"</span><span class="op" style="color: #5E5E5E;">+</span><span class="st" style="color: #20794D;">" "</span><span class="op" style="color: #5E5E5E;">+</span>(i)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-17"></span>
+<span id="cb4-18">  <span class="kw" style="color: #003B4F;">var</span> formContainer <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"generateForm"</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-19">  formContainer<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(div)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-20">  div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(input)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-21">  div<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">appendChild</span>(label)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-22">}<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-23"></span>
+<span id="cb4-24"><span class="co" style="color: #5E5E5E;">/* La fonction sous le bouton du formulaire. Vérification de l'état des checkboxes et suppression des chapitres qui ne sont pas cochés */</span></span>
+<span id="cb4-25"><span class="kw" style="color: #003B4F;">function</span> <span class="fu" style="color: #4758AB;">reducto</span>(<span class="bu" style="color: null;">event</span>) {</span>
+<span id="cb4-26">    <span class="kw" style="color: #003B4F;">let</span> checkboxes <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">querySelectorAll</span>(<span class="st" style="color: #20794D;">'input[name="formulaire"]'</span>)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-27">            <span class="kw" style="color: #003B4F;">let</span> output <span class="op" style="color: #5E5E5E;">=</span> []<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-28">            checkboxes<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">forEach</span>((checkbox) <span class="kw" style="color: #003B4F;">=&gt;</span> {</span>
+<span id="cb4-29">                <span class="kw" style="color: #003B4F;">var</span> cc <span class="op" style="color: #5E5E5E;">=</span> checkbox<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">checked</span><span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-30">                output<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">push</span>(cc)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-31">            })<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-32">            <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(output)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-33"></span>
+<span id="cb4-34">            <span class="cf" style="color: #003B4F;">for</span> (<span class="kw" style="color: #003B4F;">let</span> i <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">0</span><span class="op" style="color: #5E5E5E;">;</span> i <span class="op" style="color: #5E5E5E;">&lt;</span> output<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">length</span><span class="op" style="color: #5E5E5E;">;</span> i<span class="op" style="color: #5E5E5E;">++</span>) {</span>
+<span id="cb4-35">                <span class="cf" style="color: #003B4F;">if</span> (output[i] <span class="op" style="color: #5E5E5E;">==</span> <span class="kw" style="color: #003B4F;">false</span>) {</span>
+<span id="cb4-36">                    <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"chapitre"</span><span class="op" style="color: #5E5E5E;">+</span>i)<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">remove</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-37">                    <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(<span class="st" style="color: #20794D;">"le texte"</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" "</span> <span class="op" style="color: #5E5E5E;">+</span> i <span class="op" style="color: #5E5E5E;">+</span> <span class="st" style="color: #20794D;">" a bien été effacé."</span>)</span>
+<span id="cb4-38">                }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-39">            }<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-40">            <span class="co" style="color: #5E5E5E;">/* on utilise la méthode preventDefault() pour éviter que le navigateur rafraichisse la page */</span></span>
+<span id="cb4-41">            <span class="bu" style="color: null;">event</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">preventDefault</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-42">}<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-43"></span>
+<span id="cb4-44"><span class="kw" style="color: #003B4F;">function</span> <span class="fu" style="color: #4758AB;">previsualiser</span>(<span class="bu" style="color: null;">event</span>) {</span>
+<span id="cb4-45">    </span>
+<span id="cb4-46">    <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"formulaire1"</span>)<span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">remove</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-47">    <span class="kw" style="color: #003B4F;">var</span> html_to_print <span class="op" style="color: #5E5E5E;">=</span> <span class="bu" style="color: null;">document</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">getElementById</span>(<span class="st" style="color: #20794D;">"bodyid"</span>)<span class="op" style="color: #5E5E5E;">.</span><span class="at" style="color: #657422;">outerHTML</span><span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-48">    <span class="bu" style="color: null;">console</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">log</span>(html_to_print)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-49">    <span class="bu" style="color: null;">event</span><span class="op" style="color: #5E5E5E;">.</span><span class="fu" style="color: #4758AB;">preventDefault</span>()<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb4-50">}</span></code></pre></div>
+<p>J’ajoute un petit formulaire dans ma page <code>.html</code>. Il boucle sur tous les chapitres du livre et génère une entrée pour chaque. Sont adjointes des <code>checkboxes</code> pour pouvoir sélectionner les chapitres. Lors de l’évènement de <code>sélection</code>, il y a une petite vérification de l’état des <code>checkboxes</code> (booléen) puis une suppression de toutes celles à l’état <code>false</code>, celles qui ne sont pas cochées. Ensuite, un autre bouton a été ajouté : <code>Prévisualisation</code>. On pourrait largement s’en passer et faire la prévisualisation dans la page en cours : elle sert à ça, à choisir ce qu’on veut exporter, pas à lire le livre, alors c’est pas la peine de refaire une nouvelle page.</p>
+<p>Bah si.</p>
+<p>Parce que j’ai essayé plusieurs trucs. Là le texte est moche (enfin j’aime bien mais que sur écran, ce rendu sur A4 est moche pour de vrai). Et là BIM, solution pour insérer les styles avec javascript (spoil alert : le code n’est pas là, ça n’a pas marché et je l’ai supprimé) : j’ai inséré toute la feuille de style dans une variable et je l’ai jetée entre les balises <code>&lt;style&gt;&lt;/style&gt;</code> dans un <code>document.head.appendChild()</code>.</p>
+<p>Content de voir que ça fonctionnait, c’était trop beau, l’opération a été répétée pour le script <code>.js</code> de pagedJS. Je ne l’ai pas mis dans le template parce que je n’arrivais pas à bloquer les rafraichissement à chaque changement des éléments du DOM. mais si je le faisais après la sélection des chapitres, il ne restait plus qu’à donner le script à manger à la page Web et tout était terminé !</p>
+<p>Bah non.</p>
+<p>Tu fais ça et le bousin refais un tour. Résultat tu perds la sélection des chapitres. En plus j’ai ajouté le chtibidi qui dégage le formulaire en haut de la page (d’ailleurs faudra penser à parser les images aussi, minimaliste faut faire).</p>
+<p>Du coup, comme j’y connais rien sur le rafraichissement intempestif de la page Web, je me suis dit que je pouvais reconstruire toute une page web avec juste ma sélection et basta ! Tout le résultat de la sélection entre les balises du <code>&lt;body&gt;</code> (après avoir retiré le formulaire héhé) est dans une variable, prêt à être satellisé ailleurs. Le couac c’est que je ne sais encore comment faire ça.</p>
+<p>Entre temps je vais quand même aller explorer d’autres solutions que pagedJS, peut-être un tour du côté de la pandoc API ou de LaTeX.JS !</p>
+<p>Résultat : la production d’une page <code>.html</code> fonctionne ainsi que la sélection des textes qu’un lecteur voudrait imprimer chez lui : reste plus qu’à presser très fort le texte.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{delannay2023,
+  author = {Roch Delannay},
+  title = {De la Presse à la Passoire},
+  date = {2023-06-06},
+  url = {https://cailloux.en-cours-de.construction/pressoir-en-passoire.html},
+  langid = {fr}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-delannay2023" class="csl-entry quarto-appendix-citeas">
+Roch Delannay. (2023, June 6). <em>De la Presse à la Passoire</em>. <a href="https://cailloux.en-cours-de.construction/pressoir-en-passoire.html">https://cailloux.en-cours-de.construction/pressoir-en-passoire.html</a>
+</div></div></section></div> ]]></description>
+  <category>code</category>
+  <guid>https://cailloux.en-cours-de.construction/posts/post-with-code/pressoir-en-passoire.html</guid>
+  <pubDate>Mon, 05 Jun 2023 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Réalisation de prototypes des nouvelles fonctionnalités pour le Pressoir</title>
   <link>https://cailloux.en-cours-de.construction/posts/post-with-code/prototype-fonctionnalites-pressoir.html</link>
@@ -130,7 +351,15 @@
 </ul>
 <p><strong>31 mai 2023</strong></p>
 <ul>
-<li>Développement du script de la fonctionnalité d’export chez soi. Le JS est temporairement sur un <a href="https://github.com/RochDLY/tmp_proto_pressoir">répertoire github</a> personnel. Le code sera intégrée au Pressoir quand le modèle de la page <code>.html</code> contenant tout le livre sera fait.</li>
+<li>Développement du script de la fonctionnalité d’export chez soi (juste le comportement de la nouvelle fonction). Le JS est temporairement sur un <a href="https://github.com/RochDLY/tmp_proto_pressoir">répertoire github</a> personnel. Le code sera intégrée au Pressoir quand le modèle de la page <code>.html</code> contenant tout le livre sera fait.</li>
+</ul>
+<p><strong>5 juin 2023</strong></p>
+<ul>
+<li>Développement des fonctions pour générer la page html qui accueillera tout le contenu du livre et la fonction de sélection des chapitres (et suppression des chapitres non sélectionnés).</li>
+</ul>
+<p><strong>6 juin 2023</strong></p>
+<ul>
+<li>Adaptation de la fonctionnalité développée le 31 mai 2023 au contenu du livre. Le script fonctionne bien mais seulement en html brut. Dès que je tente d’intégrer pagedJS pour convertir en pdf la page Web, un problème de rafraichissement de la page survient (et supprime la sélection des textes). Il faudra régler ce problème. Il faudra aussi supprimer les images du contenu du livre. Une piste serait de le faire au niveau du pressoir pour éviter de surcharger calculs du côté du client. (beautiful soup ?).</li>
 </ul>
 
 
