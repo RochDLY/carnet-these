@@ -145,4 +145,14 @@ Pour d'autres développements en Python par exemple (plus stable), voir la [cart
 
 **31 mai 2023**
 
-- Développement du script de la fonctionnalité d'export chez soi. Le JS est temporairement sur un [répertoire github](https://github.com/RochDLY/tmp_proto_pressoir) personnel. Le code sera intégrée au Pressoir quand le modèle de la page `.html` contenant tout le livre sera fait.
+- Développement du script de la fonctionnalité d'export chez soi (juste le comportement de la nouvelle fonction). Le JS est temporairement sur un [répertoire github](https://github.com/RochDLY/tmp_proto_pressoir) personnel. Le code sera intégrée au Pressoir quand le modèle de la page `.html` contenant tout le livre sera fait.
+
+**5 juin 2023**
+
+- Développement des fonctions pour générer la page html qui accueillera tout le contenu du livre et la fonction de sélection des chapitres (et suppression des chapitres non sélectionnés).
+
+**6 juin 2023**
+
+- Adaptation de la fonctionnalité développée le 31 mai 2023 au contenu du livre. Le script fonctionne bien mais seulement en html brut. Dès que je tente d'intégrer pagedJS pour convertir en pdf la page Web, un problème de rafraichissement de la page survient (et supprime la sélection des textes).
+Il faudra régler ce problème.
+Il faudra aussi supprimer les images du contenu du livre. Une piste serait de le faire au niveau du pressoir pour éviter de surcharger calculs du côté du client. (beautiful soup ?).

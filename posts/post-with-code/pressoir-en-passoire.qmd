@@ -1,0 +1,254 @@
+---
+title: "De la Presse à la Passoire"
+date: "2023-06-06"
+draft: false
+categories: [code]
+---
+
+Cette aventure dans le Pressoir est une bonne expérience. 
+Je découvre à chaque exploration de nouvelles arcanes de la transformation des fichiers sources (`.md` `.yaml` .`bib`) en d'autres documents (`.html` `.tex` `.pdf`, etc.).
+Parfois, j'essaye aussi de mettre des sources sous presse et de modifier le comportement de l'application pour obtenir de nouveaux résultats... mais ce n'est pas encore très performant.
+Au lieu de travailler avec une presse qui produit de beaux documents, je suis plutôt en train de la transformer en passoire de laquelle s'échappe tout ce que j'y projette, ce qui n'est pas faute de bien l'imaginer.
+
+Les dernières modifications concernaient la nouvelle fonctionnalité pour exporter à la carte une sélection de chapitres (que fait l'utilisateur) à imprimer chez soi.
+Le premier obstacle des livres fait avec le Pressoir est qu'une fois qu'ils sont en ligne il n'est plus possible d'accéder aux sources pour les retransformer à la volée.
+Si je crée une base de donnée ou que je rends le Pressoir accessible en ligne, toute la logique et politique du pressoir changerait.
+
+Après plusieurs échanges avec toute l'équipe du Pressoir, la meilleure option reste de faire au plus minimaliste. Après tout, si ce nouveau format offre exactement les même objets que les autres avec juste une mise en page différente ... ça ne sert pas à grand chose.
+Donc voilà la décision (qui m'arrange bien) : on rend possible un export avec seulement une page de garde (non optionnelle), les chapitres (titre, auteur, texte, pas d'image) et le colophon. Il n'y aura pas de toc, pas d'index, pas de note de bas de page ni de bibliographie. Du texte au kilomètre et c'est tout.
+
+L'objectif est de produire un document `.html` qui contient tout le livre. De cette manière, il est possible de sélectionner les chapitres que l'on souhaite exporter et supprimer les autres de la page `.html` (seulement du DOM). Ensuite il ne reste plus qu'à transformer le html récupéré en `.pdf`. Cette dernière étape peut être opérée par Pandoc (API mise à disposition par la CRCEN), par pagedJS ou encore LATeXJS, et certainement d'autres.
+
+
+Cette décision prise, plusieurs options de réalisation s'offrent à moi, dont deux principales :
+
+- Un script en Python en dehors du Pressoir (il peut être exécuté au moment du `make build`) et je produis mon `.html`. Ce n'est pas la solution la plus satisfaisante puisque finalement ce n'est pas une fonction du Pressoir mais plutôt un objet satellite. Le Pressoir parse déjà toutes les sources, ce serait dommage de ne pas en profiter et de refaire toutes ces étapes.
+
+- Adapter un peu le Pressoir pour obtenir les résultats souhaités.
+
+J'ai opté pour la deuxième possibilité.
+
+Cette nouvelle aventure commence dans les `builders` python du Pressoir. Il y a plusieurs scripts, certains permettent de gérer les sources, d'autres les documents en javascript ou les feuilles de styles. Il y a aussi la gestion des notes ou encore des paramètres de configuration du livre produit. Celui qui nous intéresse est celui qui génère les différents chapitres du livre. C'est là que les sources sont traitées.
+
+À cet endroit je bidouille un peu pour produire une nouvelle fonction à partir de ce qui a déjà été développé. Je retire quand même certains bidules qui me seront a priori inutiles. (Oui on se demande pourquoi j'ai gardé l'espace pour les références vu qu'il n'y en aura pas, je les commenterai plus tard.)
+
+```py
+def generate_full_content(
+    book,
+    current_chapter,
+#    header_content,
+#    footer_content,
+#    local_css_file,
+#    local_js_file,
+):
+    textes_path = HERE.parent / book / "textes"
+    chapter_id = current_chapter.id
+    yaml_content = (textes_path / chapter_id / f"{chapter_id}.yaml").read_text()
+    md_content = (textes_path / chapter_id / f"{chapter_id}.md").read_text()
+    bib_file = textes_path / chapter_id / f"{chapter_id}.bib"
+
+    yaml_content = yaml_content.replace("nocite: ''", "nocite: '[@*]'")
+    md_content = md_content.replace(
+        "## Références",
+        """
+<section>
+<details class="references" open>
+<summary id="references">Références</summary>
+
+:::{#refs}
+:::
+
+</details>
+</section>""",
+    )
+
+    template_path = get_template_path(book, "fullText.html")
+    extra_args = [
+        "--ascii",
+        "--citeproc",
+        f"--bibliography={bib_file}",
+        f"--template={template_path}",
+        f"--variable=title:{current_chapter.title}",
+        f"--variable=display_infochapitre:{current_chapter.display_infochapitre}",
+    ]
+    # Pandoc requires included files to be where the command is launched.
+#    local_header_file = HERE / f"{chapter_id}_header.html"
+#    local_header_file.write_text(header_content)
+#    local_footer_file = HERE / f"{chapter_id}_footer.html"
+#    local_footer_file.write_text(footer_content)
+#    extra_args += [
+#        f"--include-in-header={local_css_file}",
+#        f"--include-before-body={local_header_file}",
+#        f"--include-after-body={local_footer_file}",
+#        f"--include-after-body={local_js_file}",
+#    ]
+    full_content = pypandoc.convert_text(
+        yaml_content + md_content,
+        "html",
+        format="md",
+        extra_args=extra_args,
+    )
+#    local_header_file.unlink()
+#    local_footer_file.unlink()
+    return full_content
+```
+Deux trois ajouts supplémentaires à d'autres endroits du script et hop je me balance tout le livre dans une jolie variable globale sous forme de liste. Chaque chapitre est un élément de la liste.
+Ci-dessous le petit template `.html` pour produire toute la liste !
+Comme le script boucle sur toutes les sources en entrée, j'ai décidé de profité de cette fonction pour produire un morceau du `.html` dont j'ai besoin à chaque passage de boucle dans les textes.
+
+```html
+<article id="$id$" class="chapitre">
+<div>
+$if(title_f)$
+<h1 class="title">$title_f$</h1>
+$endif$
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+$for(authors)$
+$if(authors.display)$
+$else$
+<p class="author">$authors.forname$ $authors.surname$</p>
+$endif$
+$endfor$
+</div>
+<section>
+
+  $body$
+
+</section>
+</article>
+
+```
+Avec un autre petit script python, ce coup-ci de mon cru (on voit la différence tout de suite...c'est la passoire qui s'en vient !), je récupére toute ma liste à laquelle j'adjoins brutalement le reste de mes balises `.html`. 
+On écrase toute la liste à plat dans LE document `.html` et la magie du Web opère : le HTML s'affiche.
+
+```py
+import re
+
+from .chapters import single_html
+
+html_header = """
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<head>
+<meta charset="UTF-8">
+<script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+<link rel="stylesheet" src="html-print.css" />
+</head>
+<body id="bodyid">
+      <form id="formulaire1">
+            <div id="generateForm"></div>
+            <button onclick="reducto(event)">Sélectionner</button> 
+            <button onclick="previsualiser(event)">Prévisualisation</button> 
+      </form>
+"""
+
+html_end = """
+<script src="static/js/zine.js"></script>
+</body>
+</html>
+"""
+
+def generate_book_single_html(text = single_html):
+    print(type(text))
+    # Il faut parser le html et supprimer les images
+    # remove_images(text)
+    full_text = ' '.join(text)
+    print(type(full_text))
+    f = open("dist/contributionnum/single_html_book.html", "w")
+    f.write(html_header)
+    f.close()
+    f = open("dist/contributionnum/single_html_book.html", "a")
+    f.write(full_text)
+    f.close()
+    f = open("dist/contributionnum/single_html_book.html", "a")
+    f.write(html_end)
+    f.close()
+```
+Sauf que c'est brut. Très BRUT. Pas une ligne de CSS dans le bousin, et là pour le rajouter c'est pas simple.
+Le Pressoir il a un ptit `builder` nommé `bundlers.py` qui te concatène tous les fichiers `.css` que tu lui donnes AVANT de le faire tourner en un seul document. Ensuite c'est le `builder` `chapters.py` qui t'insère le bidule dans le truc.
+Et là ça coince. Si je pousse une petite feuille de style avec les autres et que je l'appelle nonchalemment sur ma page, c'est bien, mais ça bousille TOUT le livre. La solution viendra plus tard.
+
+Maintenant j'ai envie d'adapter ma fonctionnalité de sélection des chapitres à ma page `.html`.
+Et là je suis du côté du client, ce qui veut dire javascript !
+Heureusement pour moi, les fichiers `.js` passent eux aussi dans le `bundlerzer` mais sont aussi conservés dans une dossier `static`. 
+
+```js
+/* On récupère tous les chapitres dans la page html */
+var items = document.getElementsByClassName('chapitre');
+console.log(items);
+
+
+/* Création du formulaire dynamique en fonction des chapitres */
+for (let i = 0; i < items.length; i++) {
+  var div = document.createElement('div');
+  var input = document.createElement('input');
+  var label = document.createElement('label');
+  div.setAttribute("id", "div"+i)
+  input.setAttribute("type", "checkbox");
+  input.setAttribute("id", "checkbox"+i);
+  input.setAttribute("name", "formulaire");
+  label.setAttribute("for", "checkbox"+i);
+  label.innerHTML = "Chapitre"+" "+(i);
+
+  var formContainer = document.getElementById("generateForm");
+  formContainer.appendChild(div);
+  div.appendChild(input);
+  div.appendChild(label);
+};
+
+/* La fonction sous le bouton du formulaire. Vérification de l'état des checkboxes et suppression des chapitres qui ne sont pas cochés */
+function reducto(event) {
+    let checkboxes = document.querySelectorAll('input[name="formulaire"]');
+            let output = [];
+            checkboxes.forEach((checkbox) => {
+                var cc = checkbox.checked;
+                output.push(cc);
+            });
+            console.log(output);
+
+            for (let i = 0; i < output.length; i++) {
+                if (output[i] == false) {
+                    document.getElementById("chapitre"+i).remove();
+                    console.log("le texte" + " " + i + " a bien été effacé.")
+                };
+            };
+            /* on utilise la méthode preventDefault() pour éviter que le navigateur rafraichisse la page */
+            event.preventDefault();
+};
+
+function previsualiser(event) {
+    
+    document.getElementById("formulaire1").remove();
+    var html_to_print = document.getElementById("bodyid").outerHTML;
+    console.log(html_to_print);
+    event.preventDefault();
+}
+
+```
+J'ajoute un petit formulaire dans ma page `.html`. Il boucle sur tous les chapitres du livre et génère une entrée pour chaque. Sont adjointes des `checkboxes` pour pouvoir sélectionner les chapitres.
+Lors de l'évènement de `sélection`, il y a une petite vérification de l'état des `checkboxes` (booléen) puis une suppression de toutes celles à l'état `false`, celles qui ne sont pas cochées.
+Ensuite, un autre bouton a été ajouté : `Prévisualisation`.
+On pourrait largement s'en passer et faire la prévisualisation dans la page en cours : elle sert à ça, à choisir ce qu'on veut exporter, pas à lire le livre, alors c'est pas la peine de refaire une nouvelle page.
+
+Bah si.
+
+Parce que j'ai essayé plusieurs trucs. Là le texte est moche (enfin j'aime bien mais que sur écran, ce rendu sur A4 est moche pour de vrai).
+Et là BIM, solution pour insérer les styles avec javascript (spoil alert : le code n'est pas là, ça n'a pas marché et je l'ai supprimé) : j'ai inséré toute la feuille de style dans une variable et je l'ai jetée entre les balises `<style></style>` dans un `document.head.appendChild()`. 
+
+Content de voir que ça fonctionnait, c'était trop beau, l'opération a été répétée pour le script `.js` de pagedJS. Je ne l'ai pas mis dans le template parce que je n'arrivais pas à bloquer les rafraichissement à chaque changement des éléments du DOM. mais si je le faisais après la sélection des chapitres, il ne restait plus qu'à donner le script à manger à la page Web et tout était terminé !
+
+Bah non.
+
+Tu fais ça et le bousin refais un tour.
+Résultat tu perds la sélection des chapitres.
+En plus j'ai ajouté le chtibidi qui dégage le formulaire en haut de la page (d'ailleurs faudra penser à parser les images aussi, minimaliste faut faire). 
+
+Du coup, comme j'y connais rien sur le rafraichissement intempestif de la page Web, je me suis dit que je pouvais reconstruire toute une page web avec juste ma sélection et basta ! Tout le résultat de la sélection entre les balises du `<body>` (après avoir retiré le formulaire héhé) est dans une variable, prêt à être satellisé ailleurs. Le couac c'est que je ne sais encore comment faire ça.
+
+Entre temps je vais quand même aller explorer d'autres solutions que pagedJS, peut-être un tour du côté de la pandoc API ou de LaTeX.JS !
+
+Résultat : la production d'une page `.html` fonctionne ainsi que la sélection des textes qu'un lecteur voudrait imprimer chez lui : reste plus qu'à presser très fort le texte.
