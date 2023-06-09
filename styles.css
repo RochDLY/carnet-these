@@ -12,3 +12,8 @@
       grid-column-start: screen-start-inset;
       grid-column-end: body-content-end;
 }
+
+iframe {
+    width: 100%;
+    height: 450px;
+}

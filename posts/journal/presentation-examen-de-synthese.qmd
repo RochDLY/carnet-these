@@ -1,0 +1,17 @@
+---
+title: "Examen de synthèse"
+date: "2023-06-07"
+draft: true
+categories: [these, journal, presentation]
+---
+
+
+
+```{=html}
+
+<iframe src="presentations/sujet-these.html"></iframe>
+```
+
+
+
+Une version en plein écran est diponible [ici](presentations/sujet-these.html){target="_blank"}
