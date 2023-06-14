@@ -10,7 +10,36 @@
 <atom:link href="https://cailloux.en-cours-de.construction/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Sat, 10 Jun 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 13 Jun 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Doctoriales du Dicen-IdF</title>
+  <link>https://cailloux.en-cours-de.construction/posts/journal/presentation-doctoriales-2023.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe src="presentations/doctoriales23.html"></iframe>
+<p>Une version en plein écran est diponible <a href="presentations/doctoriales23.html" target="_blank">ici</a></p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{delannay2023,
+  author = {Roch Delannay},
+  title = {Doctoriales du Dicen-IdF},
+  date = {2023-06-14},
+  url = {https://cailloux.en-cours-de.construction/presentation-doctoriales-2023.html},
+  langid = {fr}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-delannay2023" class="csl-entry quarto-appendix-citeas">
+Roch Delannay. (2023, June 14). <em>Doctoriales du Dicen-IdF</em>. <a href="https://cailloux.en-cours-de.construction/presentation-doctoriales-2023.html">https://cailloux.en-cours-de.construction/presentation-doctoriales-2023.html</a>
+</div></div></section></div> ]]></description>
+  <category>these</category>
+  <category>journal</category>
+  <category>presentation</category>
+  <guid>https://cailloux.en-cours-de.construction/posts/journal/presentation-doctoriales-2023.html</guid>
+  <pubDate>Tue, 13 Jun 2023 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Examen de synthèse</title>
   <link>https://cailloux.en-cours-de.construction/posts/journal/presentation-examen-de-synthese.html</link>
