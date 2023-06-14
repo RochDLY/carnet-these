@@ -1,7 +1,7 @@
 ---
 title: "Examen de synthèse"
-date: "2023-06-07"
-draft: true
+date: "2023-06-11"
+draft: false
 categories: [these, journal, presentation]
 ---
 
@@ -14,4 +14,4 @@ categories: [these, journal, presentation]
 
 
 
-Une version en plein écran est diponible [ici](presentations/sujet-these.html){target="_blank"}
+Une version en plein écran est disponible [ici](presentations/sujet-these.html){target="_blank"}

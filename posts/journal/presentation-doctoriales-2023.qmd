@@ -1,0 +1,16 @@
+---
+title: "Doctoriales du Dicen-IdF"
+date: "2023-06-14"
+draft: false
+categories: [these, journal, presentation]
+---
+
+
+```{=html}
+
+<iframe src="presentations/doctoriales23.html"></iframe>
+```
+
+
+
+Une version en plein écran est disponible [ici](presentations/doctoriales23.html){target="_blank"}
