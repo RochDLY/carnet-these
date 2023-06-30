@@ -1,5 +1,5 @@
 /* css styles */
-@font-face {
+/* @font-face {
     font-family: 'Jetbrains Mono';
     src: url('fonts/JetBrainsMono-Regular.woff2') format('woff');
     font-weight: normal;
@@ -7,10 +7,27 @@
 
 }
 
+@font-face {
+    font-family: 'Draftside Regular';
+    src: url('fonts/Draftside-BF64263599ce2dc.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Simple Grunge';
+    src: url('fonts/simple-grunge.regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
 .page-columns .content {
     grid-column: screen-start-inset/body-content-end;
-      grid-column-start: screen-start-inset;
-      grid-column-end: body-content-end;
+    grid-column-start: screen-start-inset;
+    grid-column-end: body-content-end;
+
 }
 
 iframe {
