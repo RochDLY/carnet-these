@@ -10,7 +10,127 @@
 <atom:link href="https://cailloux.en-cours-de.construction/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Tue, 27 Jun 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Jul 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Notes de juillet 2023</title>
+  <link>https://cailloux.en-cours-de.construction/posts/journal/notes-juillet23.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Quelques notes pour commencer à organiser le futur travail d’écriture. Ou alors pour ne pas oublier ce que j’ai en tête depuis plusieurs jours.</p>
+<section id="les-objets-qui-pourrait-être-des-chapitres" class="level2">
+<h2 class="anchored" data-anchor-id="les-objets-qui-pourrait-être-des-chapitres">Les objets qui pourrait être des chapitres</h2>
+<ul>
+<li>L’intime</li>
+<li>Revue de la littérature sur la théorie des médias</li>
+<li>Histoire de la revue scientifique et du livre (depuis les correspondances), jusqu’aux changements apportés par le numérique (quel héritage est laissé au numérique)</li>
+<li>La chaîne éditoriale revue / livre</li>
+<li>Intimité collective</li>
+<li>Diffusion / Publication (trace, mémoire, archive, transmission)</li>
+</ul>
+</section>
+<section id="détails-sur-les-parties" class="level2">
+<h2 class="anchored" data-anchor-id="détails-sur-les-parties">Détails sur les parties</h2>
+<section id="intime" class="level3">
+<h3 class="anchored" data-anchor-id="intime">Intime</h3>
+<ul>
+<li>repartir des exercices philosophiques : Platon, Sénèque, stoïciens, Marc-Aurèle
+<ul>
+<li>def exercices philosophiques</li>
+<li>def philosophies antiques</li>
+<li>def des différentes écoles</li>
+<li>petite chronologie des figures les plus connues</li>
+<li>intime chez les stoiciens</li>
+</ul></li>
+<li>réappropriation par le christianisme (Augustin)
+<ul>
+<li>voir aussi François Jullien ici</li>
+</ul></li>
+<li>Les différentes acceptions à partir du 14e siècle (l’intime se déplace de sa connotation sacrée == confession) jusqu’à nos jours
+<ul>
+<li>on pense à Wolff, etc.</li>
+</ul></li>
+<li>Virer toutes les acceptions qui ne nous intéressent pas</li>
+<li>définir l’intime comme une médiation
+<ul>
+<li>réalisation de soi</li>
+<li>retour à la question de l’écriture et de la lecture (#l’autre, #transmission)</li>
+</ul></li>
+</ul>
+</section>
+<section id="revue-de-la-littérature-théorie-des-médias" class="level3">
+<h3 class="anchored" data-anchor-id="revue-de-la-littérature-théorie-des-médias">Revue de la littérature théorie des médias</h3>
+<ul>
+<li>depuis McLuhan</li>
+<li>Kittler</li>
+<li>Flusser</li>
+<li>ptit crochet par Debray</li>
+<li>Intermédialité montréalaise</li>
+<li><em>new materialism</em>  (<em>posthumans studies</em>)</li>
+</ul>
+</section>
+<section id="lhéritage-des-revues-à-lheure-du-numérique" class="level3">
+<h3 class="anchored" data-anchor-id="lhéritage-des-revues-à-lheure-du-numérique">L’héritage des revues à l’heure du numérique</h3>
+<ul>
+<li>Repartir des correspondances (échange, construction de pensée grâce au dialogue)
+<ul>
+<li>écriture et réécriture : on rejoint les exercices philo</li>
+</ul></li>
+<li>Les revues et les livres sont des espaces de dialogues et des medium censés l’aider (cf Vittu, Tesnière, Chartier, …)</li>
+</ul>
+</section>
+<section id="la-chaîne-éditoriale-en-science" class="level3">
+<h3 class="anchored" data-anchor-id="la-chaîne-éditoriale-en-science">La chaîne éditoriale en science</h3>
+<ul>
+<li>Reprendre les travaux de Nico et de la CRCEN</li>
+<li>Tesnière</li>
+<li>Reprendre le rapport sur les forges de publication</li>
+<li>Cas d’étude Hybrid?, SP?, Le Pressoir, Ekdosis + LaTeX, Métopes + OpenEdition</li>
+</ul>
+</section>
+<section id="intimité-collective" class="level3">
+<h3 class="anchored" data-anchor-id="intimité-collective">Intimité collective</h3>
+<ul>
+<li>Retour à la question de l’écriture numérique</li>
+<li>Éditorialisation</li>
+<li>Énonciation éditoriale (il y a une fonction auteur mais on aura tendance à l’effacer : ce n’est pas la construction de l’auteur mais celle du chercheur)</li>
+<li>Cas d’étude : étude des architextes intermédiaires (livre contributions numériques + livre sur Louise M.)</li>
+<li>C’est le cumul de la chaine présentée dans l’autre chapitre + les cas d’étude présentés qui forment cette intimité collective</li>
+</ul>
+<p>intime != identité (en contexte numérique)</p>
+</section>
+<section id="diffusion-publication" class="level3">
+<h3 class="anchored" data-anchor-id="diffusion-publication">Diffusion / Publication</h3>
+<ul>
+<li>Retour sur la trace numérique</li>
+<li>Retour sur la mémoire / archive numérique</li>
+<li>Quels sont les modes de conservation de ces documents ? Sont-ils perenne ?</li>
+<li>Retour sur les formats</li>
+<li>Étude des architextes finaux et des écosystèmes de publication (plateformes de diffusion / site non référencé)
+<ul>
+<li>les descripteurs des articles / revues / livres , comment ils sont indexés dans le Web == comment ils existent</li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{delannay2023,
+  author = {Roch Delannay},
+  title = {Notes de juillet 2023},
+  date = {2023-07-05},
+  url = {https://cailloux.en-cours-de.construction/notes-juillet23.html},
+  langid = {fr}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-delannay2023" class="csl-entry quarto-appendix-citeas">
+Roch Delannay. (2023, July 5). <em>Notes de juillet 2023</em>. <a href="https://cailloux.en-cours-de.construction/notes-juillet23.html">https://cailloux.en-cours-de.construction/notes-juillet23.html</a>
+</div></div></section></div> ]]></description>
+  <category>journal</category>
+  <guid>https://cailloux.en-cours-de.construction/posts/journal/notes-juillet23.html</guid>
+  <pubDate>Tue, 04 Jul 2023 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Navigations anthologiques : recette pour un hackathon réussi en digital classics</title>
   <dc:creator>Mathilde Verstraete</dc:creator>
