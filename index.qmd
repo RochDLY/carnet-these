@@ -13,6 +13,7 @@ listing:
   page-size: 5
 page-layout: full
 citation: false
+mainfont: Simple Grunge
 ---
 
 Je suis Roch et ceci est mon carnet.  

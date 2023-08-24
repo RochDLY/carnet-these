@@ -1,0 +1,84 @@
+---
+title: "Notes de juillet 2023"
+date: "2023-07-05"
+categories: [journal, these]
+draft: false
+---
+
+Quelques notes pour commencer à organiser le futur travail d'écriture.
+Ou alors pour ne pas oublier ce que j'ai en tête depuis plusieurs jours. 
+
+## Les objets qui pourrait être des chapitres
+
+- L'intime
+- Revue de la littérature sur la théorie des médias
+- Histoire de la revue scientifique et du livre (depuis les correspondances), jusqu'aux changements apportés par le numérique (quel héritage est laissé au numérique)
+- La chaîne éditoriale revue / livre
+- Intimité collective
+- Diffusion / Publication (trace, mémoire, archive, transmission)
+
+
+## Détails sur les parties
+
+### Intime
+
+- repartir des exercices philosophiques : Platon, Sénèque, stoïciens, Marc-Aurèle
+    - def exercices philosophiques
+    - def philosophies antiques
+    - def des différentes écoles
+    - petite chronologie des figures les plus connues
+    - intime chez les stoiciens
+- réappropriation par le christianisme (Augustin)
+    - voir aussi François Jullien ici
+- Les différentes acceptions à partir du 14e siècle (l'intime se déplace de sa connotation sacrée == confession) jusqu'à nos jours
+    - on pense à Wolff, etc.
+- Virer toutes les acceptions qui ne nous intéressent pas
+- définir l'intime comme une médiation
+    - réalisation de soi
+    - retour à la question de l'écriture et de la lecture (#l'autre, #transmission)
+
+### Revue de la littérature théorie des médias
+
+- depuis McLuhan
+- Kittler
+- Flusser
+- ptit crochet par Debray
+- Intermédialité montréalaise
+- *new materialism*  (*posthumans studies*)
+
+
+### L'héritage des revues à l'heure du numérique
+
+- Repartir des correspondances (échange, construction de pensée grâce au dialogue)
+    - écriture et réécriture : on rejoint les exercices philo
+- Les revues et les livres sont des espaces de dialogues et des medium censés l'aider  (cf Vittu, Tesnière, Chartier, ...)
+
+
+### La chaîne éditoriale en science
+
+- Reprendre les travaux de Nico et de la CRCEN
+- Tesnière
+- Reprendre le rapport sur les forges de publication
+- Cas d'étude Hybrid?, SP?, Le Pressoir, Ekdosis + LaTeX, Métopes + OpenEdition
+
+
+### Intimité collective 
+
+- Retour à la question de l'écriture numérique
+- Éditorialisation
+- Énonciation éditoriale (il y a une fonction auteur mais on aura tendance à l'effacer : ce n'est pas la construction de l'auteur mais celle du chercheur)
+- Cas d'étude : 
+    - étude du comportement d'un éditeur de texte pendant les phases d'écriture (cartographie du code de Stylo avec Cosma, cf *critical code studies*).
+    - étude des architextes intermédiaires (livre contributions numériques + livre sur Louise M.)
+- C'est le cumul de la chaine présentée dans l'autre chapitre + les cas d'étude présentés qui forment cette intimité collective 
+
+intime != identité (en contexte numérique)
+
+### Diffusion / Publication
+
+- Retour sur la trace numérique
+- Retour sur la mémoire / archive numérique
+- Quels sont les modes de conservation de ces documents ? Sont-ils perenne ?
+- Retour sur les formats
+- Étude des architextes finaux et des écosystèmes de publication (plateformes de diffusion / site non référencé)
+    - les descripteurs des articles / revues / livres , comment ils sont indexés dans le Web == comment ils existent

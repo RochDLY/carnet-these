@@ -1,0 +1,18 @@
+---
+title: "Navigations anthologiques : recette pour un hackathon réussi en digital classics"
+date: "2023-06-28"
+draft: false
+categories: [presentation]
+author: "Mathilde Verstraete"
+---
+
+
+
+```{=html}
+
+<iframe src="presentations/tmp-navigations-anthologiques.html"></iframe>
+```
+
+
+
+Une version en plein écran est disponible [ici](presentations/tmp-navigations-anthologiques.html){target="_blank"}

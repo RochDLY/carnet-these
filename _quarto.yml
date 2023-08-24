@@ -37,7 +37,7 @@ format:
       @*
     csl: bibliographie/csl/apa.csl
     css: styles.css
-    mainfont: Jetbrains Mono
+    mainfont: Draftside Regular
     toc: true
 
 # Informations sur l'auteur
