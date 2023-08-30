@@ -7,18 +7,18 @@ draft: true
 
 ## Introduction 
 
-Ce document s'inscrit dans une recherche intitulée « La manifestation de l'intimité du chercheur à travers les écritures numériques savantes », recherche qui est réalisée dans le cadre d'un doctorat en sciences de l'information et de la communication et en littératures.
+Ce document s'inscrit dans une recherche intitulée « La manifestation de l'intimité du chercheur à travers les écritures numériques savantes », recherche qui est réalisée dans le cadre d'un doctorat en sciences de l'information et de la communication et en littératures avec une orientation dans les humanités numériques.
 L'objectif de cette thèse est d'observer cette intimité dans le cas de deux types d'écriture savante en contexte numérique : les articles et les ouvrages.
-Néanmoins, l'intimité convoquée ici semble décalée et inappropriée : que vient faire l'intimité dans une production scientifique ?
+Néanmoins, l'intimité convoquée ici semble inappropriée : quelle est cette intimité que l'on questionne ?
 De nos jours, le champ de l'intime relève généralement de la sphère privé et personnelle.
 On y retrouve des sentiments ou des secrets qu'on l'on souhaite cacher à la vue des autres, ou encore que l'on souhaite partager avec une personne particulière comme cela peut-être le cas au sein d'une relation amoureuse.
 L'usage que nous faisons de l'intime dans cette recherche est différent et génère une ambiguïté qui semble paradoxale avec ses définitions les plus coutumières.
-L'intention de ce texte est de clarifier l'emploi de ce terme et de définir les contours de ce que l'on nomme l'intimité du chercheur, qui est une intimité particulière parmi tous les cas de figures que ce champ recouvre.
+L'intention de ce texte est de clarifier l'emploi de ce terme et de définir les contours de ce que l'on nomme « intimité du chercheur », qui est une intimité particulière parmi tous les cas de figures que ce champ recouvre.
 De l'Antiquité jusqu'à nos jours, des figures savantes ou érudites n'ont eu de cesse d'essayer de définir les interactions entre les individus, en y intégrant notamment la notion d'intimité.
 Elle y prend de multiples formes et de multiples significations selon les époques.
-Françoise Simonet-Tenant et Véronique Montémont proposent une histoire de l'intime et de l'évolution de ses significations sur une période allant du Moyen-Âge jusqu'au début du 21^e^ siècle.
-En nous appuyant sur leurs écrits, nous analyserons le rôle du christianisme au début de notre ère dans la signification de l'intime.
-L'apparition du superlatif de l'intérieur _intimus_ est souvent attribuée à Augustin dans ses _Confessions_, une oeuvre majeure qui a marqué toute la philosophie durant la période médiévale.
+Françoise Simonet-Tenant et Véronique Montémont proposent une histoire de l'intime et de l'évolution de ses significations sur une période allant du XVII^e^ siècle jusqu'au début du 21^e^ siècle.
+En nous appuyant sur leurs écrits, nous plongerons dans les différentes significations de l'intime héritées d'une culture chrétienne.
+L'apparition du superlatif de l'intérieur _intimus_ est souvent attribuée à Augustin dans ses _Confessions_, une oeuvre majeure datant de la fin du IV^e^ siècle qui a marqué toute la philosophie durant la période médiévale.
 Pourtant, on le retrouve dans des textes datant d'avant cette époque et appartenant plutôt à la période hellénistique, lorsque la langue grecque (ancienne) dominait tous les territoires conquis par Alexandre de l'Égypte jusqu'en Inde.
 Pierre Hadot, philosophe et historien de la philosophie, était spécialisé dans le domaine de la philosophie antique dont la période correspond à celle où l'on retrouve l'emploi de l'_intimus_ comme chez le stoïcien Sénèque dans ses correspodances avec Lucilius.
 Nous analyserons sa conception de la philosophie antique et de ce qu'il nommait les « exercices spirituels » pour faire émerger une autre définition de l'intime.
@@ -30,7 +30,7 @@ Ainsi nous pourrons dresser une cartographie très générale des significations
 
 L'intime n'est pas la notion la plus simple à définir, car comme cela vient d'être mentionné c'est un terme dont l'histoire est ancienne.
 En occident, nous retrouvons des traces des premiers emplois de cet adjectif durant l'Antiquité, au tout début de notre ère (citation Sénèque).
-Depuis cette époque, il embarque  une multitude d'acceptions différentes allant de la chambre à soi au journal intime en passant par la confession chrétienne.
+Depuis cette époque, il embarque une multitude d'acceptions différentes allant de la chambre à soi au journal intime en passant par la confession chrétienne.
 De nos jours, soit l'intime réfère à un rapport à soi-même, soit à un rapport à l'autre.
 Il désigne souvent un espace privé, à soi, qui doit être mis en tension avec un espace public depuis lequel accéder à l'intime devrait être impossible. 
 Ce qui fait de l'intime quelque chose qui ne se donne pas à voir, quelque chose qui relève d'une dimension personnelle et appartient à l'individu : en ce sens l'intime est relatif aux choses qu'on ne souhaite pas montrer à tout le monde, comme cela peut être le cas pour le corps et ses parties les plus sensibles.
@@ -86,32 +86,80 @@ Cette brève histoire de l'intime est concentrée sur la période du XVII^e^ si�
 L'intimité du chercheur telle que nous l'employons ne se rapporte pas aux acceptions qui viennent d'être mentionnées.
 Cependant, comme l'a montré F. Simonet-Tenant, l'intimité comporte une longue tradition chrétienne que l'on peut également explorer afin de circonscrire un peu plus cette notion.
 
-
-
 ## L'intime au début de notre ère
 
 ### Les *Confessions* d'Augustin
 
-Augustin emploie l'adjectif intime dans ses célèbres _Confessions_, «_tu autem eras interior intimo meo_ » (Augustin 3, 6, 11), dont le renvoi étymologique *intimus* est le superlatif de l'intérieur, pour faire référence à Dieu qu'il cherchait dans le monde extérieur et qu'il aurait finalement trouvé en son for intérieur.
-Toutefois les deux conceptions, hellénistique et chrétienne, demeurent différentes (la seconde s'inspirant de la première) : chez les grecs, l'intime est une construction résultant d'une pratique de pensée et d'un détachement à la condition périssable du corps et des affects ; alors que du côté des chrétiens il s'agit d'un espace donné à tout être humain, Dieu s'y trouve naturellement.
-Cette réappropriation de la philosophie antique par les chrétiens s'explique par la transition effectuée en Europe lors de la diffusion du christianisme à l'époque... et du déclin de ... 
-Augustin, figure emblématique parmi les chrétiens pendant près de huit siècles, devient célèbre grâce à ses *Confessions* (titre qui d'ailleurs sera repris bien plus tard par Rousseau).
-L'intime ... 
+Vers la fin du IV^e^ siècle, Augustin d'Hippone rédige et publie plusieurs ouvrages dont les très célèbres _Confessions_ qui, encore aujourd'hui, font couler beaucoup d'encre.
+Plus connu sous le nom de Saint-Augustin, il se converti tardivement au christiannisme (Augustin, VIII, p.257. Tout un livre des _Confessions_ est dédié à cette conversion profonde) et devient l'une des figures majeures de la pensée chrétienne de cette époque.
+Ses écrits sont de ceux qui permirent l'absorption de la tradition philosophique antique dans la philosophie chrétienne (Hadot, exercices spi. p.71 ; Augustin X, XLII p.399) dont il se détache surtout sur le plan théologique.
+Les _Confessions_ appartiennent à la catégorie des récits autobiographiques.
+L'auteur y laisse ses mémoires et raconte sa profession de foi à travers les différentes étapes qui l'y menèrent : éducation en lettres et en philosophie (néoplatoniciens, stoïciens), appétence pour certains courants comme le manichéisme ou encore les rencontres avec des personnages clés tel qu'Ambroise de Milan, un l'évêque qui le baptisa et dont il était l'élève.
+Pour Deproost (2019), la quête d'Augustin est celle du sublime qui est « lié à la radicalité d’une démarche intérieure ».
+Cette démarche intérieure repose en partie sur des méthodes et des exercices qu'il livre à son lectorat à travers son expérience de la conversion et du sublime.
+Les _Confessions_ d'Augustin ne sont pas destinés à Dieu qui n'y apprendrait rien (V, I) puisqu'il est déjà présent en tout un chacun ; Augustin s'adresse ainsi à ses lecteurs qu'il interpelle à plusieurs reprises tout au long de son oeuvre. 
+Ce texte ne relève donc pas du genre diaristique, que l'on souhaiterait garder secret, mais d'un genre à visée méthodologique et pédagogique pour lui-même et pour ses lecteurs.
+Ce type d'écriture de soi n'est pas sans rappeler les écrits de certains philosophes grecs ou romains, tels Sénèque dans ses lettres à Lucilius ou Marc-Aurèle dans ses _Pensées pour moi-même_, dont l'objectif est la sagesse tant désirée.
+
+Ce texte retient notre attention pour plusieurs raisons.
+La première est qu'il contient l'une des plus anciennes mentions de l'intime et que celle-ci est directement liée à la construction de l'intimité chrétienne évoquée précédemment ; la seconde est le lien établi entre l'écriture, l'intime et la mémoire (Augustin livre X ; Dubreucq, 2003 ; Deproost, 2019).
+Cette autobiographie relate la quête d'Augustin et son incessante recherche d'une incarnation de Dieu dans le monde extérieur entre « le ciel et la terre ».
+La piste de l'intimité augustinienne apparaît dès le début de l'oeuvre lorsque l'auteur écrit : « Je ne serais donc point, mon Dieu, je ne serais point du tout si vous n'étiez point en moi » (I, 2, p. 26).
+D'autres indices marquent cette recherche jusqu'au livre III, lorsqu'au VI^e^ chapitre, la célèbre formule latine «_tu autem eras interior intimo meo_ » (Augustin III, VI, 11) introduit l'étymologique au superlatif de l'intérieur, l'*intimus*.
+La traduction complète de ce passage signifie : « [...] mon Dieu, que je vous cherchais, non par cette lumière d'esprit et d'intelligence que vous m'avez donnée par-dessus les bêtes, mais par les organes de mes sens corporels, qui n'ont pour objet que les choses extérieures ; au lieu que **vous êtes plus intérieur à mon âme que ce qu'elle a de plus caché au-dedans d'elle**, et que vous êtes plus élevé que ce qu'elle a de plus haut et de plus sublime dans ses pensées. (p.100) »
+Par cette phrase, Augustin cherche à montrer que Celui qui le constitue au plus profond de lui-même relève d'un ordre divin, transcendant, et qui va « plus haut » et plus profond que ce qu'il peut imaginer.
+L'intimité augustinienne n'est pas déterminée par l'individu mais par son Créateur, elle est donnée par celui-ci et ne peut être sondée intégralement.
+Néanmoins, cette prise de conscience de soi éprouvée par Augustin n'est pas dûe à une hasardeuse illumination.
+C'est le fruit d'une recherche approfondie et de réflexions, d'ailleurs ce livre en est une méthode pour l'atteindre.
+L'auteur indique lors du livre X (VII et VIII p.342-343) consacré au « Temps présent, mémoire et désir » : 
+
+> Qu'est-ce donc que j'aime quand j'aime mon Dieu ? Et qui est celui qui est si fort élevé au-dessus de la plus haute partie de mon âme ? Je veux par elle m'élever jusqu'à lui ; je veux passer au-delà de cette puissance par laquelle je suis uni à mon corps, et qui anime toutes ses parties. Car je ne saurais connaître mon Dieu par elle, puisque si elle était capable de cette haute connaissance, les chevaux et les mulets qui sont sans raison, pourraient connaître Dieu comme moi, ayant comme moi cette puissance qui donne aussi leur vie à leur corps.  
+> [...] Je passerai donc au-delà de ces puissances naturelles qui sont en moi pour m'élever comme par degrés vers celui qui m'a créé, et je viendrai à ces larges campagnes, et ça ces vastes palais de ma mémoire où sont renfermés les trésors de ce nombre infinis d'images qui y sont entrées par les portes de mes sens. C'est là que nous conservons aussi toutes nos pensées en y ajoutant ou diminuant, ou changeant quelque chose de ce que nous avons connu par les sens, et généralement tout ce qui y a été mis comme en dépôt et en réserve, et que l'oubli n'a point encore effacé et enseveli.
+
+Cet extrait des _Confessions_ introduit deux nouveaux concepts pour définir l'intime, la mémoire et l'oubli, qui selon l'auteur distinguent l'être humain du reste des créations comme les « chevaux et les mulets ».
+Ainsi, c'est en fouillant et en parcourant sa mémoire que l'on peut s'élever vers l'illumination et espérer connaître Dieu.
+L'intimité au plus profond de l'être est ici juxtaposée à la mémoire qui en devient le réceptacle.
+Ce sont les événements extérieurs à l'individu qui y rentrent par les sens sous la forme d'images que l'esprit peut rappeler, sous réserve de quelques modifications.
+La mémoire n'est donc ni un miroir absolument conforme à une réalité vécue à la première personne, car elle est sujette à des déformations provoquées par un retour d'expériences, ni infaillible puisqu'elle peut être affecté par l'oubli.
+Afin de préserver l'opposition entre l'intérieur et l'extérieur, Augustin fait de la mémoire un espace dont les « plis et replis s'étendent à l'infini » et que l'esprit seul ne peut englober.
+L'individu n'a aucune vue d'ensemble de sa propre mémoire.
+La mémoire n'est donc pas un espace plat, où tous les éléments qu'elle renferme seraient visibles, mais elle est un espace constitué de « plis » dont la topolographie cachent des éléments à l'esprit.
+Ces expériences vécues à la première personne, ces souvenirs, ne sont pas les seuls éléments à exister dans la mémoire.
+Quatre chapitres (IX, X, XI et XII) du livre X sont consacrés à une autre entité qu'est la connaissance relevant des sciences et aux mathématiques.
+La mémoire abrite également les connaissances, or celles-ci ne sont pas mémorisées par les sens qui sont les seules portes d'entrée de la mémoire, nous dit Augustin.
+L'exemple des mathématiques est flagrant : la connaissance mathématique n'a rien à voir avec la langue qui sert à l'enseigner (latin ou grec), le son de la parole et la dimension géométrique sont deux choses différentes.
+Augustin contourne ce problème et y répond par l'inclusion préalable des connaissances du monde dans la mémoire.
+L'ensemble de ces connaissances sont présentes dans la mémoire, et les stimuli extérieurs permettraient d'activer la mémoire et de déplier un pan de cet espace pour dévoiler la connaissance qui s'y cache.
+
+Au-delà de cette conception d'une mémoire transcendante, il est intéressant de noter plusieurs traits caractéristiques de la mémoire, et par extension de l'intimité superposée à celle-ci, que nous pouvons tirer de cette brève lecture des _Confessions_.
+La mémoire est un espace intérieur doté d'un _topos_ particulier fait de plis et de replis sous lesquels sont abrités des connaissances et des souvenirs.
+L'oubli intègre la mémoire, il agit comme un repli sur une information contre lequel un stimuli extérieur permet de le relever et de rendre accessible l'information qui y était enfouie.
+D'une certaine manière, enfouir une information sous un pli de cet espace revient à cacher une information à soi-même, elle devient ainsi quelque chose auquel l'esprit n'a plus accès.
+Ainsi, la métaphore du repli permet d'introduire la soustraction de quelque chose au regard de l'autre ou de soi dès les prémices de l'intimité chrétienne.
+
+L'exemple de l'écriture des _Confessions_ illustre parfaitement cette pensée puisque, pour Augustin, c'est l'exercice de la lecture des Écritures qui lui a permis de trouver l'illumination parmi les connaissances contenues dans sa mémoire, donc par l'entremise d'un medium externe.
+Augustin produit une mise en abîme de cette expérience en se servant à son tour de l'écriture pour transmettre son expérience personnelle et qu'elle puisse servir de méthode chez ses futurs lecteurs.
+Ce jeu entre lecture, écriture et dialogue (ceux qu'il raconte dans son autobiographie) ne sont pas sans rappeler les inspirations néoplatoniciennes ou stoïciennes que l'auteur mentionne dans son ouvrage.
 
 ### Les inspirations stoïciennes
 
-Dans les *Confessions*, nous pouvons trouver des références à Marc-Aurèle et à Sénèque, deux philosophes stoïciens (retrouver les références)...
-Ce titre n'est pas anodin, il s'inscrit directement dans la lignée de celui de Marc-Aurèle (*Pensées pour moi-même*, citer la référence) (voir Hadot, *exercices spirituels et philosophie antique*, p.150)
+Les références à la philosophie antique ne manquent pas dans les écrits d'Augustin.
+Il est souvent fait mention des stoïciens comme Cicéron (III, IV, p.94) ou des néoplatoniciens tels que Porphyre ou Plotin (VII, p.217 ; X, XLII, p.399) dans les _Confessions_.
+P. Hadot fait également le lien entre le titre des _Confessions_ d'Augustin et les _Pensées pour moi-même_ de Marc-Aurèle (stoïcien), qu'il inscrit directement dans cette lignée de récit autobiographique (voir Hadot, *exercices spirituels et philosophie antique*, p.150).
+Parmi les similitudes avec les stoïciens, nous en retrouvons également avec certains écrits de Sénèque comme c'est le cas entre les deux textes intitulés _De Beata Vita_ (Augustin) et _De Vita Beata_ (Sénèque).
+Un autre croisement entre ces deux auteurs est réalisable puisque Sénèque mentionne le superlatif de l'intérieur dans ces échanges avec Lucilius.
+Foucault dans ses « écrits sur soi » (1983, p. 1245) évoque la relation épistolaire qu'entretiennent entre Sénèque et Lucilius au 1^er^ siècle, ce dernier étant gouverneur de Sicile pour le compte de l'empereur Néron.
+La correspondance entre les deux protagonistes s'étale sur deux années et l'on décompte pas moins de 124 lettres rédigées par Sénèque à l'intention de Lucilius.
+C'est dans la lettre 83 que l'on trouve cette référence à l'intime que mentionne Foucault :
 
+> Vous voulez que je vous rende compte de ce que je fais chaque jour et toute la journée. C'est avoir bien bonne opinion de moi, de croire qu'il ne s'y trouve rien que je voulusse cacher. Sans doute l'homme devrait toujours se conduire comme s'il avait des témoins, toujours penser comme si quelqu'un pouvait lire au fond de son coeur. Et certes il le peut ! Que sert-il en effet de se cacher des hommes ? Il n'est rien de fermé pour Dieu : il est présent dans nos âmes ; il intervient dans nos pensées. Que dis-je? intervient, comme s'il s'en éloignait jamais ! Vous serez satisfait, Lucilius ; je vous rendrai compte volontiers de toutes mes actions, suivant leur ordre. Je vais donc me mettre à m'observer, et, pour plus de sûreté, je ferai le soir la revue de ma journée. (cf. [page web](http://agoraclass.fltr.ucl.ac.be/concordances/sen_luciliusX/lecture/3.htm))
 
-Foucault dans ses « écrits sur soi » (1983, p. 1245) mentionne la relation épistolaire au 1^er^ siècle entre Sénèque et Lucilius Junior, alors gouverneur de Sicile pour le compte de l'empereur Néron.
+Dans cet extrait, la référence à l'intime est bien présente : « _Sic certe uiuendum est tamquam in conspectu uiuamus, sic cogitandum tamquam aliquis in pectus intimum introspicere possit: et potest_ » qui est traduit par « au fond de son coeur ».
+Alors que cette lettre précède d'environ 300 années les _Confessions_ d'Augustin, nous retrouvons la présence divine comme caractéristique principale de l'intimité : Dieu est présent à l'intérieur de l'être.
+Toutefois, il ne faut pas s'y méprendre, la mention de Dieu chez Sénèque diffère de celle d'Augustin.
+En l'an 60, la période hellénistique est terminée depuis presque 90 années et l'expansion du christiannisme n'a pas encore eu lieu.
+L'évocation de Dieu chez Sénèque fait plutôt référence à la philosophie stoïcienne et à d'autres conceptions telle que la nature.
 
-Sénèque entretient dans les dernières années de sa vie une abondante correspondance avec Lucilius le Jeune.
-
-
-> Vous voulez que je vous rende compte de ce que je fais chaque jour et toute la journée. C'est avoir bien bonne opinion de moi, de croire qu'il ne s'y trouve rien que je voulusse cacher. Sans doute l'homme devrait toujours se conduire comme s'il avait des témoins, toujours penser comme si quelqu'un pouvait lire au fond de son coeur. Et certes il le peut ! Que sert-il en effet de se cacher des hommes ? Il n'est rien de fermé pour Dieu : il est présent dans nos âmes; il intervient dans nos pensées. Que dis-je? intervient, comme s'il s'en éloignait jamais ! Vous serez satisfait, Lucilius; je vous rendrai compte volontiers de toutes mes actions, suivant leur ordre. Je vais donc me mettre à m'observer, et, pour plus de sûreté, je ferai le soir la revue de ma journée. (cf. [page web](http://agoraclass.fltr.ucl.ac.be/concordances/sen_luciliusX/lecture/3.htm))
-
-Dans cet extrait, la référence à l'intime est bien présente : « _Sic certe uiuendum est tamquam in conspectu uiuamus, sic cogitandum tamquam aliquis in pectus intimum introspicere possit: et potest_ » qui est traduit par au fond du coeur, le superlatif de l'intérieur.
 
 Ce dévoilement de l'intimité de Sénèque qui raconte le déroulement de sa journée dans la suite de la lettre, en y incorporant des références à Zénon, le fondateur de l'école stoïcienne, dépasse le simple récit autobiographique.
 Nous noterons la présence du récit de soi dans les correspondances dès cette époque, alors qu'en France il faudra attendre le XVIII^e^ siècle pour voir un retour de ce type de récit dans les échanges épistolaires comme l'a montré Simonet-Tenant.
@@ -223,6 +271,10 @@ Ainsi, l'intimité est un espace que l'on construit à travers la pratique des e
 Il ne s'agit pas d'un espace déterminé mais d'un espace dont il faut délimiter les frontières et les renégocier pour avancer vers cette Sagesse.
 L'intime devient ainsi un espace de construction de soi.
 La relation que le philosophe entretient au divin se crée en soi, à travers ce plan intermédiaire que nous propose Diotime, et par extension à travers les médium qui le jalonnent.
+
+
+Augustin écarte partiellement les préceptes de la philosophie antique lorsqu'il rejette les plans de médiations intermédiaires par lesquels passent les philosophes pour atteindre la sagesse (X, XLII) au profit d'un unique Médiateur, le Verbe (et ses Écritures) (X, XLIII).
+Ce rejet n'est pas anodin et modifie complètement le paradigme de l'être puisque selon cette approche le divin et le sacré résident d'ores et déjà dans l'intimité.
 
 ## Les paradoxes de l'intime
 
