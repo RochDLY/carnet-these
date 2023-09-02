@@ -7,24 +7,23 @@ draft: true
 
 ## Introduction 
 
-Ce document s'inscrit dans une recherche intitulée « La manifestation de l'intimité du chercheur à travers les écritures numériques savantes », recherche qui est réalisée dans le cadre d'un doctorat en sciences de l'information et de la communication et en littératures avec une orientation dans les humanités numériques.
+Ce document s'inscrit dans une recherche intitulée « La manifestation de l'intimité du chercheur à travers les écritures numériques savantes », recherche qui est réalisée dans le cadre d'un doctorat en sciences de l'information et de la communication et en littératures avec une orientation en humanités numériques.
 L'objectif de cette thèse est d'observer cette intimité dans le cas de deux types d'écriture savante en contexte numérique : les articles et les ouvrages.
 Néanmoins, l'intimité convoquée ici semble inappropriée : quelle est cette intimité que l'on questionne ?
 De nos jours, le champ de l'intime relève généralement de la sphère privé et personnelle.
 On y retrouve des sentiments ou des secrets qu'on l'on souhaite cacher à la vue des autres, ou encore que l'on souhaite partager avec une personne particulière comme cela peut-être le cas au sein d'une relation amoureuse.
-L'usage que nous faisons de l'intime dans cette recherche est différent et génère une ambiguïté qui semble paradoxale avec ses définitions les plus coutumières.
+L'usage que nous faisons de l'intime dans cette recherche est différent de ce sens commun et génère une ambiguïté qui semble paradoxale avec ses définitions les plus coutumières.
 L'intention de ce texte est de clarifier l'emploi de ce terme et de définir les contours de ce que l'on nomme « intimité du chercheur », qui est une intimité particulière parmi tous les cas de figures que ce champ recouvre.
 De l'Antiquité jusqu'à nos jours, des figures savantes ou érudites n'ont eu de cesse d'essayer de définir les interactions entre les individus, en y intégrant notamment la notion d'intimité.
 Elle y prend de multiples formes et de multiples significations selon les époques.
-Françoise Simonet-Tenant et Véronique Montémont proposent une histoire de l'intime et de l'évolution de ses significations sur une période allant du XVII^e^ siècle jusqu'au début du 21^e^ siècle.
+Françoise Simonet-Tenant et Véronique Montémont proposent une histoire de l'intime et de l'évolution de ses significations sur une période allant du XVII^e^ siècle jusqu'au début du XXI^e^ siècle.
 En nous appuyant sur leurs écrits, nous plongerons dans les différentes significations de l'intime héritées d'une culture chrétienne.
 L'apparition du superlatif de l'intérieur _intimus_ est souvent attribuée à Augustin dans ses _Confessions_, une oeuvre majeure datant de la fin du IV^e^ siècle qui a marqué toute la philosophie durant la période médiévale.
 Pourtant, on le retrouve dans des textes datant d'avant cette époque et appartenant plutôt à la période hellénistique, lorsque la langue grecque (ancienne) dominait tous les territoires conquis par Alexandre de l'Égypte jusqu'en Inde.
 Pierre Hadot, philosophe et historien de la philosophie, était spécialisé dans le domaine de la philosophie antique dont la période correspond à celle où l'on retrouve l'emploi de l'_intimus_ comme chez le stoïcien Sénèque dans ses correspodances avec Lucilius.
-Nous analyserons sa conception de la philosophie antique et de ce qu'il nommait les « exercices spirituels » pour faire émerger une autre définition de l'intime.
+Nous analyserons sa conception de la philosophie antique et ce qu'il nommait les « exercices spirituels » pour faire émerger une autre définition de l'intime.
 À partir de cette comparaison entre les deux héritages grecs et chrétiens, nous mettrons en évidence plusieurs paradoxes que l'intime embarque dans ses différentes acceptions.
-Ainsi nous pourrons dresser une cartographie très générale des significations de l'intime en occident depuis un peu plus de deux millénaires et s'appuyer sur cet outil pour lever l'ambiguïté sur notre objet de recherche : l'intimité du chercheur.
-
+Ainsi nous pourrons dresser une cartographie très générale des significations de l'intime en occident depuis un peu plus de deux millénaires et s'appuyer sur celle-ci pour lever l'ambiguïté sur notre objet de recherche : l'intimité du chercheur.
 
 ## Brève histoire de l'intime
 
@@ -44,57 +43,55 @@ Par exemple, les relations sexuelles ne doivent pas se dérouler dans un espace 
 La liste des exemples pourrait être infinie tant les sujets concernés sont vastes : nous pouvons considérer que tout ce qui relève de l'individu et du non-dit en public peut appartenir à la sphère privée et à l'intime, comme par exemple les questions de genre, de sexualité et d'identité qui sont délicates à aborder en public si elles sortent des standards culturels.
 Néanmoins, nous devons faire attention à ne pas sur-interpréter cet emploi du privé.
 « L'espace privé » convoqué n'est pas relatif à une propriété privé, un espace sur lequel il est possible d'émettre un titre de propriété, c'est-à-dire un espace qui deviendrait une marchandise et intégrerait une forme économique de la transaction comme nature.
-L'appartenance de l'intime est un abus de langage, celle-ci doit être interpréter en tant qu'_être_ : l'intime est l'individu, ce qui le constitue aux tréfonds de lui-même.
+L'appartenance associée à l'intime est un abus de langage, celle-ci doit être interpréter en tant qu'_être_ : l'intime est l'individu, ce qui le constitue aux tréfonds de lui-même.
 De par sa dimension subjective et affective, l'intime ne peut pas être négocié ou monneyé et cela malgré les différentes politiques et controverses que nous connaissons avec le numérique, par exemple avec toutes les polémiques sur les données personnelles.
 Nous ne traiterons pas ici de ces questions et de ces controverses qui font déjà l'objets d'autres recherches dans de multiples disciplines.   
 
 Françoise Simonet-Tenant, professeure de Lettres modernes (XX^e^ siècle) à l'Université de Rouen, est spécialiste de l'écriture de soi.
 Ses travaux convoquent la notion d'intime depuis plusieurs années.
 En 2020, elle en propose l'histoire dans un article intitulé « Pour une approche historique de l'intime » publié dans la revue *Cliniques* (Simonet-Tenant 2020).
-Elle y démontre que le XVIII^e^ est un tournant dans la définition de l'intime qui, depuis le V^e^ siècle avec Saint-Augustin, véhicule surtout sa relation avec le sacré et l'acte de confession qui est rendu obligatoire par le concile de Latran IV (1215).
+Elle y démontre que le XVIII^e^ siècle est un tournant dans la définition de l'intime qui, depuis le V^e^ siècle avec Saint-Augustin, véhicule surtout sa relation avec le sacré et l'acte de confession qui est rendu obligatoire par le concile de Latran IV (1215).
 La confession est un dialogue entre un homme d'église et le ou la confessée.
 Cette personne dévoile à Dieu par l'intermédiaire de l'église sa vie intérieure, ses péchés ou ce qui est considéré comme tel, avec pour objectif la recherche de l'absolution.
 Cette obligation de se confesser au moins une fois par an pourrait être la fondation de ce que l'auteure nomme la culture de l'intime.
 D'ailleurs, au XVII^e^ siècle, l'intime est définie pour la première fois dans un dictionnaire en dehors de la sphère sacrée comme un lien à un ami à qui l'on se confie.
 L'acte de mise en récit de soi, que l'on se confesse ou que l'on se confie, mobilise l'autre à travers le préfixe _con-_.
-Pourtant, à partir du XVIII^e^ siècle que l'intime bascule « d’un mode relationnel à la conquête de l’intériorité » (Simonet-Tenant, 2020).
+Pourtant, à partir du XVIII^e^ siècle, l'intime bascule « d’un mode relationnel à la conquête de l’intériorité » (Simonet-Tenant, 2020).
 Il ne s'agit plus seulement de raconter sa vie intérieure mais d'associer des espaces nommés à celle-ci : par exemple la chambre à coucher ou encore le boudoir.
 Ce fait est expliqué par plusieurs phénomènes rencontrés lors de ce siècle :  la spécialisation des pièces à vivre de la maison, l'engouement pour les serrures, mais aussi l'essor du système postal et le mouvement culturel romantique.
 Du côté de la littérature, toujours au XVIII^e^ siècle, l'oeuvre de Rousseau, _Les Confessions_, dont il tire probablement le nom des _Confessions_ d'Augustin, marque les débuts des récits autobiographiques.
 Cette oeuvre démontre la bascule qui s'opère entre la réalisation d'aveux et la conquête d'un espace, celui du livre et de l'espace public. 
 Rousseau se raconte et confie son autobiographie au livre qui est le medium entre lui et ses lecteurs.
 
-Véronique Montémont (2009) croise deux méthodes d'analyses diachroniques pour s'y retrouver « dans la jungle de l'intime ».
-Le constat initial de cet article relève l'évolution sémantique complexe de l'intime au cours de son histoire.
+D'autre part, Véronique Montémont (2009) croise deux méthodes d'analyses diachroniques pour s'y retrouver « dans la jungle de l'intime ».
+Le constat initial de cette recherche relève de l'évolution sémantique complexe de l'intime au cours de son histoire.
 Afin de s'y orienter, V. Montémont s'appuie sur deux approches.
-La première est une analyse lexicographique dont l'objectif est de mettre en évidence les variations de la définition de l'intime dans un corpus de dictionnaire s'étalant sur la période allant du début du XVII^e^ jusqu'au XXI^e^ siècle.
+La première est une analyse lexicographique dont l'objectif est de mettre en évidence les variations de la définition de l'intime dans un corpus de dictionnaires s'étalant sur la période allant du début du XVII^e^ jusqu'au XXI^e^ siècle.
 La seconde analyse concerne l'exploration de deux corpus de textes, issus de la Bibliothèque Nationale de France et de la base de données Frantext, dont l'analyse doit confirmer ou infirmer les résultats obtenus avec la première méthode.
 Les résultats observés permettent de mettre en évidence les grandes tendances sémantiques de l'intime.
-V. Montémont remarque tout d'abord que le terme _intime_ n'apparaît qu'à de très rares occasions avant le début du XVII^e^ siècle.
-Ces apparitions sont très marginales et ne réfère qu'au champ sémantique religieux.
-Néanmoins, à partir du début du XVII^e^ siècle, les données lexicométriques restreignent l'intime à une relation amicale ou amoureuse.
+V. Montémont remarque tout d'abord que le terme _intime_ n'apparaît qu'en de très rares occasions avant le début du XVII^e^ siècle.
+Ces apparitions sont très marginales et ne réfèrent qu'au champ sémantique religieux.
+Alors qu'à partir du début du XVII^e^ siècle, les données lexicométriques associent l'intime à une relation amicale ou amoureuse.
 Il faut attendre le début du XVIII^e^ siècle pour voir réapparaître la dimension étymologique et religieuse relative à l'intériorité dans les définitions de l'intime et provoquer cette « conquête de l'intériorité » que décrit F. Simonet-Tenant quelques années plus tard.
 Toutefois, les deux méthodes montrent qu'il faut attendre le début du XIX^e^ siècle pour que l'intime élargisse son champ d'action aux objets, comme le journal intime dont l'essor débute à ce siècle alors que les débuts des pratiques diaristiques remontent au XVIII^e^ siècle avant la Révolution française.
 Le corps est très peu associé à l'intime jusqu'au XIX^e^ siècle.
 Pour ce siècle, V. Montémont associe l'apparition de quelques occurrences liées au corps à l'émergence de pratiques d'hygiène corporelle dûes à l'apparition des salles de bain.  
 Il faudra attendre le XX^e^ pour que l'intime soit affublé de sa dimension sexuelle.
 
-Ce survol des différents sens que comporte le concept d'intime nous montre que son évolution est très tardive vis-à-vis de l'étendue de son histoire.
+Ce survol des différents sens que comporte le concept d'intime nous montre une évolution très tardive vis-à-vis de l'étendue de son histoire.
 Une théorie apportée par V. Montémont pour expliquer ce phénomène est que l'intime, du fait de sa plasticité, est « victime de son succès » et qu'à partir du XIX^e^ siècle, il fait l'objet d'« étiquettes [qui] relèvent, de manière flagrante, de stratégies éditoriales et publicitaires ».
-Cet engouement pour l'intime à divers emplois participe à créer un trouble sémantique et « fragilise l'intime », d'où un intérêt de certain à lui « fixer une réaliter » et à le théoriser.
+Cet engouement pour l'intime à divers emplois participe à créer un trouble sémantique et « fragilise l'intime », d'où un intérêt de certains à lui « fixer une réaliter » et à le théoriser.
 Cette brève histoire de l'intime est concentrée sur la période du XVII^e^ siècle jusqu'à nos jours, ce qui correspond au moment de la laïcisation de l'intimité et à l'évolution de ces acceptions en France.
 L'intimité du chercheur telle que nous l'employons ne se rapporte pas aux acceptions qui viennent d'être mentionnées.
 Cependant, comme l'a montré F. Simonet-Tenant, l'intimité comporte une longue tradition chrétienne que l'on peut également explorer afin de circonscrire un peu plus cette notion.
 
-## L'intime au début de notre ère
-
-### Les *Confessions* d'Augustin
+## Les *Confessions* d'Augustin
 
 Vers la fin du IV^e^ siècle, Augustin d'Hippone rédige et publie plusieurs ouvrages dont les très célèbres _Confessions_ qui, encore aujourd'hui, font couler beaucoup d'encre.
 Plus connu sous le nom de Saint-Augustin, il se converti tardivement au christiannisme (Augustin, VIII, p.257. Tout un livre des _Confessions_ est dédié à cette conversion profonde) et devient l'une des figures majeures de la pensée chrétienne de cette époque.
 Ses écrits sont de ceux qui permirent l'absorption de la tradition philosophique antique dans la philosophie chrétienne (Hadot, exercices spi. p.71 ; Augustin X, XLII p.399) dont il se détache surtout sur le plan théologique.
 Les _Confessions_ appartiennent à la catégorie des récits autobiographiques.
-L'auteur y laisse ses mémoires et raconte sa profession de foi à travers les différentes étapes qui l'y menèrent : éducation en lettres et en philosophie (néoplatoniciens, stoïciens), appétence pour certains courants comme le manichéisme ou encore les rencontres avec des personnages clés tel qu'Ambroise de Milan, un l'évêque qui le baptisa et dont il était l'élève.
+L'auteur y laisse ses mémoires et raconte sa profession de foi à travers les différentes étapes qui l'y menèrent : éducation en lettres et en philosophie (néoplatoniciens, stoïciens), appétence pour certains courants comme le manichéisme ou encore les rencontres avec des personnages clés tel qu'Ambroise de Milan, l'évêque qui le baptisa et dont il était l'élève.
 Pour Deproost (2019), la quête d'Augustin est celle du sublime qui est « lié à la radicalité d’une démarche intérieure ».
 Cette démarche intérieure repose en partie sur des méthodes et des exercices qu'il livre à son lectorat à travers son expérience de la conversion et du sublime.
 Les _Confessions_ d'Augustin ne sont pas destinés à Dieu qui n'y apprendrait rien (V, I) puisqu'il est déjà présent en tout un chacun ; Augustin s'adresse ainsi à ses lecteurs qu'il interpelle à plusieurs reprises tout au long de son oeuvre. 
@@ -105,12 +102,16 @@ Ce texte retient notre attention pour plusieurs raisons.
 La première est qu'il contient l'une des plus anciennes mentions de l'intime et que celle-ci est directement liée à la construction de l'intimité chrétienne évoquée précédemment ; la seconde est le lien établi entre l'écriture, l'intime et la mémoire (Augustin livre X ; Dubreucq, 2003 ; Deproost, 2019).
 Cette autobiographie relate la quête d'Augustin et son incessante recherche d'une incarnation de Dieu dans le monde extérieur entre « le ciel et la terre ».
 La piste de l'intimité augustinienne apparaît dès le début de l'oeuvre lorsque l'auteur écrit : « Je ne serais donc point, mon Dieu, je ne serais point du tout si vous n'étiez point en moi » (I, 2, p. 26).
-D'autres indices marquent cette recherche jusqu'au livre III, lorsqu'au VI^e^ chapitre, la célèbre formule latine «_tu autem eras interior intimo meo_ » (Augustin III, VI, 11) introduit l'étymologique au superlatif de l'intérieur, l'*intimus*.
-La traduction complète de ce passage signifie : « [...] mon Dieu, que je vous cherchais, non par cette lumière d'esprit et d'intelligence que vous m'avez donnée par-dessus les bêtes, mais par les organes de mes sens corporels, qui n'ont pour objet que les choses extérieures ; au lieu que **vous êtes plus intérieur à mon âme que ce qu'elle a de plus caché au-dedans d'elle**, et que vous êtes plus élevé que ce qu'elle a de plus haut et de plus sublime dans ses pensées. (p.100) »
+D'autres indices marquent cette recherche jusqu'au livre III, lorsqu'au VI^e^ chapitre, la célèbre formule latine «_tu autem eras interior intimo meo_ » (Augustin III, VI, 11) introduit l'étymologique du superlatif de l'intérieur, l'*intimus*.
+La traduction complète de ce passage signifie :
+
+> « [...] mon Dieu, que je vous cherchais, non par cette lumière d'esprit et d'intelligence que vous m'avez donnée par-dessus les bêtes, mais par les organes de mes sens corporels, qui n'ont pour objet que les choses extérieures ; au lieu que **vous êtes plus intérieur à mon âme que ce qu'elle a de plus caché au-dedans d'elle**, et que vous êtes plus élevé que ce qu'elle a de plus haut et de plus sublime dans ses pensées. (p.100) »
+
 Par cette phrase, Augustin cherche à montrer que Celui qui le constitue au plus profond de lui-même relève d'un ordre divin, transcendant, et qui va « plus haut » et plus profond que ce qu'il peut imaginer.
 L'intimité augustinienne n'est pas déterminée par l'individu mais par son Créateur, elle est donnée par celui-ci et ne peut être sondée intégralement.
 Néanmoins, cette prise de conscience de soi éprouvée par Augustin n'est pas dûe à une hasardeuse illumination.
-C'est le fruit d'une recherche approfondie et de réflexions, d'ailleurs ce livre en est une méthode pour l'atteindre.
+C'est le fruit d'une recherche approfondie et de réflexions et ce livre en est une méthode pour l'atteindre que l'auteur souhaite transmettre.
+
 L'auteur indique lors du livre X (VII et VIII p.342-343) consacré au « Temps présent, mémoire et désir » : 
 
 > Qu'est-ce donc que j'aime quand j'aime mon Dieu ? Et qui est celui qui est si fort élevé au-dessus de la plus haute partie de mon âme ? Je veux par elle m'élever jusqu'à lui ; je veux passer au-delà de cette puissance par laquelle je suis uni à mon corps, et qui anime toutes ses parties. Car je ne saurais connaître mon Dieu par elle, puisque si elle était capable de cette haute connaissance, les chevaux et les mulets qui sont sans raison, pourraient connaître Dieu comme moi, ayant comme moi cette puissance qui donne aussi leur vie à leur corps.  
@@ -120,20 +121,22 @@ Cet extrait des _Confessions_ introduit deux nouveaux concepts pour définir l'i
 Ainsi, c'est en fouillant et en parcourant sa mémoire que l'on peut s'élever vers l'illumination et espérer connaître Dieu.
 L'intimité au plus profond de l'être est ici juxtaposée à la mémoire qui en devient le réceptacle.
 Ce sont les événements extérieurs à l'individu qui y rentrent par les sens sous la forme d'images que l'esprit peut rappeler, sous réserve de quelques modifications.
-La mémoire n'est donc ni un miroir absolument conforme à une réalité vécue à la première personne, car elle est sujette à des déformations provoquées par un retour d'expériences, ni infaillible puisqu'elle peut être affecté par l'oubli.
+La mémoire n'est donc ni un miroir absolument conforme à une réalité vécue à la première personne, car elle est sujette à des déformations provoquées par un retour d'expériences, ni infaillible puisqu'elle peut être affectée par l'oubli.
 Afin de préserver l'opposition entre l'intérieur et l'extérieur, Augustin fait de la mémoire un espace dont les « plis et replis s'étendent à l'infini » et que l'esprit seul ne peut englober.
 L'individu n'a aucune vue d'ensemble de sa propre mémoire.
-La mémoire n'est donc pas un espace plat, où tous les éléments qu'elle renferme seraient visibles, mais elle est un espace constitué de « plis » dont la topolographie cachent des éléments à l'esprit.
+La mémoire n'est donc pas un espace plat, où tous les éléments qu'elle renferme seraient visibles, mais elle est un espace constitué de « plis » dont la topographie cachent des éléments à l'esprit.
 Ces expériences vécues à la première personne, ces souvenirs, ne sont pas les seuls éléments à exister dans la mémoire.
 Quatre chapitres (IX, X, XI et XII) du livre X sont consacrés à une autre entité qu'est la connaissance relevant des sciences et aux mathématiques.
 La mémoire abrite également les connaissances, or celles-ci ne sont pas mémorisées par les sens qui sont les seules portes d'entrée de la mémoire, nous dit Augustin.
-L'exemple des mathématiques est flagrant : la connaissance mathématique n'a rien à voir avec la langue qui sert à l'enseigner (latin ou grec), le son de la parole et la dimension géométrique sont deux choses différentes.
+L'exemple des mathématiques est flagrant : la connaissance mathématique n'a rien à voir avec la langue qui sert à l'enseigner (latin ou grec), puisque, comme le raconte Augustin, le son de la parole et la dimension géométrique sont deux choses différentes.
 Augustin contourne ce problème et y répond par l'inclusion préalable des connaissances du monde dans la mémoire.
 L'ensemble de ces connaissances sont présentes dans la mémoire, et les stimuli extérieurs permettraient d'activer la mémoire et de déplier un pan de cet espace pour dévoiler la connaissance qui s'y cache.
 
 Au-delà de cette conception d'une mémoire transcendante, il est intéressant de noter plusieurs traits caractéristiques de la mémoire, et par extension de l'intimité superposée à celle-ci, que nous pouvons tirer de cette brève lecture des _Confessions_.
 La mémoire est un espace intérieur doté d'un _topos_ particulier fait de plis et de replis sous lesquels sont abrités des connaissances et des souvenirs.
-L'oubli intègre la mémoire, il agit comme un repli sur une information contre lequel un stimuli extérieur permet de le relever et de rendre accessible l'information qui y était enfouie.
+L'oubli, en intègrant la mémoire, agit comme un repli.
+Il recouvre l'information pour la cacher à la mémoire, et l'individu n'est plus à même de retoruver cette image d'une connaissance puisqu'elle est enfouie.
+Néanmoins, un stimuli extérieur permet de retirer le pli et de rendre accessible l'information qui était enfouie dessous.
 D'une certaine manière, enfouir une information sous un pli de cet espace revient à cacher une information à soi-même, elle devient ainsi quelque chose auquel l'esprit n'a plus accès.
 Ainsi, la métaphore du repli permet d'introduire la soustraction de quelque chose au regard de l'autre ou de soi dès les prémices de l'intimité chrétienne.
 
@@ -141,85 +144,99 @@ L'exemple de l'écriture des _Confessions_ illustre parfaitement cette pensée p
 Augustin produit une mise en abîme de cette expérience en se servant à son tour de l'écriture pour transmettre son expérience personnelle et qu'elle puisse servir de méthode chez ses futurs lecteurs.
 Ce jeu entre lecture, écriture et dialogue (ceux qu'il raconte dans son autobiographie) ne sont pas sans rappeler les inspirations néoplatoniciennes ou stoïciennes que l'auteur mentionne dans son ouvrage.
 
-### Les inspirations stoïciennes
+## Les inspirations stoïciennes
 
 Les références à la philosophie antique ne manquent pas dans les écrits d'Augustin.
 Il est souvent fait mention des stoïciens comme Cicéron (III, IV, p.94) ou des néoplatoniciens tels que Porphyre ou Plotin (VII, p.217 ; X, XLII, p.399) dans les _Confessions_.
-P. Hadot fait également le lien entre le titre des _Confessions_ d'Augustin et les _Pensées pour moi-même_ de Marc-Aurèle (stoïcien), qu'il inscrit directement dans cette lignée de récit autobiographique (voir Hadot, *exercices spirituels et philosophie antique*, p.150).
+P. Hadot propose également un lien entre le titre des _Confessions_ d'Augustin et les _Pensées pour moi-même_ de Marc-Aurèle (stoïcien), qu'il inscrit directement dans cette lignée de récit autobiographique (voir Hadot, *exercices spirituels et philosophie antique*, p.150).
 Parmi les similitudes avec les stoïciens, nous en retrouvons également avec certains écrits de Sénèque comme c'est le cas entre les deux textes intitulés _De Beata Vita_ (Augustin) et _De Vita Beata_ (Sénèque).
-Un autre croisement entre ces deux auteurs est réalisable puisque Sénèque mentionne le superlatif de l'intérieur dans ces échanges avec Lucilius.
-Foucault dans ses « écrits sur soi » (1983, p. 1245) évoque la relation épistolaire qu'entretiennent entre Sénèque et Lucilius au 1^er^ siècle, ce dernier étant gouverneur de Sicile pour le compte de l'empereur Néron.
-La correspondance entre les deux protagonistes s'étale sur deux années et l'on décompte pas moins de 124 lettres rédigées par Sénèque à l'intention de Lucilius.
-C'est dans la lettre 83 que l'on trouve cette référence à l'intime que mentionne Foucault :
+Un autre croisement entre ces deux auteurs peut être réalisé puisque, tout comme Augustin, Sénèque emploie le superlatif de l'intérieur dans ces échanges avec Lucilius.
+Foucault dans ses « écrits sur soi » (1983, p. 1245) évoque la relation épistolaire qu'entretiennent Sénèque et Lucilius au 1^er^ siècle, ce dernier étant à ce moment-là gouverneur de Sicile pour le compte de l'empereur Néron.
+La correspondance entre les deux protagonistes s'étale sur deux années et l'on décompte pas moins de 124 lettres rédigées par Sénèque à l'intention de Lucilius, elles ont été regroupées sour la forme d'un reccueil intitulé _Lettres à Lucilius_.
+Ce reccueil est connu pour aborder une large variété de sujets ayant pour objectif de former Lucilius au stoïcisme.
+La correspondance est le medium employé ici dans le cadre de leçons de philosophie.
+Le contenu des lettres comporte néanmoins un double style d'écriture : les leçons se mélangent à une conversation plus privée qui déborde de la simple relation de maître à élève.
+La lettre 83, où l'on trouve cette référence à l'intime que mentionne M. Foucault, témoigne de cette double écriture :
 
 > Vous voulez que je vous rende compte de ce que je fais chaque jour et toute la journée. C'est avoir bien bonne opinion de moi, de croire qu'il ne s'y trouve rien que je voulusse cacher. Sans doute l'homme devrait toujours se conduire comme s'il avait des témoins, toujours penser comme si quelqu'un pouvait lire au fond de son coeur. Et certes il le peut ! Que sert-il en effet de se cacher des hommes ? Il n'est rien de fermé pour Dieu : il est présent dans nos âmes ; il intervient dans nos pensées. Que dis-je? intervient, comme s'il s'en éloignait jamais ! Vous serez satisfait, Lucilius ; je vous rendrai compte volontiers de toutes mes actions, suivant leur ordre. Je vais donc me mettre à m'observer, et, pour plus de sûreté, je ferai le soir la revue de ma journée. (cf. [page web](http://agoraclass.fltr.ucl.ac.be/concordances/sen_luciliusX/lecture/3.htm))
 
-Dans cet extrait, la référence à l'intime est bien présente : « _Sic certe uiuendum est tamquam in conspectu uiuamus, sic cogitandum tamquam aliquis in pectus intimum introspicere possit: et potest_ » qui est traduit par « au fond de son coeur ».
-Alors que cette lettre précède d'environ 300 années les _Confessions_ d'Augustin, nous retrouvons la présence divine comme caractéristique principale de l'intimité : Dieu est présent à l'intérieur de l'être.
-Toutefois, il ne faut pas s'y méprendre, la mention de Dieu chez Sénèque diffère de celle d'Augustin.
-En l'an 60, la période hellénistique est terminée depuis presque 90 années et l'expansion du christiannisme n'a pas encore eu lieu.
-L'évocation de Dieu chez Sénèque fait plutôt référence à la philosophie stoïcienne et à d'autres conceptions telle que la nature.
+Dans cet extrait, la référence à l'intime se présente de la manière suivante : « _Sic certe uiuendum est tamquam in conspectu uiuamus, sic cogitandum tamquam aliquis in pectus intimum introspicere possit: et potest_ » qui est traduit par « au fond de son coeur ».
+Alors que cette lettre précède d'environ 300 années les _Confessions_ d'Augustin, nous retrouvons la présence d'une forme divine transcendante comme caractéristique principale de l'intimité : Dieu est présent à l'intérieur de l'être.
+Toutefois, il ne faut pas s'y méprendre, la mention de Dieu chez Sénèque diffère de celle que l'on retrouve chez Augustin.
+En l'an 60, la période hellénistique est terminée depuis presque 90 années et les croyances grecques sont tombées en désuétude.
+De plus, l'expansion du christiannisme n'ayant pas encore eu lieu, la religion chrétienne ne domine pas encore la vieille Europe.
+L'évocation de Dieu chez Sénèque fait plutôt référence à d'autres conceptions du divin tirées de la philosophie stoïcienne ou plus largement de la philosophie antique comme peut l'être la nature ou la raison.
 
+La structure de la lettre comporte deux parties distinctes.
+La première partie relate le quotidien de Sénèque, il y livre les nombreux événements qui ont marqué sa journée, des exercices corporels, son régime alimentaire, ses ablutions, etc., avant d'amorcer la seconde partie relative à la leçon de philosophie au moyen de la transition suivante : « Vous me demandez quels objets ont occupé mon esprit ? Je vais vous le dire. ».
+Sénèque utilise ce type de formule interrogative à plusieurs reprises tout au long de la première partie de la lettre.
+Ce mode de révélation a pour effet de donner au lecteur la sensation d'entrer plus profondément dans l'intimité de l'auteur.
+Dans ce cas précis l'auteur procède à une transition, les révélations sur le corps sont terminées et il passe aux révélations de l'esprit.
+C'est d'ailleurs la dernière occurrence de cette forme interrogative dans cette lettre, le reste étant dédié à la leçon. 
 
-Ce dévoilement de l'intimité de Sénèque qui raconte le déroulement de sa journée dans la suite de la lettre, en y incorporant des références à Zénon, le fondateur de l'école stoïcienne, dépasse le simple récit autobiographique.
-Nous noterons la présence du récit de soi dans les correspondances dès cette époque, alors qu'en France il faudra attendre le XVIII^e^ siècle pour voir un retour de ce type de récit dans les échanges épistolaires comme l'a montré Simonet-Tenant.
-Le croisement entre les préceptes de l'école philosophique et les événements du quotidien de Sénèque vont au-delà d'un simple récit autobiographique : il s'agit d'un exercice d'écriture pratiqué dans les écoles philosophiques.
-La mise en tension de ces deux discours permet une prise de recul vis-à-vis de son propre passé (comme le souligne Sénèque, voir citation de la lettre) et d'observer si son mode de vie correspond aux préceptes de l'école à laquelle il appartient.
+Cette lettre dont le contenu dévoile l'intimité de Sénèque qui raconte le déroulement de sa journée, puis y incorpore des références à Zénon, le fondateur de l'école stoïcienne, dépasse le simple récit autobiographique.
+Cette juxtaposition entre les deux types de récit laisse soupçonner un autre but qu'une simple relation amicale où l'on se confierait à un ami ou à une visée réflexive d'un autre ordre relationnel que celle du maître à l'élève.
+La présente lettre de Sénèque a Lucilius doit être comprise dans son ensemble en tant que leçon philosophique.
+Il ne s'agit pas de savoir quel est le type de relation qui unit ces deux individus mais de comprendre en quoi ce contenu vise à instruire Lucilius.
+Cette lettre est un exemple de ce que P. Hadot intitule « exercice spirituel » et démontre comment se pratique la philosophie stoïcienne.
 
-(Il manquera la référence à Marc-Aurèle qu'il faudra compléter à l'hiver 24.)
+## Les exercices spirituels
 
-### Les exercices spirituels
+Dans son ouvrage _Exercices spirituels et philosophie antique_, Pierre Hadot décrit ce qu'était la philosophie antique durant l'apogée de la civilisation grecque que l'on peut situer à partir de la période des présocratiques (environ 700 av. JC) jusqu'à la fin de la période hellénistique (31 av. JC.).
+Durant cette période, la philosophie n'était pas seulement un exercice de pensée pour répondre aux questions sur l'existence de l'être et son rapport au monde, mais était un mode de vie qui se pratiquait au quotidien et elle était pratiquée par celles et ceux qui aimait et désirait la Sagesse.
+L'objectif n'était pas d'atteindre cette sagesse, car elle est l'apanage des dieux, mais d'en frayer la voie pour s'en rapprocher.
+Les philosophes de l'antiquité, à la différence de leurs contemporains spécialistes du savoir, les sophistes, modifiaient ainsi leur façon de vivre et l'accordaient à un système de valeurs vertueuses aligné sur les préceptes de l'école ou du courant philosophique auquel ils étaient rattachés.
+La philosophie pratiquée par les anciens était plus qu'un mode de pensée, elle était une « manière d'être » (Hadot, exercices sprituels p.77).
+Afin de parcourir ce chemin vertueux, les différentes écoles et courants ont mis au point des séries d'exercices spirituels que le philosophe pratiquait au quotidien.
 
-voir page 26 la liste des != exercices
+L'étymologie de ces exercices est strictement identique à celle de l'ascèse chrétienne : _askesis_.
+Les deux termes ont une origine commune mais une signification bien différente.
+à ce propos, P. Hadot nous met en garde quant à la confusion possible entre ces deux *askesis*.
+L'*askesis* chrétienne se rapproche de la définition contemporaine du terme, c'est-à-dire de l'abstinence ou de la restriction de nourriture, de boisson, de relation sexuelle, etc. ; alors que l'*askesis* grecque ne renvoie qu'aux exercices spirituels que nous avons mentionnés, qualifiés comme étant « une activité intérieure de la pensée et de la volonté » (ibid, p.78).
+La philosophie antique, à travers l'*askesis*, agit comme une « thérapeutique des passions » (Hadot p.22).
+Une pratique assidue permet de se dépouiller de ces dernières et d'opérer une objectivation du monde débarassée des perceptions subjectives et des affects.
+« L'intériorisation [réalisée à travers cette vie ascétique] est dépassement de soi et universalisation » (ibid, p.330), notamment chez les épicuriens et les stoïciens. 
+En somme, lorsque le philosophe entreprend son parcours, il en vient à se détacher de sa condition humaine et, par un mouvement d'extériorisation, développe une « nouvelle manière d'être-au-monde [...] qui consiste a prendre conscience de soi comme partie de la Nature » (ibid, p.330).
 
-Au cours de l'histoire de la philosophie en Occident se succèdent différentes époques que l'on peut scinder selon les périodes antique, médiévale, moderne et contemporaine.
-La période antique s'étend depuis celle des philosophies présocratiques (environ 700 av. JC) jusqu'au 1er siècle lors de l'expansion du Christiannisme.
-Cette philosophie se développe principalement autour des figures de Socrate et de Platon.
-La période hellénistique survient dans la deuxième moitié de la période de la philosophie antique, après la période dite classique.
-Elle se distingue par les différents courants et écoles de philosophie qui sont fondés sur l'héritage de Socrate et Platon, parmi lesquels on retrouve :
+P. Hadot (p.26) propose, dans son ouvrage qui y est dédié, une liste de ces exercices parmi lesquels on y trouve : la recherche (_zetesis_), l'examen approfondi (_skepsis_), la lecture, l'audition (_akroasis_), l'attention (_prosochè_), la maîtrise de soi (_enkrateia_), l'indifférence aux choses indifférentes, les méditations (_meletai_), les thérapies des passions, le souvenir de ce qui est bien, l'accomplissement des devoirs.
+L'auteur accorde une valeur particulière à l'examen de conscience que suppose l'attention à soi (_prosochè_).
+Il s'agit d'un exercice à réaliser quotidiennement, voire même plusieurs fois par journée.
+Le philosophe prend du recul sur ses actes passés, soit une distance critique vis-à-vis de sa manière d'être qu'il confronte au système de valeurs auquel il prétend appartenir.
+Une des méthodes pour réaliser cet exercice est l'écriture de soi.
+Le philosophe couche sur le papier les actions effectuées durant une période précise, il s'y raconte.
+C'est ce que fait Marc-Aurèle dans les _Pensées pour moi-même_ (Hadot p.149).
+En faisant un anachronisme, cette pratique pourrait aisément être confondue avec une écriture diaristique ou se rapprocher du récit autobiographique.
+Le succès de cette méthode perdure pendant plusieurs siècles comme en témoigne les écrits d'Athanase d'Alexandrie dans la _Vie d'Antoine_ vers l'an 360 (soit environ 40 ans avant les _Confessions_ d'Augustin).
+P. Hadot en cite le passage suivant (p.90) :
 
-- le platonisme ;
-- l'aristotélisme ;
-- le scepticisme ;
-- l'épicurisme ;
-- le stoïcisme.
+> Que chacun note par écrit, conseille Antoine, les actions et les mouvements de son âme, comme s'il devait les faire connaître aux autres. En effet, poursuit-il, nous n'oserions certainement pas commettre des fautes en public, devant les autres. Que l'écriture tienne donc la place de l'oeil d'autrui.
 
-Socrate est la figure emblématique de cette période.
-C'est de son enseignement que découle les différentes écoles et courants.
-Malgré sa célébrité, nous n'avons retrouvé aucun écrit de Socrate.
-C'est Platon, son élève, qui nous le rend accessible par ses écrits à l'intérieur desquels Socrate est un personnage important.
+Ainsi, l'examen de conscience, dont la finalité est la maîtrise de soi, peut être réalisé par une série d'étapes dont la première est l'introspection qui est accomplie grâce à une mise en récit de soi via un medium, l'écriture, ce qui génère une deuxième étape, celle de l'extériorisation de soi. 
 
-Platon...
+À titre d'exemple, si nous reprenons le passage cité précédemment de la lettre de Sénèque à Lucilius, Sénèque écrit ceci : « Sans doute l'homme devrait toujours se conduire comme s'il avait des témoins, toujours penser comme si quelqu'un pouvait lire au fond de son coeur ».
+Excepté pour l'écriture, la méthode que propose Sénèque est très similaire à celle de Saint-Antoine, et elle s'incarne à travers la lettre qui est employée comme medium.
+La relecture de la lettre de Sénèque sous le prisme de l'exercice spirituel modifie l'interprétation que l'on peut en faire.
+De plus, Sénèque nous indique dès le début de la lettre qu'il s'agit d'un exercice : « Je vais donc me mettre à m'observer, et, pour plus de sûreté, je ferai le soir la revue de ma journée. »
+Si nous considérons qu'il s'agit bien là de la réalisation d'un exercice spirituel, et en sachant que Sénèque est un philosophe, nous pouvons en déduire que cette lettre comporte finalement un double enjeu.
+Le premier est explicite : Sénèque fait une démonstration à Lucilius comme un maître peut le faire avec son élève.
+Le second est la réalisation de l'exercice pour Sénèque lui-même.
+En réalisant cet exercice dans le cadre d'une leçon qu'il dispense, Sénèque en profite pour appliquer cette méthode et écrire son examen de conscience qu'il va pouvoir livrer à Lucilius qui, en l'occurrence, incarne l'autre.
+La concordance des temps employée dans la lettre donne à penser que Sénèque prémédite les actions et mouvements qu'il va réaliser dans la journée à raconter pour qu'il n'y ait rien dont il puisse avoir honte car il sait que Lucilius sera son témoin.
 
-Aristote...
+Cet exemple fait émerger plusieurs propriétés de l'intimité évoquée dans la lettre et que l'on peut par extension appliquer à la philosophie antique.
+Tout d'abord, cette intimité naît de la pratique de la philosophie et des exercices qui l'accompagnent.
+Ce n'est donc pas quelque chose qui serait donné et pré-existant à soi, c'est quelque chose qu'il faut construire.
+Ensuite, elle nécessite un medium, dans ce cas-ci l'écriture, pour ajouter un mouvement d'extériorisation à une première dynamique introspective.
+En somme, le philosophe créé un récit de lui-même pour mobiliser l'autre et se donner à voir, pour mettre en évidence ce qui lui est intérieur.
 
-Les écoles et leurs fondateurs
+Néanmoins, il ne s'agit pas uniquement de se livrer à autrui, d'ailleurs ce n'est pas le regard que l'autre peut porter sur soi qui importe.
+Qu'il s'agisse de Sénèque ou d'Antoine, leur méthode convoque un autre qui est soit « public », soit « témoin ».
+L'autre ainsi convoqué dans ce mouvement d'extériorisation est avant tout un autre social et politique.
+Finalement, le philosophe se doit d'être exemplaire, son comportement doit correspondre à l'image attendu d'un philosophe dans l'école mais aussi et surtout dans la cité.
+Il ne dépend pas du regard que peuvent porter les citoyens sur lui, mais plutôt d'un système de valeurs qui le détermine en tant que philosophe. 
+La question de la maîtrise de soi et de l'examen de conscience est donc fondamentalement éthique.
 
-La période hellénistique prend historiquement fin en l'an 31 avant JC, à la mort de Cléopatre.
-Néanmoins, son influence s'étend au-delà de cette date et perdure au début de notre ère et de la période de la philosophie médiévale.
-
-Sénèque ...
-
-Plotin ... 
-
-Marc-Aurèle...
-
-Dans son ouvrage _Exercices spirituels et philosophie antique_, Pierre Hadot décrit ce qu'était la philosophie durant l'apogée des grecs.
-La philosophie n'était pas seulement un exercice de pensée pour répondre aux questions sur l'existence de l'être et son rapport au monde.
-La philosophie était un mode de vie qui se pratiquait au quotidien.
-Elle était pratiquée par celles et ceux qui aimait et désirait la Sagesse.
-L'objectif n'était pas de l'atteindre, car elle est l'apanage des dieux, mais d'en frayer la voie pour s'en rapprocher.
-Les philosophes, à la différence des sophistes (qui ne changeaient pas leur mode de vie), modifiaient leur façon de vivre.
-Ils l'accordaient ainsi à un système de valeur au sein duquel se trouve la Vertu.
-La philosophie pratiquée par les anciens était plus qu'un mode de pensée, elle était une « manière d'être » (Hadot, exercices sprituels p.77)
-Pour parcourir ce chemin vertueux, les philosophes de chacune des écoles ou courants ont mis au point différents exercices spirituels à pratiquer au quotidien.
-
-Ces exercices ont pour étymologie *askesis*, la même étymologie que le terme chrétien ascèse.
-Cependant, Hadot nous met en garde quant à la définition de ces deux *askesis*.
-L'*askesis* chrétienne se rapproche de la définiton contemporaine du terme, c'est-à-dire de l'abstinence ou de la restriction de nourriture, de boisson, et de rapport sexuel.
-L'*askesis* grecque ne renvoie qu'aux exercices spirituels que nous avons mentionnés, qualifiés comme étant « une activité intérieure de la pensée et de la volonté » (ibid, p.78).
-La philosophie, à travers l'*askesis* agit comme une « thérapeutique des passions » (Hadot p.22).
-Une pratique assidue permet de s'en dépouiller et d'opérer une objectivation du monde débarassée des perceptions subjectives et des affects.
+L'intimité n'est donc pas soi et elle ne peut exister que parce qu'il y a présence de l'autre, l'intimité ne serait plus seulement un espace au plus profond de l'être mais un espace qui se trouve entre l'être et l'autre, entre soi et le monde social.
 
 ## L'amour est un espace intermédiaire
 
@@ -227,17 +244,21 @@ L'étymologie de la philosophie désigne l'amour de la sagesse.
 Cette définition fait surgir une aporie dans le cas de la philosophie antique.
 Précédemment, nous avons vu que la philosophie antique est un parcours de vie au cours duquel le philosophe se détache de sa condition humaine pour se diriger et se rapprocher d'une forme de sagesse divine.
 Or, cet amour de la sagesse maintient l'être humain dans sa condition humaine puisqu'il est également un désir (subjectif) d'atteindre quelque chose d'inaccessible.
-Ce désir restera insatiable si l'on suit les préceptes de Socrate, qui est celui de l'ignorance.
+Ce désir restera insatiable si l'on suit les préceptes de Socrate, dont celui de l'ignorance.
 La seule chose que sait Socrate est qu'il ne sait rien.
 Tant qu'il y a la présence de cet amour, le philosophe reste dans le désir de cette sagesse et n'a pas atteint le stade de la sagesse même, il est encore dans ce cheminement pour y parvenir.
 P. Hadot en fait la démonstration lorsqu'il reprend l'association de Socrate à la divinité grecque de l'amour Eros (p.120) dans _Le Banquet_ de Platon.
 
-Dans les différentes mises en scène de Socrate réalisée par Platon, celui-ci est décrit comme étant laid, mendiant, les pieds nus et portant un manteau qui protège mal du froid.
-Pourtant, il suscite l'admiration et l'amour des plus jeunes (citer la ref du Banquet avec Alcibiade).
-Ce n'est pas sa beauté qui fait l'objet du désir mais ce qu'il incarne : le désir de la Beauté (divine) dont il se sait privé.
+Dans les différentes mises en scène de Socrate réalisée par Platon, celui-ci est décrit comme étant laid, mendiant, les pieds nus et portant un manteau qui protège mal du froid (Banquet. p.111).
+Pourtant, il suscite l'admiration et l'amour des plus jeunes au point de jouer le rôle d'amant auprès d'eux (Banquet p.126).
+Ce qu'Alcibiade raconte c'est qu'il n'est pas question de sa beauté car ce n'est pas elle qui fait l'objet du désir mais c'est ce qu'il incarne : le désir de la Beauté (divine) dont il se sait privé.
+
+> Aussi, lorsque les autres hommes aiment Socrate-Éros, lorsqu'ils aiment l'Amour, révélé par Socrate, ce qu'ils aiment en Socrate, c'est cette aspiration, c'est cet amour de Socrate pour la Beauté et la perfection de l'être. Ils trouvent donc en Socrate le chemin vers leur propre perfection. (Hadot p.129)
+
 Dans _Le Banquet_ Socrate n'est ainsi pas associé à Aphrodite (et à la Beauté) mais à Eros.
 Selon la description faite par Diotime à travers Socrate dans son éloge d'Éros, celui-ci serait le fils des deux divinités Poros (richesse, abondance) et Pénia (pauvreté).
 Lors du banquet donné à l'occasion de la naissance d'Aphrodite, Pénia,...
+
 Résumer la description d'Eros par Diotime
 
 Platon juxtapose les descriptions d'Eros et de Socrate dans _Le Banquet_ en faisant suivre l'éloge d'Éros par Socrate à l'éloge de Socrate par Alcibiade pour que l'on identifie Socrate à cette figure divine.
@@ -307,7 +328,7 @@ Au contraire, durant la période médiévale, suite à l'expansion du christiani
 Les travaux de Pierre Hadot sur la philosophie antique sont éclairants sur ce point.
 Les écrits d'Hadot traitent indirectement de cette notion lorsqu'il détaille les « exercices spritituels » qui jalonnent la vie des philosophes de l'antiquité.
 
-À cette époque, bien que l'intime soit un terme peu employé -- on le voit apparaitre notamment chez Sénèque --, nous retrouvons des contextes aux propriétés similaires à celles que nous venons de décrire dans la première partie.
+À cette époque, bien que l'intime soit un terme peu employé, nous retrouvons des contextes aux propriétés similaires à celles que nous venons de décrire dans la première partie.
 La philosophie des anciens se pratiquait comme un mode de vie, notamment à travers des exercices, avec pour objectif de s'approcher de la Sagesse.
 
 Cette Sagesse, que le philosophe aime et désire, est inatteignable pour l'humain puisqu'elle relève de l'ordre du divin.
