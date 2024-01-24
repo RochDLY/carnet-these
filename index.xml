@@ -2007,55 +2007,5 @@ collaborative d’un événement</em>. <a href="https://cailloux.en-cours-de.con
   <guid>https://cailloux.en-cours-de.construction/posts/lectures/ma-premiere-fiche.html</guid>
   <pubDate>Mon, 04 Jul 2022 22:00:00 GMT</pubDate>
 </item>
-<item>
-  <title></title>
-  <link>https://cailloux.en-cours-de.construction/posts/journal/ecriture-numerique.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="résumé" class="level2">
-<h2 class="anchored" data-anchor-id="résumé">Résumé</h2>
-<p>L’écriture numérique est-elle collective ? L’hypothèse traitée dans cette partie est que l’écriture numérique n’est pas le seul produit d’une énonciation auctoriale humaine, pour lequel le support d’écriture mis en oeuvre serait neutre et indifférent aux signes qu’il traite. Au contraire, en suivant les principes de remédiation (Bolter et Grusin) et de posthumanisme (Hayles), nous émettons l’hypothèse que l’auteur écrit avec la machine. Le terme « avec » ne peut être uniquement compris sous sa dimension utilitariste et fonctionnelle mais plutôt comme une composante constituante de l’écriture : la machine devient partie intégrante de la fonction auctoriale de l’écriture numérique. La thèse défendue dans ce chapitre est que l’écriture numérique est une co-écriture entre d’une part l’individu et d’autre part la machine employée à cette fin. Cette idée d’une écriture collective n’est pas nouvelle et vient s’inscrire dans la lignée des travaux dont on peut remonter la trace dans les années 1970 avec les écrits de Friedrich Kittler, thématique qu’il traite jusque dans les années 1990 (Kittler). D’autre courants et disciplines abordent eux aussi cette idée comme en sciences de l’information et de la communication (Souchier et Jeanneret, Bachimont, Zacklad, Crozat, Kembellec), ou en littératures avec Katherine Hayles, en philosophie avec Marcello Vitali-Rosati, ou encore en informatique avec Lev Manovich.<br>
-Le dénominateur commun de ces différentes pensées est l’étude des médias ou du moins la considération du medium numérique comme facteur non négligeable de la production de l’écriture numérique.</p>
-<p>Selon les chapitres précédents sur l’intime et sur le medium, cette proriété collective de l’écriture numérique présuppose que l’intimité du chercheur est elle-même collective. Or, dans cette partie, il ne s’agit plus de prendre seulement en considération le medium et ses caractéristiques physiques et matérielles, mais de considérer que le numérique, en tant qu’entité rédactrice, participe à produire l’intimité du chercheur au même titre que celui-ci justement parce que le numérique écrit avec l’auteur le texte donné à lire.</p>
-<p>À l’instar de Petit et Bouchardon (Petit et Bouchardon 2017), le premier élément de réponse à cette problématique traite de l’histoire de l’écriture depuis les plus anciennes traces que l’on en retrouve et de ses transformations (Herrenschmidt, Goody, Leroi-Gourhan, Christin) afin d’observer les caractéristiques de l’écriture numérique et ce qui la distingue des formes précédentes que l’écriture a pu vêtir.</p>
-<p>Un second temps sera accordé à détailler l’écosystème de l’écriture numérique. Le numérique en tant que milieu fait tout autant intervenir des objets (tels les serveurs, les écrans, les souris et claviers, disques durs, etc) que des logiciels (du BIOS jusqu’à l’affichage sur un écran ou jusqu’au pilote de l’imprimante, en passant par l’éditeur de texte). Cette infrastructure – que l’on pourrait mettre au pluriel tant il existe de combinaisons différentes entre <em>hardware</em> et <em>software</em> – définie avant même tout acte d’écriture les conditions de l’écriture numérique. La connaissance de son écosystème d’écriture est la condition préalable pour connaître les modes d’écriture de la machine : les écrits de la machine ne sont pas aléatoires, ils sont définis par un ensemble de règles et de protocoles que l’on peut retrouver dans la documentation de chacune des technologies mobilisées. Nous illustrerons cette seconde partie avec l’étude de l’infrastructure de l’éditeur de texte sémantique Stylo, un logiciel destiné à l’écriture en sciences humaines et en lettres.</p>
-<p>Enfin, dans une troisième partie, nous nous appuyons sur les typologies des différents niveaux d’écriture (Jeaneret et Souchier, Bouchardon et Petit) pour observer le fonctionnement de Stylo. À notre connaissance, la plupart des textes traitant de l’écriture numérique s’arrêtent à l’ébauche d’une typologie générale expliquant le fonctionnement de l’écriture numérique. L’objectif poursuivi est d’appliquer ces modèles théoriques à Stylo afin d’étudier depuis un point de vue empirique le fonctionnement d’un dispositif d’écriture numérique.</p>
-<ol type="1">
-<li>histoire de l’écriture
-<ul>
-<li>historique</li>
-<li>lien entre parole, écriture, code</li>
-</ul></li>
-<li>les supports de l’écriture numérique
-<ul>
-<li>hardware</li>
-<li>software</li>
-<li>mobilisation hardware software pour Stylo (serveur et administration huma-num, etc.)</li>
-</ul></li>
-<li>l’écriture numérique (typologie de Bouchardon)
-<ul>
-<li>niveau sémio</li>
-<li>niveau logiciel</li>
-<li>niveau matériel</li>
-<li>cas de Stylo : la machine écrit tout autant sur les plans 1, 2 et 3, pas seulement sur le 2 et le 3.</li>
-</ul></li>
-</ol>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{delannay,
-  author = {Roch Delannay},
-  url = {https://cailloux.en-cours-de.construction/ecriture-numerique.html},
-  langid = {fr}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-delannay" class="csl-entry quarto-appendix-citeas">
-Roch Delannay. (n.d.). <a href="https://cailloux.en-cours-de.construction/ecriture-numerique.html">https://cailloux.en-cours-de.construction/ecriture-numerique.html</a>
-</div></div></section></div> ]]></description>
-  <guid>https://cailloux.en-cours-de.construction/posts/journal/ecriture-numerique.html</guid>
-  <pubDate>Wed, 24 Jan 2024 08:44:21 GMT</pubDate>
-</item>
 </channel>
 </rss>
