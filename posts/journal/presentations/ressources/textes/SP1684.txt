@@ -1,0 +1,478 @@
+ Penser les écrans
+
+Avec le terme « archi-écran », Mauro Carbone fait référence aux
+multiples surfaces hébergeant les images, au cours de l'histoire
+(Carbone, 2016). C'est un concept ouvert, dont la définition
+dépend de l'évolution des techniques, des technologies disponibles, des
+pratiques et des normes sociales. À l'époque contemporaine, cependant,
+il prend une centralité singulière, car il est élu comme le modèle
+principal de l'expérience de la vision. En tant que dispositif de notre
+époque, l'écran définit aujourd'hui ce que signifie voir et, de plus,
+fait de son modèle visuel notre mode d'accès à la réalité. Il détermine
+la manière dont les sujets se rapportent au monde (Carbone, 2014). Il
+code donc la façon dont nous percevons, agissons et pensons.
+
+Le livre L'avenir des écrans (Bodini, 2020) s'intéresse à la
+manière dont la notion d'archi-écran se reformule à partir des tendances
+technologiques, économiques, sociales, politiques et de pensée du monde
+actuel. Les auteurs du livre se questionnent également sur la centralité
+de l'archi-écran dans le monde contemporain et sur les conséquences de
+ce remaniement dans notre façon de voir -- et de nous voir.
+Réciproquement, l'expérience de la COVID-19 a confirmé la centralité de
+l'interface ; la pandémie révèle quelque chose de notre rapport aux
+écrans, c'est-à-dire de la manière dont l'archi-écran se façonne en
+fonction des tendances contemporaines. D'objet de distraction, qui isole
+et empêche les vraies relations, celles « en personne », il est devenu
+le garant de la vraie communication. Et par vraie, on entend
+transparente, capable d'établir un espace dans lequel les sujets
+s'exposent pleinement, dans leur vie quotidienne -- une communication
+qui rassure, notamment parce qu'elle protège de la contagion. La
+signification actuelle des écrans est ainsi développée selon les lignes
+de tension propres à l'archi-écran en général, définies par deux
+binômes : montrer-cacher et protéger-exposer (Carbone, 2015). Les
+quatorze contributions du livre explorent ces tensions à partir de
+différentes disciplines, de la philosophie à la théorie des médias, des
+études cinématographiques à la théologie. Le trait commun est la
+centralité de l'écran comme interface de notre expérience et de notre
+auto-compréhension.\
+C'est ce point, combiné à la compréhension au sens historique du concept
+d'écran, qui différencie le livre d'autres études s'intéressant
+pareillement à la portée des écrans sur les pratiques, les compétences
+et les cultures actuelles, inscrits surtout dans les Digital Cultures
+et les Internet Studies1.
+
+ Sur l'avenir des écrans
+
+Les contributions qui composent le livre sont organisées par les quatre
+éditeurs·ices : Jacopo Bodini (Philosophie, Université Jean Moulin Lyon
+3), Mauro Carbone (Philosophie, Université Jean Moulin Lyon 3), Graziano
+Lingua (Philosophie, Université de Turin) et Gemma Serrano (Théologie,
+Collège des Bernardins), membres du groupe de recherche international
+Vivre par\[mi\] les
+écrans (https://vivreparmilesecrans.wixsite.com/vivreparmilesecrans/%C3%A0-propos),
+dirigé par Mauro Carbone au sein de l'Université Jean Moulin Lyon 3. Le
+groupe se consacre à l'étude des relations entre humains et écrans au
+fil du temps et de l'impact des écrans sur nos modes de vie.\
+En accordant une attention particulière à notre avenir, le livre explore
+précisément ce sujet, à travers trois sections. Dans la première, les
+intervenants·es évoquent les relations symbiotiques que les écrans
+d'aujourd'hui établissent avec les individus. Ces relations sont
+contextualisées dans la deuxième partie, qui traite des écrans et de
+leur impact sur notre façon d'habiter le monde et d'imaginer son avenir.
+Enfin, dans la troisième section, les auteurs·ices examinent certaines
+des conséquences sociales et politiques liées à l'attribut de neutralité
+et de transparence faussement conféré à ces médiations écraniques.
+
+L'écran étant le principal moyen par lequel nous accédons à l'expérience
+du réel, la dynamique par laquelle l'homme et la machine coopèrent pour
+permettre cet accès est d'abord observé. Carbone (Bodini_avenir_2020,
+p. 59) fait référence au concept de « couplage » introduit par Gilbert
+Simondon (1958). Ce terme désigne une relation
+« synergétique » entre l'humain et la machine automatique pour
+l'exécution de certaines fonctions. Selon l'analyse de Simondon, le
+« couplage » se réalise lorsque l'humain découvre un « codage commun »
+entre sa mémoire, son sens, et celui produit par la machine, au point
+d'observer une « convertibilité partielle » entre les deux
+(Simondon, 1958, p. 172). Carbone théorise également la
+complémentarité entre l'humain et la machine, s'intéressant
+particulièrement à la forme que prend ce couplage dans le cas des
+dernières technologies de l'écran et les conséquences de ce phénomène
+sur la condition humaine.
+
+À travers le concept de « quasi-prothèse », il décrit la manière dont
+certaines technologies tendent à faire d'un organe humain leur support
+(2020, p. 59). Pensons à certains dispositifs de réalité
+augmentée, qui projettent des commandes à sélectionner sur la rétine
+(virtual retinal display) ou parfois sur la peau, faisant de ces
+surfaces des interfaces : ces organes deviennent le prolongement, la
+prothèse, des objets techniques et, en même temps, continuent à faire
+partie d'un organisme et à évoluer avec lui. Le terme « quasi »
+s'explique par ce statut double, ambigu de l'organe prothétique.
+Ambiguïté explicite notamment parce que les dispositifs techniques, y
+compris ceux qui établissent des relations quasi-prothétiques, se
+mettent au service de l'humain, augmentant et modifiant ses capacités
+sensorielles et cognitives. En se faisant sa « techno-prothèse », la
+machine devient une extension de l'humain (Bodini, 2020, p. 48).
+
+Dans la continuité de la question soulevée par Carbone, Bernard Andrieu
+observe également la relation entre la machine et l'organisme. Il
+s'intéresse en particulier à la portée des écrans, d'abord par rapport à
+l'état physiologique, puis à la dimension consciente de l'humain. La
+physiologie du sujet change au moment où il regarde les données
+relatives à son propre corps sur un écran. Percevant ces changements,
+l'humain réorganise consciemment la façon de se voir, intégrant ces
+données dans son auto-perception. À la médiation de l'écran succède
+ainsi la re-compréhension humaine, qui est une re-médiation, aboutissant
+au « viv@nt » (2020, p. 25), un organisme osmotiquement
+intégré à son image sur l'écran, tant au niveau biologique que
+conscient. Ici, Andrieu montre que l'écran est doté d'une agentivité
+propre, d'une capacité à influencer son environnement, voire l'humain.
+Cette dimension écologique de l'écran est mise en évidence dans
+l'intervention de Francesco Parisi.
+
+Avec le terme « écomédia » (2020, p. 35), Parisi décrit
+l'indiscernabilité entre les artefacts et les environnements due aux
+modifications spatiales apportées par les dispositifs techniques. À la
+continuité entre l'humain et la machine décrite par Carbone et, en
+termes différents, par Andrieu, il ajoute la question de l'espace. Bien
+que caractéristique de tous les médias, la dimension géographique se
+radicalise dans le cas des écrans et des miroirs. Non seulement ces
+surfaces modifient la spatialité environnante, mais elles ont l'ambition
+d'en créer une originale, permettant d'accéder à d'autres mondes,
+alternatifs au réel. La réalité virtuelle, conclut Parisi, est donc
+l'expression ultime de la prévalence des écrans. En effet, cette
+technologie se présente comme l'écomédium parfait, capable de conférer
+une expérience immersive, une médiation intégrale, couvrant l'ensemble
+du champ sensoriel et cognitif. Les technologies de RV disponibles
+aujourd'hui sont peu convaincantes, justement parce qu'elles se
+concentrent sur la sphère spectaculaire et visuelle, laissant de côté
+les autres champs expérientiels.
+
+Si, d'une part, les écrans veulent nous montrer des mondes entiers,
+d'autre part, ils disposent de leur propre autonomie, de sorte qu'ils
+puissent eux-mêmes voir et interpréter la réalité. C'est le cas, par
+exemple, de la machine vision, abordée par Antonio Somaini. Il s'agit
+d'une technologie capable d'analyser automatiquement le contenu d'une
+grande quantité d'images. L'idée de vision s'éloigne ici de la culture
+visuelle traditionnelle, qui considère l'humain comme son unique
+utilisateur. L'iconosphère devient ainsi un champ d'extraction de
+données. L'écran, quant à lui, collecte des données et renvoie une
+image, un « environnement » (2020, p. 36), donc une
+interface conditionnée par la sensibilité machinique. La structure des
+écrans dépend alors de la façon de voir de la machine.
+
+La tension entre le souhait de montrer de manière extensive et intégrale
+décrit par Parisi et la tendance machinique à voir en restant dans
+l'obscurité retrace le binôme archi-écranique montrer-cacher. Comme cela
+semble nécessaire, la deuxième partie du livre s'intéresse de plus près
+à la déclinaison de ce binôme dans les interfaces actuelles. Elle
+explore la manière dont l'archi-écran existe dans le présent et tend à
+évoluer. Évolution qui est comprise en relation avec les besoins, les
+désirs, les conditions historiques et sociales de notre époque. En
+d'autres termes, la deuxième section porte sur la relation entre les
+écrans et l'ensemble de l'expérience humaine contemporaine.
+
+À cet égard, Alessandro de Cesaris écrit sur la nécessité de sortir du
+seul paradigme visuel-optique pour l'étude des écrans. Rappelant la
+racine indo-européenne du terme, sker (séparer, couper), il montre
+comment la tension montrer-cacher est un cas particulier du binôme plus
+général exposer-protéger. Du parapluie à la crème solaire, du bouclier à
+l'agencement d'une salle de cinéma, tout ce qui fait écran sert à
+protéger d'un contact trop direct et à nous exposer en limitant le
+danger. C'est cette tendance à l'exposition qui détermine la structure
+relationnelle des écrans d'aujourd'hui. En se reflétant les unes aux
+autres, les interfaces constituent en fait le système, l'épistème, le
+filtre par défaut de l'existence humaine actuelle.
+
+Jacopo Bodini reprend le thème de la la viralité pandémique en tant
+qu'expérience dérivée de la même tension écranique entre exposer et
+protéger. Il observe comment les éléments constitutifs de l'expérience
+virale, des gants aux masques, des contagions aux logiciels de
+communication en ligne, sont précisément définis par cette dynamique, et
+participent à la propagation de la pandémie. Le système établi par les
+écrans est donc essentiellement viral. Par conséquent, dans un
+chevauchement entre les dimensions biologique et ontologique, l'être
+humain se découvre en tant que support de la viralité, tant à l'occasion
+de la contagion que lorsqu'il adopte des stratégies pour s'en protéger.
+Bien sûr, l'avènement de la COVID-19 a provoqué une discontinuité par
+rapport aux époques précédentes, dans la codification du langage et du
+comportement. Il s'agit d'un nouvel épistème, observe encore Bodini, qui
+n'est pas seulement rendu possible par la logique écranique, mais qui
+est aussi dirigé et régulé par elle.
+
+Cette capacité des écrans à guider et à orienter est également au cœur
+des réflexions de Caterina Dalmasso. L'autrice souligne que le rôle de
+guide assumé par les écrans est une réponse au désir de l'humain de
+surmonter sa propre condition de finitude et de vulnérabilité, liée à
+l'incertitude de l'avenir. Dalmasso montre comment ce désir est inhérent
+à la connaissance, cette dernière étant neurologiquement et
+essentiellement concernée par l'anticipation de l'avenir. En ce sens,
+les écrans contemporains non seulement renvoient les résultats des
+analyses prédictives, mais se modifient aussi rétroactivement pour
+anticiper toute négativité. Pour éviter le traumatisme, les écrans
+communiquent déjà la possible catastrophe future, dans le présent, en
+pré-médiatisant l'actuel2. Il en résulte une désensibilisation
+générale à la tragédie et une condition paradoxale de retard dans
+l'activité de préméditation. En fait, éviter la présentification du
+futur signifie étendre le présent pour repousser l'imprévisible, la
+catastrophe à médier, plus loin dans le temps. Le présent devient ainsi
+un chantier en perpétuel remaniement. Malgré ces conséquences, l'humain
+accepte l'écran comme un guide en raison de son rôle rassurant. Cela
+explique la signification théologique de l'écran, mise en évidence par
+Gemma Serrano.
+
+Serrano écrit que les plateformes cloud sont métaphoriquement
+associables au symbolisme religieux du nuage. Bibliquement, la nuée
+constitue un espace de révélation, dans lequel la divinité s'adapte à la
+forme humaine et établit son influence sur le monde, structurant la
+cosmologie dans laquelle l'humain s'inscrit. De même que le nuage,
+l'interface se présente comme une forme de connaissance parfaite,
+éthérée, capable d'orienter. Rassuré et situé, le sujet s'illusionne en
+pensant que laisser à l'écran les tâches d'organisation, les choix
+méthodologiques et le stockage mnémotechnique lui permet de se consacrer
+à l'essentiel de sa propre expérience, qu'elle soit privée, publique ou
+professionnelle.
+
+Guillaume Giroud insiste sur cette condition d'illusion rendue possible
+par les écrans et recherchée, comme l'a noté Serrano, par le désir
+humain. Issue de notre désir, la complémentarité entre l'humain et la
+machine est de nature prescriptive, note l'auteur ; en tant
+qu'interface, l'écran se place entre l'humain et la machine, permettant
+l'illusion de la symbiose. Par sa position intermédiaire, l'écran met
+cependant en évidence la difficulté de communication entre les deux
+termes, au point de constituer la ligne de démarcation et l'obstacle à
+l'immédiateté. En tant qu'archi-écran, l'interface est le garant de la
+visibilité absolue et de l'invisibilité, de la transparence et de
+l'opacité, de l'immédiateté et de la sauvegarde de la médiation, de la
+séparation entre les parties. Une médiation qui, selon Giroud, est
+essentielle pour une véritable communication. Dans l'illusion
+d'immédiateté parfaite, tout échange réel d'informations s'arrêterait.
+C'est ainsi que s'achève la deuxième partie du texte, consacrée au rôle
+des écrans à l'heure actuelle. Si la deuxième section a montré que
+l'impact des écrans va de pair avec les représentations humaines, la
+troisième partie du livre s'intéresse à la manière dont les écrans sont
+instrumentalisés pour conditionner ces représentations, souvent à des
+fins politiques.
+
+Dans cet ordre d'idées, la réflexion d'Emmanuel Alloa est axée sur
+l'intentionnalité sous-jacente à l'impression d'immédiateté et de
+transparence véhiculée par les dispositifs de réalité virtuelle. Il
+démontre que le sentiment d'immersion totale provoqué par ces
+dispositifs résulte de la dissimulation des sutures, c'est à dire de
+toute discontinuité et altérité. À chaque dysfonctionnement, impasse,
+contrainte imposée par le récit, la transparence émerge ainsi dans son
+essence médiale et simulée. Alloa note que parmi les médiations
+occultées par la réalité virtuelle figure également celle, primordiale,
+exercée par le corps, qui est ainsi réduit à une anomalie. Si la
+médiation, et non la continuité, est essentielle à toute expérience, la
+même médiation a tendance à se cacher en mettant en avant les
+informations qu'elle transmet. Comme l'archi-écran et le corps qui
+permet les perceptions, le média n'est pas donné directement : « il
+s'efface derrière la voix dont il est le simple porte-parole »
+(2020, p. 177). La réalité virtuelle est donc
+l'incarnation de la tendance de la médiation. Il est alors important de
+se demander en quoi consiste l'opacité occultée par cette illusion
+d'immédiateté et de transparence. Yves Citton la décrit comme une
+structure paramétrée, une grammaire pré-écrite, dont les utilisateurs
+n'ont pas conscience et avec laquelle ils ne peuvent pas interagir.
+
+À ce propos, Citton souligne qu'il est nécessaire de reprendre
+conscience de certaines opacités constitutives des écrans, oubliées par
+la quête contemporaine de transparence. Reprendre conscience des
+médiations sous-jacentes des interfaces signifierait récupérer au moins
+trois fonctions, capables de faire des écrans des espaces d'écriture, et
+pas seulement des véhicules d'affects (2020, p. 168).
+L'auteur fait notamment référence au contrôle humain sur la
+reformulation et la révision de l'écriture, niée par les technologies
+d'autocomplétion ou d'autocorrection, à l'indépendance par rapport à
+tout public prédéfini, qui était possible lorsqu'Internet ne sollicitait
+pas l'utilisateur en proposant lui-même des contenus, et, enfin, à la
+possibilité de manipuler l'axe temporel des contenus enregistrés,
+autrefois garantie par les écrans et désormais interdite par la
+recherche de l'affect immédiat.
+
+La contribution de Richard Grusin approfondit ce dernier point, en se
+concentrant sur la manière dont les systèmes politiques contemporains
+acquièrent un consensus en exploitant la capacité des écrans à provoquer
+des réactions affectives et instinctives. Plus que le contenu des
+messages, l'étendue de cette affectivité est garantie par le
+« fonctionnement infrastructurel » du réseau écranique
+(2020, p. 227). Le consensus politique est donc souvent
+directement proportionnel à l'espace médiatique, écranique, occupé par
+les partis et leurs représentants. Ces derniers deviennent l'objet d'une
+« médiation totale » (2020, p. 229). Grusin désigne
+Donald Trump comme le champion de ce phénomène. Trump, voué à occuper
+l'espace médiatique, devient le produit de la médiation, la somme de ses
+tweets, communiqués de presse, des trolls et mèmes dédiés à son
+personnage (2020, p. 231). Dans cet espace médiatique, les
+tweets et déclarations de Trump ne visent pas à communiquer quelque
+chose, mais à établir une relation empathique avec leur public,
+caractérisée par la haine envers un ennemi commun. La figure de Trump
+est donc violente. Comme dans le cas des tours jumelles, l'élection de
+Trump a provoqué un choc médiatique, déclenchant des préméditations qui
+anticipent et préfigurent ses actions futures. Compte tenu de l'impact
+émotionnel associé à une telle figure, la violence de Trump est
+déstabilisante au point de provoquer des conséquences sociales et
+psychologiques majeures. Voici qu'un acte public de violence et un
+contenu en ligne peuvent avoir la même valeur ontologique.
+
+Selon Gilles Gressani, cette proximité émotionnelle véhiculée par les
+interfaces dépend du fait que la transparence est aujourd'hui associée à
+la vérité (Carbone, 2018). Comme le montre Gressani, l'influence des
+écrans sur le plan affectif concerne directement le champ valoriel.
+L'auteur prend pour référence le parti italien « Movimento Cinque
+Stelle », qui a su convaincre une foule aux orientations politiques
+hétérogènes en plaçant la valeur de la transparence au centre de son
+récit. L'immédiateté a été assurée par la présence en ligne des
+représentants politiques du parti et par « Rousseau », une plateforme
+qui se veut instrument de démocratie participative, permettant aux
+électeurs d'influencer directement les choix du parti. Alors que, comme
+on le voit avec Grusin, les représentants du M5S sont des produits
+médiatiques, le code propriétaire de la plateforme médiatise les
+interactions, établissant les propositions d'intérêt et les schémas de
+vote. Dans la continuité de ce qu'a montré Alloa, nous voyons comment
+l'effet rassurant de la visibilité absolue est rhétoriquement construit
+à partir d'objets profondément médiatisés. La transparence correspond
+donc à la transformation des médiateurs et non à l'annulation de toute
+opacité.
+
+Approfondissant la réflexion sur les écrans comme capables d'établir un
+champ de valeurs, Graziano Lingua observe que la valeur de la
+transparence joue un rôle central dans la pensée moderne et se rapporte
+traditionnellement à l'espace public. Ce dernier, selon la modernité,
+doit être fondé sur les deux concepts kantiens d'Aufklärung et de
+Publizität, où le premier concerne l'émancipation des contraintes
+traditionnelles par l'usage public de la raison, et le second porte sur
+le libre accès aux informations d'intérêt public et à la vie politique.
+La confrontation entre les raisons garantirait un « règne de la
+critique » (2020, p. 195), en mesure de contrôler
+jusqu'au pouvoir gouvernemental. Si, selon Lingua, la raison des
+Lumières recherche la vérité objective, au risque de ne pas admettre des
+différences de pensée (Vattimo, 1990), la transparence
+revendiquée des nouveaux médias se confronte à un danger similaire
+d'homogénéisation (Han, 2018). Il est vrai, poursuit Lingua, que
+le réseau facilite les échanges interpersonnels, augmentant la
+transparence au niveau horizontal. Cependant, cette dynamique ne
+concerne pas le pouvoir, car elle ne garantit pas la participation à la
+dimension délibérative, qui impliquerait une transparence verticale,
+entre les utilisateurs et les institutions. C'est en fait la structure
+technique et opaque des médias numériques qui guide les discussions sur
+les réseaux sociaux. Ces discussions sont ponctuelles, organisées autour
+de questions spécifiques, auxquelles participent des groupes isolés de
+personnes déjà d'accord entre elles. Les interactions sur les réseaux
+sociaux ne garantissent donc pas une véritable confrontation d'idées. En
+critiquant la démocratie représentative traditionnelle, la politique
+actuelle exploite démagogiquement le malentendu entre les deux niveaux
+de transparence. En participant au monde des réseaux sociaux, elle se
+présente comme entièrement visible, au même niveau que les autres. Les
+décisions ne sont toutefois pas prises à partir des commentaires en
+ligne : elles restent opaques.
+
+ Pour nous voir
+
+La dichotomie théorisée par Graziano Lingua reflète également la
+structure de l'archi-écran, compris comme un dispositif du visible et de
+l'invisible. L'interface simplifie souvent la visualisation des
+informations sur le plan horizontal. Pour ce faire, elle cache tout ce
+qui ralentit, entrave l'immédiateté de l'échange. Elle dissimule sa
+structure matérielle. De plus, dans son usage courant, l'écran occulte
+la deuxième dimension de l'interaction sociale, qui concerne le pouvoir.
+Nous avons vu que la bidirectionnalité de cette dynamique visuelle
+s'étend au domaine du sensible, du dicible, du désirable, et donc du
+pensable ; le « royaume de la critique » des Lumières
+(Koselleck, 1979) est remplacé par le « régime de la visibilité »
+(Carbone, 2018) écranique. C'est un régime parce qu'il propose un
+ensemble défini d'instruments de représentation. C'est pourquoi il
+façonne la manière de voir non seulement des utilisateur·ice·s directs,
+mais plus généralement des sociétés. La preuve en est le cas du « parti
+numérique3 » analysé par Gressani, qui a gagné une grande popularité
+dans un pays qui n'est certainement pas parmi les plus numérisés
+(2020, p. 212). Le risque est celui d'un
+« épistémicide », écrit Sousa Santos (2015),
+c'est-à-dire de la disparition des modèles épistémologiques que l'écran
+ne représente pas.
+
+Pourtant, en tant que surface, l'interface reflète ses modèles, les
+modifie en les médiatisant, mais ne les crée pas. En tant que
+technologie, l'écran est construit par l'humain. Il nous renvoie donc
+notre image, selon les modèles que nous souhaitons. À travers l'écran,
+l'humain se regarde, mais selon lui, voit une meilleure version de
+lui-même, car il est libéré de certaines limitations physiques et
+distinctions sociales. Le problème de l'interface est alors une question
+humaine, de comment nous voulons nous voir, donc de ce que nous voulons
+être. Par exemple, Dalmasso écrit que nous souhaitons connaître l'avenir
+(2020, p. 131) ; Carbone montre comment nous voulons
+améliorer nos capacités cognitives et d'action (2020,
+p. 49) ; Bodini fait référence à notre désir de devenir nous-mêmes
+viraux, en imitant (p. 108) ; Lingua désigne
+l'ambition d'accéder au pouvoir (p. 108, p. 202).
+En se reconnaissant dans son profil, dans l'image médiatisée par
+l'écran, l'humain se transforme. Ici, la symbiose avec la machine
+incarnée par le « viv@nt » (2020, p. 25) affecte le
+champ social, politique, affectif, ainsi que le plan physiologique et de
+la conscience.\
+La dialectique archi-écranique entre montrer et cacher concerne
+également nos concepts et nos modes de pensée. Elle implique une
+sélection de valeurs, d'idées, des désirs.
+
+Structurée à son tour par l'humain, l'organisation de l'interface porte
+ainsi en elle une idée spécifique du futur, sans contingence, une notion
+de sensorialité et de connaissance, dans laquelle le visible a un rôle
+prioritaire, une définition de participation au discours public, de
+partage, de communication, liés à l'idée de viralité. D'où la nécessité
+affirmée par Giroud de se distancer des écrans, de prendre du recul pour
+saisir des définitions alternatives des mêmes concepts et, plus
+généralement, de concevoir d'autres modèles. Il s'agit de penser
+d'autres images dans lesquelles l'humain puisse se reconnaître. Et
+pourtant, nous ne pouvons nous regarder qu'à travers une surface, une
+médiation. En d'autres termes, il n'y a pas d'images sans support. Pour
+échapper aux impositions dictées par la vision des écrans d'aujourd'hui,
+nous devons donc construire d'autres écrans. Il est également nécessaire
+de se demander ce que nous voulons que les surfaces nous montrent. Pour
+éviter l'épistémicide, il est alors important de multiplier les modèles
+représentés par ces écrans. Des exemples allant dans ce sens existent
+déjà, bien qu'en nombre insuffisant, dans le domaine des humanités
+numériques.
+
+Le « minimal computing », notamment, vise à émanciper les projets
+numériques de la tendance dominante actuelle, qui assimile l'innovation
+aux nouveautés offertes par les multinationales du numérique. Cette
+approche limite la quantité de technologies utilisées, en se concentrant
+sur les besoins réels, les ressources et les disponibilités liées à
+projets spécifiques (Risam, 2022). De cette façon, elle
+redonne aux communautés de recherche en HN une visibilité sur les
+implications sociales, environnementales et économiques de ses choix
+techniques. L'humain qui se regarde à travers les écrans créés par cette
+méthodologie se voit peut-être plus limité sur le plan sensoriel et
+cognitif, mais aussi plus attentif aux différences linguistiques,
+économiques, de compétences et d'accessibilité. Le cas de
+Stylo (https://stylo-doc.ecrituresnumeriques.ca/fr_FR/#!index.md),
+entre autres, montre l'utilité d'une telle approche. Il s'agit d'un
+outil d'écriture conçu pour la publication universitaire dans le domaine
+des sciences humaines. Son interface restitue au chercheur·se la gestion
+des métadonnées impliquées dans la chaîne de publication. De cette
+manière, l'auteur·ice est impliqué dans les pratiques de production et
+de diffusion des connaissances. Se voyant précisément dans ce sens, il
+ou elle pense et se transforme en conséquence.
+
+Étant donné la nature plurielle des surfaces qui souhaitent réévaluer
+l'épistème dominant, les écrans conçus de cette manière ne sapent pas le
+domaine des interfaces traditionnellement commercialisées. Ces projets
+pluriels ne restent pas non plus isolés. Ils ne peuvent que faire partie
+d'une « assemblage » plus général d'écrans, comme l'écrit De Cesaris
+(2020, p. 90). Ils seront, par exemple, communiqués sur
+les réseaux sociaux traditionnels et exploiteront probablement certaines
+infrastructures propriétaires, en premier lieu le moteur de recherche
+Google (Risam, 2022). Ils en seront ainsi partiellement
+modifiés. Dès lors, réfléchir à l'« Avenir des écrans », pourrait
+signifier s'intéresser à la manière de gérer les contaminations au sein
+du réseau viral des écrans, afin de permettre à la pluralité d'exister,
+même si ce n'est que dans une faible mesure. Il faut donc prêter
+attention à la structure du réseau, à la façon dont les surfaces se
+reflètent les unes dans les autres et, par conséquent, aux médiations
+entre les écrans, entre les machines et entre le réseau d'écrans et
+l'humain. Médiation dont les interfaces d'aujourd'hui sont les
+protagonistes.
+
+Comme le montrent les quatorze interventions qui composent « L'avenir
+des écrans », l'activité médiatrice des écrans est impliquée dans les
+pratiques quotidiennes et les discours publics. Elle est ainsi appelée à
+devenir plus occulte et influente, au point de façonner les
+collectivités humaines, leurs manières de faire et de penser. En tant
+que dispositifs d'existence, les écrans prédisposent le réel d'un point
+de vue affectif et politique, discernant le visible et l'invisible,
+déterminant les choses auxquelles nous nous exposons et celles avec
+lesquelles nous évitons d'entrer en contact. Ils orientent nos manières
+d'agir et de percevoir. Ils se confirment donc en tant qu'objets d'étude
+d'un extrême intérêt pour la compréhension du temps présent.
+
+ Bibliographie
+
+1: Des exemples qui vont dans ce sens sont : Giannini, 2022
+    ; White, 2006 ; Hoelzl, 2012)
+
+2: Dalmasso reprend cette réflexion de Richard A. Grusin
+    (Grusin, 2010)
+
+3: Gressani utilise l'expression introduite par Paolo Gerbaudo dans
+    (Gerbaudo, 2018-1)

@@ -1,0 +1,642 @@
+ Le problème du réel
+
+La mer est là, devant nous. Elle est grande, immense. Elle est bleue.
+Elle est, peut-être, belle, magnifique, sublime. Elle est une énorme
+quantité d'eau salée. Elle est
+
+ « salée » parce qu'elle contient des substances dissoutes, les sels,
+ constitués d'ions, principalement des ions halogénures comme l'ion
+ chlorure et des ions alcalins comme l'ion sodium. On trouve 30 à 40 g
+ de sels dissous pour 1 kg d'eau de mer. L'eau salée s'oppose à l'eau
+ douce, qui contient moins de 1 g de sels dissous par kilogramme. La
+ masse volumique de l'eau de mer à la surface est d'environ 1,025 g/ml,
+ supérieure de 2,5 % à celle de l'eau douce (1 g/ml) à cause de la
+ masse du sel et de l'électrostriction (2018).
+
+Tout cela, nous pouvons le dire parce que la mer est là, « devant
+nous ». Mais que se passe-t-il lorsque nous ne sommes plus là pour la
+percevoir devant nous ? Est-elle encore là ? Est-elle encore grande,
+immense, bleue, belle, magnifique, sublime ? Est-elle encore une immense
+quantité d'eau ? Cette eau est-elle encore salée, contient-elle encore
+des substances dissoutes, les sels, constitués d'ions, principalement
+des ions halogénures comme l'ion chlorure et des ions alcalins comme
+l'ion sodium ?
+
+En fait, nous n'en savons rien. Il semblerait que nous ne puissions rien
+en savoir, quoique cela puisse paraître absurde. Car pour savoir si la
+mer est encore là, nous n'avons -- semblerait-il -- d'autre option que
+de nous remettre devant elle pour l'avoir à nouveau devant nous.
+
+Je viens de formuler une des obsessions les plus courantes de notre
+pensée. Une obsession et un paradoxe qui hantent l'histoire de la
+philosophie depuis toujours et qui ont été au centre de la réflexion
+d'innombrables penseurs.
+
+John Locke, en 1689, proposait, dans son Essai philosophique concernant
+l'entendement humain (Locke, 1735) une solution à cette question
+qui serait devenue une référence : la distinction entre qualités
+primaires et secondaires. Chaque chose aurait des qualités qui lui sont
+propres indépendamment du fait qu'elles soient perçues par un sujet ou
+pas. Les qualités primaires définissent donc ce qu'une chose est en soi,
+car elles sont « celles qui sont entièrement inséparables du Corps »
+(Locke, 1735, livre II, 8). Les qualités secondaires dépendent en
+revanche des modes de perception, car elles « ne sont effectivement
+autre chose que la puissance de produire diverses sensations en nous par
+le moyen de leurs premières qualités » (Locke, 1735, livre II, 8).
+Ces qualités définissent du coup ce qu'un objet est pour nous.
+
+Pour revenir à la mer : elle a une étendue, définissable exactement avec
+un chiffre. Elle a une composition chimique. Ces deux sont des qualités
+premières. Si nous partons, l'étendue de la mer reste la même et sa
+composition chimique aussi. En revanche, le fait que la mer soit bleue
+dépend de notre manière de voir. Le fait qu'elle soit belle dépend de
+nos critères esthétiques. Une fois que nous ne sommes plus devant elle,
+donc, la mer n'est plus bleue ni belle.
+
+Or cette distinction semble impossible à défendre après les différentes
+critiques qui l'ont attaquée, en particulier celle que Kant formule dans
+sa Critique de la Raison pure (Kant, 1781) et, de façon encore
+plus directe, dans ses Prolégomènes à toute métaphysique future qui
+aura le droit se présenter comme science (Kant, 1865).
+Kant souligne l'aspect paradoxal de la distinction entre qualités
+primaires et secondaires : cette distinction est dogmatique, car elle ne
+peut pas être démontrée. En effet, comment connaître des qualités qui
+seraient propres à l'objet indépendamment du sujet si nous ne pouvons en
+parler qu'en tant que sujets ?
+
+Kant affirme :
+
+ Je dis, au contraire, que des choses nous sont données comme
+ extérieures à nous et saisissables à nos sens, mais que nous ne savons
+ rien de ce qu'elles peuvent être en soi, que nous n'en connaissons que
+ les phénomènes, c'est-à-dire les représentations qu'elles opèrent en
+ nous lorsqu'elles affectent nos sens.
+
+Donc, même les qualités primaires ne sont en réalité que des qualités
+dépendantes de nos sens, car nous ne pouvons en parler que parce que
+nous les percevons d'une manière ou d'une autre.
+
+Nous sommes donc face à un paradoxe : d'une part nous avons un monde qui
+existe indépendamment de nous, mais qui, justement pour cette raison,
+nous est totalement inaccessible -- et nous ne pouvons donc rien en
+dire, même pas qu'il existe ; d'autre part, nous avons un monde qui
+n'existe que parce que nous y avons accès, mais qui donc n'a d'autre
+existence que dans notre accès à lui. D'une part un monde sans accès au
+monde, de l'autre un accès au monde sans monde.
+
+Les deux positions philosophiques -- quelque peu caricaturales -- qui
+représentent ces deux pôles, peuvent être définies -- en suivant la
+proposition de Quentin Meillassoux -- comme « réalisme dogmatique » et
+« corrélationisme » 1. Le réalisme dogmatique, justement la position
+métaphysique critiquée par Kant, paie de son dogmatisme son réalisme :
+pour affirmer qu'il y a une réalité, il doit faire abstraction de toute
+expérience et baser son affirmation du réel sur un a priori non
+démontrable et non rationnel. Le monde, affirme le réaliste dogmatique,
+existe indépendamment de nous. Mais il n'y a aucune manière de le
+démontrer, de telle sorte que cette affirmation est dogmatique -- et, en
+suivant Kant, non scientifique. Le corrélationisme consiste à éviter
+cette naïveté dogmatique du réaliste en affirmant que nous ne pouvons
+parler que de ce à quoi nous avons un accès : la corrélation est
+« l'idée selon laquelle nous n'avons accès qu'à la corrélation de la
+pensée et de l'être, et jamais à l'un de ces termes pris isolément »
+(Meillassoux, 2012, p. 18) 2. Mais ce faisant, on limite le réel
+à notre accès au réel en risquant ainsi de tomber dans un
+constructivisme radical où le monde n'est que ce que nous construisons.
+Si le monde n'est que ce que nous en percevons, le risque est que chacun
+voie le monde qu'il désire : la réalité devient une pure construction.
+Comment éviter les négationnismes historiques, par exemple ? Comment se
+référer à un sens de réalité pour contrer de fausses informations ou des
+théories du complot ? Un autre problème est que certaines affirmations
+dont nous avons l'habitude de reconnaître la validité scientifique
+semblent dépourvues de sens si nous n'admettons pas l'existence du monde
+au-delà de notre perception de ce dernier. C'est notamment le cas de ce
+que Quentin Meillassoux appelle « les ancestraux », à savoir des énoncés
+scientifiques qui concernent un temps antérieur -- et parfois très
+antérieur -- à l'apparition des êtres humains. Quel serait le sens de
+parler des ères géologiques, par exemple, alors que, à ces époques, il
+ne pouvait pas y avoir d'accès au monde tout simplement parce qu'il n'y
+avait pas d'êtres humains ? Selon l'approche corrélationiste, des
+énoncés qui concernent des époques précédant l'apparition des êtres
+humains n'ont de sens qu'après une rétrojection du passé : ce passé
+n'existe que maintenant, pour nous. Cela est un contresens du moment que
+le propre d'un énoncé ancestral est justement de parler d'un passé réel,
+indépendant de l'accès humain.
+
+Nous sommes donc devant un paradoxe : le réalisme dogmatique et le
+corrélationisme ont tous deux des conséquences impossibles. Il faut
+d'abord souligner que l'histoire de la philosophie peut être pensée dans
+sa totalité comme une tentative de trouver des solutions à cette
+opposition. La pensée de chaque philosophe, lorsqu'analysée
+attentivement, propose des solutions convaincantes à cette antinomie, en
+travaillant sur les nuances des concepts, sur la complexité de
+structures de raisonnements, sur des modèles de pensée différents.
+Autrement dit, aucune philosophie digne de ce nom ne tombe dans la
+naïveté de l'une ou de l'autre de ces deux positions. Cependant, ce
+problème reste ouvert, il reste toujours à penser : il semble toujours à
+nouveau nécessaire de le soulever et d'en proposer une solution. Cela
+est dû à la nature même du geste philosophique, qui consiste justement à
+proposer des structures de pensée, des parcours qui permettent d'aller
+au-delà des paradoxes et de penser le monde. Ce besoin est justifié par
+le fait que le geste de pensée correspond avec les conditions
+matérielles de sa production -- comme on le montrera dans la suite de ce
+texte. Ces conditions sont à la fois historiques, politiques, sociales,
+économiques... C'est pourquoi il y a du sens à reproposer des gestes
+philosophiques même après 2600 ans de philosophie alors que, on pourrait
+dire, tout a déjà été dit et pensé.
+
+ La médiation originaire
+
+Une solution radicale au paradoxe de l'accès au monde consiste à penser
+que la corrélation, l'accès, se fait avant l'apparition des êtres
+humains. Le monde -- et le réel -- n'est que l'accès au monde, accès qui
+serait le résultat d'une médiation originaire, éternelle et primaire.
+C'est la solution de certains idéalismes, typiquement celui de Berkeley
+et de Hegel. L'Être est initialement et originairement médiation -- ou
+pour le dire avec Berkeley, le monde est fait d'idées 3.
+
+Ce geste consiste à renverser le problème : il n'y a pas un monde et
+ensuite un accès au monde, mais -- en un seul et même temps -- une
+médiation originaire qui constitue le monde et l'accès au monde ; un
+monde accessible, car il est en soi la dimension de son accessibilité.
+La médiation ne serait donc pas un geste fait par le sujet pour accéder
+au monde, mais une dynamique inscrite dans le monde lui-même.
+
+Cette position est celle que, en se référant explicitement à Hegel,
+Meillassoux appelle l'« hypostase de la corrélation ». Il la critique
+violemment en l'assimilant à un réalisme dogmatique : en effet, comment
+parler de cette médiation sans l'affirmer dogmatiquement puisqu'elle
+précéderait notre accès au monde ?
+
+ La corrélation, en effet, peut être posée comme indépassable ou bien
+ d'un point de vue transcendantal (et/ou phénoménologique), ou bien
+ d'un point de vue spéculatif. Il est possible de soutenir la thèse
+ suivant laquelle nous n'appréhendons rien d'autre que des
+ corrélations, ou bien la thèse suivant laquelle la corrélation est par
+ elle-même éternelle. Dans ce dernier cas, celui de l'hypostase de la
+ corrélation, nous n'avons plus affaire à un corrélationisme au sens
+ strict, mais à une métaphysique qui éternisera l'Ego ou l'Esprit pour
+ en faire le vis-à-vis pérenne de la donation de l'étant. Dans une
+ telle perspective, l'énoncé ancestral ne pose pas difficulté : le
+ métaphysicien du Corrélat éternel pourra soutenir l'existence d'un
+ « Témoin ancestral », un Dieu attentif, faisant de tout événement un
+ phénomène, un donné-à, cet événement fût-il la formation de la Terre,
+ ou même de l'Univers. Mais le corrélationisme n'est pas une
+ métaphysique : il n'hypostasie pas la corrélation, il limite bien
+ plutôt par la corrélation toute hypostase, toute substantialisation
+ d'un objet de la connaissance en Étant existant par soi. Dire que nous
+ ne pouvons nous extraire de l'horizon corrélationnel, ce n'est pas
+ affirmer que la corrélation pourrait exister par soi, indépendamment
+ de son incarnation en des individus. Nous ne connaissons pas de
+ corrélation qui soit donnée ailleurs qu'en des humains, et nous ne
+ pouvons pas sortir de nous-mêmes pour découvrir s'il est possible
+ qu'une telle désincarnation du corrélat soit vraie. Le Témoin
+ ancestral est donc une hypothèse illégitime du point de vue d'un
+ corrélationisme strict. La question que nous avons posée peut donc se
+ reformuler ainsi : dès lors que l'on se situe au sein du corrélat,
+ tout en se refusant à son hypostase, comment interpréter un énoncé
+ ancestral ? (Mmeillassoux, 2012, p. 26)
+
+La clé de la critique de Meillassoux est de dire que parler d'une
+corrélation éternelle équivaut à l'hypostasier et donc à aller contre le
+principe même du corrélationisme qui tend justement à éviter la
+substantialisation des objets de la connaissance. En d'autres termes,
+l'hypostase de la corrélation est une métaphysique prékantienne. En
+effet, dit Meillassoux, « nous ne connaissons pas de corrélation qui
+soit donnée ailleurs qu'en des humains et nous ne pouvons pas sortir de
+nous-mêmes pour découvrir s'il est possible qu'une telle désincarnation
+du corrélat soit vraie ». Cette affirmation me paraît problématique et
+c'est justement en la mettant en question qu'il est possible de
+démontrer la faiblesse de la critique que Meilassoux développe contre
+l'idée de médiation originaire.
+
+Ce qui me semble très problématique dans l'affirmation de Meillassoux
+est que l'idée selon laquelle la corrélation ne pourrait s'incarner que
+dans des individus est profondément dogmatique elle aussi. Elle
+correspond à dire que « nous, êtres humains, pensons le monde ». Mais
+cette idée comporte une série de concepts et d'interprétations qui sont
+elles aussi hypostasiées : l'idée d'individu, l'idée d'être humain,
+l'idée de pensée... En effet, cette idée de la corrélation comme pensée
+du monde -- typiquement moderne -- se fonde sur le fameux ego cogito
+cartésien, la certitude d'un sujet qui pose le monde en le pensant. De
+cette certitude se moque avec brio Nietzsche :
+
+ Pour ce qui en est de la superstition des logiciens, je veux souligner
+ encore, sans me laisser décourager, un petit fait que ces esprits
+ superstitieux n'avouent qu'à contrecœur. C'est, à savoir, qu'une
+ pensée ne vient que quand elle veut, et non pas lorsque c'est moi qui
+ veux ; de sorte que c'est une altération des faits de prétendre que le
+ sujet moi est la condition de l'attribut « je pense ». Quelque chose
+ pense, mais croire que ce quelque chose est l'antique et fameux moi,
+ c'est une pure supposition, une affirmation peut-être, mais ce n'est
+ certainement pas une « certitude immédiate ». En fin de compte, c'est
+ déjà trop s'avancer que de dire « quelque chose pense », car voilà
+ déjà l'interprétation d'un phénomène au lieu du phénomène lui-même.
+ (Nietzsche_par_1903, Chapitre I, 17)
+
+Quelque chose pense, mais que cela soit un moi est une construction
+aussi dogmatique que dire qu'il y a un monde sans accès au monde. Mais
+que retenir donc de la charge anti-dogmatique du corrélationisme ?
+Fondamentalement deux choses : qu'il n'y a pas de monde sans accès au
+monde et que cet accès doit être incarné -- ou mieux, concret,
+objectivable, réel. On ne peut pas -- dit Meillassoux -- séparer pensée
+et être. En effet. Et cette pensée doit être incarnée. En effet. Mais
+cette pensée doit-elle forcément être humaine ? Cette incarnation
+doit-elle nécessairement se faire dans le corps d'un être humain ?
+Est-il vrai que nous ne connaissons d'autre forme d'incarnation que
+celle qui se donne dans les êtres humains ?
+
+ Numérique, posthumain et préhumain
+
+Cette question se pose de façon particulière aujourd'hui. Je disais que
+l'on pourrait interpréter l'ensemble de l'histoire de la philosophie
+comme une tentative de sortir de l'opposition entre réalisme dogmatique
+et corrélationisme. Mais l'époque que nous vivons nous pousse à nous
+poser de nouveau la question, parce que les changements techniques qui
+la caractérisent reposent la question de l'humain, de son rapport au
+non-humain, au machinique et au technique. Il ne s'agit pas de trouver
+des solutions inédites, ou de critiquer les grands gestes philosophiques
+du passé qui ont proposé des visions éclairantes du rapport entre le
+monde et l'accès au monde. Il s'agit plutôt de savoir de quelle manière,
+aujourd'hui, la question se pose concrètement et matériellement -- et
+donc de prendre en compte la réalité historique, sociale et culturelle
+dans laquelle nous vivons. C'est un premier pas pour considérer la
+matérialité de l'inscription.
+
+J'arrive ici à la thématique qui nous intéresse tous en tant que
+digital humanists. La notion de Digital Humanities pose en effet de
+façon renouvelée la question de la définition de l'humain et de son
+rapport avec la technique et les machines. La locution digital
+humanities semble au premier abord un oxymoron en ce qu'elle met
+ensemble deux pôles d'une opposition très présente dans l'imaginaire
+collectif : celle de l'humain contre la machine. La difficulté de la
+traduction française met encore plus en évidence cette tension implicite
+dans la locution : des humanités numériques (alors qu'une traduction
+plus exacte devrait plutôt se référer aux « sciences humaines
+numériques »). Le topos de l'humain non quantifiable qui a des
+sentiments et une vie ne pouvant être réduite à un calcul se trouve
+balayé par cette expression qui remet ensemble les deux dimensions 4.
+
+L'explosion du fait numérique, plus en général, pousse des auteurs comme
+Milad Doueihi à affirmer que, plus que d'humanités numériques, il
+faudrait parler d'un véritable « humanisme numérique »
+(Doueihi, 2011), car le numérique ne peut pas être considéré comme
+un simple ensemble d'outils, mais plutôt comme une culture à part
+entière qui change notre rapport au monde et, finalement, notre manière
+d'être humains.
+
+Dans une direction semblable va tout un pan de réflexion sur le statut
+de l'humain par rapport aux développements technologiques que l'on
+retrouve souvent regroupés sous l'étiquette de « posthumanisme »,
+étiquette complexe et ambiguë, car elle assimile des approches
+profondément différentes et même souvent contradictoires.
+
+Nous irons ici dans la direction de Karen Barad, qui comprend le
+posthumanisme comme une catégorie qui permet de penser au-delà de
+l'opposition entre humain et non-humain.
+
+ My posthumanist account calls into question the givenness of the
+ differential categories of human and nonhuman, examining the practices
+ through which these differential boundaries are stabilized and
+ destabilized. (Barad, p. 66)
+
+Le concept de posthumanisme n'est donc pas une invitation à dépasser
+l'humain pour aller vers une humanité augmentée -- ce qui serait le vœu
+de certaines interprétations qu'on pourrait qualifier de
+transhumanistes -- mais de questionner la catégorie même d'humain et sa
+relation avec le non-humain.
+
+Dans le même sens on peut lire le travail de Cary Wolfe qui affirme
+clairement, en appuyant les thèses de Katherine Hayles
+(Hayle, 1999), que posthumanism in my sense isn't posthuman at all -- in the sense of
+ being "after" our embodiment has been transcended -- but is only
+ posthumanist, in the sense that it opposes the fantasies of
+ disembodiment and autonomy, inherited from humanism itself
+ (Wolfe, 2010, p. XV)
+
+Il ne s'agit pas d'aller au-delà de l'humain, mais de mettre en question
+la notion d'humain telle qu'elle émerge de l'humanisme -- approche qui
+met l'être humain au centre de toute réflexion sur le monde.
+
+Et c'est justement là que la réflexion sur le posthumain peut être liée
+au problème posé par Meillassoux. Affirmer que le corrélat ne peut que
+s'incarner dans un individu humain revient à dire qu'il y a un
+« humain » défini et reconnaissable et que c'est cet humain qui seul
+peut être le facteur qui produit l'accès au monde, en tant que sujet du
+« je pense » ou du « je perçois ».
+
+Or, la médiation originaire peut être non-humaine. Le « je » du pense
+peut être un « ça », comme l'affirmait déjà Nietzsche. Karen Barad le
+souligne dans un passage éclairant de son Meeting Universe halfway :
+
+ By "posthumanist" I mean to signal the crucial recognition that
+ nonhumans play an important role in natural/cultural practices,
+ including everyday social practices, scientific practices, and
+ practices that do not include humans. But also, beyond this, my use of
+ "post humanism" marks a refusal to take the distinction between
+ "human" and "nonhuman" for granted, and to found analyses on this
+ presumably fixed and inherent set of categories. Any such hardwiring
+ precludes a genealogical investigation into the practices through
+ which "humans" and "nonhumans" are delineated and differentially
+ constituted. A posthumanist performative account worth its salt must
+ also avoid cementing the nature-culture dichotomy into its
+ foundations, thereby enabling a genealogical analysis of how these
+ crucial distinctions are materially and discursively produced.
+ (barad, p. 32)
+
+En continuant dans la direction de Barad et de Wolfe, on peut donc
+affirmer que le posthumanisme n'étant pas un dépassement de l'humain
+pourrait être plutôt pensé comme un préhumanisme, dans le sens où il
+pointe une dynamique de production de l'humain à partir de relations qui
+précèdent l'humain. Il n'y a pas un humain et un non-humain et ensuite
+une relation entre ces deux pôles, mais plutôt l'inverse : une série de
+relations dynamiques à partir desquelles émerge l'humain, qui finalement
+n'est qu'un après-coup stabilisé à des fins de discours d'un processus
+ouvert qui implique des actes plus que des essences.
+
+Il n'est donc pas juste possible de parler d'un corrélat non-humain,
+mais il est nécessaire que ce corrélat préhumain soit là si on veut
+avoir la possibilité de parler d'humain tout court. Il y a d'abord un
+« ça pense » si on veut pouvoir parler ensuite d'un « je pense ».
+
+ La métaontologie
+
+Cette approche permet évidemment de résoudre le problème des ancestraux
+tel qu'il est posé par Meillassoux : si la médiation est préhumaine,
+l'accès au monde se fait avec le monde et il n'y a pas besoin de témoin
+humain pour que le monde existe.
+
+Mais comment une pensée préhumaine peut-elle éviter l'accusation de
+dogmatisme que Meillassoux portait contre l'hypostase du corrélat ? On
+pourrait en effet affirmer que dire qu'il y a une médiation originaire
+revient à postuler dogmatiquement l'éternité du corrélat. Qu'en
+savons-nous ? En d'autres termes, l'hypothèse d'une médiation préhumaine
+ne serait qu'une version déguisée du réalisme dogmatique : il y a
+quelque chose au-delà de nous et nous l'affirmons comme un dogme, vu que
+nous ne pouvons pas sortir de nous pour le prouver.
+
+La réponse à cette critique est double. D'une part, comme on vient de le
+voir avec Nietzsche, même l'idée que « nous » voyons le monde et en
+sommes témoins est dogmatique. D'autre part, cela implique que la seule
+possibilité de sortir du dogmatisme est de se concentrer sur l'aspect
+incarné que doit avoir la médiation pour ne pas être une simple chimère.
+
+Après avoir réalisé que l'idée même d'être humain est une production qui
+ne peut se faire qu'après une pensée, nous pouvons accepter le fait
+qu'il y ait d'autres incarnations possibles, tout aussi objectives et
+matérielles, de la pensée. Nous pouvons donc souscrire au postulat de
+fond du corrélationisme, selon lequel il n'y a pas d'Être sans pensée de
+l'Être, mais cette pensée n'est pas nécessairement humaine. Elle est une
+médiation. Et cette médiation, justement parce qu'il n'y a pas d'Être
+sans pensée de l'Être, doit être toujours là. C'est donc une médiation
+originaire. Cela équivaut à dire que l'Être, en tant que tel, est
+toujours déjà médié. L'Être n'est pas le monde, mais l'ensemble des
+conditions matérielles de son apparition. L'Être est une médiation
+originaire et cette médiation est réelle, car elle est matérielle,
+incarnée.
+
+C'est cette incarnation qui nous permet d'éviter la critique de
+Meillassoux : il y a des médiations qui produisent l'accès au monde et
+ces médiations sont matérielles, incarnées dans autre chose que des
+êtres humains. Par ailleurs, pour éviter l'anthropocentrisme du mot
+« incarné », il faudrait plutôt parler d'inscription. L'Être est donc
+une médiation originaire, matérielle, parce qu'inscrite, non
+nécessairement humaine. Cette médiation est toujours en action -- car il
+n'y a pas d'Être sans elle. Et cette médiation, justement parce qu'elle
+est toujours matérielle et inscrite ne peut qu'être multiple : il n'y a
+pas une médiation, mais multiples médiations. Mais si l'être est
+toujours déjà médié et si les médiations sont originairement multiples,
+alors il est insensé de parler d'Être au singulier. Il faudra plutôt
+parler d'Être-multiples, au pluriel. Les Être-multiples sont la
+multiplicité du réel qui est -- où l'être des Être-multiples est
+justement médiation.
+
+Cette approche qui consiste à penser des médiations matérielles
+inscrites, multiples et originaires qui sont la condition d'existence
+des Être-multiples est ce que j'appelle « métaontologie ».
+
+La métaontologie est l'ontologie des Être-multiples, la méthodologie
+pour penser et exprimer une réalité qui fait résistance et qui ne se
+laisse pas modeler sans limites, mais qui, en même temps, est faite
+d'Être-multiples, qui ne se réduit pas à un Être totalitaire 5.
+
+À partir de ce point de vue, nous pouvons revenir à la question des
+qualités primaires et secondaires. Les critiques fondamentales à cette
+distinction étaient celle de l'idéalisme subjectif de Berkeley et celle
+de Kant. Les deux montraient qu'il était impossible de diviser les
+qualités primaires des qualités secondaires parce que nous n'avons
+expérience que des qualités secondaires et que donc même ceux que Locke
+identifie comme qualités primaires sont en réalité des qualités
+secondaires.
+
+Selon un point de vue métaontologique, c'est exactement l'inverse : en
+effet, il n'y a pas de distinction possible entre les qualités primaires
+et les qualités secondaires, précisément parce que l'Être est toujours
+déjà médié. Cela signifie que toutes les qualités sont primaires, même
+celles qui, selon Locke, étaient secondaires. La médiation de l'Être est
+l'Être lui-même.
+
+Mais que sont-elles, ces médiations inscrites ? De quel type
+d'inscription peut-on parler s'il ne s'agit pas d'une incarnation ? Les
+médiations dont nous parlons ici sont bien des pensées -- ou en tout cas
+quelque chose qui a la structure fondamentale de la pensée comme pliage,
+réflexion de l'Être. En quoi peuvent-elles être non-humaines et
+préhumaines ?
+
+ L'éditorialisation comme médiation
+
+Une piste de réponse nous vient, me semble-t-il, de notre culture
+technique. La production de sens dans les environnements numériques est
+en effet un exemple clair de médiation non-humaine. Je propose donc
+d'utiliser la théorie de l'éditorialisation (Vitali-rosati, 2016)
+pour donner une exemplification de ce que les médiations originaires
+peuvent être.
+
+On pourra objecter que les environnements numériques sont des artefacts
+et que donc ils sont justement des productions humaines, qu'ils ne font
+que prolonger la pensée humaine. Mais cette objection s'appuie sur une
+idée d'humain très essentialisée -- celle que nous avons justement
+critiquée en suivant Hayles, Wolfe et Barad. Les médiations
+technologiques peuvent être pensées comme préhumaines en ce que l'humain
+est plutôt ce qui dérive d'une série d'interactions d'agents dont la
+technologie fait partie.
+
+Or, le point clé de la théorie de l'éditorialisation, celui qui la
+distingue de nombre d'autres approches à la production de sens dans
+l'espace numérique, est de considérer l'ensemble des relations et
+interactions qui se font dans les environnements numériques comme les
+dynamiques qui portent à la production de l'espace et, en dernière
+analyse, du sens.
+
+En 2016, je définissais l'éditorialisation comme
+
+ l'ensemble des dynamiques qui produisent et structurent l'espace
+ numérique. Ces dynamiques sont les interactions des actions
+ individuelles et collectives avec un environnement numérique
+ particulier.
+
+Aujourd'hui, au vu des considérations précédentes, j'aurais tendance à
+revoir la deuxième partie de la définition. En effet, même si je
+cherchais à éviter l'opposition homme-machine, je me limitais à parler
+d'une interaction d'actions avec un environnement. On pourrait
+interpréter cette définition en disant qu'il y a finalement des êtres
+humains qui interagissent avec des machines. Or, ce n'est pas ce que
+veut exprimer la théorie de l'éditorialisation. Il n'y a pas des
+individus, des collectivités et des environnements numériques qui
+interagissent et donnent lieu à l'espace numérique. Il y a plutôt un
+espace qui est le résultat dynamique d'un ensemble d'interactions entre
+forces différentes. De ces interactions émergent après-coup des
+individus, des collectivités et des environnements numériques.
+
+On pourrait donc revoir ma définition en disant que :
+
+ L'éditorialisation est l'ensemble des dynamiques qui constituent
+ l'espace numérique et qui permettent à partir de cette constitution
+ l'émergence du sens. Ces dynamiques sont le résultat de forces et
+ d'actions différentes qui déterminent après-coup l'apparition et
+ l'identification d'objets particuliers (personnes, communautés,
+ algorithmes, plateformes...).
+
+En ce sens, l'éditorialisation peut être pensée comme l'ensemble des
+conditions matérielles de médiation qui déterminent l'émergence d'un
+monde. L'éditorialisation est un accès au monde qui se fait avec le
+monde lui-même.
+
+Un exemple pourra éclaircir la définition. Un individu X -- Michael
+Sinatra, par exemple -- est le résultat d'une série de dynamiques qui
+définissent cet individu et le font apparaître. Michael Sinatra est ce
+qui émerge d'un processus toujours en mouvement qui implique des forces
+et des actions différentes : des algorithmes, des clics, des agencements
+de données qui font en sorte que la requête « Michael Sinatra » sur
+Google donne un certain résultat, que les profils de Michael Sinatra
+dans les différentes plateformes sont plus ou moins visibles, affichés
+d'une manière ou d'une autre et que, finalement, Michael Sinatra est
+cette personne particulière (un professeur, le directeur du Crihn, mais
+aussi l'ami de..., l'homonyme d'un chanteur, etc.).
+
+Ces dynamiques sont des médiations inscrites et matérielles : exactement
+comme je peux penser Michael Sinatra. De la même manière,
+l'environnement numérique, ou mieux, les environnements numériques
+pensent Michael Sinatra. Michael Sinatra existe via cette pensée.
+L'accès à Michael Sinatra et son être sont la même chose. Sauf que cet
+accès n'est pas humain, il est là, inscrit, matériel, concret, même sans
+nous.
+
+Concrètement, dans les environnements numériques, ces dynamiques
+s'inscrivent dans la logique du modèle. Le modèle interprétatif d'abord,
+fonctionnel ensuite et finalement physique (Meunier, 2014)
+sont des identifications de modes d'accès concrets, inscrits et
+matériels au monde.
+
+Pour revenir à la question de l'existence du monde en dehors de nous :
+si nous ne pouvons pas affirmer qu'il y a un monde sans accès, nous
+pouvons par contre toujours imaginer un accès concret au monde qui se
+fait avec le monde lui-même.
+
+Dans le cadre de l'éditorialisation, si nous ne pouvons pas savoir si
+Michael Sinatra existe quand nous ne le voyons pas, nous pouvons par
+contre savoir qu'il y a des dynamiques qui le médient de façon continue
+indépendamment de nous -- et donc qu'il existe en tant que médié
+techniquement, en tant que pensé par quelque chose.
+
+ Les ères géologiques et la mer
+
+Revenons maintenant aux ancestraux. La théorie de l'éditorialisation et
+le type de médiations inscrites que nous donne à voir la technique
+pourraient attirer une objection : ces formes-là viennent -- au moins
+chronologiquement -- après l'apparition des êtres humains sur la terre.
+On pourrait donc imaginer que, même s'il y a des médiations inscrites
+qui sont autre chose que la pensée d'un individu, ces médiations
+n'existent qu'après l'apparition des êtres humains en tant
+qu'espèce 6.
+
+Mais justement l'exemple des ères géologiques qui ont précédé
+l'apparition des êtres humains nous donne des pistes pour identifier des
+médiations inscrites qui viennent -- même chronologiquement -- avant les
+êtres humains. Il suffit de faire l'épistémologie des affirmations
+scientifiques ancestrales pour s'en rendre compte. En effet,
+l'affirmation « Le Crétacé est une période géologique qui s'étend de ≃
+145,0 à 66,0 Ma » ne se base pas sur notre accès au monde : il n'y avait
+personne pour le voir, évidemment, puisque l'espèce humaine est apparue
+seulement 60 millions d'années plus tard. Elle se base plutôt sur
+quelque chose qui a eu accès au Crétacé et à quoi « nous » -- ou mieux,
+une série de médiations concrètes et matérielles qui font la science
+aujourd'hui -- avons accès. Typiquement, la stratographie consiste à
+analyser les inscriptions à travers lesquelles s'est faite -- et se
+manifeste -- l'histoire de la terre. Le Crétacé existe en tant qu'il est
+une série de médiation. L'Être du Crétacé n'est pas quelque chose en soi
+qu'ensuite nous regardons comme il nous apparaît : l'Être du crétacé
+-- ou mieux, ces Être-multiples -- est l'ensemble des conditions
+matérielles de son apparition -- dont les stratotypes sont un exemple.
+Les stratotypes sont des Être-multiples médiés du Crétacé.
+
+Et pour conclure, revenons finalement à la mer. Nous avons dit qu'elle
+est grande, immense, bleue, belle, magnifique, sublime. Elle est une
+énorme quantité d'eau salée. Elle « contient des substances dissoutes,
+les sels, constitués d'ions, principalement des ions halogénures ».
+
+Or, on pourrait dire qu'il y a un individu « je » qui voit et pense la
+mer grande, immense bleue, etc. La médiation s'incarne dans l'individu.
+L'accès se fait dans l'individu. Mais on pourrait aussi dire qu'il y a
+des conditions matérielles inscrites qui constituent la vision du bleu.
+La mer est ce qui dans des conditions matérielles particulières se voit
+bleu. L'accès à la mer en tant que mer bleue n'est pas une qualité
+secondaire, mais primaire, car la mer est l'ensemble des conditions
+matérielles qui peuvent donner accès à la mer. Et cet accès n'est pas
+nécessairement humain. Au contraire, ce qu'est l'humain dépend plutôt de
+ces conditions d'accessibilité à partir desquelles le sujet se définit.
+Je suis un être humain parce que je vois la mer bleue -- et non d'une
+autre couleur, ce qui ferait de moi, par exemple, une mouche.
+
+Il n'y a donc pas d'abord la mer, avec ses qualités primaires (l'Être en
+soi), puis une série de manières de la voir qui dépendent de ce qu'est
+la mer en elle. Il y a au contraire une série de manières de voir
+-- toutes matérielles, inscrites et concrètes -- qui font émerger par
+après-coup la mer.
+
+La mer ne peut pas être séparée de la pensée de la mer, car la mer est
+les multiples pensées de la mer et ces pensées sont des médiations
+inscrites et matérielles : des pensées préhumaines.
+
+ Bibliographie
+
+1: Je reprends ici la reconstruction de cette situation paradoxale
+    proposée par Quentin Meillassoux dans la pars destruens de son
+    Après la finitude (Meillassoux, 2012)
+
+2: Graham Harman et Tristan Garcia appellent le même type d'approche
+    « philosophies de l'accès » (Garcia, 2011, p. 11 ; Harman, 2002, p. 123)
+
+3: Berkeley affirme : « Mais, dira-t-on, quoique les idées
+    elles-mêmes n'existent pas hors de l'esprit (mind), il peut y
+    avoir des choses qui leur ressemblent et dont elles sont des copies
+    ou images, lesquelles choses existent hors de l'esprit dans une
+    substance non pensante. Je réponds qu'une idée ne peut ressembler à
+    rien qu'à une idée ; une couleur, une figure, ne peuvent ressembler
+    à rien qu'à une autre couleur ou figure. Si nous regardons seulement
+    un peu dans nos propres pensées, nous trouverons qu'il nous est
+    impossible de concevoir une ressemblance, si ce n'est entre nos
+    idées. De plus, ces originaux supposés, ou choses externes, dont nos
+    idées seraient des portraits ou représentations, je demande s'ils
+    sont eux-mêmes percevables ou non ? S'ils sont percevables, ils sont
+    donc des idées, et nous avons gagné notre cause. Et si on dit qu'ils
+    ne sont pas percevables, j'en appelle à qui que ce soit : y a-t-il
+    de la raison à prétendre qu'une couleur est semblable à quelque
+    chose d'invisible ? Que le dur ou le mou sont semblables à quelque
+    chose d'intangible ? Et ainsi du reste. » (Berkeley, 1920)
+
+4: Pour approfondir cette question cf. (Meunier, 2014)
+
+5: Une approche semblable est celle proposée par Karen Barad qui
+    parle en ce sens de « réalisme agentiel » : « I propose "agential
+    realism" as an epistemological-ontological-ethical framework that
+    provides an understanding of the role of human and nonhuman,
+    material and discursive, and natural and cultural factors in
+    scientific and other social-material practices, thereby moving such
+    considerations beyond the well-worn debates that put constructivism
+    against realism, agency against structure, and idealism against
+    materialism. » (Barad, 2007, p. 26)
+
+6: Il est à souligner que Graham Harman critique la position de
+    Meillassoux en montrant qu'il donne une importance excessive au
+    temps chronologique par rapport par exemple à l'espace. Cf
+    Harman, 2011

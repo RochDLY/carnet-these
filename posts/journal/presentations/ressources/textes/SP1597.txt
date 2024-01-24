@@ -1,0 +1,405 @@
+Le livre représente une avancée technologique extraordinaire, encore
+aujourd'hui, et nous avons tendance à l'oublier au profit d'innovations
+numériques. Le livre est un moyen de questionner la relation que nous
+entretenons avec la technique. La façon de concevoir et de fabriquer une
+publication est révélatrice de notre positionnement avec les machines et
+les programmes. Ce texte s'attache à proposer un système modulaire de
+publication comme pouvant se substituer à des chaînes d'édition
+linéaires, donnant à l'humain une occasion particulière de se situer au
+cœur du numérique. Cette proposition est basée sur un mémoire
+universitaire mené pendant un an et demi, il s'agit d'un travail de
+recherche sous la direction d'Anthony Masure, alors maître de
+conférences en design à l'université Toulouse -- Jean Jaurès, et de
+Marcello Vitali-Rosati, professeur au Département des littératures de
+langue française de l'Université de Montréal et titulaire de la Chaire
+de recherche du Canada sur les écritures numériques.
+
+Ce mémoire est intitulée « Vers un système modulaire de publication :
+éditer avec le numérique », et est construit autour de quatre dimensions
+que nous allons aborder ici. La première partie concerne les raisons de
+s'interroger sur les modes de publication, qu'est-ce que veut dire
+éditer « avec le numérique » ? Comment le livre et ses métiers ont-ils
+évolué pour intégrer le numérique ou s'y convertir ? La seconde partie
+expose l'étude de plusieurs expérimentations de « système de
+publication », originaux et non conventionnels. Cela nous amène à poser
+le principe de modularité, principe central lié à l'interopérabilité
+et à la multiformité. Dans un troisième temps nous définissons la notion
+de système, afin de comprendre quel est le changement de paradigme lors
+du passage de la chaîne au système. Enfin, nous souhaitons présenter
+la façon dont le mémoire évoqué a été réalisé, ainsi que la démarche de
+pré-publication, autant pour comprendre comment les principes exposés
+ont été appliqués, que pour démontrer par l'exemple l'importance des
+questions de transmission.
+
+À partir de théories des sciences de l'information et de la philosophie
+de la technique, et en nous appuyant sur des études de cas, nous
+constituons une proposition pour repenser les modes de publication, au
+sein d'un environnement baigné dans le numérique.
+
+(media/SP1597-img1.png)
+
+ Avec le numérique
+
+Deux événements majeurs modifient profondément le livre dans ses modes
+de conception, de fabrication et de diffusion. Nous devons tout d'abord
+mentionner la conversion numérique des métiers du livre. Cette
+transformation s'est opérée à travers les métiers des bibliothèques --
+nous pouvons citer le cas des catalogues et des bases de données
+-- jusqu'aux domaines de la diffusion et de la vente -- avec la
+circulation des métadonnées ou la remontée des données commerciales.
+L'informatisation de l'édition est un cas qui nous préoccupe plus
+particulièrement, il se traduit par l'usage quasi généralisé du
+traitement de texte -- le plus souvent Microsoft Word -- et du logiciel
+de publication assistée par ordinateur -- Adobe InDesign dans la
+majorité des cas depuis déjà plusieurs années. Le passage de la
+composition typographique à la photocomposition, et enfin à la
+publication assistée par ordinateur représente une évolution majeure
+pour les métiers du livre, et en premier lieu l'édition. Nous écartons
+volontairement le terme de révolution, car même si les gains ont été
+importants, comme la rapidité de production ou de nouvelles perspectives
+graphiques, et que des pertes sont également notables, comme la
+suppression de postes et la disparition d'un certain savoir-faire,
+l'édition connaît une évolution continue. L'effet de rupture souvent
+plebiscité dans les textes sur le numérique est à redouter.
+
+Le deuxième événement est l'arrivée du livre numérique, non pas en 1971
+avec l'initiative de Mickael Hart qui donnera lieu au Projet Gutenberg,
+mais à partir de 2006-2007. Cette période du début du 21^e^ siècle
+représente l'aboutissement de tentatives jusqu'ici manquées pour
+l'ebook, en trois points complémentaires : la technique, les usages et
+les contenus, c'est-à-dire la mise en place d'un format commun, la
+disponibilité d'un dispositif de lecture numérique et un catalogue de
+titres contemporains. En ce qui concerne la dimension technique, un
+standard était nécessaire pour les acteurs de la chaîne du livre
+numérique pour pouvoir construire un écosystème commun et commercial. Le
+standard ouvert EPUB -- pour electronic publication -- a permis à cet
+écosystème d'émerger. Le W3C et ses membres sont aujourd'hui garants de
+sa documentation et de son évolution. La question de l'usage ensuite :
+pouvoir choisir sa position de lecture a enfin pu être envisageable avec
+la liseuse à encre électronique. Ce dispositif de lecture, avec des
+modèles bon marché dès 2006, offre un éclairage nouveau sur la lecture
+hors papier, dont les lecteurs les plus assidus vont s'emparer très
+vite. La question des contenus enfin : les titres du domaine public ou
+les livres au format PDF -- figé -- ne suffisaient plus aux lecteurs
+numériques dont certains commençaient à faire circuler des versions
+piratées -- ou numérisées par leur soin. La constitution d'un
+catalogue de titres contemporains donne définitivement au livre
+numérique une existence économique -- à défaut de pouvoir prétendre à
+une existence d'usage pendant plusieurs années.
+
+Ces deux événements vont bouleverser la chaîne du livre, non pas dans
+une rupture mais dans un changement long. Pour résumer ce que nous
+venons d'exposer : dans les faits les différents acteurs de la chaîne du
+livre utilisent désormais des outils, et en l'occurrence des logiciels
+qui posent un certain nombre d'interrogations ; le livre numérique
+introduit la notion de flux à la fois dans la conception des objets
+numériques, dans la perception des textes et dans la circulation
+-- marchande ou non marchande -- de ceux-ci.
+
+media/SP1597-img5.png
+
+La figure ci-dessous représente les fichiers qui composent un simple
+.odt, le format du traitement de texte LibreOffice Writer. Le seul mot
+« bonjour » inscrit avec un traitement de texte nécessite un ensemble de
+fichiers -- XML pour la plupart --, alors qu'il s'agit d'une simple
+inscription. Cette complexité peut s'expliquer par les nombreuses
+fonctionnalités disponibles dans la majorité des traitements de texte
+des années 1990, 2000 puis 2010. À ce titre la formidable étude de
+Matthew Kirschenbaum (2016) nous apporte de
+nombreuses informations concernant l'usage de ces logiciels par les
+auteurs de littérature. Dans nos activités d'écriture classiques
+-- inscrire et structurer un texte -- nous n'avons besoin que d'une
+infime partie de ces fonctions.
+
+ En utilisant un traitement de texte, nous admettons un certain nombre
+ de leurs prémisses.
+
+ (Dehut, 2018)
+
+Nous gagnerions toutes et tous à faire appel à d'autres outils, ou
+plutôt à modifier nos modes d'édition actuellement conduits par ces
+traitements de texte devenus avec le temps des boîtes noires. Il est
+difficile d'appréhender leur fonctionnement, mais aussi d'avoir la
+capacité de les comprendre en profondeur. Il serait parfois plus simple
+de disposer d'un outil léger pour écrire et partager des textes, dans le
+cadre d'un projet de publication. Et le traitement de texte n'est qu'un
+exemple. Nous devons faire le constat d'une certaine forme
+d'uniformisation des usages liée à des logiciels comme Microsoft Word
+(et son équivalent libre LibreOffice Writer) et Adobe InDesign.
+
+Nous devons nous interroger sur notre utilisation du numérique pour
+concevoir et fabriquer des livres. Encore une fois, le cas du traitement
+de texte est un exemple parmi d'autres. Partant du constat d'un certain
+monopole dans ce domaine, mais également dans celui de la publication
+assistée par ordinateur, nous devons distinguer l'utilisation du
+numérique comme simple solutionnisme technologique (Morozov, 2014)
+et penser des modes d'édition que nous pouvons bâtir, afin qu'ils soient
+plus inclusifs. La double dimension d'apprentissage et de transmission
+est également essentielle, nous l'abordons dans la dernière partie de
+cet exposé.
+
+Lorsque nous parlons de concevoir et de fabriquer des livres, il
+s'agit en fait de chaînes de publication : l'ensemble des méthodes et
+des outils ordonnés qui remplissent des objectifs déterminés pour un
+projet éditorial. C'est précisément sur la question des chaînes de
+publication que nous nous concentrons ici, en tentant de ne pas nous
+focaliser sur des outils mais bien plus sur des processus. Ces derniers
+sont considérés comme linéaire dans un schéma classique de chaîne,
+nous devons envisager un nouveau modèle qui déconstruit et éclate les
+différentes étapes d'une publication.
+
+ Modularité
+
+Pour dépasser cette linéarité inhérente au modèle de chaîne de
+publication, nous nous proposons d'explorer le principe de modularité.
+Celui-ci est central dans la perspective d'une intégration plus profonde
+du numérique dans les chaînes de publication. Plusieurs structures
+d'édition ont mis en place des chaînes modulaires, et ont ainsi
+développé leur propre outil de fabrication. Ce choix vient à l'opposé de
+processus d'édition basés sur des applications fermées, opaques et peu
+pérennes comme les traitements de texte ou les logiciels de publication
+assistée par ordinateur. O'Reilly, Distill, Getty Publications : voici
+trois initiatives éditoriales modulaires que nous pouvons explorer sous
+trois axes différents. Nous nous attarderons sur Quire, la chaîne de
+publication numérique de Getty Publications.
+
+Depuis les années 1990 O'Reilly a développé un certain nombre d'outils
+fluidifiant l'écriture entre les auteurs de cette maison d'édition
+spécialisée dans l'informatique et les éditeurs produisant des livres
+aux formats numériques et imprimé. Des alternatives aux traditionnels
+traitements de texte ont ainsi été mis en place, exploitant le format
+XML puis le standard AsciiDoc. Le point culminant a été la création
+d'une plateforme nommée Atlas, facilitant l'usage de ces nouveaux outils
+pour les auteurs peu enclins à la programmation éditoriale
+(Guichard, 2008). Distill est un projet plus récent, il s'agit
+d'une revue dans le domaine de la recherche en machine learning -- ou
+apprentissage automatique en français. Cette revue académique fait appel
+à un système de gestion de versions, Git (Chacon, 2018), pour
+recevoir puis publier des textes comportant des exemples dynamiques
+illustrant les propos des auteurs. Ces deux exemples marquent une
+mutation profonde des pratiques de publication, que ce soit dans les
+secteurs de l'édition professionnelle ou scientifique. La lecture du
+mémoire déjà cité peut compléter la présentation de ces deux procédés
+(Fauchie, 2018-1).
+
+La chaîne de publication Quire développée par Getty Publications
+représente un héritage des premières expérimentations d'O'Reilly Media.
+L'objectif est triple : pérennité, adaptabilité et qualité. La priorité
+est placée dans la reproductibilité des publications numériques, et donc
+leur pérennité ; l'adaptabilité consiste en la malléabilité du processus
+qui peut fonctionner selon différentes modalités techniques ; et enfin
+la qualité est permise par un principe de modularité, coupant la
+dépendance à des logiciels peu adaptés au numérique par exemple.
+
+Capture d'écran du livre web Ancient
+Terracottas (https://www.getty.edu/publications/terracottas/)(media/SP1597-img2.png)
+
+La figure ci-dessus représente la page de couverture de la version web
+d'un des catalogues de Getty Publications (Ferruzza, 2016). Nous
+pouvons découvrir un site web relativement classique, avec quelques
+fonctionnalités comme des cartes localisant les œuvres, ou encore un
+zoom permettant de rentrer dans les prises de vue -- impossible avec
+une forme imprimée classique. Autre point déterminant, les différentes
+formes du catalogue disponibles : la version web, les formats de livre
+numérique (EPUB et Kindle), un fichier PDF de basse qualité imprimable
+sur une imprimante de bureau, le lien pour acheter une version imprimée,
+et enfin le téléchargement de jeux de données -- les notices de ce
+catalogue. Il y a donc plusieurs niveaux d'accès à l'information, pour
+diverses utilisations. L'accès web est le plus ouvert, mais il est
+également possible de lire le catalogue avec un dispositif de lecture
+plus confortable, d'imprimer les pages jugées intéressantes ou encore de
+travailler avec les données. En plus de réaliser une forme d'hybridation
+entre numérique et imprimé (Ludovico, 2016), l'originalité
+de ces livres produits par Getty Publications réside dans la manière
+dont ils ont été conçus et fabriqués.
+
+Eric Gardner, Ruth Evans Lane et Greg Albers ont mis en place une chaîne
+modulaire : un ensemble de programmes basés sur des standards, en
+appliquant le principe de single source publishing. Ainsi la même
+source est utilisée pour la version web, la version EPUB, les versions
+imprimées, et les jeux de données. Cette modularité dépend du principe
+d'interopérabilité, qui permet une communication entre des humains et
+entre différents programmes informatiques, et engendre une
+multiformité : des possibilités de production de formes très diverses
+(EPUB, web, PDF, etc.). Nous pouvons imaginer un ensemble de briques
+pour nous figurer ce concept, comme des Lego, chacune d'entre elles
+devant répondre à une ou plusieurs fonctions. Une chaîne de publication
+correspond ainsi à l'agencement de composants qui ont la capacité de
+communiquer entre eux grâce au principe d'interopérabilité -- par
+exemple via l'utilisation de standards -- et produisent des formes
+variées. L'ajout d'un composant peut permettre de générer une nouvelle
+forme. Des interventions peuvent se croiser dans le processus éditorial
+permis par Quire : une phase de relecture peut être réalisée en
+parallèle d'un travail sur la composition du livre, ce qui semblait très
+complexe dans un schéma classique.
+
+ [L'homme] est parmi les machines qui opèrent avec lui.
+
+ (Simondon, 2012, p. 13)
+
+La question de la modularité interroge la place de l'homme par rapport
+aux programmes ou aux applications. Nous invoquons ici Gilbert Simondon
+et sa thèse de 1958, Du mode d'existence des objets techniques, qui
+peut être réinterprétée à l'horizon d'un environnement profondément
+numérique. Aujourd'hui encore notre civilisation est « mal
+technicienne » pour reprendre les mots de Gilbert Simondon
+(Parent, 1968). Une chaîne de publication peut être considérée
+comme un objet technique contemporain, et, en l'interrogeant, nous
+pouvons repositionner l'humain au cœur de processus relativement
+désincarnés -- dans le cas de logiciels fonctionnant comme des boîtes
+noires. Une chaîne de publication modulaire représenterait une forme de
+progrès technique, comme une opportunité de mieux nous situer par
+rapport à la technique, et de ne plus seulement appuyer sur des boutons
+ou activer des fonctions, mais intégrer les outils, voir les construire.
+
+ Système
+
+La chaîne de publication est le centre de notre réflexion. En
+abandonnant la notion de chaîne, nous abandonnons la dimension de
+linéarité : les étapes de la publication ne se suivent plus d'une
+manière irréversible. C'est ce que nous avons pu constater dans les
+exemples précédents. Nous faisons désormais appel à la notion de
+système, celle-ci recouvre une dimension de synergie : synergie des
+composants qui interagissent de façon dynamique. Même si Gilbert
+Simondon n'utilise pas ce concept nous sommes au cœur de ce qu'il décrit
+comme un objet technique concret (Simondon, 2012, p. 29) : les
+différents éléments d'un processus -- qu'il soit mécanique,
+électrotechnique ou numérique -- sont connectés, se répondent,
+communiquent. Il ne s'agit plus de considérer une activité de
+publication comme une succession de phases hermétiques -- la rédaction
+d'un texte, le travail de relecture, la composition -- mais comme
+l'agencement réciproque d'étapes entrelacées.
+
+ Là où [la chaîne] a presque toujours une forme et des frontières
+ fixes, la cohérence d'un système peut être altérée dans le temps et
+ dans l'espace, et son comportement déterminé à la fois par des
+ conditions externes et par ses mécanismes de contrôle.
+
+ (Burnham, 2015, p. 63)
+
+Les théories de Jack Burnham sont ici détournées pour expliquer quel
+changement de paradigme implique l'abandon du terme chaîne pour celui
+de système. Voilà ce que recouvre le concept de système. Des étapes
+réversibles : pouvoir revenir en arrière sans générer des difficultés,
+comme intervenir sur un fichier que seul un designer graphique peut
+ouvrir et modifier. Une synergie des composants : chaque module est lié
+à d'autres modules, et pas uniquement au précédent et au suivant. Un
+ensemble modulaire : il y a une organisation complexe faite de
+dépendances et d'échanges d'information. Ce système nécessite d'être
+incarné, mais aussi d'aborder une posture d'apprentissage pour assimiler
+cette nouvelle dimension, et la transmettre.
+
+ Apprentissage
+
+Nous devons désormais présenter la façon dont le mémoire qui a préfiguré
+ce texte a été construit. Pour la rédaction de cette publication
+universitaire, les principes exposés précédemment ont été appliqués. Il
+est intéressant de noter quels modes de travail ont été mis en place
+avec les directeurs de mémoire, et de s'interroger sur l'utilité de ces
+dispositions. Est-ce que cette démarche a facilité les échanges ou
+n'a-t-elle pas contribué à une certaine forme de solutionnisme
+technologique ?
+
+L'écriture et la structuration du mémoire n'a reposé sur aucun
+traitement de texte, mais sur le langage de balisage léger Markdown
+(Fauchie, 2018). Pour partager, et d'une certaine façon
+collaborer, puis valider le texte, le recours au système de
+versionnement Git a été nécessaire. La mise en forme s'est appuyée sur
+la structure sémantique réalisée avec Markdown, avec une conversion vers
+le format HTML et l'application de feuilles de style CSS. Pour générer
+les formes et les formats, puis rendre public ce mémoire, les
+technologies du Web ont été majoritairement utilisées, et plus
+particulièrement un générateur de site statique qui transforme des
+fichiers Markdown en HTML et les organise. Enfin le script paged.js a
+permis de générer un fichier PDF paginé et imprimable à partir des
+fichiers HTML. Ces éléments révèlent une technique importante qui ne
+doit pas faire oublier les principes à l'œuvre : l'interopérabilité
+grâce à des standards facilitant la circulation d'information entre les
+composants ; la modularité des composants offrant une adaptation ; une
+multiformité consistant en la production simultanée de formes variées.
+
+Des moyens de communication avec les deux directeurs de mémoire ont été
+mis en place, notamment via des commentaires sur une plateforme chargée
+de versionner le mémoire (Fauchie, 2018). Cette expérimentation a
+été riche en apports, même si elle n'a pas été un succès total. Les
+limites de ces nouvelles méthodes sont du même ordre que les nouvelles
+dépendances évoquées dans le mémoire : les contraintes ne sont pas
+supprimées, elles sont déplacées, permettant aux humains qui
+interagissent avec des programmes informatiques de ne plus être
+asservis, désarmés ou aveuglés.
+
+Capture d'écran d'un ticket sur la plateforme
+GitLab (media/SP1597-img3.png)
+
+La figure ci-dessus représente le premier mode de discussion avec les
+directeurs. Il s'agit d'une issue, ou ticket en français, dans
+l'environnement de GitLab, une plateforme collaborative de versionnement
+de code. Les deux directeurs de mémoire font ici plusieurs retours sur
+une partie du mémoire.
+
+(media/SP1597-img4.png)
+
+La capture d'écran ci-dessus représente cette fois une discussion dans
+le texte. Il est ainsi possible d'annoter chaque ligne, et d'entamer une
+conversation.
+
+En amont, des formes variées de pré-publication ont été produites. Il
+s'agit d'une pratique en devenir : donner à voir un travail encore en
+cours, alors qu'il n'y a pas de validation ou d'édition -- et c'est
+d'ailleurs là une différence essentielle entre publication et
+édition. Il n'est pas pertinent d'appliquer ce principe à tous les
+écrits académiques, mais il est intéressant, surtout dans le champ des
+humanités numériques, d'interroger la façon dont le numérique modifie
+aussi nos pratiques d'écriture et de publication.
+
+En aval différentes formes du mémoire ont été générées pour la lecture
+par le jury, mais aussi pour toute personne intéressée -- puisque le
+processus et ses résultats ont été très rapidement rendus publics. Il
+serait trop long de détailler les différents composants requis pour
+rédiger et publier ce mémoire, il n'est pas question de faire ici une
+présentation de l'architecture technique du mémoire. Néanmoins nous
+pouvons noter que ce système est capable de produire, à partir de la
+même source, un site web et un fichier PDF imprimable. Il serait
+également possible d'imaginer une version EPUB -- le format du livre
+numérique --, ainsi que la transposition du site en progressive web
+application -- une application basée sur les technologies du Web,
+lisible hors connexion et installable sur plusieurs types de dispositifs
+comme les tablettes ou smartphones.
+
+ Transmettre
+
+La dimension modulaire d'un système de publication tel que décrit dans
+ce texte offre la possibilité d'une reprise d'un ou plusieurs éléments,
+et pas forcément de la totalité des briques. Ce système s'inspire
+lui-même de plusieurs initiatives, reprenant les éléments nécessaires à
+ce projet. Par exemple paged.js est le composant permettant de générer
+un fichier PDF d'impression, développé par Paged Media et auquel Julie
+Blanc et Julien Taquet ont activement contribué. Leur travail est
+décisif par rapport à ce qui est exposé ici. Il s'agit aussi de
+documenter, pour que chacun puisse comprendre puis s'approprier ces
+briques. Cette proposition n'est qu'un système, il s'agit d'une
+dynamique et non d'une solution toute faite. Cette dynamique doit faire
+l'objet d'une réutilisation dans le cadre de projets éditoriaux, en
+l'adaptant et en la modifiant.
+
+ Nous avons trop peu d'occasions de vraiment faire quoi que ce soit
+ parce que notre environnement est trop souvent prédéterminé à
+ distance.
+
+ (Crawford, 2016, p. 84)
+
+Pendant le colloque « Repenser les humanités numériques », plusieurs
+points essentiels ont été abordés : l'idée de rétroaction dans les
+humanités numériques, les concepts d'éditorialisation et de rupture,
+mais aussi la question des outils libres, ou les stratégies de médiation
+numérique inclusives. L'acte de publication réunit ces différentes
+intentions. Le numérique, si nous décidons d'en faire une utilisation
+réfléchie, nous donne l'occasion de « vraiment faire » quelque chose,
+pour reprendre les termes de Matthew Crawford. L'exemple de Stylo
+(Vitali-rosati, 2018), l'éditeur de texte pour les sciences
+humaines et sociales développé par la Chaire de Recherche du Canada sur
+les écritures numériques, est remarquable. Il illustre parfaitement
+l'ensemble des propositions exposées et ouvre la voie à d'autres
+initiatives du même type.
+
+ Bibliographie
